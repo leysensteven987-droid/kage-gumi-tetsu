@@ -1,0 +1,65 @@
+{
+  "bikes": [
+    {
+      "id": "hd-fortyeight-2013",
+      "photo": "",
+      "make": "Harley-Davidson",
+      "model": "Forty-Eight",
+      "code": "XL1200X",
+      "year": 2013,
+      "engine": "Evolution 1202 cc — air-cooled 45° V-twin",
+      "drive": "Belt final drive · 5-speed",
+      "odometer": 0,
+      "unit": "km",
+      "fuel": "Petrol 95+ (E10 ok) · 7.9 L peanut tank",
+      "tirePressureFront": "2.5 bar (36 psi)",
+      "tirePressureRear": "2.75 bar (40 psi)",
+      "notes": "Evo Sportster. Belt drive — no chain. Separate engine oil; the primary shares its oil with the transmission."
+    }
+  ],
+  "fluids": [
+    { "name": "Engine oil", "spec": "H-D 360 20W50 (or SYN3 20W50)", "capacity": "2.8 qt (2.6 L) — oil tank with filter" },
+    { "name": "Primary / transmission", "spec": "H-D Formula+ Transmission & Primary Chaincase Lubricant", "capacity": "32 oz (0.95 L / 1.0 qt)" },
+    { "name": "Front fork oil (per leg)", "spec": "Type \"E\" Hydraulic Fork Oil", "capacity": "337 mL (11.4 fl oz) — XL 1200X" },
+    { "name": "Brake fluid", "spec": "DOT 4", "capacity": "Fill to level — no bulk capacity given" },
+    { "name": "Fuel", "spec": "Unleaded 91 pump octane / 95 RON (E10 ok)", "capacity": "7.9 L (2.1 gal)" }
+  ],
+  "schedule": [
+    { "id": "oil",     "task": "Engine oil + filter",                "intervalKm": 8000,  "intervalMonths": 12,   "lastKm": 0, "lastDate": "", "note": "Every 5000 mi / 8000 km (or annually, note 3). Warm, drain oil tank, new filter (½–¾ turn after gasket contact)." },
+    { "id": "primary", "task": "Primary / transmission oil",         "intervalKm": 16000, "intervalMonths": null, "lastKm": 0, "lastDate": "", "note": "Every 10,000 mi / 16,000 km (first change at 1000 mi). Formula+; drain plug 14–30 ft-lb." },
+    { "id": "plugs",   "task": "Spark plugs (2×)",                   "intervalKm": null,  "intervalMonths": 24,   "lastKm": 0, "lastDate": "", "note": "Replace every 2 years (note 8). Type 6R12, gap 0.038–0.043 in (0.96–1.09 mm)." },
+    { "id": "air",     "task": "Air filter",                        "intervalKm": 8000,  "intervalMonths": null, "lastKm": 0, "lastDate": "", "note": "Inspect / service every 5000 mi / 8000 km." },
+    { "id": "brakef",  "task": "Brake fluid DOT 4",                 "intervalKm": null,  "intervalMonths": 24,   "lastKm": 0, "lastDate": "", "note": "Replace + flush every 2 years (note 4). Inspect sight glass each service." },
+    { "id": "belt",    "task": "Drive belt — tension + wear",        "intervalKm": 8000,  "intervalMonths": null, "lastKm": 0, "lastDate": "", "note": "Every 5000 mi / 8000 km. Cold deflection 1/4–5/16 in (6.35–7.94 mm) at 10 lb force." },
+    { "id": "tires",   "task": "Tyres — tread + pressure",           "intervalKm": 8000,  "intervalMonths": null, "lastKm": 0, "lastDate": "", "note": "Every 5000 mi / 8000 km. Front 36 psi (248 kPa), rear 40 psi (275 kPa)." },
+    { "id": "pads",    "task": "Brake pads — thickness",             "intervalKm": 8000,  "intervalMonths": null, "lastKm": 0, "lastDate": "", "note": "Every 5000 mi / 8000 km. Min lining 0.04 in (1.02 mm)." },
+    { "id": "fork",    "task": "Front fork — oil + seals",           "intervalKm": 80000, "intervalMonths": null, "lastKm": 0, "lastDate": "", "note": "Every 50,000 mi / 80,000 km — rebuild + replace fork oil (note 9)." }
+  ],
+  "log": [],
+  "mods": [],
+  "manuals": [
+    { "title": "Sportster Service Manual 2013", "type": "PDF", "ref": "99484-13", "note": "Official H-D workshop manual — the source for procedures + torque specs." },
+    { "title": "Forty-Eight Owner's Manual", "type": "PDF", "ref": "94476-13", "note": "Pre-ride checks, fluids, tyre pressures." },
+    { "title": "Torque quick-card", "type": "CARD", "ref": "", "note": "Common torque specs — always verify against the manual." }
+  ],
+  "torque": [
+    { "item": "Engine oil drain hose clamp",           "value": "0.7–1.1 Nm (6–10 in-lb)" },
+    { "item": "Primary chaincase drain plug",          "value": "19.0–40.7 Nm (14–30 ft-lb)" },
+    { "item": "Oil filter",                            "value": "Hand-tighten ½–¾ turn after gasket contact" },
+    { "item": "Oil filter mount adapter",              "value": "24.4–29.8 Nm (18–22 ft-lb)" },
+    { "item": "Spark plug",                            "value": "16.3–24.4 Nm (12–18 ft-lb)" },
+    { "item": "Front axle nut",                        "value": "81–88 Nm (60–65 ft-lb)" },
+    { "item": "Front axle pinch screw (XL)",           "value": "28.5–36.6 Nm (21–27 ft-lb)" },
+    { "item": "Rear axle nut",                         "value": "129–142 Nm (95–105 ft-lb)" },
+    { "item": "Front brake caliper mounting bolt",     "value": "38.0–51.6 Nm (28–38 ft-lb)" },
+    { "item": "Rear brake caliper to bracket (XL)",    "value": "9.8–14.7 Nm (87–130 in-lb)" },
+    { "item": "Rear brake caliper bolt pin (XL)",      "value": "19.6–24.5 Nm (15–18 ft-lb)" },
+    { "item": "Front brake disc screw",                "value": "21.7–32.6 Nm (16–24 ft-lb)" },
+    { "item": "Rear brake disc screw",                 "value": "40.7–61.1 Nm (30–45 ft-lb)" },
+    { "item": "Brake pad pin",                         "value": "14.8–19.6 Nm (131–173 in-lb)" },
+    { "item": "Brake caliper bleeder valve",           "value": "4.0–6.9 Nm (35–61 in-lb)" },
+    { "item": "Primary / clutch inspection cover screws", "value": "10.3–13.6 Nm (90–120 in-lb)" },
+    { "item": "Spoke nipple",                          "value": "6.2 Nm (55 in-lb)" }
+  ],
+  "torqueNote": "Sourced from the H-D 2013 Sportster service manual (99484-13) — consolidated TORQUE VALUES table plus §1.5 Quick Reference; brake/axle figures are XL-model specs (the Forty-Eight is XL1200X). Note: the Sportster has NO engine oil drain plug — engine oil drains from the oil tank via a hose (worm clamp). Verify against your printed manual before wrenching."
+}

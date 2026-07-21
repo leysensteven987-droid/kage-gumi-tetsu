@@ -1,0 +1,16 @@
+{
+  "name": "Tetsu — Wrench",
+  "short_name": "Tetsu",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#17191d",
+  "theme_color": "#d7dae0",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any",
+      "purpose": "any maskable"
+    }
+  ]
+}

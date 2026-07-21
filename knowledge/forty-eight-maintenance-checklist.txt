@@ -1,0 +1,16 @@
+Harley-Davidson Forty-Eight Maintenance
+Checklist (Kilometers)
+Interval (km / time)
+Task
+Every ride
+Check tire pressure & condition, oil level, brake fluid, lights, belt tension, and leaks.
+Every 8,000 km / 1 year
+Change engine oil & filter; inspect brakes; check throttle/clutch free play; clean/replace air filte
+Every 16,000 km
+Change primary chaincase fluid; inspect spark plugs.
+Every 32,000 km
+Change transmission fluid; replace spark plugs; change fork oil.
+Every 2 years
+Replace brake fluid.
+Every 3–5 years
+Replace battery if weak; replace tires if 5–7 years old regardless of tread.

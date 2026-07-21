@@ -1,0 +1,5751 @@
+# 4. FUEL SYSTEM
+# Source: 2013 HD Sportster Service Manual (99484-13)
+# Pages: 407-476
+
+--- Page 407 ---
+TABLE OF CONTENTS
+SUBJECT............................................................................................................................PAGE NO.
+4.1 FASTENER TORQUE VALUES.................................................................................................4-1
+4.2 SPECIFICATIONS: FUEL SYSTEM..........................................................................................4-4
+4.3 AIR CLEANER ASSEMBLY.......................................................................................................4-5
+4.4 FUEL TANK: XL MODELS.........................................................................................................4-8
+4.5 FUEL TANK: XR 1200X...........................................................................................................4-12
+4.6 THROTTLE POSITION SENSOR (TPS).................................................................................4-17
+4.7 ENGINE TEMPERATURE (ET) SENSOR...............................................................................4-20
+4.8 INDUCTION MODULE: XL MODELS......................................................................................4-23
+4.9 INDUCTION MODULE: XR 1200X..........................................................................................4-29
+4.10 IDLE AIR CONTROL (IAC)....................................................................................................4-33
+4.11 TEMPERATURE MANIFOLD ABSOLUTE PRESSURE (TMAP) SENSOR..........................4-37
+4.12 OXYGEN (O2) SENSOR.......................................................................................................4-40
+4.13 EXHAUST SYSTEM: XL MODELS........................................................................................4-42
+4.14 EXHAUST SYSTEM: XR 1200X............................................................................................4-46
+4.15 FUEL INJECTORS.................................................................................................................4-49
+4.16 FUEL PUMP..........................................................................................................................4-52
+4.17 FUEL FILTER ELEMENT.......................................................................................................4-57
+4.18 FUEL PRESSURE TEST.......................................................................................................4-58
+4.19 INTAKE LEAK TEST..............................................................................................................4-61
+4.20 EVAPORATIVE EMISSIONS CONTROL...............................................................................4-63
+FUEL SYSTEM
+
+--- Page 408 ---
+NOTES
+
+--- Page 409 ---
+4.1
+FASTENER TORQUE VALUES
+FASTENER TORQUE VALUES IN THIS
+CHAPTER
+The table below lists torque values for all fasteners presented
+in this chapter.
+NOTES
+TORQUE VALUE
+FASTENER
+4.5 FUEL TANK: XR 1200X, Installing Fuel Tank
+4.1-6.7 Nm
+36-60 in-lbs
+Air box to bracket fasteners: XR 1200X
+4.3 AIR CLEANER ASSEMBLY, XL Models except
+XL 1200V
+9.5-13.6 Nm
+84-120 in-lbs
+Air cleaner breather screw
+4.3 AIR CLEANER ASSEMBLY, XL 1200V
+9.5-13.6 Nm
+84-120 in-lbs
+Air cleaner breather screw
+4.3 AIR CLEANER ASSEMBLY, XL Models except
+XL 1200V
+4.1-6.8 Nm
+36-60 in-lbs
+Air cleaner cover screw
+4.3 AIR CLEANER ASSEMBLY, XL 1200V
+4.1-6.8 Nm
+36-60 in-lbs
+Air cleaner cover screw
+4.3 AIR CLEANER ASSEMBLY, XL Models except
+XL 1200V
+4.5-6.8 Nm
+40-60 in-lbs
+Air filter screw
+4.3 AIR CLEANER ASSEMBLY, XL 1200V
+4.5-6.8 Nm
+40-60 in-lbs
+Air filter screw
+4.13 EXHAUST SYSTEM: XL MODELS, Installation
+13.6-20.4 Nm
+120-180 in-lbs
+Brake rod to bell crank screw
+4.13 EXHAUST SYSTEM: XL MODELS, Installation
+10.9-13.6 Nm
+96-120 in-lbs
+Cylinder head exhaust port nut
+4.9 INDUCTION MODULE: XR 1200X, Installation
+29.8-35.3 Nm
+22-26 ft-lbs
+Cylinder head oil feed flare fitting: XR
+1200X
+4.9 INDUCTION MODULE: XR 1200X, Installation
+17.6-23.0 Nm
+13-17 ft-lbs
+Cylinder head oil feed line flare nut: XR
+1200X
+4.7 ENGINE TEMPERATURE (ET)
+SENSOR, Installation
+13.6-19.0 Nm
+120-168 in-lbs
+ET sensor
+4.20 EVAPORATIVE EMISSIONS CONTROL, Char-
+coal Canister
+4.1-6.8 Nm
+36-60 in-lbs
+EVAP canister clip mounting screw
+4.20 EVAPORATIVE EMISSIONS CONTROL, Char-
+coal Canister
+4.0-5.1 Nm
+35-45 in-lbs
+EVAP canister guard screw
+4.20 EVAPORATIVE EMISSIONS CONTROL, Char-
+coal Canister
+23.1-29.9 Nm
+17-22 ft-lbs
+EVAP canister mounting bracket screw
+4.20 EVAPORATIVE EMISSIONS CONTROL, Char-
+coal Canister
+23.1-29.9 Nm
+17-22 ft-lbs
+EVAP canister mounting bracket screw
+4.14 EXHAUST SYSTEM: XR 1200X, Installation
+40.7-44.7 Nm
+30-33 ft-lbs
+Exhaust clamp, lower nut: XR 1200X
+4.14 EXHAUST SYSTEM: XR 1200X, Installa-
+tion/SPECIAL SEQUENCE TO TIGHTEN
+10.8-13.6 Nm
+96-120 in-lbs
+Exhaust flange nut: XR 1200X
+4.13 EXHAUST SYSTEM: XL MODELS, Installation
+2.3-4.5 Nm
+20-40 in-lbs
+Exhaust heat shield clamps
+4.14 EXHAUST SYSTEM: XR 1200X, Installation
+2.3-4.5 Nm
+20-40 in-lbs
+Exhaust heat shield clamps
+4.13 EXHAUST SYSTEM: XL MODELS, Installation
+40.7-44.8 Nm
+30-33 ft-lbs
+Exhaust pipe clamp bracket screw: XL
+Models
+4.13 EXHAUST SYSTEM: XL MODELS, Installation
+27.1-40.7 Nm
+20-30 ft-lbs
+Exhaust pipe clamp nut: XL Models
+4.5 FUEL TANK: XR 1200X, Assemble Fuel Tank
+4.5-5.1 Nm
+40-45 in-lbs
+Filler housing screws
+4.15 FUEL INJECTORS, Installation
+6.8 Nm
+60 in-lbs
+Fuel hose retaining bracket screw
+4.16 FUEL PUMP, Assembly
+2.1-4.1 Nm
+19-36 in-lbs
+Fuel pump bracket mounting screw
+4.16 FUEL PUMP, Installation
+4.5-5.1 Nm
+40-45 in-lbs
+Fuel pump module mounting screw
+4.17 FUEL FILTER ELEMENT, Installation
+4.5-5.1 Nm
+40-45 in-lbs
+Fuel pump module mounting screw
+4.5 FUEL TANK: XR 1200X, Installing Fuel Tank
+2.7-3.4 Nm
+24-30 in-lbs
+Fuel tank cover screw: XR 1200X
+4.5 FUEL TANK: XR 1200X, Installing Fuel Tank
+20.3-27.1 Nm
+15-20 ft-lbs
+Fuel tank fastener: XR 1200X
+4.5 FUEL TANK: XR 1200X, Installing Fuel Tank
+20.3-27.1 Nm
+15-20 ft-lbs
+Fuel tank fastener: XR 1200X
+HOME
+2013 Sportster Service: Fuel System 4-1
+
+--- Page 410 ---
+NOTES
+TORQUE VALUE
+FASTENER
+4.4 FUEL TANK: XL MODELS, Installing Fuel Tank
+20.3-27.1 Nm
+15-20 ft-lbs
+Fuel tank fasteners: XL Models
+4.8 INDUCTION MODULE: XL MODELS, Installa-
+tion
+20.3-27.1 Nm
+15-20 ft-lbs
+Fuel tank fasteners: XL Models
+4.15 FUEL INJECTORS, Installation
+20.3-27.1 Nm
+15-20 ft-lbs
+Fuel tank fasteners: XL Models
+4.10 IDLE AIR CONTROL (IAC), Installation: XL
+Models
+6.8 Nm
+60 in-lbs
+IAC mounting screw: XL models
+4.8 INDUCTION MODULE: XL MODELS, Assembly
+6.8 Nm
+60 in-lbs
+IAC mounting screw: XL Models
+4.9 INDUCTION MODULE: XR 1200X, Assembly
+6.8 Nm
+60 in-lbs
+IAC mounting screw: XR 1200X
+4.10 IDLE AIR CONTROL (IAC), Installation: XR
+1200X
+6.8 Nm
+60 in-lbs
+IAC mounting screw: XR 1200X
+4.8 INDUCTION MODULE: XL MODELS, Assembly
+6.8 Nm
+60 in-lbs
+Induction module cable bracket screw:
+XL Models
+4.11 TEMPERATURE MANIFOLD ABSOLUTE
+PRESSURE (TMAP) SENSOR, Installation: XR
+1200X
+27.1-32.5 Nm
+20-24 ft-lbs
+Induction module cover to cylinder head
+fastener: XR 1200X
+4.9 INDUCTION MODULE: XR 1200X, Installation
+27.1-32.5 Nm
+20-24 ft-lbs
+Induction module cover to cylinder head
+sockethead bolts: XR 1200X
+4.9 INDUCTION MODULE: XR 1200X, Installation
+10.2-13.6 Nm
+90-120 in-lbs
+Induction module cover to induction
+module fastener: XR 1200X
+4.11 TEMPERATURE MANIFOLD ABSOLUTE
+PRESSURE (TMAP) SENSOR, Installation: XR
+1200X
+9.5-12.2 Nm
+84-108 in-lbs
+Induction module cover to induction
+module fastener: XR 1200X
+4.9 INDUCTION MODULE: XR 1200X, Installation
+10.2-13.6 Nm
+90-120 in-lbs
+Induction module cover to wire form
+fastener: XR 1200X
+4.8 INDUCTION MODULE: XL MODELS, Installa-
+tion
+10.2-13.6 Nm
+90-120 in-lbs
+Induction module mounting bracket
+screw: XL models
+4.8 INDUCTION MODULE: XL MODELS, Assembly
+4.0 Nm
+35 in-lbs
+Induction module screw: XL models
+4.11 TEMPERATURE MANIFOLD ABSOLUTE
+PRESSURE (TMAP) SENSOR, Installation: XL
+Models
+4.0 Nm
+35 in-lbs
+Induction module screw: XL Models
+4.8 INDUCTION MODULE: XL MODELS, Installa-
+tion
+10.9-13.6 Nm
+96-120 in-lbs
+Intake manifold mounting screw: XL
+models
+4.9 INDUCTION MODULE: XR 1200X, Installation
+10.3-13.6 Nm
+90-120 in-lbs
+Intake manifold mounting screw: XR
+1200X
+4.14 EXHAUST SYSTEM: XR 1200X, Installation
+40.7-44.7 Nm
+30-33 ft-lbs
+Interconnect bracket to frame fastener:
+XR 1200X
+4.20 EVAPORATIVE EMISSIONS CONTROL, Char-
+coal Canister
+23.0-29.8 Nm
+17-22 ft-lbs
+Master cylinder mounting bracket, rear,
+screw: XL models
+4.13 EXHAUST SYSTEM: XL MODELS, Installation
+40.7-44.7 Nm
+30-33 ft-lbs
+Muffler interconnect bracket mounting
+screw: XL Models
+4.14 EXHAUST SYSTEM: XR 1200X, Installation
+61.0-67.8 Nm
+45-50 ft-lbs
+Muffler mount to frame, front fastener:
+XR 1200X
+4.14 EXHAUST SYSTEM: XR 1200X, Installation
+20.3-27.1 Nm
+15-20 ft-lbs
+Muffler mount to frame, rear fastener:
+XR 1200X
+4.14 EXHAUST SYSTEM: XR 1200X, Installation
+13.6-20.3 Nm
+120-180 in-lbs
+Muffler to front muffler mount fastener:
+XR 1200X
+4.13 EXHAUST SYSTEM: XL MODELS, Installation
+20.4-25.8 Nm
+15-19 ft-lbs
+Muffler to interconnect bracket screw:
+XL Models
+4.14 EXHAUST SYSTEM: XR 1200X, Installation
+13.6-20.3 Nm
+120-180 in-lbs
+Muffler to muffler bolt: XR 1200X
+4.13 EXHAUST SYSTEM: XL MODELS, Installation
+51.6-58.4 Nm
+38-43 ft-lbs
+Muffler torca clamp nut
+HOME
+4-2 2013 Sportster Service: Fuel System
+
+--- Page 411 ---
+NOTES
+TORQUE VALUE
+FASTENER
+4.14 EXHAUST SYSTEM: XR 1200X, Installation
+13.6-20.3 Nm
+120-180 in-lbs
+Muffler to rear muffler mount fastener:
+XR 1200X
+4.12 OXYGEN (O2) SENSOR, Installation
+39.3-59.7 Nm
+29-44 ft-lbs
+O2 sensor
+4.13 EXHAUST SYSTEM: XL MODELS, Installation
+39.3-59.7 Nm
+29-44 ft-lbs
+O2 sensor
+4.13 EXHAUST SYSTEM: XL MODELS, Installation
+9.0-13.6 Nm
+80-120 in-lbs
+Sprocket cover, forward and lower
+screws
+4.9 INDUCTION MODULE: XR 1200X, Assembly
+6.8 Nm
+60 in-lbs
+Throttle cable bracket screw: XR 1200X
+4.11 TEMPERATURE MANIFOLD ABSOLUTE
+PRESSURE (TMAP) SENSOR, Installation: XR
+1200X
+9.0 Nm
+80 in-lbs
+TMAP sensor screw
+4.6 THROTTLE POSITION SENSOR
+(TPS), Installation: XL Models
+4.0 Nm
+35 in-lbs
+TPS screw: XL Models
+4.6 THROTTLE POSITION SENSOR
+(TPS), Installation: XR 1200X
+3.3 Nm
+29 in-lbs
+TPS screw: XR 1200X
+4.11 TEMPERATURE MANIFOLD ABSOLUTE
+PRESSURE (TMAP) SENSOR, Installation: XR
+1200X
+9.5-12.2 Nm
+84-108 in-lbs
+Wire form to induction module cover
+fastener: XR 1200X
+HOME
+2013 Sportster Service: Fuel System 4-3
+
+--- Page 412 ---
+4.2
+SPECIFICATIONS: FUEL SYSTEM
+SPECIFICATIONS
+Table 4-1. Capacities: XL 883 Models
+XL 883N
+XL 883L
+XL 883R
+ITEM
+METRIC
+U.S.
+METRIC
+U.S.
+METRIC
+U.S.
+12.5 L
+3.3 gal
+17.0 L
+4.5 gal
+12.5 L
+3.3 gal
+Fuel tank (total)
+2.6 L
+2.8 qt
+2.6 L
+2.8 qt
+2.6 L
+2.8 qt
+Oil tank with filter
+0.95 L
+1.0 qt
+0.95 L
+1.0 qt
+0.95 L
+1.0 qt
+Transmission (approximate)
+3.0 L
+0.8 gal
+3.8 L
+1.0 gal
+3.0 L
+0.8 gal
+Low fuel warning light
+Table 4-2. Capacities: XL 1200 Models and XR 1200X
+XR 1200X
+XL 1200X/V
+XL 1200C/C ANV/CP/CA/CB
+ITEM
+METRIC
+U.S.
+METRIC
+U.S.
+METRIC
+U.S.
+13.2 L
+3.5 gal
+7.9 L
+2.1 gal
+17.0 L
+4.5 gal
+Fuel tank (total)
+2.6 L
+2.8 qt
+2.6 L
+2.8 qt
+2.6 L
+2.8 qt
+Oil tank with filter
+0.95 L
+1.0 qt
+0.95 L
+1.0 qt
+0.95 L
+1.0 qt
+Transmission
+(approximate)
+3.0 L
+0.8 gal
+2.5 L
+0.65 gal
+3.8 L
+1 gal
+Low fuel warning light
+HOME
+4-4 2013 Sportster Service: Fuel System
+
+--- Page 413 ---
+4.3
+AIR CLEANER ASSEMBLY
+XL MODELS EXCEPT XL 1200V
+TORQUE VALUE
+FASTENER
+9.5-13.6 Nm
+84-120 in-lbs
+Air cleaner breather screw
+4.5-6.8 Nm
+40-60 in-lbs
+Air filter screw
+4.1-6.8 Nm
+36-60 in-lbs
+Air cleaner cover screw
+Removal
+1.
+See Figure 4-1. Remove two screws (1) and trim insert
+(2) from air cleaner cover (3).
+2.
+Remove air cleaner cover from air cleaner backplate (10).
+3.
+Remove air cleaner seal (4) from air cleaner cover.
+4.
+Remove three screws (5). Remove air filter element (6)
+and gasket (7). Discard gasket.
+5.
+Remove O-rings from the breather screws (9). Discard
+the O-rings.
+Install air filter before running engine. Failure to do so can
+draw debris into the engine and could result in engine
+damage. (00207a)
+6.
+Remove two breather screws (9) from air cleaner back-
+plate.
+7.
+Remove air cleaner backplate and gasket (11).
+Installation
+1.
+See Figure 4-1. Position new gasket (11) and air cleaner
+backplate (10) at induction module air inlet.
+2.
+Apply LOCTITE 243 MEDIUM STRENGTH THREAD-
+LOCKER AND SEALANT (blue) to existing screws or use
+new breather screws (9). Install air cleaner backplate to
+engine heads. Tighten to 84-120 in-lbs (9.5-13.6 Nm).
+3.
+To prevent damage, apply a thin coat of engine oil to O-
+rings (8). Install O-rings to breather tubes.
+4.
+Position new gasket (7) on air cleaner backplate. Line up
+gasket holes with backplate holes.
+5.
+Install air filter element (6) onto backplate. Secure with
+three new screws (5) or apply LOCTITE 243 MEDIUM
+STRENGTH THREADLOCKER AND SEALANT (blue) to
+existing screws. Tighten to 40-60 in-lbs (4.5-6.8 Nm).
+6.
+Install air cleaner seal (4) on air cleaner cover (3). Fit the
+air cleaner seal around the entire edge of cover.
+7.
+Install air cleaner cover onto backplate. Do not pinch or
+distort seal.
+8.
+Install trim insert (2) and air cleaner cover with two screws
+(1). Tighten to 36-60 in-lbs (4.1-6.8 Nm).
+1
+2
+3
+4
+5
+7
+8
+9
+10
+11
+6
+sm06706a
+1.
+Screw (2)
+2.
+Trim insert
+3.
+Cover
+4.
+Seal
+5.
+Screw (3)
+6.
+Filter element (includes item 7)
+7.
+Filter element gasket
+8.
+O-ring (2)
+9.
+Breather screw (2)
+10. Backplate
+11. Gasket
+Figure 4-1. Air Cleaner Assembly: All XL except XL 1200V
+XL 1200V
+TORQUE VALUE
+FASTENER
+9.5-13.6 Nm
+84-120 in-lbs
+Air cleaner breather screw
+4.5-6.8 Nm
+40-60 in-lbs
+Air filter screw
+4.1-6.8 Nm
+36-60 in-lbs
+Air cleaner cover screw
+Removal
+1.
+See Figure 4-2. Remove the cover screw (1).
+2.
+Remove the cover (2) and the seal (3).
+3.
+Remove the three screws (4), the air filter element (5) and
+gasket (9).
+4.
+Remove the O-rings (10). Discard the O-rings.
+5.
+Remove the two breather screws (6).
+6.
+Remove the backplate (7) and gasket (8).
+7.
+Inspect and replace parts as necessary.
+8.
+Clean or replace the air filter element as necessary. See
+1.7 AIR FILTER, Cleaning Filter Element.
+HOME
+2013 Sportster Service: Fuel System 4-5
+
+--- Page 414 ---
+Installation
+1.
+See Figure 4-2. Install the gasket (8) and backplate (7).
+2.
+Apply LOCTITE 243 MEDIUM STRENGTH THREAD-
+LOCKER AND SEALANT (blue) to existing screws or use
+new breather screws (6). Install the breather screws.
+Tighten to 84-120 in-lbs (9.5-13.6 Nm).
+3.
+Apply engine oil to new O-rings (10). Install the O-rings
+on the breather tubes.
+4.
+Install the filter gasket (9).
+5.
+Install the air filter element (5) and screws (4). Tighten to
+40-60 in-lbs (4.5-6.8 Nm).
+6.
+Fit the cover (2) to the seal (3).
+7.
+Install the cover and screw (1). Tighten to 36-60 in-lbs
+(4.1-6.8 Nm).
+8
+4
+7
+2
+5
+1
+3
+9
+10
+6
+sm07431
+1.
+Screw
+2.
+Cover
+3.
+Seal
+4.
+Screw (3)
+5.
+Filter element
+6.
+Breather screw
+7.
+Backplate
+8.
+Backplate gasket
+9.
+Filter gasket
+10. O-ring
+Figure 4-2. Air Cleaner Assembly: XL 1200V
+XR 1200X
+Removal
+1.
+Remove the fuel tank. See 4.5 FUEL TANK: XR 1200X.
+2.
+HDI Models: Disconnect active intake solenoid connector
+[178].
+NOTE
+Leave the rubber coupling attached to the induction module.
+3.
+Lift the air box off induction module.
+4.
+See Figure 4-3. Disconnect the crankcase breather hoses
+from the front and rear rocker cover fittings.
+5.
+Remove the air box assembly.
+6.
+Remove the cover and air filter element as necessary.
+See 1.7 AIR FILTER, XR 1200X.
+7.
+Replace damaged parts as necessary.
+1
+2
+4
+1
+3
+sm07432
+1.
+Breather hose
+2.
+Clamp
+3.
+Breather hose assembly
+4.
+Coupling
+Figure 4-3. Air Box: XR 1200X
+Installation
+NOTE
+See Figure 4-4. Check that the breather hose assembly (4)
+inside the air box does not interfere with the active air solenoid
+flapper.
+1.
+Install all hoses.
+2.
+Snap the anchor barb (1) of the front crankcase vent hose
+in the hole (2) in the air box bottom.
+3.
+If removed, install the air filter element and cover. See
+1.7 AIR FILTER, XR 1200X.
+4.
+Seat the rubber coupling on the induction module.
+5.
+Verify that the clamps are in place.
+6.
+See Figure 4-5. Hold the air box close. Connect crankcase
+vent hoses to the fittings (2) on the front and rear rocker
+covers.
+NOTE
+The edge of hole in air box must encircle the groove in the
+coupling.
+HOME
+4-6 2013 Sportster Service: Fuel System
+
+--- Page 415 ---
+7.
+Seat the coupling into the air box opening.
+8.
+HDI Models: Connect the active intake solenoid connector
+[178].
+9.
+Install the fuel tank. See 4.5 FUEL TANK: XR 1200X.
+2
+1
+3
+4
+sm05088
+1.
+Anchor barb
+2.
+Anchor hole in air box
+3.
+Vent hose clamp
+4.
+Breather hose assembly
+Figure 4-4. Front Crankcase Vent Hose
+2
+2
+1
+sm05090
+1.
+Induction module throat
+2.
+Fittings on rocker covers
+Figure 4-5. Air Box Connections
+HOME
+2013 Sportster Service: Fuel System 4-7
+
+--- Page 416 ---
+4.4
+FUEL TANK: XL MODELS
+PURGING AND DISCONNECTING FUEL
+SUPPLY HOSE
+When servicing the fuel system, do not smoke or allow
+open flame or sparks in the vicinity. Gasoline is extremely
+flammable and highly explosive, which could result in
+death or serious injury. (00330a)
+To prevent spray of fuel, purge system of high-pressure
+fuel before supply line is disconnected. Gasoline is
+extremely flammable and highly explosive, which could
+result in death or serious injury. (00275a)
+1.
+Purge the fuel supply line of high pressure gasoline.
+a.
+Remove left side cover. See 2.18 LEFT SIDE COVER.
+b.
+See Figure 4-6. Remove fuel pump connector from
+ECM caddy cover (2).
+c.
+Unplug fuel pump connector [141].
+d.
+Start engine and allow vehicle to run.
+e.
+When engine stalls, operate starter for 3 seconds to
+remove any remaining fuel from fuel hose.
+f.
+Shut off ignition.
+2.
+See Figure 4-7. Push up on release sleeve (1) on fuel
+pump quick-connect fitting and pull down on fuel supply
+hose fitting (2) to disconnect fuel supply hose (3) from fuel
+pump module (4). Immediately clean up any fuel spills.
+1
+2
+sm06566
+1.
+Fuel pump wiring
+2.
+ECM caddy cover (fuel pump connector inside)
+Figure 4-6. Fuel Pump Connector: XL Models
+4
+1
+2
+3
+sm01546c
+1.
+Release sleeve (quick-connect fitting)
+2.
+Fuel supply hose fitting
+3.
+Fuel supply hose
+4.
+Fuel pump module
+Figure 4-7. Fuel Tank Quick-Connect Fitting
+REMOVING FUEL TANK
+To prevent accidental vehicle start-up, which could cause
+death or serious injury, remove main fuse before pro-
+ceeding. (00251b)
+1.
+Remove main fuse.
+2.
+Remove seat.
+NOTES
+•
+If the fuel tank is being removed only to gain access to
+items otherwise hidden, it is not necessary to drain the
+fuel from the tank. If the fuel tank is to be disassembled
+or repaired, follow the step below to drain the fuel.
+•
+Drain fuel into an approved container.
+3.
+Drain fuel tank:
+a.
+Obtain a suitable fuel transfer pump with a long, flex-
+ible nozzle.
+b.
+Position vehicle upright. Remove fuel tank filler cap.
+c.
+Insert fuel transfer pump nozzle into fuel tank filler
+spout. Aim nozzle toward right side of fuel tank to
+avoid contacting and damaging fuel pump assembly.
+d.
+Direct the pump output into an approved container.
+e.
+Pump fuel until fuel tank is empty.
+f.
+Immediately wipe up any spilled fuel.
+4.
+See Figure 4-8. Remove vent hose (1) from fuel tank vent
+nipple. Remove cable clip (3) securing fuel pump wiring
+harness (2) to mounting boss on H-bracket.
+5.
+Unplug fuel pump connector [141].
+HOME
+4-8 2013 Sportster Service: Fuel System
+
+--- Page 417 ---
+6.
+Remove protective caps, locknuts, screws and washers
+from front and rear of fuel tank.
+7.
+Place a clean, soft cloth over front of fuel tank to keep tank
+from contacting top fork clamp and damaging paint. Lift
+up rear of fuel tank. Remove fuel pump harness from clip
+on wire harness caddy latch clip on frame backbone.
+8.
+Lift fuel tank off motorcycle.
+9.
+Remove fuel pump assembly. See 4.16 FUEL PUMP.
+2
+3
+1
+sm06594c
+1.
+Vent hose
+2.
+Fuel pump wiring harness
+3.
+Cable clip
+Figure 4-8. Fuel Tank Vent Hose
+CLEANING AND INSPECTION
+When servicing the fuel system, do not smoke or allow
+open flame or sparks in the vicinity. Gasoline is extremely
+flammable and highly explosive, which could result in
+death or serious injury. (00330a)
+1.
+Clean fuel tank interior with commercial cleaning solvent
+or a soap and water solution. Shake fuel tank to agitate
+cleaning agent.
+2.
+Thoroughly flush fuel tank after cleaning. Allow fuel tank
+to air dry.
+3.
+Carefully inspect fuel hose and vent hose for damage,
+cuts, cracks, holes, wear or general deterioration. Replace
+as necessary.
+4.
+Inspect the fuel tank for leaks or other damage. If a dam-
+aged fuel tank cannot be successfully repaired, replace
+it.
+INSTALLING FUEL TANK
+TORQUE VALUE
+FASTENER
+20.3-27.1 Nm
+15-20 ft-lbs
+Fuel tank fasteners: XL
+Models
+NOTE
+Verify wiring harnesses are not pinched between fuel tank and
+frame during tank installation.
+1.
+Install fuel pump into fuel tank using new gasket. See
+4.16 FUEL PUMP.
+2.
+See Figure 4-9. Position fuel tank on motorcycle. Verify
+that front fuel tank brackets are located outboard of ignition
+coil bracket (8).
+3.
+Install front fastener.
+a.
+Place washer (4) on long screw (2).
+b.
+From right to left, push screw through front fuel tank
+bracket, ignition coil bracket and frame.
+c.
+Place second washer over screw.
+d.
+Hand-start locknut (5).
+8
+6
+5
+4
+1
+6
+5
+4
+2
+3
+4
+7
+x0671a4x
+1.
+Fuel tank (typical)
+2.
+Screw (long)
+3.
+Screw (short)
+4.
+Washer (4)
+5.
+Locknut (2)
+6.
+Protective cap (2)
+7.
+Cosmetic cover (2)
+8.
+Ignition coil bracket
+Figure 4-9. Fuel Tank Mounting (typical)
+4.
+See Figure 4-10. Place a clean, soft cloth over front of fuel
+tank to keep tank from contacting top fork clamp and
+damaging paint.
+5.
+Lift up rear of fuel tank.
+6.
+Place fuel pump wiring harness (1) into clip on wire har-
+ness caddy latch clip on frame backbone tube. Verify that
+HOME
+2013 Sportster Service: Fuel System 4-9
+
+--- Page 418 ---
+the harness forms a loop (5) between caddy latch clip and
+fuel pump module (6). Do not pinch harness between fuel
+tank and frame backbone tube.
+7.
+Route fuel pump wiring harness down along left side of
+H-bracket. Secure with cable clip (3). Push clip into hole
+in mounting boss (2) on H-bracket.
+8.
+Install fuel tank.
+a.
+Lower rear of fuel tank into position.
+b.
+See Figure 4-9. Place washer (4) on short screw (3).
+c.
+From right to left, push screw through rear fuel tank
+bracket and frame.
+d.
+Place second washer over screw
+e.
+Hand-start locknut (5).
+f.
+Tighten both front and rear fuel tank mounting
+fasteners to 15-20 ft-lbs (20.3-27.1 Nm).
+g.
+Install protective caps (6) on screw ends.
+9.
+See Figure 4-8. Install vent hose onto fuel tank vent nipple.
+10. Connect the fuel pump connector [141] housings.
+1
+2
+3
+4
+5
+6
+sm06571a
+1.
+Fuel pump wiring harness
+2.
+Cable clip mounting boss on ECM caddy
+3.
+Cable clip
+4.
+Wire harness caddy latch clip
+5.
+Fuel pump wiring harness loop
+6.
+Fuel pump module
+Figure 4-10. Fuel Pump Wiring Harness Routing
+CONNECTING FUEL HOSE AND FILLING
+FUEL TANK
+To prevent spray of fuel, be sure quick-connect fittings
+are properly mated. Gasoline is extremely flammable and
+highly explosive, which could result in death or serious
+injury. (00268a)
+1.
+See Figure 4-7. Connect fuel hose.
+a.
+Push up on release sleeve (1).
+b.
+Push fuel hose fitting (2) into fuel pump module fuel
+pump quick-connect fitting.
+c.
+Pull down on release sleeve to lock quick-connect
+fitting.
+d.
+Tug on fuel hose fitting to make sure it is securely
+locked in place.
+2.
+See Figure 4-8. Install vent hose onto vent nipple on fuel
+tank.
+Use care when refueling. Pressurized air in fuel tank can
+force gasoline to escape through filler tube. Gasoline is
+extremely flammable and highly explosive, which could
+result in death or serious injury. (00029a)
+Avoid spills. Slowly remove filler cap. Do not fill above
+bottom of filler neck insert, leaving air space for fuel
+expansion. Secure filler cap after refueling. Gasoline is
+extremely flammable and highly explosive, which could
+result in death or serious injury. (00028a)
+3.
+Fill fuel tank and carefully inspect for leaks around fuel
+pump module.
+4.
+Install main fuse.
+5.
+Turn ignition switch ON and verify fuel pump is activated.
+Carefully inspect for leaks at quick-connect fitting. Turn
+ignition switch OFF.
+After installing seat, pull upward on seat to be sure it is
+locked in position. While riding, a loose seat can shift
+causing loss of control, which could result in death or
+serious injury. (00070b)
+6.
+Install seat.
+VAPOR VALVE
+Excessive pressure can build in the fuel tank if vapor valve
+is not mounted vertically with long fitting to top. Leaks
+due to excessive pressure can cause a fire or explosion,
+which could result in death or serious injury. (00265a)
+See Figure 4-11. The fuel tank is vented through a standpipe
+(vent tube) within the tank. A hose (1) at the base of the fuel
+tank is connected to the standpipe.
+Keep vent and vapor valve lines away from exhaust and
+engine. Gasoline is extremely flammable and highly
+explosive, which could result in death or serious injury.
+(00263a)
+HOME
+4-10 2013 Sportster Service: Fuel System
+
+--- Page 419 ---
+The fuel tank vent hose is connected to a vapor valve (2). This
+valve attaches into a clip (3) on the ECM caddy behind the left
+side cover. On non-evaporative emission controlled models,
+another hose (4) vents the vapor valve to the atmosphere. On
+evaporative emission controlled models, that hose is routed to
+the charcoal canister. See 4.20 EVAPORATIVE EMISSIONS
+CONTROL.
+NOTES
+•
+Mount the vapor valve in an upright position with the longer
+fitting positioned at the top or excessive fuel vapor pres-
+sure may build up within the fuel tank.
+•
+Do NOT force vapor valve into clip. Forcing valve in to clip
+could cause clip to break, necessitating replacement of
+the ECM caddy.
+1
+2
+3
+4
+sm06572a
+1.
+Fuel-to-vapor valve hose
+2.
+Vapor valve
+3.
+Vapor valve clip
+4.
+Vapor valve-to-atmosphere hose (non-evapor-
+ative emission controlled models)
+Figure 4-11. Vapor Valve
+HOME
+2013 Sportster Service: Fuel System 4-11
+
+--- Page 420 ---
+4.5
+FUEL TANK: XR 1200X
+PURGING AND DISCONNECTING FUEL
+SUPPLY HOSE
+Stop the engine when refueling or servicing the fuel
+system. Do not smoke or allow open flame or sparks near
+gasoline. Gasoline is extremely flammable and highly
+explosive, which could result in death or serious injury.
+(00002a)
+When servicing the fuel system, do not smoke or allow
+open flame or sparks in the vicinity. Gasoline is extremely
+flammable and highly explosive, which could result in
+death or serious injury. (00330a)
+To prevent spray of fuel, purge system of high-pressure
+fuel before supply line is disconnected. Gasoline is
+extremely flammable and highly explosive, which could
+result in death or serious injury. (00275a)
+Do not use solvents or other products that contain chlorine
+on plastic fuel system components. Chlorine can degrade
+plastic fuel system components, which can cause a loss
+of fuel system pressure or engine stalling and could result
+in death or serious injury. (000621b)
+1.
+Purge the fuel supply line of high pressure gasoline.
+a.
+See Figure 4-12. Unplug fuel pump connector [141].
+b.
+Start engine and allow vehicle to run.
+c.
+When engine stalls, operate starter for 3 seconds to
+remove any remaining fuel from fuel hose.
+d.
+Shut off ignition.
+sm06589
+Figure 4-12. Fuel Pump Connector Location
+Gasoline can drain from quick-connect fitting when
+removing fuel line. Gasoline is extremely flammable and
+highly explosive, which could result in death or serious
+injury. Wipe up spilled fuel immediately and dispose of
+rags in a suitable manner. (00267a)
+2.
+See Figure 4-13. Push up on release sleeve (1) on fuel
+pump quick-connect fitting and pull down on fuel supply
+hose fitting (2) to disconnect fuel supply hose (3). Immedi-
+ately clean up any fuel spills.
+1
+2
+4
+3
+sm06709a
+1.
+Release sleeve (quick-connect fitting)
+2.
+Fuel supply hose fitting
+3.
+Fuel supply hose
+4.
+Throttle cable retainer
+Figure 4-13. Fuel Tank Quick-Connect Fitting
+REMOVING FUEL TANK
+1.
+Purge the fuel supply line of high pressure gasoline. Dis-
+connect fuel line from fuel tank. See 6.3 FUSES AND
+RELAYS, Main Fuse.
+To prevent accidental vehicle start-up, which could cause
+death or serious injury, remove main fuse before pro-
+ceeding. (00251b)
+2.
+Remove main fuse.
+NOTES
+•
+If the fuel tank is being removed only to gain access to
+items otherwise hidden, it is not necessary to drain the
+fuel from the tank. If the fuel tank is to be disassembled
+or repaired, drain the fuel tank.
+•
+Drain fuel into an approved container.
+HOME
+4-12 2013 Sportster Service: Fuel System
+
+--- Page 421 ---
+3.
+Drain fuel tank:
+a.
+Obtain a suitable fuel transfer pump with a long, flex-
+ible nozzle.
+b.
+Position vehicle upright. Remove fuel tank filler cap.
+c.
+Insert fuel transfer pump nozzle into fuel tank filler
+spout. Aim nozzle toward right side of fuel tank to
+avoid contacting and damaging fuel pump assembly.
+d.
+Direct the pump output into an approved container.
+e.
+Pump fuel until fuel tank is empty.
+f.
+Replace fuel tank filler cap.
+g.
+Immediately wipe up any spilled fuel.
+4.
+See Figure 4-13. Remove retainer (4) securing throttle
+cables to plate on bottom of fuel tank.
+NOTE
+See Figure 4-14. Short screws (2) secure trim ring to fuel tank
+cover only. It is not necessary to remove these screws unless
+either trim ring or fuel tank cover is being replaced.
+5.
+See Figure 4-14. Remove four long screws (1) that secure
+trim ring (4) and fuel tank cover (5) to fuel tank.
+6.
+Carefully lift fuel tank cover off fuel tank. Slide cover for-
+ward slightly as it is lifted to clear sides of fuel tank.
+7.
+See Figure 4-15. Remove vent hose (3) from fuel tank
+vent fitting (4). With a gentle twisting motion, pull ground
+wire connector [210] (5) straight up off pin on fuel tank
+clamp ring (6).
+8.
+Remove vent hose and ground wire from trough in center
+of fuel tank. Pull vent hose and ground wire back out of
+the way.
+1
+3
+1
+1
+1
+2
+2
+2
+2
+4
+5
+sm04947
+1.
+Screw, long (4)
+2.
+Screw, short (4)
+3.
+Fuel cap
+4.
+Trim ring
+5.
+Fuel tank cover
+Figure 4-14. Fuel Cap and Trim Ring
+1
+2
+3
+4
+5
+6
+sm04948
+1.
+Fuel tank
+2.
+Fuel cap
+3.
+Vent hose
+4.
+Vent fitting
+5.
+Ground wire connector [210]
+6.
+Clamp ring
+Figure 4-15. Fuel Tank Vent Hose and Ground Wire
+9.
+See Figure 4-16. Remove two screws and washers (3)
+securing air box to bottom of fuel tank.
+10. Remove screw with washer (4) from rear of fuel tank.
+Remove protective plastic cap (not shown) from threaded
+end of screw (6). Remove screw, washers and locknut
+from the front of the fuel tank.
+11. See Figure 4-13. Remove throttle cable retainer (4) from
+fuel tank.
+HOME
+2013 Sportster Service: Fuel System 4-13
+
+--- Page 422 ---
+1
+2
+3
+6
+4
+5
+1
+sm04952
+1.
+Fuel tank
+2.
+Air box
+3.
+Screw w/washer (2)
+4.
+Screw w/washer
+5.
+Rubber grommet
+6.
+Screw w/washers and locknut
+Figure 4-16. Fuel Tank and Air Box Mounting Fasteners
+12. Lift fuel tank off motorcycle.
+NOTE
+See Figure 4-19. Metal bushings (4) inside the grommets (3)
+may fall when fuel tank is lifted off vehicle. Make sure they do
+not fall out and become lost.
+13. Remove fuel pump assembly from fuel tank. See
+4.16 FUEL PUMP.
+DISASSEMBLE FUEL TANK
+When servicing the fuel system, do not smoke or allow
+open flame or sparks in the vicinity. Gasoline is extremely
+flammable and highly explosive, which could result in
+death or serious injury. (00330a)
+1.
+See Figure 4-17. Remove filler cap (1) with O-ring (2).
+2.
+Remove screws (7) and clamp ring (3).
+3.
+Remove top ring (4).
+4.
+Remove O-ring (5).
+1
+2
+3
+4
+5
+6
+7
+sm05448
+1.
+Filler cap
+2.
+O-ring
+3.
+Clamp ring
+4.
+Top ring
+5.
+O-ring
+6.
+Fuel tank
+7.
+Screw (6)
+Figure 4-17. Fuel Tank Assembly
+CLEANING AND INSPECTION
+When servicing the fuel system, do not smoke or allow
+open flame or sparks in the vicinity. Gasoline is extremely
+flammable and highly explosive, which could result in
+death or serious injury. (00330a)
+1.
+Clean fuel tank interior with commercial cleaning solvent
+or a soap and water solution. Shake fuel tank to agitate
+cleaning agent.
+2.
+Thoroughly flush fuel tank after cleaning. Allow fuel tank
+to air dry.
+3.
+Carefully inspect fuel hose and vent hose for damage,
+cuts, cracks, holes, wear or general deterioration. Replace
+as necessary.
+4.
+Inspect the fuel tank for leaks or other damage. Replace
+the tank if necessary.
+HOME
+4-14 2013 Sportster Service: Fuel System
+
+--- Page 423 ---
+ASSEMBLE FUEL TANK
+TORQUE VALUE
+FASTENER
+4.5-5.1 Nm
+40-45 in-lbs
+Filler housing screws
+When servicing the fuel system, do not smoke or allow
+open flame or sparks in the vicinity. Gasoline is extremely
+flammable and highly explosive, which could result in
+death or serious injury. (00330a)
+1.
+See Figure 4-17. Install new O-ring (5) on the fuel tank
+(6). Verify that it is seated properly.
+2.
+Install top ring and clamp ring with screws (7).
+3.
+See Figure 4-18. Tighten screws in the sequence shown
+to 40-45 in-lbs (4.5-5.1 Nm).
+4.
+See Figure 4-17. Install filler cap (1) with a new O-ring (2).
+2
+1
+6
+4
+3
+5
+sm05461
+Figure 4-18. Filler Housing Torque Sequence
+INSTALLING FUEL TANK
+TORQUE VALUE
+FASTENER
+4.1-6.7 Nm
+36-60 in-lbs
+Air box to bracket fasteners:
+XR 1200X
+20.3-27.1 Nm
+15-20 ft-lbs
+Fuel tank fastener: XR 1200X
+20.3-27.1 Nm
+15-20 ft-lbs
+Fuel tank fastener: XR 1200X
+2.7-3.4 Nm
+24-30 in-lbs
+Fuel tank cover screw: XR
+1200X
+NOTE
+Be sure that wiring harnesses do not get pinched between fuel
+tank and frame during tank installation.
+1.
+Install fuel pump into fuel tank using new gasket. See
+4.16 FUEL PUMP.
+2.
+See Figure 4-19. Install rubber grommets (3) in both front
+mounting holes of fuel tank. Insert metal bushings (4) into
+rubber grommets, oriented as shown. Verify that the clip
+nut (5) is installed on frame bracket.
+NOTES
+•
+Verify that the ignition coil bracket is positioned between
+the tank mount and the frame.
+•
+Verify that the air box mounting brackets are mated.
+3.
+Position fuel tank on motorcycle.
+4.
+Insert screw (6) with washer (2) through fuel tank front
+mounting brackets and vehicle frame. Install remaining
+washer and locknut (7) on other end of screw. Do not
+tighten at this time.
+5.
+Secure pump harness to main harness retainer located
+under fuel tank.
+6.
+Install rubber grommets (3) in rear mounting hole of fuel
+tank.
+NOTE
+Verify that the air box grommet is securely installed on induction
+module and air box opening. An improperly seated grommet
+could lead to accelerated engine wear. See 4.3 AIR CLEANER
+ASSEMBLY, XR 1200X.
+7.
+Secure air box to brackets on bottom of fuel tank. Tighten
+to 36-60 in-lbs (4.1-6.7 Nm).
+8.
+Mount the fuel tank.
+a.
+Locate the metal bushing (4) inside the rear lower
+rubber grommet (3) of fuel tank.
+b.
+Install screw (1), washer (2) and upper grommet (3).
+c.
+Thread into clip nut (5). Tighten to 15-20 ft-lbs (20.3-
+27.1 Nm).
+d.
+Tighten front screw (6) and locknut (7) to 15-20 ft-lbs
+(20.3-27.1 Nm).
+9.
+See Figure 4-13. Secure throttle cables to bottom of fuel
+tank using a new loop retainer.
+10. See Figure 4-15. Connect vent hose (3) and ground wire
+(5) as shown. Route ground wire and vent hose in trough
+in top of tank.
+11. See Figure 4-14. Install fuel tank cover and secure with
+four screws (1). Tighten screws to 24-30 in-lbs (2.7-3.4
+Nm).
+12. Connect fuel pump connector [141].
+13. Connect fuel supply fitting. See 4.5 FUEL TANK: XR
+1200X, Connecting Fuel Hose and Filling Fuel Tank.
+HOME
+2013 Sportster Service: Fuel System 4-15
+
+--- Page 424 ---
+4
+3
+3
+5
+6
+2
+3
+4
+7
+8
+1
+2
+sm05411
+1.
+Rear screw
+2.
+Washer (3)
+3.
+Rubber grommet (6)
+4.
+Metal bushing (3)
+5.
+Clip nut
+6.
+Front screw
+7.
+Locknut
+8.
+Cap
+Figure 4-19. Fuel Tank Mounting
+CONNECTING FUEL HOSE AND FILLING
+FUEL TANK
+To prevent spray of fuel, be sure quick-connect fittings
+are properly mated. Gasoline is extremely flammable and
+highly explosive, which could result in death or serious
+injury. (00268a)
+1.
+See Figure 4-13. Connect the fuel hose fitting:
+a.
+Push up on release sleeve (1).
+b.
+Push fuel hose fitting (2) into fuel pump module fuel
+pump quick-connect fitting.
+c.
+Pull down on release sleeve to lock quick-connect
+fitting.
+d.
+Tug on fuel hose fitting to make sure it is securely
+locked in place.
+Use care when refueling. Pressurized air in fuel tank can
+force gasoline to escape through filler tube. Gasoline is
+extremely flammable and highly explosive, which could
+result in death or serious injury. (00029a)
+Avoid spills. Slowly remove filler cap. Do not fill above
+bottom of filler neck insert, leaving air space for fuel
+expansion. Secure filler cap after refueling. Gasoline is
+extremely flammable and highly explosive, which could
+result in death or serious injury. (00028a)
+2.
+Fill fuel tank and carefully inspect for leaks around fuel
+pump module.
+3.
+Install main fuse.
+4.
+Turn ignition switch ON and verify fuel pump is activated.
+Carefully inspect for leaks at quick-connect fitting and
+induction module. Turn ignition switch OFF.
+5.
+Install left side cover.
+HOME
+4-16 2013 Sportster Service: Fuel System
+
+--- Page 425 ---
+4.6
+THROTTLE POSITION SENSOR (TPS)
+GENERAL
+Stop the engine when refueling or servicing the fuel
+system. Do not smoke or allow open flame or sparks near
+gasoline. Gasoline is extremely flammable and highly
+explosive, which could result in death or serious injury.
+(00002a)
+See Figure 4-20 or Figure 4-21. The TPS is located on the side
+of the induction module. The TPS monitors the physical position
+of the throttle shaft. See the electrical diagnostic manual.
+sm06853a
+Figure 4-20. TPS Location: XL Models
+sm06564a
+Figure 4-21. TPS Location: XR 1200X
+REMOVAL: XL MODELS
+To prevent accidental vehicle start-up, which could cause
+death or serious injury, remove main fuse before pro-
+ceeding. (00251b)
+1.
+Remove main fuse.
+2.
+Remove air cleaner assembly. See 4.3 AIR CLEANER
+ASSEMBLY.
+3.
+See Figure 4-22. Unplug TPS harness connector [88B]
+from connector socket [88A] (4). Cover both connectors
+with tape.
+4.
+Remove two screws (5). Detach TPS (3) from induction
+module (1).
+HOME
+2013 Sportster Service: Fuel System 4-17
+
+--- Page 426 ---
+3
+2
+4
+1
+5
+sm01617
+1.
+Induction module
+2.
+Intake manifold
+3.
+TPS
+4.
+TPS connector socket [88A]
+5.
+Screw (2)
+Figure 4-22. Throttle Position Sensor (TPS) Removal: XL
+Models
+INSTALLATION: XL MODELS
+TORQUE VALUE
+FASTENER
+4.0 Nm
+35 in-lbs
+TPS screw: XL Models
+NOTES
+•
+Throttle must be closed to install the TPS.
+•
+See Figure 4-22. Note orientation of TPS (3) relative to
+induction module (1) body. The connector socket is at
+approximately the 7 o'clock position, facing toward intake
+manifold (2).
+1.
+See Figure 4-23. Fit pocket (3) of TPS (2) over throttle
+shaft (4). Orient TPS correctly and line up mounting holes
+in sensor with holes in body of induction module (1).
+2.
+Make sure TPS body is flush against mounting boss on
+induction module body. Install two screws (5) to fasten
+sensor to induction module. Tighten screws to 35 in-lbs
+(4.0 Nm).
+3.
+Open and close throttle plates and check for proper oper-
+ation. Be sure mechanism operates smoothly without
+binding or sticking.
+4.
+Connect TPS harness socket connector [88B] to sensor
+pin connector [88A].
+5.
+Install air cleaner assembly. See 4.3 AIR CLEANER
+ASSEMBLY.
+6.
+Install main fuse.
+7.
+Close left side cover.
+8.
+Start motorcycle. Check throttle operation and idle speed.
+9.
+Check for leaks at the quick connect fitting and at the
+induction module.
+5
+4
+3
+1
+2
+sm01618
+1.
+Induction module
+2.
+TPS
+3.
+Pocket
+4.
+Throttle shaft
+5.
+Screw (2)
+Figure 4-23. Throttle Position Sensor (TPS) Installation:
+XL Models
+REMOVAL: XR 1200X
+To prevent spray of fuel, purge system of high-pressure
+fuel before supply line is disconnected. Gasoline is
+extremely flammable and highly explosive, which could
+result in death or serious injury. (00275a)
+Gasoline can drain from quick-connect fitting when
+removing fuel line. Gasoline is extremely flammable and
+highly explosive, which could result in death or serious
+injury. Wipe up spilled fuel immediately and dispose of
+rags in a suitable manner. (00267a)
+1.
+Purge the fuel supply hose of high pressure gasoline.
+Disconnect fuel supply hose from fuel pump module. See
+4.5 FUEL TANK: XR 1200X.
+To prevent accidental vehicle start-up, which could cause
+death or serious injury, remove main fuse before pro-
+ceeding. (00251b)
+2.
+Remove main fuse.
+3.
+Remove fuel tank and air box. See 4.5 FUEL TANK: XR
+1200X and 4.3 AIR CLEANER ASSEMBLY, XR 1200X.
+HOME
+4-18 2013 Sportster Service: Fuel System
+
+--- Page 427 ---
+4.
+See Figure 4-24. Remove induction module from vehicle.
+See 4.9 INDUCTION MODULE: XR 1200X.
+5.
+Remove two screws (4) and detach TPS (2) from induction
+module (1).
+1
+2
+3
+4
+sm06590
+1.
+Induction module
+2.
+TPS
+3.
+TPS connector socket [88A]
+4.
+Screw (2)
+Figure 4-24. Throttle Position Sensor (TPS) Removal: XR
+1200X
+INSTALLATION: XR 1200X
+TORQUE VALUE
+FASTENER
+3.3 Nm
+29 in-lbs
+TPS screw: XR 1200X
+NOTES
+•
+Throttle must be closed for installation of throttle position
+sensor.
+•
+See Figure 4-24. Note installed orientation of TPS (2) rel-
+ative to induction module (1) body. The connector socket
+is at approximately the 5:00 o'clock position.
+1.
+See Figure 4-25. Place sensor over throttle shaft with the
+connector housing (1) facing toward the mounting flange
+(2).
+2.
+Rotate the TPS counterclockwise into position as shown
+in Figure 4-24.
+3.
+Make sure TPS body is flush against mounting boss on
+induction module body. Install two screws (4). Tighten to
+29 in-lbs (3.3 Nm).
+4.
+Open and close throttle plate. Be sure mechanism oper-
+ates smoothly without binding or sticking.
+2
+1
+sm05425
+1.
+Connector housing
+2.
+Mounting flange
+Figure 4-25. Throttle Position Sensor (TPS) Installation:
+XR 1200X
+5.
+Install induction module. See 4.9 INDUCTION MODULE:
+XR 1200X.
+6.
+Install air box assembly and fuel tank. See 4.3 AIR
+CLEANER ASSEMBLY, XR 1200X and 4.5 FUEL TANK:
+XR 1200X.
+To prevent spray of fuel, be sure quick-connect fittings
+are properly mated. Gasoline is extremely flammable and
+highly explosive, which could result in death or serious
+injury. (00268a)
+7.
+Connect fuel hose to fuel pump module. Fill fuel tank and
+carefully check for leaks around fuel hose fitting. See
+4.5 FUEL TANK: XR 1200X.
+8.
+Install main fuse.
+9.
+Turn ignition switch on. Check for leaks at the quick con-
+nect fitting and at the induction module.
+10. Start motorcycle. Check throttle operation and idle speed.
+HOME
+2013 Sportster Service: Fuel System 4-19
+
+--- Page 428 ---
+4.7
+ENGINE TEMPERATURE (ET) SENSOR
+GENERAL
+See Figure 4-26. The ET sensor is located in the top of the
+rear cylinder head. See the electrical diagnostic manual.
+sm01635
+Figure 4-26. ET Sensor Location
+REMOVAL
+TOOL NAME
+PART NUMBER
+TEMPERATURE SENSOR SOCKET
+HD-48116-A
+To prevent spray of fuel, purge system of high-pressure
+fuel before supply line is disconnected. Gasoline is
+extremely flammable and highly explosive, which could
+result in death or serious injury. (00275a)
+Gasoline can drain from quick-connect fitting when
+removing fuel line. Gasoline is extremely flammable and
+highly explosive, which could result in death or serious
+injury. Wipe up spilled fuel immediately and dispose of
+rags in a suitable manner. (00267a)
+1.
+Purge the fuel supply hose of high pressure gasoline.
+Disconnect fuel supply hose from fuel pump module. See
+4.4 FUEL TANK: XL MODELS or 4.5 FUEL TANK: XR
+1200X.
+To prevent accidental vehicle start-up, which could cause
+death or serious injury, remove main fuse before pro-
+ceeding. (00251b)
+2.
+Remove main fuse.
+3.
+Remove fuel tank. See 4.4 FUEL TANK: XL MODELS or
+4.5 FUEL TANK: XR 1200X.
+4.
+See Figure 4-27 or Figure 4-28. Disconnect the ET sensor
+connector [90] (3) located on right side of H-bracket/ECM
+caddy.
+5.
+Cut barbed cable strap (2) to free sensor harness from H-
+bracket/ECM caddy.
+6.
+XR 1200X: See Figure 4-28. Disconnect the breather hose
+(1) from the rear cylinder to gain access to the sensor.
+7.
+Remove ET sensor as follows:
+a.
+Attach a universal joint, a 6 inch extension and a
+ratchet to the TEMPERATURE SENSOR SOCKET
+(Part No. HD-48116-A).
+b.
+See Figure 4-29. Fit engine temperature sensor har-
+ness (2) into slot in temperature sensor socket (3).
+c.
+Slide socket down harness, through square hole in
+center of rear rocker cover assembly and fit onto ET
+sensor (1).
+d.
+See Figure 4-30. Once you have installed the temper-
+ature sensor socket (1) onto the sensor (4), secure
+the sensor harness to the socket extension (3) with
+tape (6). This will facilitate removal of the sensor.
+e.
+Remove ET sensor from rear cylinder head.
+3
+2
+1
+sm06586
+1.
+Harness loop
+2.
+Barbed cable strap
+3.
+Engine temperature sensor connector location
+Figure 4-27. ET Sensor Harness: XL Models
+HOME
+4-20 2013 Sportster Service: Fuel System
+
+--- Page 429 ---
+3
+4
+2
+1
+sm05417a
+1.
+Breather hose
+2.
+Barbed cable strap
+3.
+Sensor harness connector [90]
+4.
+Harness Loop
+Figure 4-28. ET Sensor Harness: XR 1200X
+3
+2
+1
+3
+sm01638
+1.
+ET sensor
+2.
+Sensor harness
+3.
+Temperature sensor socket
+Figure 4-29. Installing ET Sensor Socket (XL shown)
+4
+6
+5
+3
+2
+1
+sm01641
+1.
+Temperature sensor socket
+2.
+Universal joint
+3.
+Socket extension
+4.
+Engine temperature sensor
+5.
+Sensor harness
+6.
+Tape
+Figure 4-30. Tape ET Sensor Harness to Extension
+INSTALLATION
+TORQUE VALUE
+FASTENER
+13.6-19.0 Nm
+120-168
+in-lbs
+ET sensor
+1.
+See Figure 4-30. Fit engine the ET sensor (4) into temper-
+ature sensor socket (1).
+NOTE
+The sensor harness MUST turn with the socket and extension.
+The harness may be damaged when the sensor is installed.
+2.
+Holding sensor in place in socket, wrap a piece of tape
+(6) around sensor harness (5) and socket extension (3).
+3.
+Slide assembly down into top of rear head and carefully
+thread sensor into head. Do not cross-thread. Tighten to
+120-168 in-lbs (13.6-19.0 Nm).
+NOTE
+See Figure 4-27. Make sure there is a loop (4) in sensor har-
+ness when securing harness. If harness is pulled tight or con-
+tacting the rear rocker cover, it could be damaged during
+vehicle operation.
+4.
+See Figure 4-27 or Figure 4-28. Use a barbed cable strap
+(2) to secure sensor harness. Position cable strap so
+harness forms a loop (4) between sensor and cable strap.
+5.
+Connect sensor connector [90] (3) and secure to H-
+bracket/ECM caddy.
+6.
+Install fuel tank and connect fuel supply hose. See
+4.4 FUEL TANK: XL MODELS or 4.5 FUEL TANK: XR
+1200X.
+7.
+Install main fuse.
+8.
+Close left side cover.
+HOME
+2013 Sportster Service: Fuel System 4-21
+
+--- Page 430 ---
+After installing seat, pull upward on seat to be sure it is
+locked in position. While riding, a loose seat can shift
+causing loss of control, which could result in death or
+serious injury. (00070b)
+9.
+Install seat.
+HOME
+4-22 2013 Sportster Service: Fuel System
+
+--- Page 431 ---
+4.8
+INDUCTION MODULE: XL MODELS
+REMOVAL
+Stop the engine when refueling or servicing the fuel
+system. Do not smoke or allow open flame or sparks near
+gasoline. Gasoline is extremely flammable and highly
+explosive, which could result in death or serious injury.
+(00002a)
+To prevent spray of fuel, purge system of high-pressure
+fuel before supply line is disconnected. Gasoline is
+extremely flammable and highly explosive, which could
+result in death or serious injury. (00275a)
+Gasoline can drain from quick-connect fitting when
+removing fuel line. Gasoline is extremely flammable and
+highly explosive, which could result in death or serious
+injury. Wipe up spilled fuel immediately and dispose of
+rags in a suitable manner. (00267a)
+1.
+Purge the fuel supply hose of high pressure gasoline.
+Disconnect fuel supply hose from fuel pump module. See
+4.4 FUEL TANK: XL MODELS.
+To prevent accidental vehicle start-up, which could cause
+death or serious injury, remove main fuse before pro-
+ceeding. (00251b)
+2.
+Remove main fuse.
+3.
+Remove air cleaner assembly. See 4.3 AIR CLEANER
+ASSEMBLY.
+4.
+Remove seat.
+5.
+Pull fuel tank back to access induction module.
+a.
+Loosen (but do not remove) front fuel tank mounting
+screw.
+b.
+Remove rear fuel tank mounting screw, washers and
+nut.
+c.
+Carefully pivot rear of fuel tank upward and prop in
+position. See 4.4 FUEL TANK: XL MODELS.
+6.
+See Figure 4-31. Remove screw (2) and mounting bracket
+(1).
+2
+1
+sm01574
+1.
+Mounting bracket
+2.
+Screw
+Figure 4-31. Induction Module Mounting Bracket
+7.
+See Figure 4-32. Unplug the following connectors:
+a.
+Front fuel injector (4) connector [84],
+b.
+Rear fuel injector (5) connector [85],
+c.
+TMAP sensor (6) connector [80],
+d.
+IAC (7) connector [87],
+e.
+TPS (8) connector [88].
+8.
+EVAP Controlled Models: remove purge hose from fitting
+(9) on induction module (1).
+HOME
+2013 Sportster Service: Fuel System 4-23
+
+--- Page 432 ---
+1
+8
+9
+6
+2
+5
+7
+11
+3
+4
+10
+12
+sm06573
+1.
+Induction module
+2.
+Intake manifold
+3.
+Throttle cable bracket
+4.
+Front fuel injector [84A]
+5.
+Rear fuel injector [85A]
+6.
+TMAP sensor [80A]
+7.
+IAC [87A]
+8.
+TPS [88A]
+9.
+Purge hose fitting (EVAP controlled models)
+10. Fuel supply hose
+11. Throttle wheel
+12. Fuel rail
+Figure 4-32. Induction Module Assembly
+9.
+See Figure 4-33. Slide rubber boot off idle control cable
+assembly (1).
+10. Loosen jamnut (3).
+11. Loosen cable adjuster as far as possible to provide max-
+imum slack in idle cable.
+3
+2
+1
+sm01579
+1.
+Idle control (pull close) cable assembly
+2.
+Cable adjuster
+3.
+Jamnut
+Figure 4-33. Idle Control Cable Adjustment
+12. See Figure 4-34. Loosen two screws (2) securing intake
+manifold to heads on left side of vehicle, but do not remove
+screws.
+13. See Figure 4-35. Remove two screws (3) securing intake
+manifold to heads on right side of vehicle.
+14. Pull mounting flanges (4) away from heads as much as
+possible and pull induction module and intake manifold
+assembly toward the right side, away from vehicle.
+1
+2
+sm06569
+1.
+Intake manifold
+2.
+Screw (2)
+Figure 4-34. Intake Manifold Mounting Screws: Left Side
+HOME
+4-24 2013 Sportster Service: Fuel System
+
+--- Page 433 ---
+2
+4
+3
+4
+1
+3
+sm01583
+1.
+Induction module
+2.
+Intake manifold
+3.
+Screw (2)
+4.
+Mounting flange (2)
+Figure 4-35. Intake Manifold Mounting Screws: Right Side
+15. See Figure 4-35. Remove throttle cable (5) from throttle
+wheel (7)
+a.
+Lift throttle cable housing (1) up out of cable guide
+(3) in throttle/idle cable bracket (2).
+b.
+Slide throttle cable (5) out through slot (4) in cable
+guide.
+c.
+Unwind throttle cable from groove in throttle wheel
+(7).
+d.
+Slide cable out through slot (8) and remove throttle
+cable barrel (6) from throttle wheel.
+2
+1
+7
+8
+3
+4
+5
+6
+sm01584
+1.
+Throttle cable housing
+2.
+Throttle/idle cable bracket
+3.
+Cable guide
+4.
+Slot
+5.
+Throttle cable
+6.
+Cable barrel
+7.
+Throttle wheel
+8.
+Slot
+Figure 4-36. Removing/Installing Throttle Cable
+16. See Figure 4-37. In a similar fashion, remove idle cable
+(3) from throttle wheel (6):
+a.
+Lift idle cable housing (1) and spring (2) up out of
+cable guide (7) in throttle/idle cable bracket.
+b.
+Slide idle cable (3) out through slot in cable guide.
+c.
+Unwind idle cable from groove in throttle wheel (6).
+d.
+Slide cable out through slot (5) and remove idle cable
+barrel (4) from throttle wheel.
+17. Remove induction module and intake manifold from
+vehicle.
+2
+6
+5
+7
+3
+4
+1
+sm01585
+1.
+Idle cable housing
+2.
+Spring
+3.
+Idle cable
+4.
+Cable barrel
+5.
+Slot
+6.
+Throttle wheel
+7.
+Cable guide
+Figure 4-37. Removing/Installing Idle Cable
+DISASSEMBLY
+TOOL NAME
+PART NUMBER
+HEAT GUN
+HD-25070
+Gasoline can drain from the fuel line when disconnected
+from induction module. Gasoline is extremely flammable
+and highly explosive, which could result in death or serious
+injury. Wipe up spilled fuel immediately and dispose of
+rags in a suitable manner. (00269a)
+1.
+Remove fuel hose, fuel rail and fuel injectors. See
+4.15 FUEL INJECTORS.
+2.
+See Figure 4-38. Remove screws (1, 2) and cable bracket
+(3) from induction module (4).
+NOTE
+When removing the IAC, the mounting screws MUST be heated
+to soften the thread sealant and avoid breakage during removal.
+Use ONLY HEAT GUN (Part No. HD-25070) to heat the screws.
+NEVER use an open flame.
+HOME
+2013 Sportster Service: Fuel System 4-25
+
+--- Page 434 ---
+3.
+Remove the following assemblies:
+a.
+TPS. See 4.6 THROTTLE POSITION SENSOR
+(TPS).
+b.
+TMAP sensor. See 4.11 TEMPERATURE MANIFOLD
+ABSOLUTE PRESSURE (TMAP) SENSOR.
+c.
+IAC. See 4.10 IDLE AIR CONTROL (IAC).
+4.
+See Figure 4-39. Remove two screws (3) to separate
+induction module (1) from intake manifold (2). Discard O-
+ring (4).
+NOTE
+At this level of disassembly, induction module contains no more
+serviceable parts. If induction module is determined to be
+damaged or defective, replace it.
+3
+2
+4
+1
+sm01586
+1.
+Screw
+2.
+Screw
+3.
+Cable bracket
+4.
+Induction module
+Figure 4-38. Removing/Installing Cable Bracket
+4
+5
+3
+1
+3
+2
+sm01588
+1.
+Induction module
+2.
+Intake manifold
+3.
+Screw (2)
+4.
+O-ring
+5.
+Groove
+Figure 4-39. Induction Module Assembly
+ASSEMBLY
+TORQUE VALUE
+FASTENER
+4.0 Nm
+35 in-lbs
+Induction module screw: XL
+models
+6.8 Nm
+60 in-lbs
+IAC mounting screw: XL
+Models
+6.8 Nm
+60 in-lbs
+Induction module cable
+bracket screw: XL Models
+1.
+See Figure 4-39. Place new O-ring (4) into groove (5) in
+induction module (1) mating surface.
+2.
+Mate induction module to intake manifold (2). Secure with
+two screws (3). Tighten screws to 35 in-lbs (4.0 Nm).
+3.
+Install the following assemblies:
+a.
+TPS. See 4.6 THROTTLE POSITION SENSOR
+(TPS).
+b.
+TMAP sensor. See 4.11 TEMPERATURE MANIFOLD
+ABSOLUTE PRESSURE (TMAP) SENSOR.
+c.
+IAC. See 4.10 IDLE AIR CONTROL (IAC).
+HOME
+4-26 2013 Sportster Service: Fuel System
+
+--- Page 435 ---
+NOTE
+Do not install IAC mounting screw on throttle wheel side of
+induction module until cable bracket is installed. Install other
+IAC mounting screw but do not tighten at this time.
+4.
+See Figure 4-38. Install cable bracket (3) onto induction
+module (4):
+a.
+Obtain new screws (1, 2) or apply LOCTITE 243
+MEDIUM
+STRENGTH
+THREADLOCKER
+AND
+SEALANT (blue) to existing screws.
+b.
+Install both screws finger-tight.
+c.
+Tighten both IAC mounting screws to 60 in-lbs (6.8
+Nm). Tighten side screw (1) to 60 in-lbs (6.8 Nm).
+5.
+Install fuel injectors, fuel rail and fuel hose. See 4.15 FUEL
+INJECTORS.
+INSTALLATION
+TORQUE VALUE
+FASTENER
+10.2-13.6 Nm
+90-120 in-lbs
+Induction module mounting
+bracket screw: XL models
+10.9-13.6 Nm
+96-120 in-lbs
+Intake manifold mounting
+screw: XL models
+20.3-27.1 Nm
+15-20 ft-lbs
+Fuel tank fasteners: XL
+Models
+1.
+See Figure 4-34. Make sure two mounting screws (2) are
+screwed into heads two or three turns.
+2.
+See Figure 4-40. Install mounting flanges (1) on intake
+manifold (5) with counterbore (2) facing away from mani-
+fold and open slotted ends of flanges facing away from
+induction module (6).
+3.
+Place a new seal (3) into each mounting flange with the
+beveled edge (4) facing the mounting flange counterbore.
+NOTE
+When induction module is positioned on manifold mounting
+screws, Verify the flanges are correctly installed on the mani-
+fold. Verify the rubber seals are in place.
+4.
+Place induction module assembly in position between
+engine heads. Slide open slotted ends of mounting flanges
+under heads of two mounting screws on left side of engine.
+5.
+See Figure 4-35. Holding induction module/intake manifold
+assembly in place, install two mounting screws (3) into
+remaining mounting flange holes. Tighten all four screws
+finger-tight.
+6.
+See Figure 4-31. Install mounting bracket (1) and screw
+(2). Tighten screw finger-tight.
+7.
+Temporarily install two breather screws through mounting
+bracket. Thread breather screws into cylinder heads finger-
+tight. This will properly line up induction module assembly.
+8.
+Tighten mounting bracket screws to 90-120 in-lbs (10.2-
+13.6 Nm).
+9.
+Tighten all four intake manifold mounting screws to 96-
+120 in-lbs (10.9-13.6 Nm).
+10. See Figure 4-37. Install idle cable barrel (4) into throttle
+wheel (6). Slide idle cable (3) through slot (5) and wind
+around groove in throttle wheel.
+11. Pull cable through slot in cable guide (7). Slide spring (2)
+and end of idle cable housing (1) down into cable guide.
+12. See Figure 4-36. Install throttle cable barrel (6) into throttle
+wheel (7). Slide throttle cable through slot (8) and wind
+around groove in throttle wheel.
+13. Pull cable through slot (4) in cable guide (3). Slide end of
+throttle cable housing (1) down into cable guide.
+14. Adjust throttle and idle cables. See 1.13 THROTTLE
+CONTROL.
+1
+4
+1
+5
+2
+6
+2
+3
+sm01590
+1.
+Mounting flange (2)
+2.
+Counterbore
+3.
+Seal (2)
+4.
+Beveled edge
+5.
+Intake manifold
+6.
+Induction module
+Figure 4-40. Installing Mounting Flange and Seal
+HOME
+2013 Sportster Service: Fuel System 4-27
+
+--- Page 436 ---
+15. EVAP Controlled Models: See Figure 4-41. Install purge
+hose onto fitting (2) on induction module (1).
+16. See Figure 4-42. Plug in the following connectors:
+a.
+Front fuel injector (1) connector [84],
+b.
+Rear fuel injector (2) connector [85],
+c.
+TMAP sensor (3) connector [80],
+d.
+IAC (4) connector [87],
+e.
+TPS (5) connector [88].
+17. Remove prop from under rear of fuel tank. Lower rear of
+fuel tank into position. Install fastener, washer and nut in
+fuel tank rear mounting holes. Tighten to 15-20 ft-lbs (20.3-
+27.1 Nm). Install protective caps on screw ends. See
+4.4 FUEL TANK: XL MODELS.
+18. Install air cleaner assembly. See 4.3 AIR CLEANER
+ASSEMBLY.
+To prevent spray of fuel, be sure quick-connect fittings
+are properly mated. Gasoline is extremely flammable and
+highly explosive, which could result in death or serious
+injury. (00268a)
+19. Connect fuel hose to fuel pump module. Fill fuel tank.
+Carefully check for leaks around fuel pump module. See
+4.4 FUEL TANK: XL MODELS.
+20. Install main fuse.
+21. Close left side cover.
+22. Turn ignition switch to ON and OFF to reset IAC to park
+position.
+After installing seat, pull upward on seat to be sure it is
+locked in position. While riding, a loose seat can shift
+causing loss of control, which could result in death or
+serious injury. (00070b)
+23. Install seat.
+1
+2
+sm06574
+1.
+Induction module
+2.
+Purge hose (to canister) fitting
+Figure 4-41. Purge Hose Fitting: CA Models
+2
+4
+1
+3
+5
+sm06873a
+1.
+Front fuel injector [84A]
+2.
+Rear fuel injector [85A]
+3.
+TMAP sensor [80A]
+4.
+IAC [87A]
+5.
+TPS [88A]
+Figure 4-42. Induction Module Electrical Connectors
+HOME
+4-28 2013 Sportster Service: Fuel System
+
+--- Page 437 ---
+4.9
+INDUCTION MODULE: XR 1200X
+REMOVAL
+Stop the engine when refueling or servicing the fuel
+system. Do not smoke or allow open flame or sparks near
+gasoline. Gasoline is extremely flammable and highly
+explosive, which could result in death or serious injury.
+(00002a)
+1.
+Purge the fuel supply hose of high pressure gasoline.
+Disconnect fuel supply hose from fuel pump module. See
+4.5 FUEL TANK: XR 1200X.
+To prevent accidental vehicle start-up, which could cause
+death or serious injury, remove main fuse before pro-
+ceeding. (00251b)
+2.
+Remove main fuse.
+3.
+Remove fuel tank and air box. See 4.5 FUEL TANK: XR
+1200X and 4.3 AIR CLEANER ASSEMBLY, XR 1200X.
+4.
+See Figure 4-43. Remove screws (3), fastener (1) and
+fastener (2).
+5.
+Pull cover away from induction module and disengage
+cable retainer from back side of cover. Remove cover.
+6.
+Disengage throttle cables from induction module. See
+2.28 THROTTLE CABLES: ALL MODELS.
+7.
+See Figure 4-44. Unplug the following connectors:
+a.
+Front fuel injector (3) [84],
+b.
+Rear fuel injector (4) [85],
+c.
+TMAP sensor (5) [80],
+d.
+IAC (6) [87],
+e.
+TPS (7) [88].
+8.
+EVAP Controlled Models: Remove purge hose from fitting
+(8).
+9.
+See Figure 4-45. Disconnect oil line flare nuts (1) from
+flare fittings (2) in cylinder heads. Remove flare fittings (2)
+from cylinder heads.
+10. Loosen but do not remove left side screws holding induc-
+tion module to cylinder head.
+11. Remove two screws (3) securing induction module to cyl-
+inder heads on right side of vehicle.
+12. Remove induction module from engine.
+2
+1
+3
+3
+sm06774b
+1.
+Fastener, wire form
+2.
+Fastener, to induction module
+3.
+Screws (2)
+Figure 4-43. Induction Module Cover: XR 1200X
+HOME
+2013 Sportster Service: Fuel System 4-29
+
+--- Page 438 ---
+1
+2
+3
+9
+5
+6
+7
+8
+4
+10
+11
+sm04954
+1.
+Induction module
+2.
+Throttle cable bracket
+3.
+Front fuel injector [84A]
+4.
+Rear fuel injector [85A]
+5.
+TMAP sensor [80A]
+6.
+IAC [87A]
+7.
+TPS [88A]
+8.
+Purge hose fitting (EVAP models only)
+9.
+Fuel supply hose
+10. Throttle wheel
+11. Fuel rail (not visible)
+Figure 4-44. Induction Module
+1
+1
+2
+3
+3
+2
+sm05420a
+1.
+Flare nuts
+2.
+Flare fittings
+3.
+Fastener
+Figure 4-45. Remove Induction Module
+DISASSEMBLY
+TOOL NAME
+PART NUMBER
+HEAT GUN
+HD-25070
+1.
+See Figure 4-46. Remove retainer (7). Remove fuel rail
+(8) with hose (4) and injectors (10) from the induction
+module.
+2.
+Remove hose (4) and injectors (10) from fuel rail.
+3.
+Remove cable bracket (12).
+NOTE
+Screws (16) MUST be heated to soften the thread sealant and
+avoid breakage during removal. Use ONLY HEAT GUN (Part
+No. HD-25070) to heat the screws. NEVER use an open flame.
+4.
+Remove IAC (3). See 4.10 IDLE AIR CONTROL (IAC),
+Removal: XR 1200X.
+5.
+Remove TMAP (15), and TPS (1).
+6.
+Remove mounting flanges (14) and seals (13).
+HOME
+4-30 2013 Sportster Service: Fuel System
+
+--- Page 439 ---
+15
+11
+14
+13
+12
+10
+9
+8
+6
+5
+4
+7
+3
+16
+2
+1
+sm05421
+1.
+TPS
+2.
+O-ring
+3.
+IAC
+4.
+Fuel hose
+5.
+Nylon washer (included with hose (4))
+6.
+O-ring (included with hose (4))
+7.
+Retainer
+8.
+Fuel rail
+9.
+O-ring (4) (included in hardware and O-ring kit)
+10. Fuel injector (2)
+11. Screw
+12. Throttle cable bracket
+13. Intake seal
+14. Mounting flange
+15. TMAP sensor
+16. Screw, IAC (2)
+Figure 4-46. Induction Module
+ASSEMBLY
+TORQUE VALUE
+FASTENER
+6.8 Nm
+60 in-lbs
+IAC mounting screw: XR
+1200X
+6.8 Nm
+60 in-lbs
+Throttle cable bracket screw:
+XR 1200X
+1.
+See Figure 4-46. Install the following:
+a.
+TPS. See 4.6 THROTTLE POSITION SENSOR
+(TPS).
+b.
+TMAP sensor. See 4.11 TEMPERATURE MANIFOLD
+ABSOLUTE PRESSURE (TMAP) SENSOR.
+c.
+IAC. See 4.10 IDLE AIR CONTROL (IAC).
+NOTE
+Do not install IAC mounting screw on throttle wheel side of
+induction module until cable bracket is installed. Install other
+IAC mounting screw but do not tighten at this time.
+2.
+Install cable bracket (12) onto induction module:
+a.
+Apply
+LOCTITE
+243
+MEDIUM
+STRENGTH
+THREADLOCKER AND SEALANT (blue) to the
+threads of screw (11).
+b.
+Install screw finger-tight.
+c.
+Tighten both IAC mounting screws to 60 in-lbs (6.8
+Nm).
+d.
+Tighten screw (11) to 60 in-lbs (6.8 Nm).
+3.
+Install fuel injectors, fuel rail and fuel hose. See 4.15 FUEL
+INJECTORS.
+INSTALLATION
+TORQUE VALUE
+FASTENER
+10.3-13.6 Nm
+90-120 in-lbs
+Intake manifold mounting
+screw: XR 1200X
+29.8-35.3 Nm
+22-26 ft-lbs
+Cylinder head oil feed flare fit-
+ting: XR 1200X
+17.6-23.0 Nm
+13-17 ft-lbs
+Cylinder head oil feed line
+flare nut: XR 1200X
+27.1-32.5 Nm
+20-24 ft-lbs
+Induction module cover to cyl-
+inder head sockethead bolts:
+XR 1200X
+10.2-13.6 Nm
+90-120 in-lbs
+Induction module cover to
+induction module fastener: XR
+1200X
+10.2-13.6 Nm
+90-120 in-lbs
+Induction module cover to wire
+form fastener: XR 1200X
+1.
+Install the two left side mounting screws two or three turns
+into the heads.
+2.
+See Figure 4-47. Install mounting flanges (3) on induction
+module with counterbore (1) facing toward the engine.
+3.
+Install new seals (4).
+a.
+Placed the beveled edge facing the mounting flange
+counterbore.
+b.
+Rotate the flange to the slotted mounting hole is on
+the same side as the IAC solenoid.
+NOTES
+•
+Verify that the flanges are installed on the manifold.
+•
+Verify that the rubber seals are in place.
+4.
+See Figure 4-45. Place induction module assembly in
+position between engine heads. Slide open slotted ends
+of mounting flanges under heads of two mounting screws
+on left side of engine.
+5.
+While holding induction module assembly in place, install
+two mounting screws (3) into remaining mounting flange
+holes. Tighten all four screws finger-tight.
+6.
+Tighten to 90-120 in-lbs (10.3-13.6 Nm).
+7.
+Inspect O-rings on flare fittings (2). Replace as necessary.
+8.
+Install flare fittings in cylinder heads. Tighten to 22-26 ft-
+lbs (29.8-35.3 Nm).
+HOME
+2013 Sportster Service: Fuel System 4-31
+
+--- Page 440 ---
+9.
+Connect oil line flare nuts (1) to flare fittings (2). Tighten
+to 13-17 ft-lbs (17.6-23.0 Nm).
+10. Install throttle cables. See 2.28 THROTTLE CABLES: ALL
+MODELS.
+11. Adjust throttle and idle cables. See 1.13 THROTTLE
+CONTROL.
+3
+4
+1
+2
+sm05423
+1.
+Beveled counterbore
+2.
+Beveled edge
+3.
+Mounting flange
+4.
+Tapered seal
+Figure 4-47. Mounting Flange and Seal
+12. EVAP Controlled Models: See Figure 4-44. Install purge
+hose onto fitting (8) on induction module (1).
+NOTE
+XR 1200X: See Figure 4-48. The fuel injector harness leads
+must NEVER be routed between the retaining bracket (3) and
+the induction module body (4). Improper routing will result in
+chafing of the insulation resulting in poor engine performance.
+13. See Figure 4-44. Plug in the following connectors:
+a.
+Front fuel injector (3) [84],
+b.
+Rear fuel injector (4) [85],
+c.
+TMAP sensor (5) [80],
+d.
+IAC (6) [87],
+e.
+TPS (7) [88].
+14. Secure TPS harness to cover with a new cable strap with
+anchor.
+15. Install induction module cover. Finger tighten the fasteners.
+16. Tighten:
+a.
+Socket headbolts to 20-24 ft-lbs (27.1-32.5 Nm).
+b.
+Cover-to-induction module fastener to 90-120 in-lbs
+(10.2-13.6 Nm).
+c.
+Cover-to-wire form fastener to 90-120 in-lbs (10.2-
+13.6 Nm).
+17. Install air box. See 4.3 AIR CLEANER ASSEMBLY, XR
+1200X.
+18. Install fuel tank. See 4.4 FUEL TANK: XL MODELS.
+19. Fill fuel tank. Check for leaks around fuel pump module
+and quick connector. See 4.4 FUEL TANK: XL MODELS.
+20. Install main fuse.
+21. Close left side cover.
+22. Reset IAC to park.
+a.
+Turn ignition to ON.
+b.
+Turn ignition to OFF.
+23. Start engine. Check for fuel leaks.
+3
+2
+1
+4
+sm06875
+1.
+Front fuel injector [84]
+2.
+Rear fuel injector [85]
+3.
+Retaining bracket
+4.
+Induction module
+Figure 4-48. Fuel Injectors and Retaining Bracket
+HOME
+4-32 2013 Sportster Service: Fuel System
+
+--- Page 441 ---
+4.10
+IDLE AIR CONTROL (IAC)
+GENERAL
+Stop the engine when refueling or servicing the fuel
+system. Do not smoke or allow open flame or sparks near
+gasoline. Gasoline is extremely flammable and highly
+explosive, which could result in death or serious injury.
+(00002a)
+XL Models: See Figure 4-49.
+XR 1200X: See Figure 4-50.
+The ECM uses the IAC to control engine idle speed. See the
+electrical diagnostic manual.
+sm06869a
+Figure 4-49. IAC: XL Models
+sm06870a
+Figure 4-50. IAC: XR 1200X
+REMOVAL: XL MODELS
+TOOL NAME
+PART NUMBER
+HEAT GUN
+HD-25070
+To prevent accidental vehicle start-up, which could cause
+death or serious injury, remove main fuse before pro-
+ceeding. (00251b)
+1.
+Remove main fuse.
+2.
+Remove air cleaner assembly. See 4.3 AIR CLEANER
+ASSEMBLY.
+3.
+See Figure 4-51. Unplug harness connector [87B] from
+IAC connector [87A] (1).
+NOTE
+Heat screws (2) to soften the thread sealant and avoid
+breakage during removal. Use ONLY HEAT GUN (Part No. HD-
+25070) to heat the screws. NEVER use an open flame.
+HOME
+2013 Sportster Service: Fuel System 4-33
+
+--- Page 442 ---
+4.
+Using a six-point socket (not a Torx wrench), remove two
+screws (2) in the following order:
+a.
+Heat fastener nearest to throttle bracket for two
+minutes using HEAT GUN (Part No. HD-25070).
+Remove screw.
+b.
+Heat remaining screw for one minute. Remove screw.
+5.
+See Figure 4-52. Grasp IAC and rotate clockwise until IAC
+mounting tab (1) clears throttle cable bracket (2).
+6.
+With a gentle twisting motion, pull IAC straight out of
+induction module body.
+4
+2
+3
+1
+sm01629
+1.
+IAC Connector [87A]
+2.
+Screw (2)
+3.
+IAC
+4.
+Throttle cable bracket
+Figure 4-51. IAC Removal/Installation: XL Models
+2
+1
+sm01630
+1.
+IAC mounting tab (2) (rotated 45 degrees)
+2.
+Throttle cable bracket
+Figure 4-52. Removing/Installing IAC: XL Models
+INSTALLATION: XL MODELS
+TORQUE VALUE
+FASTENER
+6.8 Nm
+60 in-lbs
+IAC mounting screw: XL
+models
+1.
+See Figure 4-53. If re-using IAC (1), inspect O-ring (2) for
+cuts, tears or signs of deterioration. Replace IAC if O-ring
+is damaged.
+Compressed air can pierce the skin and flying debris from
+compressed air could cause serious eye injury. Wear
+safety glasses when working with compressed air. Never
+use your hand to check for air leaks or to determine air
+flow rates. (00061a)
+2.
+Clean all locking agent from the threads of the attachment
+screws and holes. Blow debris from screw holes using
+low-pressure compressed air.
+3.
+Apply a thin coat of clean engine oil to O-ring.
+4.
+See Figure 4-52. Rotate IAC approximately 45 degrees
+clockwise so IAC mounting tab will clear throttle cable
+bracket (2) when IAC is installed.
+5.
+With a gentle twisting motion, insert IAC into induction
+module.
+6.
+Rotate IAC so that harness connector faces intake mani-
+fold and mounting tab is underneath tab on throttle cable
+bracket.
+7.
+Install IAC.
+a.
+See Figure 4-51. Apply a drop of LOCTITE 243
+MEDIUM
+STRENGTH
+THREADLOCKER
+AND
+SEALANT (blue) to the threads of each screw (2).
+b.
+Install two screws (2).
+c.
+Use a six-point socket (not a Torx wrench). Tighten
+to 60 in-lbs (6.8 Nm).
+8.
+Plug harness connector [87B] into IAC connector [87A]
+(1).
+9.
+Install air cleaner assembly. See 4.3 AIR CLEANER
+ASSEMBLY.
+10. Install main fuse.
+11. Close left side cover.
+HOME
+4-34 2013 Sportster Service: Fuel System
+
+--- Page 443 ---
+3
+2
+2
+1
+sm01632
+1.
+IAC
+2.
+O-ring
+3.
+Pintle
+Figure 4-53. IAC and O-ring
+REMOVAL: XR 1200X
+TOOL NAME
+PART NUMBER
+HEAT GUN
+HD-25070
+NOTE
+It is not necessary to remove the fuel tank, air box or induction
+module from the vehicle in order to replace the IAC.
+Gasoline can drain from quick-connect fitting when
+removing fuel line. Gasoline is extremely flammable and
+highly explosive, which could result in death or serious
+injury. Wipe up spilled fuel immediately and dispose of
+rags in a suitable manner. (00267a)
+1.
+Purge the fuel supply hose of high pressure gasoline.
+Disconnect fuel supply hose from fuel pump module. See
+4.5 FUEL TANK: XR 1200X.
+To prevent accidental vehicle start-up, which could cause
+death or serious injury, remove main fuse before pro-
+ceeding. (00251b)
+2.
+Remove main fuse.
+3.
+See Figure 4-54. Unplug harness connector [87B] from
+IAC connector [87A] (1).
+NOTE
+Screws (2) MUST be heated to soften the thread sealant and
+avoid breakage during removal. Use ONLY HEAT GUN (Part
+No. HD-25070) to heat the screws. NEVER use an open flame.
+4.
+Using a six-point socket (not a Torx wrench), remove two
+screws (2) in the following order:
+a.
+Heat fastener nearest to throttle bracket for two
+minutes using HEAT GUN (Part No. HD-25070).
+Remove screw.
+b.
+Heat remaining screw for one minute and remove.
+5.
+See Figure 4-55. Grasp IAC and rotate counterclockwise
+until IAC mounting tab (1) clears throttle cable bracket (2).
+6.
+With a gentle twisting motion, pull IAC straight out of
+induction module body.
+1
+2
+3
+4
+sm04969
+1.
+IAC Connector [87A]
+2.
+Screw (2)
+3.
+IAC
+4.
+Throttle cable bracket
+Figure 4-54. IAC Removal/Installation: XR 1200X
+HOME
+2013 Sportster Service: Fuel System 4-35
+
+--- Page 444 ---
+1
+2
+sm04970
+1.
+IAC mounting tab (2) (rotated 45 degrees)
+2.
+Throttle cable bracket
+Figure 4-55. Removing/Installing IAC: XR 1200X
+INSTALLATION: XR 1200X
+TORQUE VALUE
+FASTENER
+6.8 Nm
+60 in-lbs
+IAC mounting screw: XR
+1200X
+1.
+See Figure 4-53. If re-using IAC (1), inspect O-ring (2) for
+cuts, tears or signs of deterioration. Replace IAC if O-ring
+is damaged.
+Compressed air can pierce the skin and flying debris from
+compressed air could cause serious eye injury. Wear
+safety glasses when working with compressed air. Never
+use your hand to check for air leaks or to determine air
+flow rates. (00061a)
+2.
+Clean all locking agent from the threads of the attachment
+screws and holes. Blow debris from screw holes using
+low-pressure compressed air.
+3.
+Apply a thin coat of clean engine oil to O-ring.
+4.
+See Figure 4-55. Rotate IAC approximately 45 degrees
+counterclockwise so IAC mounting tab will clear throttle
+cable bracket (2) when IAC is installed.
+5.
+With a gentle twisting motion, insert IAC into induction
+module.
+6.
+Rotate IAC so that harness connector points straight down
+and mounting tab is underneath tab on throttle cable
+bracket.
+7.
+Install the IAC.
+a.
+See Figure 4-54. Apply a drop of LOCTITE 243
+MEDIUM
+STRENGTH
+THREADLOCKER
+AND
+SEALANT (blue) to the threads of each screw (2).
+b.
+See Figure 4-54. Install two screws (2).
+c.
+Use a six-point socket (not a TORX wrench). Tighten
+to 60 in-lbs (6.8 Nm).
+8.
+Plug harness connector [87B] into IAC connector [87A]
+(1).
+9.
+Connect fuel hose to fuel pump module. See 4.5 FUEL
+TANK: XR 1200X.
+10. Install main fuse.
+11. Close left side cover.
+12. Turn on ignition switch and start motorcycle. Carefully
+check for leaks around fuel hose fitting.
+HOME
+4-36 2013 Sportster Service: Fuel System
+
+--- Page 445 ---
+4.11
+TEMPERATURE MANIFOLD ABSOLUTE
+PRESSURE (TMAP) SENSOR
+GENERAL
+Stop the engine when refueling or servicing the fuel
+system. Do not smoke or allow open flame or sparks near
+gasoline. Gasoline is extremely flammable and highly
+explosive, which could result in death or serious injury.
+(00002a)
+See Figure 4-56 or Figure 4-57. The Temperature Manifold
+Absolute Pressure (TMAP) sensor performs the dual functions
+of monitoring air temperature and air pressure in the intake
+manifold. See the electrical diagnostic manual.
+sm06852
+Figure 4-56. TMAP Location: XL Models
+sm01622a
+Figure 4-57. TMAP Location: XR 1200X
+REMOVAL: XL MODELS
+To prevent spray of fuel, purge system of high-pressure
+fuel before supply line is disconnected. Gasoline is
+extremely flammable and highly explosive, which could
+result in death or serious injury. (00275a)
+Gasoline can drain from quick-connect fitting when
+removing fuel line. Gasoline is extremely flammable and
+highly explosive, which could result in death or serious
+injury. Wipe up spilled fuel immediately and dispose of
+rags in a suitable manner. (00267a)
+1.
+Remove main fuse.
+2.
+Remove air cleaner assembly. See 4.3 AIR CLEANER
+ASSEMBLY.
+3.
+Remove fuel rail and fuel injectors. See 4.15 FUEL
+INJECTORS. This will allow access to the two screws that
+secure the induction module to the intake manifold.
+4.
+See Figure 4-56. Remove two screws (2) and separate
+induction module from intake manifold. See 4.8 INDUC-
+TION MODULE: XL MODELS.
+5.
+See Figure 4-58. Pull induction module away from intake
+manifold far enough so that TMAP sensor retaining bracket
+(1) clears TMAP sensor body (2).
+6.
+Unplug harness connector [80B] from TMAP connector
+[80A] (3).
+7.
+Grasp TMAP sensor and with a gentle twisting motion,
+pull sensor straight up out of intake manifold body.
+HOME
+2013 Sportster Service: Fuel System 4-37
+
+--- Page 446 ---
+3
+4
+1
+2
+sm01623
+1.
+TMAP sensor retaining bracket
+2.
+TMAP sensor
+3.
+Sensor connector [80A]
+4.
+O-ring
+Figure 4-58. TMAP Sensor Removal/Installation
+INSTALLATION: XL MODELS
+TORQUE VALUE
+FASTENER
+4.0 Nm
+35 in-lbs
+Induction module screw: XL
+Models
+1.
+See Figure 4-59. If re-using TMAP sensor (1), inspect O-
+ring (2) in groove of sensor for cuts, tears or signs of
+deterioration. Replace if necessary.
+2.
+Apply a thin coat of clean engine oil to TMAP sensor O-
+ring.
+3.
+See Figure 4-58. With a gentle twisting motion, insert
+sensor (2) into intake manifold with connector [80A] (3)
+facing rear cylinder head.
+4.
+Plug harness connector [80B] into TMAP sensor.
+5.
+Inspect O-ring (4) between induction module and intake
+manifold for cuts, tears or signs of deterioration. Install
+new O-ring if necessary. Make certain O-ring is fully
+seated in its grove in induction module body.
+6.
+Mate induction module to intake manifold. Secure with two
+screws. Tighten to 35 in-lbs (4.0 Nm).
+7.
+Install fuel injectors and fuel rail. See 4.15 FUEL
+INJECTORS.
+8.
+Install air cleaner assembly. See 4.3 AIR CLEANER
+ASSEMBLY.
+To prevent spray of fuel, be sure quick-connect fittings
+are properly mated. Gasoline is extremely flammable and
+highly explosive, which could result in death or serious
+injury. (00268a)
+Use care when refueling. Pressurized air in fuel tank can
+force gasoline to escape through filler tube. Gasoline is
+extremely flammable and highly explosive, which could
+result in death or serious injury. (00029a)
+Avoid spills. Slowly remove filler cap. Do not fill above
+bottom of filler neck insert, leaving air space for fuel
+expansion. Secure filler cap after refueling. Gasoline is
+extremely flammable and highly explosive, which could
+result in death or serious injury. (00028a)
+9.
+Connect fuel hose to fuel pump module.
+10. Fill fuel tank. Carefully check for leaks around fuel pump
+module. See 4.4 FUEL TANK: XL MODELS, Connecting
+Fuel Hose and Filling Fuel Tank.
+11. Install main fuse.
+12. Close left side cover.
+1
+2
+sm01624
+1.
+TMAP sensor
+2.
+O-ring
+Figure 4-59. TMAP Sensor
+REMOVAL: XR 1200X
+To prevent accidental vehicle start-up, which could cause
+death or serious injury, remove main fuse before pro-
+ceeding. (00251b)
+1.
+Remove main fuse.
+NOTE
+See Figure 4-60. The TMAP sensor harness and TPS harness
+are attached to inside of induction module cover. It is not
+necessary to remove the retainer securing these harnesses to
+the induction module cover in order to access TMAP sensor.
+2.
+Remove screws (3) and the wire form (1) and induction
+module fastener (2).
+HOME
+4-38 2013 Sportster Service: Fuel System
+
+--- Page 447 ---
+3.
+Carefully rotate induction module cover out of the way.
+4.
+Unplug TMAP sensor harness connector [80B].
+5.
+See Figure 4-61. Remove screw (2).
+6.
+Grasp TMAP sensor (1) and with a gentle twisting motion,
+pull sensor straight up out of induction module body.
+2
+1
+3
+3
+sm06774b
+1.
+Fastener, wire form
+2.
+Fastener, to induction module
+3.
+Screws (2)
+Figure 4-60. Induction Module Cover: XR 1200X
+2
+1
+sm04998b
+1.
+TMAP sensor [80A]
+2.
+Screw
+Figure 4-61. TMAP Sensor: XR 1200X
+INSTALLATION: XR 1200X
+TORQUE VALUE
+FASTENER
+9.0 Nm
+80 in-lbs
+TMAP sensor screw
+27.1-32.5 Nm
+20-24 ft-lbs
+Induction module cover to cyl-
+inder head fastener: XR
+1200X
+9.5-12.2 Nm
+84-108 in-lbs
+Induction module cover to
+induction module fastener: XR
+1200X
+9.5-12.2 Nm
+84-108 in-lbs
+Wire form to induction module
+cover fastener: XR 1200X
+1.
+If re-using TMAP sensor, inspect O-ring for cuts, tears or
+signs of deterioration. Replace if necessary.
+2.
+Apply a thin coat of clean engine oil to TMAP sensor O-
+ring.
+3.
+With a gentle twisting motion, insert sensor into induction
+module with connector [80A] pointing down. Secure sensor
+to induction module with screw. Tighten to 80 in-lbs (9.0
+Nm).
+4.
+Plug sensor harness connector [80B] into TMAP sensor.
+5.
+See Figure 4-60. Install the induction module cover.
+a.
+Rotate cover between cylinder heads.
+b.
+Install all fasteners finger-tight.
+c.
+Verify cover alignment before proceeding.
+d.
+Tighten socket head screws (3) to 20-24 ft-lbs (27.1-
+32.5 Nm).
+e.
+Tighten fastener (2) to 84-108 in-lbs (9.5-12.2 Nm).
+f.
+Tighten fastener (1) to 84-108 in-lbs (9.5-12.2 Nm).
+6.
+Install main fuse.
+HOME
+2013 Sportster Service: Fuel System 4-39
+
+--- Page 448 ---
+4.12
+OXYGEN (O2) SENSOR
+GENERAL
+See Figure 4-62. The O2 sensors are installed in threaded
+bosses on the inboard side of the front and rear exhaust pipes.
+For O2 sensor troubleshooting, see the electrical diagnostic
+manual.
+1
+2
+sm01642
+1.
+Front O2 sensor
+2.
+Rear O2 sensor
+Figure 4-62. O2 Sensor Locations: XL Models
+REMOVAL
+TOOL NAME
+PART NUMBER
+OXYGEN SENSOR SOCKET
+HD-48262
+OXYGEN SENSOR SOCKET
+HD-48647
+1.
+All Models: See Figure 4-63. Disconnect the front O2
+sensor connector:
+a.
+Remove the frame clip (2).
+b.
+Disconnect the sensor pin connector [138A] housing
+(3) from the socket connector [138B] housing.
+2.
+XL Models: See Figure 4-64. Disconnect the rear O2
+sensor connector:
+a.
+Remove the rear O2 sensor connector [137] (2) from
+the ECM caddy (1).
+b.
+Disconnect the rear O2 sensor pin connector [137A]
+housing from the socket connector [137B] housing.
+3.
+XR 1200X: Disconnect the rear O2 sensor pin connector
+[137A] housing from the socket connector [137B] housing.
+NOTE
+If O2 sensors are to be reused:
+•
+Mark each sensor FRONT or REAR.
+•
+Do not damage the sensor wire harness.
+4.
+Remove the front and rear sensor:
+a.
+XL Models: Use the OXYGEN SENSOR SOCKET
+(Part No. HD-48262).
+b.
+XR 1200X: Use the OXYGEN SENSOR SOCKET
+(Part No. HD-48647).
+1
+2
+3
+sm01643
+1.
+Front O2 sensor
+2.
+Frame clip
+3.
+O2 sensor connector [138]
+Figure 4-63. Front O2 Sensor and Connector (XL shown)
+1
+2
+sm06882
+1.
+ECM caddy cover
+2.
+O2 sensor
+Figure 4-64. Rear Oxygen Sensor: XL Models
+HOME
+4-40 2013 Sportster Service: Fuel System
+
+--- Page 449 ---
+INSTALLATION
+TOOL NAME
+PART NUMBER
+OXYGEN SENSOR SOCKET
+HD-48262
+OXYGEN SENSOR SOCKET
+HD-48647
+TORQUE VALUE
+FASTENER
+39.3-59.7 Nm
+29-44 ft-lbs
+O2 sensor
+NOTES
+•
+Do not install O2 sensors that have been dropped or
+impacted by other components. Damage to the sensor
+element may have occurred.
+•
+New O2 sensors have threads coated with anti-seize
+material.
+•
+If a sensor is being reused, apply a thin coat of ANTI-
+SEIZE LUBRICANT to the sensor threads and install new
+seal rings.
+•
+Do not use any other grease or sealant product on sensor
+threads.
+1.
+Install the front and rear sensors:
+a.
+XL Models: Use the OXYGEN SENSOR SOCKET
+(Part No. HD-48262) to install the front and rear O2
+sensors.
+b.
+XR 1200X: Use the OXYGEN SENSOR SOCKET
+(Part No. HD-48647) to install the front and rear O2
+sensors.
+2.
+Tighten to 29-44 ft-lbs (39.3-59.7 Nm).
+NOTE
+The O2 connector must be clean and free of any dielectric
+grease.
+3.
+All Models: Route the front O2 wire harness:
+a.
+Connect the pin and socket connector [138] housings.
+b.
+Install the frame clip over the sensor harness, clutch
+cable, and wiring harness on left frame down tube.
+NOTE
+Route rear O2 sensor harness toward left side in a loop away
+from the exhaust system. Avoid contact with exhaust port or
+exhaust pipe.
+4.
+XL Models: Route the rear O2 sensor wire harness:
+a.
+Connect the pin and socket connector [137] housings.
+b.
+Route the wire harness and snap the connector into
+the ECM caddy.
+c.
+Slide the caddy into place and tighten the fastener.
+5.
+XR 1200X: Route sensor harness and connect pin and
+socket connector [137] housings.
+HOME
+2013 Sportster Service: Fuel System 4-41
+
+--- Page 450 ---
+4.13
+EXHAUST SYSTEM: XL MODELS
+GENERAL
+TOOL NAME
+PART NUMBER
+SNAP-ON WRENCH
+PFSX916
+To facilitate removing exhaust pipe header nuts, use SNAP-
+ON WRENCH (Part No. PFSX916).
+25
+26
+21
+20
+23
+2
+1
+16
+17
+18
+15
+14
+6
+15
+19
+16
+3
+11
+10
+9
+8
+7
+29
+27
+24
+28
+29
+22
+12
+13
+13
+30
+15
+14
+6
+15
+5
+4
+31
+sm02198
+23.
+12.
+1.
+Screw
+Heat shield, rear exhaust pipe
+Muffler, front
+2.
+24.
+13.
+Muffler, rear
+Engine sprocket cover
+Worm drive clamp (5)
+14.
+3.
+25.
+Muffler heat shield (2) (HDI,
+England, Japan, Brazil) (2)
+Exhaust pipe, front
+Screw
+26.
+4.
+Washer
+Exhaust pipe, rear
+15.
+5.
+27.
+Worm drive clamp (4)
+Muffler interconnect bracket
+Front O2 sensor assembly
+28.
+16.
+6.
+Rear O2 sensor assembly
+Flanged bolt (4)
+Torca muffler clamp assembly
+(2)
+29.
+17.
+Seal ring (2)
+Screw (3)
+7.
+18.
+Exhaust port gasket (2)
+30.
+Washer (3)
+O2 sensor connectors (2):
+[137], [138]
+19.
+8.
+Muffler interconnect gasket (2)
+Exhaust gasket retaining ring
+(2)
+31. Heat shield, rear exhaust pipe
+(mid-control vehicles only)
+20. Exhaust pipe clamp
+9.
+21.
+Exhaust pipe flange (2)
+Exhaust pipe clamp bracket
+22.
+10.
+Acorn nut
+Nut (4)
+11. Heat shield, front exhaust
+pipe
+Figure 4-65. Exhaust System, All XL Models
+HOME
+4-42 2013 Sportster Service: Fuel System
+
+--- Page 451 ---
+REMOVAL
+Mufflers and Exhaust Pipes
+NOTE
+See Figure 4-66. Vehicles with mid controls are equipped with
+an extra heat shield (2) on the rear exhaust pipe.
+1.
+See Figure 4-65. Remove heat shields:
+a.
+Models with Mid Controls: Remove worm drive
+clamps (13) from heat shield (12) completely. Remove
+bottom heat shield.
+b.
+All Models: Open worm drive clamps (13) and
+remove exhaust pipe heat shields (11, 12).
+c.
+HDI, England, Asia Pacific, India, Japan, Brazil
+Models: Open worm drive clamps (15) and remove
+muffler heat shields (14).
+2.
+Unplug O2 sensor connectors (30). Front connector [138]
+is mounted on left front frame downtube. Rear connector
+[137] is attached to the ECM caddy on the left.
+3.
+Remove nuts (10) from front and rear cylinder head
+exhaust studs.
+4.
+Remove flanged bolts (16) securing front and rear mufflers
+(1, 2) to muffler interconnect bracket (5).
+5.
+Loosen Torca muffler clamp assemblies (6) on front and
+rear mufflers. Remove mufflers. Discard muffler intercon-
+nect gaskets (19).
+6.
+Remove and discard Torca clamps.
+NOTE
+New Torca muffler clamps have eliminated the need for silicone
+or graphite tape during assembly. Always use new clamps
+during installation to maintain sealing integrity and prevent
+leakage.
+7.
+Remove nut (22) and screw (23) from exhaust pipe clamp
+(20). Separate exhaust pipe clamp from clamp bracket
+(21).
+8.
+Remove front and rear exhaust pipes (3, 4). Slide exhaust
+pipe clamp off rear exhaust pipe.
+9.
+Remove exhaust port gasket (7), retaining ring (8) and
+exhaust pipe flange (9) from each exhaust pipe. Discard
+gasket.
+10. Remove O2 sensor assemblies (27, 28) from front and
+rear
+exhaust
+pipes.
+Discard
+seal
+rings
+(29).
+See
+4.12 OXYGEN (O2) SENSOR.
+1
+2
+3
+4
+sm04380
+1.
+Top heat shield
+2.
+Bottom heat shield
+3.
+Upper worm drive clamp
+4.
+Lower worm drive clamp
+Figure 4-66. Rear Exhaust Pipe Heat Shields: Vehicles with
+Mid Controls
+Muffler Interconnect Bracket
+1.
+See Figure 4-67. Remove screw (6), washer (5) and
+exhaust pipe clamp bracket (4). Remove two screws (2,
+3). Remove sprocket cover (1).
+2.
+See Figure 4-68. Remove rear brake rod (1) at bell crank
+(2).
+3.
+See Figure 4-65. Remove three screws (17) and washers
+(18) securing muffler interconnect bracket (5) to engine
+crankcase. Remove muffler interconnect bracket.
+2
+4
+5
+6
+3
+1
+sm02202
+1.
+Sprocket cover
+2.
+Screw
+3.
+Screw
+4.
+Exhaust pipe clamp bracket
+5.
+Washer
+6.
+Screw
+Figure 4-67. Sprocket Cover
+HOME
+2013 Sportster Service: Fuel System 4-43
+
+--- Page 452 ---
+1
+5
+4
+3
+2
+sm02199
+1.
+Rear brake rod
+2.
+Bell crank
+3.
+Rear brake master cylinder assembly
+4.
+Rear brake pedal
+5.
+Frame
+Figure 4-68. Rear Brake Linkage
+INSTALLATION
+TOOL NAME
+PART NUMBER
+SNAP-ON SWIVEL BALL SOCKET
+EXTENSION
+PFSX916
+TORQUE VALUE
+FASTENER
+40.7-44.7 Nm
+30-33 ft-lbs
+Muffler interconnect bracket
+mounting screw: XL Models
+13.6-20.4 Nm
+120-180
+in-lbs
+Brake rod to bell crank screw
+40.7-44.8 Nm
+30-33 ft-lbs
+Exhaust pipe clamp bracket
+screw: XL Models
+9.0-13.6 Nm
+80-120 in-lbs
+Sprocket cover, forward and
+lower screws
+39.3-59.7 Nm
+29-44 ft-lbs
+O2 sensor
+20.4-25.8 Nm
+15-19 ft-lbs
+Muffler to interconnect bracket
+screw: XL Models
+10.9-13.6 Nm
+96-120 in-lbs
+Cylinder head exhaust port nut
+51.6-58.4 Nm
+38-43 ft-lbs
+Muffler torca clamp nut
+27.1-40.7 Nm
+20-30 ft-lbs
+Exhaust pipe clamp nut: XL
+Models
+2.3-4.5 Nm
+20-40 in-lbs
+Exhaust heat shield clamps
+Muffler Interconnect Bracket
+1.
+See Figure 4-65. Install muffler interconnect bracket (5)
+to engine case with three screws (17) and washers (18).
+Tighten to 30-33 ft-lbs (40.7-44.7 Nm).
+2.
+See Figure 4-68. Apply two drops of LOCTITE 243
+MEDIUM STRENGTH THREADLOCKER AND SEALANT
+(blue) to rear brake rod ball stud screw. Attach rear brake
+rod (1) to bell crank (2). Tighten screw to 120-180 in-lbs
+(13.6-20.4 Nm).
+3.
+See Figure 4-67. Install sprocket cover (1). Install but do
+not tighten the screws (2, 3). Note that long screw goes
+in top hole, short screw in bottom hole.
+4.
+Install exhaust pipe clamp bracket (4), washer (5) and
+screw (6). Tighten to 30-33 ft-lbs (40.7-44.8 Nm). Now
+tighten screws (2, 3) to 80-120 in-lbs (9.0-13.6 Nm).
+Exhaust Pipes and Mufflers
+NOTES
+•
+To facilitate installing exhaust pipe header nuts, use
+SNAP-ON SWIVEL BALL SOCKET EXTENSION (Part
+No. PFSX916).
+•
+If reusing the O2 sensors, apply a thin coat of ANTI-SEIZE
+LUBRICANT to the threads prior to installation. Do not
+use any other grease or sealant product on sensor threads.
+•
+The electrical connector must also be clean and free of
+dielectric grease.
+1.
+See Figure 4-65. If the front and rear O2 sensor assem-
+blies (27, 28) are being reused, install new seal rings (29)
+onto each sensor. Apply a thin coat of ANTI-SEIZE LUB-
+RICANT to the sensor threads.
+HOME
+4-44 2013 Sportster Service: Fuel System
+
+--- Page 453 ---
+2.
+Install sensor assemblies into front and rear exhaust pipes.
+Tighten to 29-44 ft-lbs (39.3-59.7 Nm). See 4.12 OXYGEN
+(O2) SENSOR.
+3.
+Place exhaust pipe flange (9), exhaust gasket retaining
+ring (8) and new exhaust port gasket (7) over front end of
+each exhaust pipe (3, 4). Position flange so that inside
+counterbore faces cylinder head exhaust port.
+4.
+Position front ends of front and rear exhaust pipes into
+front and rear cylinder heads, respectively. Position holes
+in flanges over mounting studs and loosely install nuts
+(10). Do not tighten nuts at this time.
+5.
+Install exhaust pipe clamp (20) on rear exhaust pipe (4)
+with square hole facing down. Assemble exhaust pipe
+clamp to exhaust pipe clamp bracket (21) with screw (23)
+and acorn nut (22). Verify that the bracket fits between
+ends of clamp. Do not tighten at this time.
+6.
+Install new muffler interconnect gaskets (19) in intercon-
+nect mating holes in mufflers (1, 2).
+7.
+Place new Torca clamp assemblies (6) over slotted end
+of each muffler. Install each muffler onto the end of its
+respective exhaust pipe.
+8.
+Rotate both mufflers until their mounting bosses line up
+with holes in muffler interconnect bracket. Carefully mate
+each muffler with exhaust port in interconnect bracket.
+Loosely install flanged bolts (16). Do not tighten at this
+time.
+9.
+Tighten
+exhaust
+system
+fasteners
+in
+the
+following
+sequence:
+a.
+Tighten four flanged bolts securing mufflers to inter-
+connect bracket to 15-19 ft-lbs (20.4-25.8 Nm).
+b.
+Tighten four nuts at cylinder head exhaust studs to
+96-120 in-lbs (10.9-13.6 Nm).
+c.
+Tighten two Torca clamps to 38-43 ft-lbs (51.6-58.4
+Nm).
+d.
+Tighten rear exhaust pipe clamp nut (22) to 20-30 ft-
+lbs (27.1-40.7 Nm).
+10. Plug in O2 sensor connectors (30). Front connector [138]
+is mounted on left front frame downtube. Rear connector
+[137] is attached to the left side of the ECM caddy. See
+4.12 OXYGEN (O2) SENSOR.
+11. Install heat shields:
+a.
+Open worm drive clamps (13) and install heat shields
+(11, 12) on exhaust pipes. Position each clamp so
+that screw is on the outboard side in the most
+accessible position.
+b.
+Models with Mid Controls: See Figure 4-66. Tighten
+lower worm drive clamp (4) a few turns. Slide lower
+portion of bottom heat shield (2) into lower worm drive
+clamp. Engage upper portion of bottom heat shield
+into upper worm drive clamp (3).
+c.
+All Models: Tighten all exhaust pipe heat shield
+clamps to 20-40 in-lbs (2.3-4.5 Nm).
+d.
+HDI, England, Asia Pacific, India, Japan and Brazil
+Models: Open worm drive clamps (15). Install the
+muffler heat shields (14). Position each clamp so that
+screw is on the outboard side in the most accessible
+position. Tighten clamps securely.
+HOME
+2013 Sportster Service: Fuel System 4-45
+
+--- Page 454 ---
+4.14
+EXHAUST SYSTEM: XR 1200X
+GENERAL
+TOOL NAME
+PART NUMBER
+SNAP-ON WRENCH
+PFSX916
+To facilitate removing exhaust pipe header nuts, use SNAP-
+ON WRENCH (Part No. PFSX916).
+23
+1
+2
+22
+3
+4
+5
+6
+7
+20 21
+19
+11
+10
+8
+9
+12
+13
+14
+16
+15
+17
+18
+sm05463
+17.
+9.
+1.
+Flanged nut
+Sleeve
+Fastener, rear muffler mount
+2.
+18.
+10.
+Fastener, mount to frame
+Lower clamp
+Fastener, interconnect bracket
+(3)
+3.
+19.
+Fastener, front muffler mount
+Muffler gasket (2)
+11.
+20.
+Interconnect bracket
+4.
+Lower muffler
+Flat washer
+5.
+21.
+12.
+Grommet, front mount (2)
+Upper muffler
+Nut (4)
+13.
+6.
+22.
+Retaining ring (2)
+Fastener, front muffler mount
+(2)
+Rear muffler mount
+23.
+14.
+Bolt, muffler-to-muffler (2)
+Exhaust port gasket (2)
+7.
+15.
+Front muffler mount
+Exhaust pipe flange (2)
+16.
+8.
+Carriage bolt
+Washer-nut
+Figure 4-69. Exhaust System: XR 1200X
+REMOVAL
+Mufflers
+1.
+See Figure 4-69. Remove forward muffler mount fastener
+(3) and washer-nut (8).
+2.
+Remove two bolts (23) fastening mufflers together.
+3.
+Slide upper muffler (21) back off header pipe to remove.
+4.
+Remove rear muffler mount fastener (1).
+HOME
+4-46 2013 Sportster Service: Fuel System
+
+--- Page 455 ---
+5.
+Rotate lower muffler (20) counterclockwise to disengage
+from the rear mount (22) and slide back off header pipe
+to remove.
+6.
+Remove mount grommets (5) and sleeve (9).
+7.
+Inspect rear mount (22) and replace if damaged.
+8.
+Inspect muffler seals (19) and replace if necessary:
+a.
+Pull seal out of muffler using a hook-type tool.
+b.
+Push new seal into place being careful not to distort
+or damage the new seal.
+Header Pipes
+1.
+Remove mufflers.
+2.
+Disconnect O2 sensor connectors. Remove sensor if
+necessary. See 4.12 OXYGEN (O2) SENSOR.
+3.
+See Figure 4-69. Loosen or remove head pipe heat shields
+to gain access to header pipe flange nuts (12).
+4.
+Remove flange nuts (12) and pull flanges (15) off from
+studs.
+5.
+Remove nut (17) and carriage bolt (16) from lower clamp
+(18).
+NOTE
+Be careful not to drop or hit header pipe assembly. Damage
+to the catalytic converter may result.
+6.
+Remove header pipe assembly from vehicle.
+7.
+Inspect exhaust port gasket (14) and replace if necessary.
+a.
+Pry gasket from exhaust port in cylinder head being
+careful not to damage the bore.
+b.
+Push new gasket into place with the larger ID facing
+the header pipe, as shown in the inset in Figure 4-69.
+8.
+Remove retainer rings (13) and flanges (15) if necessary.
+9.
+If necessary, remove mount brackets (7, 22) and intercon-
+nect bracket (11).
+INSTALLATION
+TORQUE VALUE
+FASTENER
+20.3-27.1 Nm
+15-20 ft-lbs
+Muffler mount to frame, rear
+fastener: XR 1200X
+61.0-67.8 Nm
+45-50 ft-lbs
+Muffler mount to frame, front
+fastener: XR 1200X
+40.7-44.7 Nm
+30-33 ft-lbs
+Interconnect bracket to frame
+fastener: XR 1200X
+10.8-13.6 Nm
+96-120 in-lbs
+Exhaust flange nut: XR 1200X
+40.7-44.7 Nm
+30-33 ft-lbs
+Exhaust clamp, lower nut: XR
+1200X
+13.6-20.3 Nm
+120-180
+in-lbs
+Muffler to front muffler mount
+fastener: XR 1200X
+13.6-20.3 Nm
+120-180
+in-lbs
+Muffler to muffler bolt: XR
+1200X
+13.6-20.3 Nm
+120-180
+in-lbs
+Muffler to rear muffler mount
+fastener: XR 1200X
+2.3-4.5 Nm
+20-40 in-lbs
+Exhaust heat shield clamps
+1.
+See Figure 4-69. If removed, install flanges (15) and
+retaining rings (13).
+2.
+If removed, install rear mount (22), front mount (7) and
+interconnect bracket (11).
+a.
+Tighten fasteners (2) to 15-20 ft-lbs (20.3-27.1 Nm).
+b.
+Tighten fasteners (6) to 45-50 ft-lbs (61.0-67.8 Nm).
+c.
+Tighten fasteners (10) to 30-33 ft-lbs (40.7-44.7 Nm).
+NOTE
+Do not damage exhaust port gaskets (14) when positioning
+header pipes in exhaust port area.
+3.
+Install new exhaust port gaskets (14).
+4.
+Install head pipe assembly in position and loosely secure
+lower clamp (18) with carriage bolt (16) and flange nut
+(17).
+5.
+Install flanges (15) and finger-tighten nuts (12). Do not
+tighten until mufflers are installed.
+6.
+Install mufflers.
+7.
+Place lower muffler (20) on header pipe. Rotate until rear
+mount fastener (1) can be installed. Loosely install fastener
+(1).
+8.
+Place upper muffler (21) on header pipe.
+9.
+Install muffler-to-muffler bolts (23) finger-tight.
+10. Install grommets (5), sleeve (9), fastener (3), washer (4)
+and washer nut (8). Tighten finger-tight.
+11. Tighten the exhaust flange nuts (12) to 96-120 in-lbs
+(10.8-13.6 Nm) in the following sequence:
+a.
+The front exhaust pipe lower exhaust flange nut
+b.
+The front exhaust pipe upper exhaust flange nut
+c.
+The rear exhaust pipe lower exhaust flange nut
+d.
+The rear exhaust pipe upper exhaust flange nut
+HOME
+2013 Sportster Service: Fuel System 4-47
+
+--- Page 456 ---
+12. Verify the exhaust header pipes do not contact the drive
+belt idler pulley. Verify that there is sufficient clearance for
+proper operation of the rear brake pedal. Tighten nut (17)
+to 30-33 ft-lbs (40.7-44.7 Nm).
+13. Tighten fastener (3) to 120-180 in-lbs (13.6-20.3 Nm).
+14. Tighten muffler to muffler bolts (23) to 120-180 in-lbs
+(13.6-20.3 Nm).
+15. Tighten rear mount fastener (1) to 120-180 in-lbs (13.6-
+20.3 Nm).
+16. Install heat shields. Tighten to 20-40 in-lbs (2.3-4.5 Nm).
+17. Install and connect the O2 sensors. See 4.12 OXYGEN
+(O2) SENSOR.
+HOME
+4-48 2013 Sportster Service: Fuel System
+
+--- Page 457 ---
+4.15
+FUEL INJECTORS
+REMOVAL
+To prevent spray of fuel, purge system of high-pressure
+fuel before supply line is disconnected. Gasoline is
+extremely flammable and highly explosive, which could
+result in death or serious injury. (00275a)
+Do not use solvents or other products that contain chlorine
+on plastic fuel system components. Chlorine can degrade
+plastic fuel system components, which can cause a loss
+of fuel system pressure or engine stalling and could result
+in death or serious injury. (000621b)
+1.
+Purge the fuel supply hose of high pressure gasoline.
+Disconnect fuel supply hose from fuel pump module. See
+4.4 FUEL TANK: XL MODELS or 4.5 FUEL TANK: XR
+1200X.
+To prevent accidental vehicle start-up, which could cause
+death or serious injury, remove main fuse before pro-
+ceeding. (00251b)
+2.
+Remove main fuse.
+3.
+XL Models with 4.5 gal (17.0 L) fuel tank: Access to the
+fuel injectors and fuel rail may be easier if the fuel tank is
+raised up as follows:
+a.
+Remove seat.
+b.
+Loosen (but do not remove) front fuel tank mounting
+screw. Remove rear fuel tank mounting screw,
+washers and nut. See 4.4 FUEL TANK: XL MODELS.
+c.
+Place a clean shop cloth between front of fuel tank
+and front fork upper bracket to protect fuel tank finish.
+Carefully pivot rear of fuel tank upward and prop in
+position with a block of soft wood or other suitable
+device.
+4.
+See Figure 4-72. Unplug engine sub-harness connectors
+from fuel injector connectors [84A], [85A] (7, 8).
+5.
+Remove screw (5) and retaining bracket (2).
+6.
+If replacing either the fuel supply hose (1) or fuel rail (6),
+disassemble as follows:
+a.
+Hold fuel rail in place.
+b.
+With a gentle twisting motion, pull fuel supply hose
+straight up out of fuel rail.
+7.
+Hold fuel injectors (9, 10) in place by pressing down on
+harness connectors (7, 8) and with a gentle rocking motion,
+pull fuel rail off injectors.
+8.
+With a gentle twisting motion, pull fuel injectors out of
+intake manifold (XL models) or induction module (XR
+1200X).
+9.
+Remove and discard O-rings (11).
+2
+4
+5
+1
+3
+sm06857
+1.
+Fuel supply hose
+2.
+Retaining bracket
+3.
+Fuel rail
+4.
+Front fuel injector and connector
+5.
+Rear fuel injector and connector
+Figure 4-70. Fuel Injector Assembly Location: XL Models
+HOME
+2013 Sportster Service: Fuel System 4-49
+
+--- Page 458 ---
+2
+5
+3
+4
+1
+sm06858
+1.
+Fuel supply hose
+2.
+Retaining bracket
+3.
+Fuel rail (not visible)
+4.
+Front fuel injector and connector
+5.
+Rear fuel injector and connector
+Figure 4-71. Fuel Injector Assembly Location: XR 1200X
+1
+3
+4
+6
+8
+10
+9
+11
+7
+11
+5
+2
+12
+sm06567
+1.
+Fuel supply hose
+2.
+Retaining bracket
+3.
+Sealing washer (only available with fuel supply
+hose)
+4.
+O-ring (only available with fuel supply hose)
+5.
+Screw
+6.
+Fuel rail
+7.
+Front injector connector [84A]
+8.
+Rear injector connector [85A]
+9.
+Front fuel injector
+10. Rear fuel injector
+11. O-ring (4) (provided in repair kit)
+12. Intake manifold
+Figure 4-72. Fuel Injector Assemblies: XL Models
+INSTALLATION
+TORQUE VALUE
+FASTENER
+6.8 Nm
+60 in-lbs
+Fuel hose retaining bracket
+screw
+20.3-27.1 Nm
+15-20 ft-lbs
+Fuel tank fasteners: XL
+Models
+1.
+See Figure 4-72. Apply a thin coat of clean engine oil to
+new fuel injector O-rings (11). Install O-rings onto fuel
+injectors (9, 10).
+2.
+With harness connectors (7, 8) facing up, push fuel
+injectors into intake manifold (XL models) or induction
+module (XR 1200X).
+3.
+See Figure 4-70 or Figure 4-71. Rotate fuel injectors so
+that harness connectors are positioned as shown.
+HOME
+4-50 2013 Sportster Service: Fuel System
+
+--- Page 459 ---
+4.
+Gently press fuel rail onto free end of fuel injectors. Press
+fuel rail down until hole in fuel rail molded-in bracket lines
+up with mounting hole in intake manifold (12).
+5.
+If the fuel supply hose and fuel rail were separated in the
+disassembly procedure, reassemble:
+a.
+See Figure 4-72. Inspect sealing washer (3) and O-
+ring (4) for damage. If either require replacement,
+install a new fuel line kit.
+b.
+Lightly coat O-ring with clean engine oil. Push fuel
+supply hose into fuel rail bore until collar on hose is
+flush with top of fuel rail.
+6.
+See Figure 4-72. Install retaining bracket (2) and fastener
+(5) as follows:
+a.
+See Figure 4-73. Orient fuel supply hose so that loc-
+ating flange (2) is positioned as shown.
+b.
+Install retaining bracket (3). Fit the U-shaped opening
+in bracket around fuel supply hose and locating
+flange.
+c.
+See Figure 4-72. Secure retaining bracket (2) with
+screw (5). Tighten to 60 in-lbs (6.8 Nm).
+NOTES
+•
+XL Models: See Figure 4-70. The fuel injector harness
+leads are mounted between the bracket and induction
+module.
+•
+XR 1200X: See Figure 4-71. Do not route the fuel injector
+harness leads between the retaining bracket (2) and
+induction module body. Improper routing will result in
+chafing of the insulation resulting in poor engine perform-
+ance.
+7.
+Connect engine sub-harness connectors to the fuel
+injectors. Verify that the wire harnesses are routed outside
+the wings of retaining bracket (2) on XR 1200X.
+After installing seat, pull upward on seat to be sure it is
+locked in position. While riding, a loose seat can shift
+causing loss of control, which could result in death or
+serious injury. (00070b)
+8.
+XL Models with 4.5 gal (17.0 L) Fuel Tank: if the fuel
+tank was raised up to gain access to the fuel injectors,
+install fuel tank and seat:
+a.
+Remove prop from under rear of fuel tank.
+b.
+Lower rear of fuel tank into position.
+c.
+Install fastener, washer and nut in fuel tank rear
+mounting holes.
+d.
+Tighten front and rear fasteners to 15-20 ft-lbs (20.3-
+27.1 Nm).
+e.
+Install protective caps on screw ends. See 4.4 FUEL
+TANK: XL MODELS.
+f.
+Install seat.
+9.
+Connect fuel hose to fuel pump module. Fill fuel tank.
+Check for leaks around fuel pump module. See 4.4 FUEL
+TANK: XL MODELS.
+10. Install main fuse.
+11. Close left side cover.
+3
+1
+2
+4
+sm06568
+1.
+Fuel supply hose
+2.
+Locating flange
+3.
+Retaining bracket
+4.
+Fuel rail
+Figure 4-73. Mounting Fuel Hose and Fuel Rail: XL Models
+HOME
+2013 Sportster Service: Fuel System 4-51
+
+--- Page 460 ---
+4.16
+FUEL PUMP
+GENERAL
+Stop the engine when refueling or servicing the fuel
+system. Do not smoke or allow open flame or sparks near
+gasoline. Gasoline is extremely flammable and highly
+explosive, which could result in death or serious injury.
+(00002a)
+Do not replace the special Teflon coated fuel pump wiring
+with ordinary bulk wire. Ordinary insulation materials can
+deteriorate when put in contact with gasoline and cause
+an explosion, which could result in death or serious injury.
+(00566b)
+Do not use solvents or other products that contain chlorine
+on plastic fuel system components. Chlorine can degrade
+plastic fuel system components, which can cause a loss
+of fuel system pressure or engine stalling and could result
+in death or serious injury. (000621b)
+Carefully inspect fuel hose for cuts, tears, holes or other
+damage. Replace hose if any damage is found. Even a small
+hole can cause a reduction in fuel pressure.
+REMOVAL
+To prevent spray of fuel, purge system of high-pressure
+fuel before supply line is disconnected. Gasoline is
+extremely flammable and highly explosive, which could
+result in death or serious injury. (00275a)
+1.
+Purge the fuel supply hose of high pressure gasoline.
+Disconnect fuel supply hose from fuel pump module. See
+4.4 FUEL TANK: XL MODELS or 4.5 FUEL TANK: XR
+1200X.
+To prevent accidental vehicle start-up, which could cause
+death or serious injury, remove main fuse before pro-
+ceeding. (00251b)
+2.
+Remove main fuse.
+3.
+See Figure 4-74. Unplug fuel pump harness connector
+[141] (1), located forward of fuse/relay block on left side
+of vehicle.
+4.
+Drain and remove fuel tank from vehicle. See 4.4 FUEL
+TANK: XL MODELS or 4.5 FUEL TANK: XR 1200X.
+5.
+See Figure 4-75. Lay fuel tank upside-down on a soft cloth.
+6.
+Remove five screws (3).
+7.
+Carefully lift fuel pump module out of fuel tank. See
+Figure 4-76. To facilitate removal, tilt module when it is
+almost completely free of fuel tank.
+8.
+See Figure 4-74. Remove and discard cover plate seal
+(7).
+1
+2
+4
+7
+5
+6
+3
+sm06721
+1.
+Fuel pump harness connector [141]
+2.
+Fuel pump
+3.
+Fuel filter housing
+4.
+Sending unit float
+5.
+Quick-connect fitting
+6.
+Cover plate
+7.
+Cover plate seal
+Figure 4-74. Fuel Pump Module
+HOME
+4-52 2013 Sportster Service: Fuel System
+
+--- Page 461 ---
+2
+4
+1
+5
+3
+12323
+1.
+Fuel tank
+2.
+Fuel pump module
+3.
+Screw (5)
+4.
+Fuel pump harness
+5.
+Quick-connect fitting
+Figure 4-75. Fuel Pump Module: All Models
+sm01571
+Figure 4-76. Removing/Installing Fuel Pump Module: All
+Models
+DISASSEMBLY
+The disassembly procedure consists of the following groups:
+•
+Pressure regulator and filter housing.
+•
+Fuel pump assembly and pump bracket.
+•
+Low fuel level sensor assembly.
+•
+Fuel pump.
+2
+4
+1
+3
+sm06722
+1.
+Cable strap (3)
+2.
+Pump assembly clamp
+3.
+Pump bracket
+4.
+Filter housing hose
+Figure 4-77. Fuel Pump Cable Straps and Pump Clamp
+NOTE
+See Figure 4-77. Maintain the relative positions of the wiring
+harness cable straps (1) and pump assembly clamp (2).
+Pressure Regulator and Filter Housing
+1.
+See Figure 4-77. Remove cable strap (1) securing wiring
+harness to the filter housing hose (4).
+2.
+See Figure 4-78. Remove ground clip (12) from top of filter
+housing (23).
+3.
+Remove and discard clamp (1). Remove filter housing
+hose from top of fuel pump (2).
+4.
+Remove retaining clip (24) from top of filter housing and
+remove pressure regulator (22).
+5.
+Remove second retaining clip (24) from bottom of filter
+housing and remove filter housing. Remove fuel filter ele-
+ment (25) from housing.
+6.
+Remove O-ring (26) from filter housing mount (19).
+HOME
+2013 Sportster Service: Fuel System 4-53
+
+--- Page 462 ---
+Fuel Pump Assembly and Pump Bracket
+1.
+See Figure 4-77. Make note of the location of any cable
+straps securing wiring harness to the fuel pump bracket
+(3). Remove cable straps.
+2.
+See Figure 4-78. Unplug fuel pump harness connector
+[86] (13).
+3.
+Unplug
+low
+fuel
+level
+sensor
+connector
+from
+fuel
+pump/sender harness (14).
+4.
+Remove and discard clamp (1). Remove filter housing
+hose (11) from top of fuel pump (2).
+5.
+Remove and discard pump assembly clamp (7). Remove
+pump assembly with pump insulator (3) from pump bracket
+(5).
+6.
+Remove push nut (16) and low fuel level sensor assembly
+(17) from pump bracket.
+7.
+Remove three screws w/lockwashers (6) and remove
+pump bracket from cover plate (9).
+Low Fuel Level Sensor Assembly
+1.
+See Figure 4-77. Make note of the location of cable strap
+(1) securing low fuel level sensor connector to filter
+housing hose (4). Remove cable strap.
+2.
+See Figure 4-78. Unplug the fuel pump/sender harness
+connector (15) from the low fuel level sensor (17).
+3.
+Remove push nut (16) and low fuel level sensor assembly
+(17) from pump bracket (5).
+ASSEMBLY
+TORQUE VALUE
+FASTENER
+2.1-4.1 Nm
+19-36 in-lbs
+Fuel pump bracket mounting
+screw
+The assembly procedure consists of the following groups:
+•
+Low fuel level sensor assembly.
+•
+Fuel pump assembly and pump bracket.
+•
+Pressure regulator and filter housing.
+Low Fuel Level Sensor Assembly
+NOTE
+The low fuel lamp will not turn off until there is sufficient fuel in
+the tank, the ignition switch has been turned off and on and
+the motorcycle has begun forward speed.
+1.
+See Figure 4-78. Install low fuel level sensor assembly
+(17) onto pump bracket (5). Secure with push nut (16).
+2.
+Plug the fuel pump/sender harness connector (15) into
+the low fuel level sensor (17).
+3.
+See Figure 4-77. Secure low fuel level sensor connector
+and fuel pump/sender harness to filter housing hose (4)
+with cable strap (1).
+Fuel Pump Assembly and Pump Bracket
+1.
+See Figure 4-78. Install pump bracket (5) onto cover plate
+(9). Secure with three screws w/lockwashers (6). Tighten
+to 19-36 in-lbs (2.1-4.1 Nm).
+2.
+Install low fuel level sensor assembly (17) onto pump
+bracket. Secure with push nut (16).
+3.
+Install fuel pump assembly (2) with pump insulator (3) onto
+pump bracket. Secure with pump assembly clamp (7) (for
+relative position of clamp, see Figure 4-77.)
+4.
+Install filter housing hose (11) on top of fuel pump. Secure
+with clamp (1).
+5.
+Plug in fuel pump harness connector [86] (13).
+6.
+See Figure 4-77. Secure fuel pump/sender harness to fuel
+pump bracket (3) with cable straps (1).
+Pressure Regulator and Filter Housing
+1.
+See Figure 4-78. Install the new O-ring onto filter housing
+mount (19).
+2.
+Install fuel filter element (25) into filter housing (23). Install
+filter housing onto filter housing mount. Secure with
+retaining clip (24) at bottom of housing, making sure that
+clip is oriented exactly as shown in Figure 4-78.
+3.
+Install pressure regulator (22) on top of filter housing.
+Secure with second retaining clip (24), making sure that
+clip is oriented exactly as shown in Figure 4-78.
+4.
+Install filter housing hose (11) on top of fuel pump (2).
+Secure with clamp (1).
+5.
+Install ground clip (12) on top of filter housing.
+6.
+See Figure 4-77. Secure fuel pump/sender harness to
+filter housing hose (4) with cable strap (1).
+HOME
+4-54 2013 Sportster Service: Fuel System
+
+--- Page 463 ---
+22
+23
+11
+25
+26
+14
+13
+16
+17
+18
+19
+20
+21
+14
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+12
+24
+15
+27
+27
+27
+sm01611a
+15.
+1.
+Low fuel level sensor connector
+Clamp
+2.
+16.
+Fuel pump
+Push nut
+17.
+3.
+Low fuel level sensor
+Pump insulator
+4.
+18.
+Cover plate seal
+Retaining ring
+19.
+5.
+Filter housing mount
+Pump bracket
+6.
+20.
+Screw w/lockwasher (3)
+Screw (5)
+21.
+7.
+Fuel outlet quick-connect fitting
+Pump assembly clamp
+8.
+22.
+Inlet sock
+Pressure regulator
+23.
+9.
+Filter housing
+Cover plate
+10.
+24.
+Fuel pump/sender harness connector [141]
+Retaining clip (2)
+25.
+11.
+Fuel filter element
+Filter housing hose
+12.
+26.
+Ground clip
+O-ring
+27.
+13.
+Cable strap
+Fuel pump harness connector [86]
+14. Fuel pump/sender harness
+Figure 4-78. Fuel Pump and Sender Assembly
+INSTALLATION
+TORQUE VALUE
+FASTENER
+4.5-5.1 Nm
+40-45 in-lbs
+Fuel pump module mounting
+screw
+1.
+See Figure 4-78. Install new cover plate seal (4) into
+groove in cover plate (9).
+2.
+See Figure 4-76. Carefully install fuel pump module into
+fuel tank.
+a.
+Tilt module.
+b.
+Lower it into fuel tank.
+c.
+Straighten module to complete installation.
+3.
+See Figure 4-79. Install screws. Tighten to 40-45 in-lbs
+(4.5-5.1 Nm) in sequence.
+4.
+Install fuel tank. See 4.4 FUEL TANK: XL MODELS or
+4.5 FUEL TANK: XR 1200X.
+a.
+Verify that the fuel pump harness fits in wire harness
+caddy latch clip with loop in harness between latch
+clip and fuel pump module.
+b.
+Plug in fuel pump harness connector [141].
+c.
+Connect vent hose to fuel tank vent nipple.
+5.
+Connect fuel hose to fuel tank. Fill fuel tank. Check for
+leaks around fuel pump module. See 4.4 FUEL TANK: XL
+MODELS or 4.5 FUEL TANK: XR 1200X.
+6.
+Install main fuse.
+7.
+Close left side cover.
+HOME
+2013 Sportster Service: Fuel System 4-55
+
+--- Page 464 ---
+8.
+Check for leaks:
+a.
+Turn ignition switch to ON.
+b.
+Verify fuel pump is activated.
+c.
+Check for leaks at quick connect.
+d.
+Turn ignition switch to OFF.
+1
+3
+4
+2
+5
+sm07444
+Figure 4-79. Fuel Pump Module Torque Sequence
+HOME
+4-56 2013 Sportster Service: Fuel System
+
+--- Page 465 ---
+4.17
+FUEL FILTER ELEMENT
+GENERAL
+Do not use solvents or other products that contain chlorine
+on plastic fuel system components. Chlorine can degrade
+plastic fuel system components, which can cause a loss
+of fuel system pressure or engine stalling and could result
+in death or serious injury. (000621b)
+The fuel filter element is located in the fuel pump assembly
+inside the fuel tank.
+Check fuel system hose and fittings for leaks.
+REMOVAL
+To prevent spray of fuel, purge system of high-pressure
+fuel before supply line is disconnected. Gasoline is
+extremely flammable and highly explosive, which could
+result in death or serious injury. (00275a)
+1.
+Purge the fuel supply hose of high pressure gasoline.
+Disconnect fuel supply hose from fuel pump module. See
+4.4 FUEL TANK: XL MODELS or 4.5 FUEL TANK: XR
+1200X.
+2.
+Remove seat.
+To prevent accidental vehicle start-up, which could cause
+death or serious injury, remove main fuse before pro-
+ceeding. (00251b)
+3.
+Remove main fuse.
+4.
+Drain and remove fuel tank. See 4.4 FUEL TANK: XL
+MODELS or 4.5 FUEL TANK: XR 1200X.
+5.
+Remove fuel pump assembly from fuel tank. See
+4.16 FUEL PUMP.
+6.
+See Figure 4-80. Remove and discard cover plate seal
+(6).
+7.
+Remove retaining clip (4) and lift filter housing (5) off fuel
+pump assembly (1).
+8.
+Remove and discard filter element (3).
+INSTALLATION
+TORQUE VALUE
+FASTENER
+4.5-5.1 Nm
+40-45 in-lbs
+Fuel pump module mounting
+screw
+1.
+See Figure 4-80. Install a new O-ring (2).
+2.
+Install new filter element (3) into filter housing (5).
+3.
+Install filter housing onto base of fuel pump assembly (1).
+Secure with retaining clip (4), making sure that clip is ori-
+ented right side up, exactly as shown in the figure.
+4.
+Install new cover plate seal (6) into groove in cover plate
+(7).
+5.
+Install fuel pump assembly into fuel tank. Tighten mounting
+screws in a cross pattern to 40-45 in-lbs (4.5-5.1 Nm).
+See 4.16 FUEL PUMP.
+6.
+Install fuel tank and reconnect fuel hose. See 4.4 FUEL
+TANK: XL MODELS or 4.5 FUEL TANK: XR 1200X. Fill
+fuel tank and carefully check for leaks.
+7.
+Install main fuse.
+8.
+Install seat.
+9.
+Turn ignition switch ON. Verify fuel pump operation.
+1
+3
+6
+5
+4
+2
+7
+sm06645
+1.
+Fuel pump assembly
+2.
+O-ring
+3.
+Fuel filter element
+4.
+Retaining clip
+5.
+Filter housing
+6.
+Cover plate seal
+7.
+Cover plate
+Figure 4-80. Replacing Fuel Filter Element
+HOME
+2013 Sportster Service: Fuel System 4-57
+
+--- Page 466 ---
+4.18
+FUEL PRESSURE TEST
+GENERAL
+TOOL NAME
+PART NUMBER
+DIGITAL TECHNICIAN II
+HD-48650
+Stop the engine when refueling or servicing the fuel
+system. Do not smoke or allow open flame or sparks near
+gasoline. Gasoline is extremely flammable and highly
+explosive, which could result in death or serious injury.
+(00002a)
+The fuel pump delivers fuel to the fuel hose, a cavity in the
+induction module that supplies the fuel injectors, and to the
+pressure regulator. Excess fuel pressure is bypassed to the
+fuel tank through the pressure regulator.
+The fuel pump can be turned on with DIGITAL TECHNICIAN
+II (Part No. HD-48650).
+Improper fuel system pressure may contribute to one of the
+following conditions:
+•
+Cranks, but does not run.
+•
+Cuts out (may feel like ignition problem).
+•
+Hesitation, loss of power or poor fuel economy.
+TESTING
+TOOL NAME
+PART NUMBER
+FUEL PRESSURE GAUGE
+HD-41142
+FUEL PRESSURE GAUGE ADAPTER
+HD-44061
+Connect the Fuel Pressure Gauge
+1.
+Purge the fuel supply hose and disconnect the fuel supply
+hose from the fuel pump module.
+a.
+XL Models: See 4.4 FUEL TANK: XL MODELS.
+b.
+XR 1200X:See 4.5 FUEL TANK: XR 1200X.
+2.
+Connect the fuel pump connector [141].
+NOTE
+Do not kink the fuel hose when installing or removing fuel
+pressure gauge and adapter.
+3.
+See Figure 4-81. Attach the FUEL PRESSURE GAUGE
+ADAPTER (Part No. HD-44061) as follows:
+a.
+See Figure 4-82. Pull up on sleeve of fuel tank quick-
+connect fitting (2) and insert neck of the fuel pressure
+gauge adapter (3) into quick-connect fitting.
+b.
+Push up on bottom of adapter and pull down on sleeve
+until it clicks. Tug on adapter to verify that it is locked
+in place.
+c.
+In the same manner, connect vehicle's fuel supply
+hose fitting (1) to quick-connect fitting (4) on the
+adapter.
+To prevent spray of fuel, be sure quick-connect fittings
+are properly mated. Gasoline is extremely flammable and
+highly explosive, which could result in death or serious
+injury. (00268a)
+4.
+Verify that the fuel valve (6) and air bleed petcock on the
+fuel pressure gauge are closed.
+5.
+See Figure 4-83. Remove protective cap from free end of
+fuel pressure gauge adapter.
+6.
+Connect the FUEL PRESSURE GAUGE (Part No. HD-
+41142) to the Schroeder valve.
+Perform Test
+1.
+Start and idle engine to pressurize the fuel system. Open
+the fuel valve to allow the flow of fuel down the hose of
+the pressure gauge.
+2.
+Purge air from gauge and hose:
+a.
+Position the clear air bleed tube in a suitable con-
+tainer.
+b.
+Open and close the air bleed petcock to purge the
+gauge and hose of air.
+c.
+Repeat this step several times until only solid fuel
+(without bubbles) flows from the air bleed tube.
+d.
+Close the petcock.
+3.
+Open and close throttle to change engine speed. Note the
+reading of the pressure gauge.
+4.
+Turn the engine OFF and service as necessary. Refer to
+Table 4-3.
+3
+2
+1
+sm01654a
+1.
+Quick-connect fitting
+2.
+Protective cap
+3.
+Fuel tank fitting (neck)
+Figure 4-81. Fuel Pressure Gauge Adapter (Part No.
+HD-44061)
+HOME
+4-58 2013 Sportster Service: Fuel System
+
+--- Page 467 ---
+2
+1
+4
+6
+5
+3
+sm01656
+1.
+Fuel supply hose fitting
+2.
+Fuel tank quick-connect fitting
+3.
+Fuel pressure gauge adapter
+4.
+Adapter quick-connect fitting
+5.
+Pressure adapter/Schroeder valve fitting
+6.
+Fuel valve (closed position)
+Figure 4-82. Assembling Adapter, Gauge and Fuel Supply
+Hose to Fuel Tank: All Models
+sm01657
+Figure 4-83. Fuel Pressure Gauge Installed: All Models
+Table 4-3. Fuel Pressure Test
+SOLUTION
+CAUSE
+RESULTS
+Replace.
+Restricted fuel filter
+Less than: 55 psi (380 kPa)
+Clean.
+Restricted pump inlet screen
+Clear.
+Restricted fuel line or hose to gauge
+Replace.
+Faulty fuel pump
+Clear.
+Restricted check valve fitting
+Repair or replace as necessary.
+Leak inside tank (hose or coupling)
+Replace.
+Faulty pressure regulator
+Operating fuel pressure
+Steady at: 55-62 psi (380-425 kPa)
+Replace as necessary.
+Check valve fitting and fuel tank
+More than: 62 psi (425 kPa)
+Replace.
+Fuel pressure regulator
+Return to Service
+1.
+Position the air bleed tube in a suitable container. Open
+the air bleed petcock to relieve the fuel system pressure
+and purge the pressure gauge of gasoline.
+Gasoline can drain from the adapter when gauge is
+removed. Gasoline is extremely flammable and highly
+explosive, which could result in death or serious injury.
+Wipe up spilled fuel immediately and dispose of rags in a
+suitable manner. (00254a)
+2.
+Remove fuel pressure gauge from the adapter. Install
+protective cap over Schroeder valve.
+Gasoline can drain from the fuel line and adapter when
+removed. Gasoline is extremely flammable and highly
+explosive, which could result in death or serious injury.
+Wipe up spilled fuel immediately and dispose of rags in a
+suitable manner. (00255a)
+3.
+Pull up on knurled sleeve of the fuel pressure gauge
+adapter quick-connect fitting and remove vehicle's fuel
+supply hose from adapter. Release adapter from fuel tank.
+HOME
+2013 Sportster Service: Fuel System 4-59
+
+--- Page 468 ---
+To prevent spray of fuel, be sure quick-connect fittings
+are properly mated. Gasoline is extremely flammable and
+highly explosive, which could result in death or serious
+injury. (00268a)
+4.
+Push up on release sleeve of fuel pump quick-connect
+fitting and push the fuel hose fitting into quick-connect fit-
+ting. Pull down on release sleeve to lock. Tug on fuel hose
+fitting to verify that it is locked.
+HOME
+4-60 2013 Sportster Service: Fuel System
+
+--- Page 469 ---
+4.19
+INTAKE LEAK TEST
+GENERAL
+Do not allow open flame or sparks near propane. Propane
+is extremely flammable, which could cause death or ser-
+ious injury. (00521b)
+Read and follow warnings and directions on propane
+bottle. Failure to follow warnings and directions can result
+in death or serious injury. (00471b)
+NOTES
+•
+To prevent false readings, keep air cleaner cover installed
+when performing test.
+•
+Do not direct propane into air cleaner. It will cause false
+readings.
+•
+Be careful when testing vehicle with Screamin' Eagle air
+cleaner assembly. This type of air cleaner has an open
+backplate. Even with air cleaner cover on, directing nozzle
+too close to backplate can give false readings.
+LEAK TESTER
+TOOL NAME
+PART NUMBER
+PROPANE ENRICHMENT KIT
+HD-41417
+Parts List
+•
+Standard 14 oz. propane cylinder.
+•
+PROPANE ENRICHMENT KIT (Part No. HD-41417).
+Tester Assembly
+1.
+See Figure 4-84. Make sure valve knob (6) is closed (fully
+clockwise).
+2.
+Screw valve assembly (5) onto propane bottle (1).
+Tester Adjustment
+1.
+See Figure 4-84. Press and hold trigger button (8).
+2.
+Slowly open valve knob (6) until pellet in flow gauge (7)
+rises 5-10 SCFH on gauge.
+3.
+Release trigger button.
+1
+8
+5
+9
+3
+2
+7
+4
+6
+sm02629
+1.
+Propane bottle
+2.
+Nozzle
+3.
+Copper tube
+4.
+Hose
+5.
+Valve assembly
+6.
+Valve knob
+7.
+Flow gauge
+8.
+Trigger button
+9.
+Hanger
+Figure 4-84. Leak Tester
+PROCEDURE
+1.
+Start engine.
+2.
+Warm up engine to operating temperature.
+NOTE
+Do not direct propane stream toward air cleaner. If propane
+enters air cleaner, a false reading will be obtained.
+3.
+See Figure 4-85. Aim nozzle (3) toward possible sources
+of leak such as intake manifold mating surfaces.
+4.
+Press and release trigger button (2) to dispense propane.
+Tone of engine will change when propane enters source
+of leak. Repeat as necessary to detect leak.
+HOME
+2013 Sportster Service: Fuel System 4-61
+
+--- Page 470 ---
+5.
+When test is finished, close valve knob (turn knob fully
+clockwise).
+3
+2
+1
+sm01661
+1.
+Propane bottle
+2.
+Trigger button
+3.
+Nozzle
+Figure 4-85. Checking for Leaks: All Models
+HOME
+4-62 2013 Sportster Service: Fuel System
+
+--- Page 471 ---
+4.20
+EVAPORATIVE EMISSIONS CONTROL
+GENERAL
+Motorcycles sold in some markets have an evaporative (EVAP)
+emissions control system.
+See Figure 4-86. The EVAP functions in the following manner:
+•
+Hydrocarbon vapors in the fuel tank (2, 10) are vented
+through the vapor valve (4) or vent fitting (9). The vapors
+are stored in the charcoal canister (3). When tipped, the
+valve closes. Gasoline cannot leak into the charcoal can-
+ister from the vapor valve hoses (5, 6).
+•
+When the engine is running, intake negative pressure
+(vacuum) slowly draws hydrocarbon vapors from the
+charcoal canister through the purge hose (7). These
+vapors pass through the intake and are burned as part of
+normal combustion in the engine.
+Keep evaporative emissions vent lines away from exhaust
+and engine. Gasoline is extremely flammable and highly
+explosive, which could result in death or serious injury.
+(00266a)
+NOTE
+The EVAP system is designed to operate with a minimum of
+maintenance. Check that all hoses are connected and correctly
+routed. They cannot be pinched, kinked, cracked or torn.
+Improper connections could leak charcoal from canister.
+3
+3
+6
+6
+7
+7
+10
+9
+8
+2
+4
+8
+5
+1
+1
+sm03399a
+1.
+Induction module
+2.
+Fuel tank (XL models only)
+3.
+Charcoal canister
+4.
+External vapor valve (XL models only)
+5.
+Fuel tank-to-vapor valve hose
+6.
+Vapor valve-to-canister hose
+7.
+Purge hose
+8.
+Fuel supply hose
+9.
+Vent fitting (XR 1200X)
+10. Fuel tank (XR 1200X)
+Figure 4-86. Evaporative Emissions Control System
+(typical)
+HOME
+2013 Sportster Service: Fuel System 4-63
+
+--- Page 472 ---
+CHARCOAL CANISTER
+TORQUE VALUE
+FASTENER
+23.1-29.9 Nm
+17-22 ft-lbs
+EVAP canister mounting
+bracket screw
+23.0-29.8 Nm
+17-22 ft-lbs
+Master cylinder mounting
+bracket, rear, screw: XL
+models
+23.1-29.9 Nm
+17-22 ft-lbs
+EVAP canister mounting
+bracket screw
+4.1-6.8 Nm
+36-60 in-lbs
+EVAP canister clip mounting
+screw
+4.0-5.1 Nm
+35-45 in-lbs
+EVAP canister guard screw
+The charcoal canister is mounted to a bracket attached to the
+rear brake master cylinder bracket, near the bottom of the
+frame in front of the rear fork pivot point.
+Removal
+1.
+See Figure 4-87. Remove two screws (1) and canister
+guard (2).
+2.
+Mark the two hoses (9, 10) connected to charcoal canister
+(6). Disconnect hoses from canister.
+3.
+Press the locking tabs at the left end of canister clip (5).
+Slide canister towards left side of vehicle until it disen-
+gages from canister clip.
+4.
+Remove two screws (7) and washers (8) to detach canister
+clip from canister mounting bracket (3).
+5.
+XL
+Models:
+If
+canister
+mounting
+bracket
+requires
+repair/replacement, proceed as follows:
+a.
+Remove two screws (13) and washers (14) securing
+rear master cylinder to mounting bracket. This will
+allow you to move the rear master cylinder to access
+the remaining fasteners.
+b.
+Remove two screws (4) to detach canister mounting
+bracket from rear master cylinder mounting bracket.
+6.
+XR 1200X: See Figure 4-88. If canister mounting bracket
+requires repair/replacement, remove two screws (2) to
+detach canister mounting bracket from frame.
+NOTE
+It is not necessary to remove brake line clamp screw (1).
+4
+8
+9
+3
+5
+6
+7
+10
+11
+12
+1
+2
+13
+14
+sm06718
+1.
+Screw (2)
+2.
+Canister guard
+3.
+Canister mounting bracket
+4.
+Screw (2)
+5.
+Canister clip
+6.
+Charcoal canister
+7.
+Screw (2)
+8.
+Washer (2)
+9.
+Purge hose from induction module
+10. Vent hose from vapor valve
+11. Rear master cylinder bracket
+12. Rear master cylinder
+13. Screw (2)
+14. Washer (2)
+Figure 4-87. Charcoal Canister Mounting (typical)
+HOME
+4-64 2013 Sportster Service: Fuel System
+
+--- Page 473 ---
+4
+1
+3
+5
+2
+2
+sm04977
+1.
+Screw
+2.
+Canister mounting bracket screws (2)
+3.
+Canister mounting bracket
+4.
+Fuel tank-to-canister hose
+5.
+Canister-to-induction module hose
+Figure 4-88. Charcoal Canister Mount: XR 1200X
+Installation
+NOTE
+XL Models: Verify that the EVAP canister mounting hardware
+does not contact the rear stabilizer ground strap.
+1.
+XL Models: See Figure 4-87. If canister mounting bracket
+(3) was removed, proceed as follows:
+a.
+Attach bracket (3) to rear master cylinder mounting
+bracket and frame with two screws (4). Tighten to 17-
+22 ft-lbs (23.1-29.9 Nm).
+b.
+Apply one or two drops of LOCTITE 243 to screws
+(13). Install rear master cylinder (12) to mounting
+bracket (11) with screws and washers (14). Tighten
+to 17-22 ft-lbs (23.0-29.8 Nm).
+2.
+XR 1200X: See Figure 4-88. If canister mounting bracket
+(3) was removed, proceed as follows:
+a.
+Apply
+LOCTITE
+243
+MEDIUM
+STRENGTH
+THREADLOCKER AND SEALANT (blue) to the
+threads of the mounting screws (2).
+b.
+Install bracket and tighten screws (2) to 17-22 ft-lbs
+(23.1-29.9 Nm).
+3.
+See Figure 4-87. Attach canister clip (5) to canister
+mounting bracket with two screws (7) and two washers
+(8). Tighten to 36-60 in-lbs (4.1-6.8 Nm).
+4.
+Starting at left side of canister clip, slide charcoal canister
+(6) to the right until tabs on canister clip lock canister in
+place. Bend tabs outward somewhat if canister is not held
+securely.
+5.
+See Figure 4-89. Connect two hoses (1, 2), marked during
+disassembly, to their proper fittings on canister.
+6.
+See Figure 4-87. Install canister guard (2) using two
+screws (1). Tighten to 35-45 in-lbs (4.0-5.1 Nm).
+2
+1
+3
+sm01648
+1.
+Purge hose from induction module
+2.
+Vent hose from fuel tank and vapor valve
+3.
+Clean air port (no hose connection)
+Figure 4-89. Charcoal Canister Connections
+VAPOR VALVE: XL MODELS
+Removal
+NOTES
+•
+XL Models: The vapor valve is located under the left side
+cover in a clip molded into the ECM caddy.
+•
+XR 1200X: The vapor valve is incorporated in the fuel tank
+filler housing. See 4.5 FUEL TANK: XR 1200X.
+1.
+Open left side cover. See 2.18 LEFT SIDE COVER.
+2.
+See Figure 4-90. Carefully remove vapor valve (2).
+3.
+Mark two hoses (1, 3) connected to upper and lower fittings
+of vapor valve. Remove hoses from fittings.
+NOTE
+On non-EVAP system models, charcoal canister is absent and
+bottom hose of vapor valve is vented to the atmosphere.
+Installation
+Keep vent and vapor valve lines away from exhaust and
+engine. Gasoline is extremely flammable and highly
+explosive, which could result in death or serious injury.
+(00263a)
+NOTE
+Mount the vapor valve in an upright position with the longer
+fitting positioned at the top or excessive fuel vapor pressure
+may build up within the fuel tank. Mounting the vapor valve
+upside down will result in fuel flow problems.
+HOME
+2013 Sportster Service: Fuel System 4-65
+
+--- Page 474 ---
+1.
+See Figure 4-90. Hold vapor valve (2) in an upright position
+with the long necked end pointing up. Insert top fitting of
+vapor valve into fuel tank-to-vapor valve hose (1). Install
+bottom vapor valve fitting into vapor valve-to-canister hose
+(3).
+2.
+Carefully push body of vapor valve into clip (4) molded
+into the ECM caddy (6).
+NOTE
+Do NOT force vapor valve into clip. Forcing valve in to clip
+could cause clip to break, necessitating replacement of the
+ECM caddy.
+3.
+Close left side cover.
+1
+2
+3
+6
+4
+5
+3
+2
+1
+7
+8
+sm06582a
+1.
+Fuel tank-to-vapor valve hose
+2.
+Vapor valve
+3.
+Vapor-valve-to-canister hose
+4.
+Vapor valve clip
+5.
+Fuel pump harness
+6.
+ECM caddy
+7.
+To fuel tank
+8.
+To charcoal canister
+Figure 4-90. Vapor Valve and Hose Routing: XL EVAP
+Models
+HOSE ROUTING
+Induction Module
+XL Models: Remove the fuel tank and air cleaner/backplate
+assembly to access the induction module.
+XR 1200X: See Figure 4-91. Route the evaporative emissions
+control hose to the purge hose fitting (2) on the induction
+module (1).
+2
+1
+sm06565
+1.
+Induction module
+2.
+Purge hose (to canister) fitting
+Figure 4-91. Emissions Hose Routing at Induction Module
+Canister Hose Routings: XL Models
+1.
+See Figure 4-92. Connect the vapor valve-to-canister hose
+(1) to the canister lower fitting marked TANK and the
+canister-to-induction module purge hose (2) to the upper
+fitting labeled CARB.
+2.
+Route the vapor valve-to-canister hose:
+a.
+Under the frame.
+b.
+Behind the rear brake master cylinder bracket.
+c.
+Up the frame tube in front of the rear fork pivot.
+d.
+Inside the electrical caddy to the vapor valve inside
+the left side cover.
+3.
+Connect the vapor valve-to-canister hose to the vapor
+valve.
+4.
+Connect fuel tank-to-vapor valve hose the the vapor valve.
+5.
+Route the fuel tank-to-vapor valve hose forward along the
+left side of frame backbone and connect to fitting on bottom
+of fuel tank.
+6.
+Route the canister-to-induction module purge hose:
+a.
+Loop behind the brake fluid lines and around the
+master cylinder.
+b.
+Behind the frame.
+c.
+Between the rear fork and the rear fork pivot.
+d.
+Behind the oil lines and up behind the oil tank.
+e.
+Route canister-to-induction module purge hose up
+right side of frame rear downtube.
+f.
+Loop the hose over the wire harness caddy and for-
+ward along the caddy and the frame backbone.
+g.
+Connect the hose to the induction module.
+NOTE
+Position the hose against the engine sub-harness and as far
+from the rear rocker cover as possible.
+HOME
+4-66 2013 Sportster Service: Fuel System
+
+--- Page 475 ---
+7.
+See Figure 4-93. Secure the hose to the holes in the wire
+harness caddy with barbed cable straps.
+1
+1
+2
+2
+sm06826
+1.
+Tank to vapor valve
+2.
+CARB to induction module
+Figure 4-92. EVAP Canister and Hose Routing
+sm06827
+Figure 4-93. Cable Strap Locations
+Canister Hose Routings: XR 1200X
+1.
+See Figure 4-94. Route both hoses up past canister mount
+and between rear fork pivot point and rear end of crank-
+case as shown.
+2.
+See Figure 4-95. Route fuel vapor hose (4) up along left
+side of frame rear downtube and outside the left electrical
+caddy. Connect to vapor tube (2).
+3.
+Connect vapor tube (2) to fitting (1) on fuel tank filler
+housing and place in channel on top of fuel tank.
+4.
+Secure to electrical caddy with barbed clamp (3).
+5.
+See Figure 4-96. Route canister-to-induction module purge
+hose (1) up right side of frame rear downtube. Continue
+routing hose forward along right side of frame backbone
+tube and down, connecting hose to induction module fitting
+(3).
+6.
+Secure hose to channels on rear end of right wire harness
+caddy (4). Verify that hose is positioned up against engine
+sub-harness. Secure hose and harness with clamp (2).
+7.
+Connect hoses to labeled fittings on left side of charcoal
+canister.
+4
+1
+3
+5
+2
+2
+sm04977
+1.
+Screw
+2.
+Canister mounting bracket screws (2)
+3.
+Canister mounting bracket
+4.
+Fuel tank-to-canister hose
+5.
+Canister-to-induction module hose
+Figure 4-94. Charcoal Canister Mount: XR 1200X
+1
+2
+3
+4
+sm05436
+1.
+Vapor fitting
+2.
+Vapor tube
+3.
+Clamp
+4.
+Vapor hose
+Figure 4-95. Vapor Hose Routing
+HOME
+2013 Sportster Service: Fuel System 4-67
+
+--- Page 476 ---
+1
+4
+2
+3
+sm05437a
+1.
+Purge hose
+2.
+Clamp
+3.
+Induction module fitting
+4.
+Right wire harness caddy
+Figure 4-96. Purge Hose Routing
+HOME
+4-68 2013 Sportster Service: Fuel System
+

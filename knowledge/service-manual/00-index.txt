@@ -1,0 +1,831 @@
+# 2013 HD SPORTSTER SERVICE MANUAL — FULL INDEX
+# 778 pages | Source: 99484-13-us
+
+p   7  FOREWORD
+p   9  TABLE OF CONTENTS
+p  23  1. MAINTENANCE
+  p  25  1.1 FASTENER TORQUE VALUES
+    p  25  Fastener Torque Values in this Chapter
+  p  27  1.2 GENERAL
+    p  27  Servicing a New Motorcycle
+    p  27  Safe Operating Maintenance
+    p  27  Shop Practices
+    p  28  Repair and Replacement Procedures
+    p  29  Cleaning
+    p  29  Tool Safety
+  p  31  1.3 FUEL AND OIL
+    p  31  Fuel
+    p  31  Gasoline Blends
+    p  31  Engine Lubrication
+    p  32  Winter Lubrication
+  p  33  1.4 BULB REQUIREMENTS
+    p  33  Bulb Chart
+  p  34  1.5 MAINTENANCE SCHEDULE
+    p  34  General
+  p  39  1.6 ENGINE OIL AND FILTER
+    p  39  Checking and Adding Oil
+    p  40  Changing Oil and Filter
+  p  43  1.7 AIR FILTER
+    p  43  XL Models except XL 1200V
+    p  43  XL 1200V
+    p  44  XR 1200X
+    p  46  Cleaning Filter Element
+  p  47  1.8 TIRES AND WHEELS
+    p  47  Air Pressure
+    p  47  Tire Replacement
+    p  48  Specified Tires
+    p  48  Wheel Bearings
+    p  48  Wheel Spokes
+  p  50  1.9 PRIMARY CHAIN
+    p  50  Free Play Adjustment
+  p  51  1.10 TRANSMISSION LUBRICANT
+    p  51  Transmission Lubrication
+  p  53  1.11 CLUTCH
+    p  53  Adjustment
+  p  55  1.12 DRIVE BELT AND SPROCKETS
+    p  55  General
+    p  55  Cleaning
+    p  55  Inspection
+    p  56  Drive Belt Deflection
+  p  59  1.13 THROTTLE CONTROL
+    p  59  Cable Inspection and Lubrication
+    p  59  Cable Adjustment
+  p  60  1.14 CABLE AND CHASSIS LUBRICATION
+    p  60  General
+    p  60  Cables and Hand Levers
+    p  60  Foot Shift Lever and Rear Brake Pedal
+    p  60  Jiffy Stand
+    p  60  Steering Head Bearings
+  p  61  1.15 BRAKES
+    p  61  General
+    p  61  Brake Lines
+    p  61  Fluid Level
+    p  63  Troubleshooting
+  p  64  1.16 BRAKE PADS AND DISCS: XL MODELS
+    p  64  Inspection
+    p  65  Brake Pad Replacement: Front
+    p  68  Brake Pad Replacement: Rear
+  p  71  1.17 BRAKE PADS AND DISCS: XR 1200X
+    p  71  Inspection
+    p  72  Brake Pad Replacement: Front
+    p  74  Brake Pad Replacement: Rear
+  p  77  1.18 SPARK PLUGS
+    p  77  Removal
+    p  77  Inspection
+    p  77  Cleaning
+    p  77  Installation
+    p  78  Spark Plug Cable Inspection
+  p  79  1.19 STEERING HEAD BEARINGS
+    p  79  Fall-Away
+    p  79  Lubrication
+  p  80  1.20 CRITICAL FASTENERS
+    p  80  Inspection
+  p  82  1.21 ENGINE MOUNTS AND STABILIZER LINKS
+    p  82  Inspection
+  p  83  1.22 BATTERY MAINTENANCE
+    p  83  General
+    p  84  Battery Disconnection and Removal
+    p  85  Cleaning and Inspection
+    p  85  Voltmeter Test
+    p  85  Charging Battery
+    p  86  Battery Installation and Connection
+    p  87  Storage
+  p  89  1.23 EXHAUST SYSTEM
+    p  89  Exhaust System Leak Check
+  p  90  1.24 WHEEL ALIGNMENT
+    p  90  Wheel Alignment
+  p  92  1.25 SUSPENSION ADJUSTMENTS
+    p  92  Front Fork: XR 1200X
+    p  93  Shock Absorber Preload: All Models
+    p  94  Shock Absorber Rebound and Compression: XR 1200X
+    p  94  Suspension Tuning: XR 1200X
+  p  96  1.26 HEADLAMP ALIGNMENT
+    p  96  Headlamp Alignment
+    p  96  Headlamp: Adjustment
+  p  98  1.27 STORAGE
+    p  98  Placing in Storage
+    p  98  Removal From Storage
+  p 100  1.28 TROUBLESHOOTING
+    p 100  General
+    p 100  Engine
+    p 101  Lubrication System
+    p 102  Electrical System
+    p 102  Transmission
+    p 102  Handling
+    p 102  Brakes
+p 105  2. CHASSIS
+  p 107  2.1 FASTENER TORQUE VALUES
+    p 107  Fastener Torque Values in this Chapter
+  p 115  2.2 SPECIFICATIONS
+    p 115  Tables
+  p 118  2.3 VEHICLE IDENTIFICATION NUMBER (VIN)
+    p 118  Vehicle Identification Number (VIN)
+  p 120  2.4 TIRES
+    p 120  Removal
+    p 120  Cleaning, Inspection and Repair
+    p 120  Installation
+    p 121  Checking Tire Runout
+    p 122  Wheel Balancing
+  p 124  2.5 WHEELS
+    p 124  General
+    p 124  Wheel Bearing End Play
+    p 125  Front Wheel
+    p 129  Rear Wheel
+    p 131  Sealed Wheel Bearings
+  p 134  2.6 WHEEL LACING
+    p 134  Wheel Lacing: Angle Flange Hub
+    p 135  Wheel Lacing: Straight Flange Hub, Single Hole Circle
+    p 137  Wheel Lacing: Straight Flange Hub, Dual Hole Circle
+  p 139  2.7 CHECKING AND TRUING WHEELS
+    p 139  Cast Wheel Runout
+    p 139  Laced Wheel Rim Offset
+    p 141  Truing Laced Wheels
+  p 143  2.8 FRONT BRAKE MASTER CYLINDER
+    p 143  General
+    p 143  Inspection
+    p 143  Removal
+    p 145  Disassembly
+    p 147  Cleaning, Inspection and Repair
+    p 147  Assembly
+    p 148  Installation
+  p 151  2.9 FRONT BRAKE CALIPER: XL MODELS
+    p 151  Removal
+    p 152  Disassembly
+    p 154  Cleaning, Inspection and Repair
+    p 155  Assembly
+    p 155  Lubricating Front Caliper Bolt Pins and Boots
+    p 156  Installing Brake Pads in Caliper
+    p 157  Installation
+  p 159  2.10 FRONT BRAKE CALIPER: XR 1200X
+    p 159  Removal
+    p 160  Disassembly
+    p 161  Cleaning, Inspection and Repair
+    p 162  Assembly
+    p 163  Installation
+  p 164  2.11 REAR BRAKE MASTER CYLINDER: XL MODELS
+    p 164  General
+    p 164  Inspection
+    p 164  Removal
+    p 165  Disassembly
+    p 166  Cleaning and Inspection
+    p 167  Assembly
+    p 168  Installation
+  p 170  2.12 REAR BRAKE MASTER CYLINDER: XR 1200X
+    p 170  General
+    p 170  Inspection
+    p 170  Removal
+    p 171  Disassembly
+    p 172  Cleaning, Inspection and Repair
+    p 172  Assembly
+    p 173  Installation
+  p 175  2.13 REAR BRAKE MASTER CYLINDER RESERVOIR
+    p 175  Removal: XL Models
+    p 176  Installation: XL Models
+    p 176  Removal: XR 1200X
+    p 177  Installation: XR 1200X
+  p 178  2.14 REAR BRAKE CALIPER: XL MODELS
+    p 178  Removal
+    p 180  Disassembly
+    p 181  Cleaning, Inspection and Repair
+    p 181  Lubricating Rear Caliper Bolt Pins and Boots
+    p 182  Assembly
+    p 183  Installation
+  p 185  2.15 REAR BRAKE CALIPER: XR 1200X
+    p 185  Removal
+    p 186  Disassembly
+    p 188  Cleaning, Inspection and Repair
+    p 188  Assembly
+    p 189  Installation
+  p 192  2.16 BRAKE LINES
+    p 192  Front Brake Line
+    p 194  Front Brake Line Routing
+    p 196  Rear Brake Line: XL Models
+    p 198  Rear Brake Line: XR 1200X
+  p 200  2.17 BLEEDING BRAKES
+    p 200  General
+    p 200  Procedure
+  p 202  2.18 LEFT SIDE COVER
+    p 202  General
+    p 202  Opening Left Side Cover
+    p 203  Closing Left Side Cover
+    p 203  Removing Left Side Cover
+    p 203  Installing Left Side Cover
+  p 204  2.19 FRONT FORK: XL MODELS
+    p 204  Changing Fork Oil: XL Models
+    p 205  Removal
+    p 205  Disassembly
+    p 205  Cleaning, Inspection and Repair
+    p 207  Assembly
+    p 207  Fill with Fork Oil
+    p 208  Installation
+  p 209  2.20 FRONT FORK: XR 1200X
+    p 209  Removal
+    p 209  Disassembly
+    p 211  Cleaning and Inspection
+    p 212  Assembly
+    p 214  Installation
+  p 215  2.21 FORK STEM AND BRACKET ASSEMBLY
+    p 215  Removal and Disassembly
+    p 216  Cleaning, Inspection and Repair
+    p 216  Assembly and Installation
+  p 217  2.22 BELT GUARD AND DEBRIS DEFLECTOR
+    p 217  Belt Guard: XL Models
+    p 217  Debris Deflector: XL Models
+    p 217  Belt Guard: XR 1200X
+    p 218  Debris Deflector: XR 1200X
+  p 219  2.23 REAR FORK
+    p 219  Removal
+    p 219  Disassembly
+    p 220  Cleaning and Inspection
+    p 220  Assembly
+    p 220  Installation
+  p 222  2.24 SHOCK ABSORBERS
+    p 222  Removal
+    p 222  Cleaning and Inspection
+    p 222  Installation
+    p 223  Shock Disposal: Schrader Valve Models
+  p 224  2.25 STABILIZER LINKS
+    p 224  General
+    p 224  Upper Front Stabilizer Link
+    p 224  Lower Front Stabilizer Link
+    p 225  Rear Stabilizer Link
+  p 226  2.26 FRONT ENGINE MOUNT/ISOLATOR
+    p 226  Removal
+    p 226  Installation
+  p 228  2.27 REAR ENGINE MOUNT/ISOLATOR
+    p 228  Removal
+    p 229  Installation
+  p 231  2.28 THROTTLE CABLES: ALL MODELS
+    p 231  Removal and Disassembly
+    p 232  Cleaning and Inspection
+    p 233  Assembly and Installation
+  p 235  2.29 CLUTCH CONTROL
+    p 235  Removal and Disassembly
+    p 238  Assembly and Installation
+  p 240  2.30 HANDLEBAR
+    p 240  Removal
+    p 241  Installation
+    p 243  Left Hand Grip
+  p 244  2.31 FRONT FENDER
+    p 244  All Models
+  p 246  2.32 FRONT LICENSE PLATE: INDIA MODELS
+    p 246  Front License Plate: XL Models (India)
+  p 247  2.33 REAR FENDER: ALL XL MODELS EXCEPT XL 883N, XL 1200X/V
+    p 247  XL 883R/L
+    p 249  XL 1200C/C ANV/CP/CA/CB
+    p 250  Fender Preparation
+    p 251  License Plate Bracket: XL 883R/L
+    p 252  License Plate Bracket: XL 1200C/C ANV/CP/CA/CB
+  p 253  2.34 REAR FENDER AND LICENSE PLATE BRACKET: XL 883N, XL 1200X/V
+    p 253  General
+    p 253  Removal and Disassembly
+    p 255  Assembly and Installation
+  p 258  2.35 REAR FENDER: XR 1200X
+    p 258  Removal
+    p 258  Installation
+  p 259  2.36 SAREE GUARD: INDIA MODELS
+    p 259  Saree Guard: XL 883R, XL 1200C/C ANV (India)
+  p 261  2.37 REAR LICENSE PLATE: INDIA MODELS
+    p 261  Rear License Plate: XL Models (India)
+  p 262  2.38 JIFFY STAND
+    p 262  Removal
+    p 262  Cleaning and Lubrication
+    p 263  Installation
+  p 264  2.39 SEAT
+    p 264  Seat: XL Models
+    p 265  Seat: XR 1200X
+    p 266  Passenger Pillion: XR 1200X
+  p 267  2.40 RIDER FOOT CONTROLS: XL MID-MOUNT CONTROLS
+    p 267  Right Footrest and Rear Brake Pedal Assembly
+    p 268  Left Footrest and Shift Lever Assembly
+  p 269  2.41 RIDER FOOT CONTROLS: XL FORWARD CONTROLS
+    p 269  Right Footrest and Rear Brake Pedal Assembly
+    p 270  Left Footrest and Shift Lever Assembly
+    p 271  Adjusting Shift Pedal: Forward Controls Models
+  p 272  2.42 RIDER FOOT CONTROLS: XR 1200X
+    p 272  Right Footrest and Rear Brake Pedal Assembly
+    p 273  Left Footrest and Shift Lever Assembly
+    p 274  Adjusting Shift Lever
+  p 275  2.43 PASSENGER FOOTRESTS
+    p 275  XL Models
+    p 276  XR 1200X
+  p 277  2.44 FORK LOCK
+    p 277  Removal
+    p 278  Installation
+  p 279  2.45 MEDALLIONS, SERIALIZED BADGES AND TANK EMBLEMS
+    p 279  Removal
+    p 279  Installation
+p 281  3. ENGINE
+  p 283  3.1 FASTENER TORQUE VALUES
+    p 283  Fastener Torque Values in this Chapter
+  p 287  3.2 SPECIFICATIONS
+    p 287  Specifications: Sportster Models
+  p 292  3.3 OIL PRESSURE
+    p 292  Operation
+    p 293  Checking Oil Pressure
+  p 295  3.4 CRANKCASE BREATHING SYSTEM
+    p 295  XL Models
+    p 295  XR 1200X
+  p 296  3.5 TROUBLESHOOTING
+    p 296  Diagnosing Valve Train Noise
+    p 296  Compression Test
+    p 296  Cylinder Leakage Test
+    p 297  Diagnosing Smoking Engine or High Oil Consumption
+    p 297  Adjustment and Testing
+  p 298  3.6 ENGINE LUBRICATION SYSTEM
+    p 298  Oil Pump Operation
+    p 300  Oil Flow: XL Models
+    p 300  Oil Flow: XR 1200X
+  p 307  3.7 HOW TO USE THIS SECTION
+    p 307  Typical Symptoms
+    p 307  Top End Repair
+    p 307  Bottom End Repair
+  p 308  3.8 TOP END SERVICE
+    p 308  Engine in Chassis
+    p 309  Engine Removed from Chassis
+  p 310  3.9 BOTTOM END SERVICE
+    p 310  Engine in Chassis
+    p 311  Engine Removed From Chassis
+  p 312  3.10 REMOVING ENGINE FROM CHASSIS
+    p 312  Procedure: XL Models
+    p 315  Procedure: XR 1200X
+  p 320  3.11 INSTALLING ENGINE IN CHASSIS
+    p 320  Procedure: XL Models
+    p 323  Procedure: XR 1200X
+  p 326  3.12 PRECISION COOLING SYSTEM: XR 1200X
+    p 326  General
+    p 326  Return Oil Manifold
+    p 327  Cylinder Head Oil Return Lines
+    p 328  Cylinder Head Oil Feed Assembly
+    p 329  Oil Pump Lines
+    p 330  Oil Cooler
+  p 332  3.13 TOP END OVERHAUL: DISASSEMBLY
+    p 332  General
+    p 332  Stripping Motorcycle for Top End Repair
+    p 333  Cylinder Heads
+    p 336  Cylinder and Piston
+  p 338  3.14 CYLINDER HEAD
+    p 338  Disassembly
+    p 338  Cleaning and Inspection
+    p 341  Replacing Rocker Arm Bushings
+    p 342  Replacing Valve Guides
+    p 346  Refacing Valve Seats
+    p 348  Assembly
+  p 350  3.15 CYLINDER AND PISTON
+    p 350  Cleaning, Inspection and Repair
+    p 354  Connecting Rod Bushings
+  p 358  3.16 TOP END OVERHAUL: ASSEMBLY
+    p 358  General
+    p 358  Piston and Cylinder
+    p 359  Tappet Covers, Pushrod Covers and Pushrods
+    p 361  Cylinder Head
+    p 363  Rocker Covers
+    p 365  Assembling Motorcycle After Top End Repair
+  p 366  3.17 BOTTOM END OVERHAUL: DISASSEMBLY
+    p 366  General
+    p 366  Oil Pump: XL Models
+    p 366  Tappets
+    p 366  Cam Gear End Play
+    p 367  Gearcase Cover and Cam Gears: XL Models
+    p 367  Oil Pump Housing/Gearcase Cover and Cam Gears: XR 1200X
+    p 368  Crankcase
+  p 371  3.18 GEARCASE: XL MODELS
+    p 371  Bushing Inspection and Removal: XL Only
+    p 371  Bushing Installation: XL Only
+    p 372  Bushing Reaming: XL Only
+  p 375  3.19 CRANKCASE
+    p 375  General
+    p 375  Disassembly
+    p 377  Fitting Pinion Bearings
+    p 380  Lapping Engine Main Bearing Races
+  p 382  3.20 OIL PUMP: XL MODELS
+    p 382  General
+    p 383  Removal
+    p 383  Disassembly
+    p 383  Cleaning and Inspection
+    p 383  Assembly
+    p 384  Installation
+  p 385  3.21 OIL PUMP: XR 1200X
+    p 385  General
+    p 386  Disassembly
+    p 387  Cleaning and Inspection
+    p 388  Assembly
+  p 390  3.22 BOTTOM END OVERHAUL: ASSEMBLY
+    p 390  Crankcase
+    p 394  Cam and Pinion Gear Identification
+    p 395  Cam Gears and Gearcase Cover: XL Models
+    p 397  Cam Gears and Gearcase Cover: XR 1200X
+    p 400  Tappets
+  p 402  3.23 OIL FILTER MOUNT
+    p 402  General
+    p 402  Disassembly
+    p 402  Cleaning and Inspection
+    p 402  Assembly
+  p 403  3.24 OIL TANK
+    p 403  Pressure Relief Valve
+    p 403  Oil Line Routing: XL Models
+    p 403  Oil Line Routing: XR 1200X
+    p 403  Removal
+    p 404  Installation
+p 407  4. FUEL SYSTEM
+  p 409  4.1 FASTENER TORQUE VALUES
+    p 409  Fastener Torque Values in this Chapter
+  p 412  4.2 SPECIFICATIONS: FUEL SYSTEM
+    p 412  Specifications
+  p 413  4.3 AIR CLEANER ASSEMBLY
+    p 413  XL Models except XL 1200V
+    p 413  XL 1200V
+    p 414  XR 1200X
+  p 416  4.4 FUEL TANK: XL MODELS
+    p 416  Purging and Disconnecting Fuel Supply Hose
+    p 416  Removing Fuel Tank
+    p 417  Cleaning and Inspection
+    p 417  Installing Fuel Tank
+    p 418  Connecting Fuel Hose and Filling Fuel Tank
+    p 418  Vapor Valve
+  p 420  4.5 FUEL TANK: XR 1200X
+    p 420  Purging and Disconnecting Fuel Supply Hose
+    p 420  Removing Fuel Tank
+    p 422  Disassemble Fuel Tank
+    p 422  Cleaning and Inspection
+    p 423  Assemble Fuel Tank
+    p 423  Installing Fuel Tank
+    p 424  Connecting Fuel Hose and Filling Fuel Tank
+  p 425  4.6 THROTTLE POSITION SENSOR (TPS)
+    p 425  General
+    p 425  Removal: XL Models
+    p 426  Installation: XL Models
+    p 426  Removal: XR 1200X
+    p 427  Installation: XR 1200X
+  p 428  4.7 ENGINE TEMPERATURE (ET) SENSOR
+    p 428  General
+    p 428  Removal
+    p 429  Installation
+  p 431  4.8 INDUCTION MODULE: XL MODELS
+    p 431  Removal
+    p 433  Disassembly
+    p 434  Assembly
+    p 435  Installation
+  p 437  4.9 INDUCTION MODULE: XR 1200X
+    p 437  Removal
+    p 438  Disassembly
+    p 439  Assembly
+    p 439  Installation
+  p 441  4.10 IDLE AIR CONTROL (IAC)
+    p 441  General
+    p 441  Removal: XL Models
+    p 442  Installation: XL Models
+    p 443  Removal: XR 1200X
+    p 444  Installation: XR 1200X
+  p 445  4.11 TEMPERATURE MANIFOLD ABSOLUTE PRESSURE (TMAP) SENSOR
+    p 445  General
+    p 445  Removal: XL Models
+    p 446  Installation: XL Models
+    p 446  Removal: XR 1200X
+    p 447  Installation: XR 1200X
+  p 448  4.12 OXYGEN (O2) SENSOR
+    p 448  General
+    p 448  Removal
+    p 449  Installation
+  p 450  4.13 EXHAUST SYSTEM: XL MODELS
+    p 450  General
+    p 451  Removal
+    p 452  Installation
+  p 454  4.14 EXHAUST SYSTEM: XR 1200X
+    p 454  General
+    p 454  Removal
+    p 455  Installation
+  p 457  4.15 FUEL INJECTORS
+    p 457  Removal
+    p 458  Installation
+  p 460  4.16 FUEL PUMP
+    p 460  General
+    p 460  Removal
+    p 461  Disassembly
+    p 462  Assembly
+    p 463  Installation
+  p 465  4.17 FUEL FILTER ELEMENT
+    p 465  General
+    p 465  Removal
+    p 465  Installation
+  p 466  4.18 FUEL PRESSURE TEST
+    p 466  General
+    p 466  Testing
+  p 469  4.19 INTAKE LEAK TEST
+    p 469  General
+    p 469  Leak Tester
+    p 469  Procedure
+  p 471  4.20 EVAPORATIVE EMISSIONS CONTROL
+    p 471  General
+    p 472  Charcoal Canister
+    p 473  Vapor Valve: XL Models
+    p 474  Hose Routing
+p 477  5. DRIVE/TRANSMISSION
+  p 479  5.1 FASTENER TORQUE VALUES
+    p 479  Fastener Torque Values in this Chapter
+  p 481  5.2 SPECIFICATIONS: DRIVE
+    p 481  Sportster Specifications
+  p 482  5.3 PRIMARY COVER
+    p 482  Removal
+    p 483  Clutch Release Ramp
+    p 484  Primary Chain Adjuster
+    p 484  Installation
+  p 486  5.4 PRIMARY DRIVE AND CLUTCH: XL MODELS
+    p 486  Troubleshooting
+    p 486  Removal
+    p 488  Disassembly
+    p 488  Inspection and Repair: XL Models
+    p 490  Assembly
+    p 491  Installation
+  p 493  5.5 PRIMARY DRIVE AND CLUTCH: XR 1200X
+    p 493  Troubleshooting
+    p 493  Removal
+    p 495  Disassembly
+    p 495  Adjusting Screw
+    p 495  Clutch Pack Cleaning and Inspection
+    p 496  Clutch Shell/Hub Inspection
+    p 497  Clutch Shell Bearing Replacement
+    p 498  Assembly
+    p 500  Installation
+  p 502  5.6 DRIVE BELT
+    p 502  Drive Belt Handling
+    p 502  Drive Belt: XL Models
+    p 503  Idler Pulley: XR 1200X
+    p 504  Drive Belt: XR 1200X
+  p 506  5.7 TRANSMISSION POWER FLOW
+    p 506  General
+  p 508  5.8 CASE DISASSEMBLY FOR TRANSMISSION REMOVAL
+    p 508  General
+    p 508  Engine Removal and Disassembly
+  p 511  5.9 TRANSMISSION REMOVAL AND DISASSEMBLY
+    p 511  Transmission Removal From Left Crankcase
+    p 512  Mainshaft/Countershaft
+    p 512  Mainshaft Disassembly
+    p 513  Countershaft Disassembly
+  p 515  5.10 TRANSMISSION ASSEMBLY
+    p 515  Mainshaft Assembly
+    p 515  Countershaft Assembly
+  p 517  5.11 MAIN DRIVE GEAR AND BEARING
+    p 517  General
+    p 518  Removal
+    p 519  Disassembly
+    p 520  Assembly
+    p 521  Installation
+  p 527  5.12 TRANSMISSION RIGHT CASE BEARINGS
+    p 527  Removal
+    p 527  Installation
+  p 528  5.13 TRANSMISSION LEFT CASE BEARINGS
+    p 528  Removal
+    p 528  Installation
+  p 529  5.14 TRANSMISSION INSTALLATION
+    p 529  General
+    p 529  Installation
+    p 530  Shifter Forks and Drum Assembly
+    p 531  Assembling Crankcases
+    p 532  Shifter Shaft Installation
+  p 534  5.15 TRANSMISSION SPROCKET
+    p 534  Removal
+    p 535  Installation
+p 537  6. ELECTRICAL
+  p 539  6.1 FASTENER TORQUE VALUES
+    p 539  Fastener Torque Values in this Chapter
+  p 543  6.2 SPECIFICATIONS: ELECTRICAL
+    p 543  Specifications
+  p 544  6.3 FUSES AND RELAYS
+    p 544  General
+    p 544  Main Fuse
+    p 544  Fuses
+    p 545  Relays
+  p 546  6.4 SPEEDOMETER: XL MODELS
+    p 546  Removal
+    p 546  Installation
+  p 548  6.5 SPEEDOMETER AND TACHOMETER: XR 1200X
+    p 548  Speedometer Removal
+    p 548  Speedometer Installation
+    p 549  Trip Odometer Reset Switch Replacement
+    p 549  Tachometer Removal
+    p 549  Tachometer Installation
+  p 550  6.6 ELECTRONIC CONTROL MODULE (ECM)
+    p 550  General
+    p 550  Removal
+    p 551  Installation
+  p 552  6.7 TURN SIGNAL AND SECURITY MODULE (TSM/TSSM/HFSM)
+    p 552  General
+    p 552  Removal
+    p 552  Installation
+  p 553  6.8 BATTERY CABLES
+    p 553  Removal
+    p 553  Installation
+  p 555  6.9 BATTERY TRAY
+    p 555  General
+    p 555  Removal
+    p 556  Installation
+  p 557  6.10 STARTER
+    p 557  Removal
+    p 557  Touch-Up Paint
+    p 557  Installation
+    p 558  Solenoid
+    p 559  Clutch Shaft Assembly
+  p 561  6.11 IGNITION SWITCH
+    p 561  Removal
+    p 561  Installation
+  p 562  6.12 SPARK PLUG CABLES
+    p 562  General
+    p 562  Removal
+    p 563  Installation
+  p 565  6.13 IGNITION COIL
+    p 565  General
+    p 565  Removal
+    p 566  Installation
+  p 568  6.14 HEADLAMP
+    p 568  Bulb Replacement
+    p 569  Headlamp Mounts
+  p 571  6.15 INDICATOR LAMP MODULE
+    p 571  General
+    p 571  Preliminary Disassembly: All Models
+    p 571  Replacement: XL 1200C/C ANV/CP/CA except with Mini-Ape Handlebar
+    p 572  Replacement: XL 883R/L/N, XL 1200X/V, XL 1200CP/CB with Mini-Ape Handlebar
+    p 572  Replacement: XR 1200X
+    p 573  Assembly: All Models
+  p 574  6.16 TAIL LAMP: ALL MODELS EXCEPT XL 883N/XL 1200X/V
+    p 574  Bulb Replacement Except XL 1200C/C ANV/CP/CA/CB
+    p 574  Base Replacement: XL 883R/L and XR 1200X
+    p 576  LED Tail Lamp: XL 1200C/C ANV/CP/CA/CB
+  p 578  6.17 LICENSE PLATE LAMP MODULE: XL 883N, XL 1200X/V
+    p 578  General
+    p 578  Removal: Domestic Only
+    p 579  Installation: Domestic Only
+    p 579  Removal: Non-Domestic
+    p 582  Installation: HDI
+  p 583  6.18 FRONT TURN SIGNALS
+    p 583  Bulb Replacement
+    p 583  All Except XL 1200X
+    p 584  XL 1200X
+  p 586  6.19 REAR TURN SIGNALS
+    p 586  General
+    p 586  XL 883R/L
+    p 588  XL 883N and XL 1200X/V
+    p 590  XL 1200C/C ANV/CP/CA/CB
+    p 591  XR 1200X
+  p 593  6.20 REAR LIGHTING CONVERTER MODULE: XL 883N, XL 1200X/V (DOM)
+    p 593  General
+    p 593  Removal
+    p 594  Installation
+  p 595  6.21 REAR STOP LAMP SWITCH
+    p 595  General
+    p 595  Replacement
+  p 597  6.22 CRANK POSITION SENSOR (CKP)
+    p 597  General
+    p 597  Removal
+    p 597  Installation
+  p 598  6.23 VOLTAGE REGULATOR
+    p 598  General
+    p 598  Removal: XL Models
+    p 599  Installation: XL Models
+    p 599  Removal: XR 1200X
+    p 600  Installation: XR 1200X
+  p 602  6.24 ALTERNATOR
+    p 602  Removal and Disassembly
+    p 603  Cleaning and Inspection
+    p 603  Assembly and Installation
+  p 605  6.25 VEHICLE SPEED SENSOR (VSS)
+    p 605  General
+    p 605  Removal
+    p 605  Installation
+  p 606  6.26 NEUTRAL INDICATOR SWITCH
+    p 606  General
+    p 606  Replacement
+  p 607  6.27 MAIN WIRING HARNESS
+    p 607  Wire Harness Connectors
+    p 608  Removal
+    p 610  Installation
+  p 612  6.28 ELECTRICAL CADDIES
+    p 612  Wire Harness Caddy: XL Models
+    p 615  Wire Harness Caddy: XR 1200X
+  p 618  6.29 JIFFY STAND SENSOR (JSS): INTERNATIONAL MODELS
+    p 618  Removal
+    p 618  Installation
+    p 619  Operation
+  p 620  6.30 SECURITY SYSTEM/OPTIONAL SIREN
+    p 620  Fob Battery
+    p 620  Optional Siren
+    p 621  Siren Battery
+  p 623  6.31 OIL PRESSURE SWITCH
+    p 623  General
+    p 623  Removal
+    p 623  Installation
+  p 625  6.32 HORN
+    p 625  Troubleshooting
+    p 625  Voltage Test
+    p 625  Replacement: Front Mount
+    p 625  Replacement: Side Mount
+  p 627  6.33 HANDLEBAR SWITCH ASSEMBLIES
+    p 627  Repair Procedures
+    p 627  Connectors
+  p 629  6.34 RIGHT HANDLEBAR SWITCHES
+    p 629  Removal
+    p 629  Disassembly
+    p 630  Switch Repair/Replacement
+    p 631  Assembly
+    p 632  Installation
+  p 635  6.35 LEFT HANDLEBAR SWITCHES
+    p 635  Removal
+    p 635  Disassembly
+    p 635  Switch Repair and Replacement
+    p 636  Assembly
+    p 637  Installation
+  p 639  6.36 PERSONAL IDENTIFICATION NUMBER (PIN)
+    p 639  General
+    p 639  Initial PIN Entry
+    p 639  Changing the PIN
+  p 641  6.37 H-DSSS ACTUATION
+    p 641  General
+    p 641  Sidecar Configuration
+    p 641  Actuation
+    p 641  Fob Assignment
+    p 641  Power Disruption and Configuring
+  p 642  6.38 TSM/HFSM: PASSWORD LEARN
+    p 642  General
+    p 642  Password Learn
+p 645  A. APPENDIX A CONNECTOR REPAIR
+  p 647  A.1 AUTOFUSE UNSEALED ELECTRICAL CONNECTOR
+    p 647  Autofuse Unsealed Connector Repair
+  p 648  A.2 BOSCH COMPACT 1.1M CONNECTOR
+    p 648  Bosch Compact 1.1M Connector
+  p 649  A.3 DELPHI 100W MICRO-PACK SEALED CONNECTOR
+    p 649  Delphi 100W Micro-Pack Sealed Connector Repair
+    p 650  Crimping Terminals
+  p 651  A.4 DELPHI 150 METRI-PACK SEALED CONNECTOR
+    p 651  Delphi 150 Metri-Pack Sealed Connector Repair
+  p 653  A.5 DELPHI 280 METRI-PACK UNSEALED CONNECTOR
+    p 653  Fuse Block Repair
+  p 654  A.6 DELPHI 480 METRI-PACK UNSEALED CONNECTORS
+    p 654  Delphi 480 Metri-Pack Unsealed Connector Repair
+  p 655  A.7 DELPHI 630 METRI-PACK UNSEALED CONNECTOR
+    p 655  Delphi 630 Metri-Pack Unsealed Connector Repair
+  p 656  A.8 DELPHI 800 METRI-PACK SEALED MAIN FUSE HOUSING
+    p 656  Delphi 800 Metri-Pack Sealed Main Fuse Housing Repair
+  p 657  A.9 DELPHI METRI-PACK TERMINAL REPAIR
+    p 657  Metri-Pack Terminal Crimps
+  p 659  A.10 DELPHI MICRO 64 SEALED CONNECTOR
+    p 659  Delphi Micro 64 Sealed Connector Repair
+  p 662  A.11 DELPHI GT 150 SEALED CONNECTOR
+    p 662  Delphi GT 150 Sealed Connector Repair
+  p 664  A.12 DELPHI GT 280 SEALED 73-TERMINAL ECM CONNECTOR
+    p 664  Delphi GT 280 Sealed 73-Terminal ECM Connector
+  p 666  A.13 DEUTSCH DT SEALED CONNECTOR
+    p 666  Deutsch DT Sealed Connector Repair
+  p 670  A.14 DEUTSCH DT SEALED TERMINAL REPAIR
+    p 670  Deutsch DT Sealed Terminal Crimps
+  p 671  A.15 DEUTSCH DTM SEALED MINI TERMINAL REPAIR
+    p 671  Deutsch DTM Sealed Mini Terminal Crimps
+  p 672  A.16 DEUTSCH DTM SEALED SOLID BARREL MINI TERMINAL REPAIR
+    p 672  Deutsch DTM Sealed Solid Barrel Terminal Crimps
+  p 674  A.17 JAE MX19 SEALED CONNECTOR
+    p 674  JAE MX19 Sealed Connectors
+    p 674  Crimping Terminals
+  p 675  A.18 MOLEX CMC SEALED CONNECTOR
+    p 675  Molex CMC Sealed Connectors
+    p 676  Crimping Terminals
+  p 677  A.19 MOLEX MX 150 SEALED CONNECTOR
+    p 677  Molex MX 150 Sealed Connector Repair
+    p 678  Crimp Terminal to Lead
+  p 681  A.20 TYCO 070 MULTILOCK UNSEALED CONNECTOR
+    p 681  Tyco 070 Multilock Unsealed Connector Repair
+  p 685  A.21 TYCO GET 64 SEALED CONNECTOR
+    p 685  Tyco GET 64 Sealed Connector
+    p 686  Crimping Terminals
+  p 687  A.22 TYCO MCP SEALED CONNECTOR
+    p 687  Tyco MCP Sealed Connector
+    p 688  Crimping Terminals
+  p 689  A.23 SEALED SPLICE CONNECTOR
+    p 689  Sealed Splice Connector Repair
+p 691  B. APPENDIX B WIRING
+  p 693  B.1 CONNECTORS
+    p 693  Connector Locations
+  p 696  B.2 WIRING DIAGRAMS
+    p 696  Wiring Diagram Information
+    p 698  2013 Sportster Wiring Diagrams
+p 719  C. APPENDIX C COMPENSATING SPROCKET
+  p 721  C.1 COMPENSATING SPROCKET
+    p 721  General
+    p 721  Removal and Disassembly
+    p 721  Cleaning, Inspection and Repair
+    p 721  Sprocket Bearing
+    p 722  Assembly and Installation
+p 725  D. APPENDIX D CONVERSIONS
+  p 727  D.1 METRIC CONVERSION
+    p 727  Conversion Table
+  p 728  D.2 FLUID CONVERSIONS
+    p 728  United States System
+    p 728  Metric System
+    p 728  British Imperial System
+  p 729  D.3 TORQUE CONVERSIONS
+    p 729  United States System
+    p 729  Metric System
+p 731  E. APPENDIX E GLOSSARY
+  p 733  E.1 GLOSSARY
+    p 733  Acronyms and Abbreviations
+p 737  TOOLS
+p 747  TORQUE VALUES
+p 769  INDEX

@@ -1,0 +1,4652 @@
+# 5. DRIVE/TRANSMISSION
+# Source: 2013 HD Sportster Service Manual (99484-13)
+# Pages: 477-536
+
+--- Page 477 ---
+TABLE OF CONTENTS
+SUBJECT............................................................................................................................PAGE NO.
+5.1 FASTENER TORQUE VALUES.................................................................................................5-1
+5.2 SPECIFICATIONS: DRIVE........................................................................................................5-3
+5.3 PRIMARY COVER.....................................................................................................................5-4
+5.4 PRIMARY DRIVE AND CLUTCH: XL MODELS........................................................................5-8
+5.5 PRIMARY DRIVE AND CLUTCH: XR 1200X..........................................................................5-15
+5.6 DRIVE BELT............................................................................................................................5-24
+5.7 TRANSMISSION POWER FLOW............................................................................................5-28
+5.8 CASE DISASSEMBLY FOR TRANSMISSION REMOVAL......................................................5-30
+5.9 TRANSMISSION REMOVAL AND DISASSEMBLY................................................................5-33
+5.10 TRANSMISSION ASSEMBLY...............................................................................................5-37
+5.11 MAIN DRIVE GEAR AND BEARING.....................................................................................5-39
+5.12 TRANSMISSION RIGHT CASE BEARINGS.........................................................................5-49
+5.13 TRANSMISSION LEFT CASE BEARINGS...........................................................................5-50
+5.14 TRANSMISSION INSTALLATION..........................................................................................5-51
+5.15 TRANSMISSION SPROCKET...............................................................................................5-56
+DRIVE/TRANSMISSION
+
+--- Page 478 ---
+NOTES
+
+--- Page 479 ---
+5.1
+FASTENER TORQUE VALUES
+FASTENER TORQUE VALUES IN THIS
+CHAPTER
+The table below lists torque values for all fasteners presented
+in this chapter.
+NOTES
+TORQUE VALUE
+FASTENER
+5.6 DRIVE BELT, Drive Belt: XL Models
+129-142 Nm
+95-105 ft-lbs
+Axle, rear, nut
+5.6 DRIVE BELT, Drive Belt: XR 1200X
+129-142 Nm
+95-105 ft-lbs
+Axle, rear, nut
+5.3 PRIMARY COVER, Installation
+4.1-12.2 Nm
+36-108 in-lbs
+Clutch cable fitting
+5.3 PRIMARY COVER, Installation
+10.3-13.6 Nm
+90-120 in-lbs
+Clutch inspection cover screws
+5.14 TRANSMISSION INSTALLATION, Shifter
+Shaft Installation
+44.8-50.2 Nm
+33-37 ft-lbs
+Countershaft retaining screw
+5.14 TRANSMISSION INSTALLATION, Assembling
+Crankcases
+20.3-25.8 Nm
+15-19 ft-lbs
+Crankcase fastener
+5.5 PRIMARY DRIVE AND CLUTCH: XR
+1200X, Installation
+210.0-224.0 Nm
+155-165 ft-lbs
+Engine sprocket bolt: XR 1200X
+5.4 PRIMARY DRIVE AND CLUTCH: XL
+MODELS, Installation
+326-353 Nm
+240-260 ft-lbs
+Engine sprocket nut: XL Models
+5.6 DRIVE BELT, Drive Belt: XL Models
+40.7-44.8 Nm
+30-33 ft-lbs
+Exhaust pipe clamp bracket fastener: XL
+Models
+5.15 TRANSMISSION SPROCKET, Installation
+40.7-44.8 Nm
+30-33 ft-lbs
+Exhaust pipe clamp bracket fastener: XR
+1200X
+5.15 TRANSMISSION SPROCKET, Installation
+61-68 Nm
+45-50 ft-lbs
+Footrest mount fastener
+5.14 TRANSMISSION INSTALLATION, Installation
+10.2-12.4 Nm
+90-110 in-lbs
+Gear detent assembly screw
+5.3 PRIMARY COVER, Installation
+21.7-27.1 Nm
+16-20 ft-lbs
+Gear shift lever pinch screw
+5.6 DRIVE BELT, Idler Pulley: XR 1200X
+44.7-47.5 Nm
+33-35 ft-lbs
+Idler pulley bracket flanged nut: XR
+1200X
+5.6 DRIVE BELT, Idler Pulley: XR 1200X
+95-109 Nm
+70-80 ft-lbs
+Idler pulley fastener: XR 1200X
+5.15 TRANSMISSION SPROCKET, Installation
+40.7-44.8 Nm
+30-33 ft-lbs
+Muffler interconnect bracket mounting
+screw: XR 1200X
+5.14 TRANSMISSION INSTALLATION, Assembling
+Crankcases
+13.6-20.3 Nm
+120-180 in-lbs
+Neutral indicator switch
+5.3 PRIMARY COVER, Installation
+27.1-33.9 Nm
+20-25 ft-lbs
+Primary chain adjuster locknut
+5.3 PRIMARY COVER, Installation
+19.0-40.7 Nm
+14-30 ft-lbs
+Primary chaincase drain plug
+5.3 PRIMARY COVER, Installation
+11.3-13.6 Nm
+100-120 in-lbs
+Primary chain cover screw
+5.6 DRIVE BELT, Drive Belt: XL Models
+9.0-13.6 Nm
+80-120 in-lbs
+Sprocket cover, forward and lower
+screws
+5.6 DRIVE BELT, Idler Pulley: XR 1200X
+9.0-13.6 Nm
+80-120 in-lbs
+Sprocket cover, forward and lower
+screws
+5.6 DRIVE BELT, Drive Belt: XR 1200X
+9.0-13.6 Nm
+80-120 in-lbs
+Sprocket cover, forward and lower
+screws
+5.15 TRANSMISSION SPROCKET, Installation
+9.0-13.6 Nm
+80-120 in-lbs
+Sprocket cover, forward and lower
+screws
+5.15 TRANSMISSION SPROCKET, Installation
+9.0-13.6 Nm
+80-120 in-lbs
+Sprocket cover, forward and lower
+screws
+5.6 DRIVE BELT, Idler Pulley: XR 1200X
+40.7-44.8 Nm
+30-33 ft-lbs
+Sprocket cover, rear screw
+5.6 DRIVE BELT, Drive Belt: XR 1200X
+40.7-44.8 Nm
+30-33 ft-lbs
+Sprocket cover, rear screw
+5.15 TRANSMISSION SPROCKET, Installation
+40.7-44.8 Nm
+30-33 ft-lbs
+Sprocket cover, rear screw
+HOME
+2013 Sportster Service: Drive/Transmission 5-1
+
+--- Page 480 ---
+NOTES
+TORQUE VALUE
+FASTENER
+5.4 PRIMARY DRIVE AND CLUTCH: XL
+MODELS, Installation
+67.8-81.3 Nm
+50-60 ft-lbs
+Transmission mainshaft nut: XL Models
+5.5 PRIMARY DRIVE AND CLUTCH: XR
+1200X, Installation
+67.8-81.3 Nm
+50-60 ft-lbs
+Transmission mainshaft nut: XR 1200X
+5.15 TRANSMISSION SPROCKET, Installation
+10.3-13.6 Nm
+90-120 in-lbs
+Transmission sprocket lockplate fastener
+5.15 TRANSMISSION SPROCKET, Installation/Ini-
+tial torque plus 30-40 degrees.
+68 Nm
+50 ft-lbs
+Transmission sprocket nut
+HOME
+5-2 2013 Sportster Service: Drive/Transmission
+
+--- Page 481 ---
+5.2
+SPECIFICATIONS: DRIVE
+SPORTSTER SPECIFICATIONS
+Table 5-1. Sprocket Teeth
+NUMBER OF TEETH
+ITEM
+DRIVE
+XR 1200X
+XL 1200 MODELS
+XL 883 MODELS
+U.S./WORLD
+WORLD
+U.S.
+WORLD
+U.S.
+34
+38
+38
+34
+34
+Engine
+Primary
+57
+57
+57
+57
+57
+Clutch
+28
+30
+29
+29
+29
+Transmission
+Final
+68
+68
+68
+68
+68
+Rear wheel
+Table 5-2. Overall Drive Ratios
+XR 1200X
+XL 1200 MODELS
+XL 883 MODELS
+GEAR
+U.S./WORLD
+WORLD
+U.S.
+ALL
+10.782
+9.004
+9.315
+10.407
+1st
+7.702
+6.432
+6.653
+7.436
+2nd
+5.728
+4.783
+4.948
+5.530
+3rd
+4.748
+3.965
+4.102
+4.583
+4th
+4.071
+3.400
+3.517
+3.931
+5th
+NOTE
+Service wear limits are given as a guideline for measuring
+components that are not new. For measurement specifications
+not given under SERVICE WEAR LIMITS, see NEW COMPON-
+ENTS.
+Table 5-3. Clutch Pack Plate Specifications
+SERVICE WEAR LIMIT
+NEW COMPONENTS
+ITEM
+mm
+in
+mm
+in
+CLUTCH PLATE THICKNESS
+2.0200
+0.0795
+2.2000 ± 0.0800
+0.8661 ± 0.0031
+Friction plate (fiber)
+N/A
+N/A
+1.6000
+0.0629
+Steel plate
+MAXIMUM ALLOWABLE WARPAGE
+0.1500
+0.0059
+N/A
+N/A
+Friction plate (fiber)
+0.1500
+0.0059
+N/A
+N/A
+Steel plate
+HOME
+2013 Sportster Service: Drive/Transmission 5-3
+
+--- Page 482 ---
+5.3
+PRIMARY COVER
+REMOVAL
+To prevent accidental vehicle start-up, which could cause
+death or serious injury, disconnect battery cables (negative
+(-) cable first) before proceeding. (00307a)
+1.
+Disconnect the negative (-) battery cable from the engine
+stud on the back of the crankcase behind the starter motor
+assembly. See 1.22 BATTERY MAINTENANCE.
+2.
+Remove left side rider footrest and mounting bracket
+assembly.
+a.
+Models with Mid-mount Controls: See 2.40 RIDER
+FOOT CONTROLS: XL MID-MOUNT CONTROLS
+or 2.42 RIDER FOOT CONTROLS: XR 1200X.
+b.
+Models with Forward Controls: See 2.41 RIDER
+FOOT CONTROLS: XL FORWARD CONTROLS.
+3.
+See Figure 5-1. Place a drain pan under the engine.
+Remove drain plug (1) and drain lubricant from primary
+drive housing.
+NOTE
+Dispose of primary lubricant in accordance with local regula-
+tions.
+4.
+Loosen locknut (2). Turn chain adjuster screw (3) counter-
+clockwise to relax primary chain tension.
+5.
+Remove gear shift lever (4) and rubber washer from
+transmission shifter shaft.
+6.
+Loosen the clutch cable tension at the clutch cable
+adjuster.
+7.
+Remove the clutch inspection cover (5).
+8.
+See Figure 5-2. Remove the quad ring (1) from the groove
+in the primary cover. Discard the quad ring.
+9.
+Slide hex lockplate (2) and attached spring from flats of
+adjusting screw.
+10. Turn adjusting screw clockwise to release ramp assembly
+(3) and coupling mechanism. As the adjusting screw is
+turned, ramp assembly moves forward. Remove nut from
+end of adjusting screw.
+11. Remove hook (4) of ramp (3) from cable coupling (5).
+Remove clutch cable end from slot in coupling. Remove
+coupling and ramp assembly.
+12. See Figure 5-4. Turn cable end fitting counterclockwise
+to remove clutch cable lower section from primary cover.
+Remove and discard O-ring from cable end fitting.
+13. Remove sixteen screws with captive washers securing
+primary cover to engine crankcase. Remove cover and
+gasket. Discard gasket.
+14. See Figure 5-5. Remove and discard shifter shaft oil seal.
+1
+1
+4
+2
+5
+3
+sm06915
+1.
+Primary drain plug
+2.
+Locknut
+3.
+Adjuster screw
+4.
+Shift lever
+5.
+Clutch inspection cover
+Figure 5-1. Primary Cover
+1
+4
+2
+5
+3
+sm06901
+1.
+Quad ring
+2.
+Hex lockplate
+3.
+Ramp assembly
+4.
+Hook
+5.
+Cable coupling
+Figure 5-2. Clutch Release Ramp
+HOME
+5-4 2013 Sportster Service: Drive/Transmission
+
+--- Page 483 ---
+3
+5
+4
+2
+1
+sm06898
+1.
+Screw
+2.
+Inspection Cover
+3.
+Quad ring
+4.
+Screw
+5.
+Gasket
+Figure 5-3. Primary Cover
+sm06900
+Figure 5-4. Clutch Cable Fitting
+sm07177
+Figure 5-5. Shifter Shaft Oil Seal
+CLUTCH RELEASE RAMP
+1.
+Clean all parts in cleaning solvent. Dry with a clean, lint-
+free cloth.
+2.
+See Figure 5-6. Inspect three balls (1) and ball socket
+surfaces of inner ramp (2) and outer ramp (3). Replace
+parts as necessary.
+3.
+Check hub fit of inner and outer ramps. Replace ramps if
+excessively worn.
+4.
+Assemble inner and outer ramps.
+a.
+Apply a light coat of multi-purpose grease to balls and
+ramps.
+b.
+Insert balls in sockets of outer ramp.
+c.
+Install inner ramp on hub of outer ramp with tang on
+inner ramp 180 degrees from hook of outer ramp.
+d.
+Install new retaining ring (4) in groove of outer ramp
+hub.
+5.
+Install clutch release ramp.
+a.
+Fit adapter (5) over clutch cable end with the rounded
+side inboard, the ramp connector button outboard.
+b.
+With retaining ring side of ramp assembly facing
+inward, place hook of ramp around coupling button.
+c.
+Rotate assembly counterclockwise until tang on inner
+ramp fits in slot of primary cover.
+HOME
+2013 Sportster Service: Drive/Transmission 5-5
+
+--- Page 484 ---
+1
+2
+4
+3
+5
+sm06903
+1.
+Ball
+2.
+Inner ramp
+3.
+Outer ramp
+4.
+Retaining ring
+5.
+Adapter
+Figure 5-6. Clutch Release Ramp
+PRIMARY CHAIN ADJUSTER
+1.
+See Figure 5-7. Remove locknut (1) from adjuster screw
+(4). Turn adjuster screw out of the threaded boss in the
+primary cover (3).
+2.
+Inspect the adjuster shoe (5). Replace if worn or damaged.
+3.
+Position the adjuster inside the primary cover (3) with the
+closed side of shoe against the cover. Thread the adjuster
+screw (4) all the way into the threaded boss at the bottom
+of the cover.
+NOTE
+Hold adjuster screw in place with a hex key while threading
+locknut on.
+4.
+Thread the locknut (1) onto the adjuster screw with the
+nylon sealing surface (2) toward the cover.
+3
+2
+1
+1
+3
+5
+5
+sm01343b
+1.
+Locknut
+2.
+Nylon sealing surface
+3.
+Primary cover
+4.
+Adjuster screw
+5.
+Shoe
+Figure 5-7. Primary Chain Adjuster Assembly
+INSTALLATION
+TORQUE VALUE
+FASTENER
+11.3-13.6 Nm
+100-120
+in-lbs
+Primary chain cover screw
+19.0-40.7 Nm
+14-30 ft-lbs
+Primary chaincase drain plug
+4.1-12.2 Nm
+36-108 in-lbs
+Clutch cable fitting
+10.3-13.6 Nm
+90-120 in-lbs
+Clutch inspection cover
+screws
+27.1-33.9 Nm
+20-25 ft-lbs
+Primary chain adjuster locknut
+21.7-27.1 Nm
+16-20 ft-lbs
+Gear shift lever pinch screw
+1.
+Install a new shifter shaft oil seal.
+2.
+Install a new gasket on the primary cover.
+HOME
+5-6 2013 Sportster Service: Drive/Transmission
+
+--- Page 485 ---
+3.
+Apply 2-3 drops of LOCTITE 243 MEDIUM STRENGTH
+THREADLOCKER AND SEALANT (blue) to threads of
+primary cover screws.
+4.
+See Figure 5-8. Install primary cover and gasket using
+sixteen screws with captive washers. Tighten to 100-120
+in-lbs (11.3-13.6 Nm) in sequence.
+5.
+Install drain plug:
+a.
+Clean the magnetic drain plug.
+b.
+Inspect O-ring and replace if necessary.
+c.
+Apply LOCTITE 565 PIPE SEALANT WITH TEFLON
+to the drain plug.
+d.
+Install plug. Tighten to 14-30 ft-lbs (19.0-40.7 Nm).
+6.
+Install new O-ring over cable end fitting of clutch cable
+lower section. Turn fitting clockwise to install into primary
+cover. Tighten fitting to 36-108 in-lbs (4.1-12.2 Nm).
+7.
+Fit coupling over cable end with rounded side of coupling
+inboard and ramp connector button outboard. With
+retaining ring side of ramp assembly facing inward, place
+hook of ramp around coupling button. Rotate assembly
+counterclockwise until tang on inner ramp fits in slot of
+primary cover.
+8.
+Thread nut on adjusting screw assembly until slot of screw
+is accessible with a screwdriver. Fit nut hex into recess of
+outer ramp and turn adjusting screw counterclockwise
+until resistance is felt. Back off adjusting screw 1/4 turn.
+9.
+Slide lockplate and spring onto flats of adjusting screw. If
+necessary, turn adjusting screw clockwise slightly until the
+lockplate slides onto flats. Fit the lockplate within recess
+of outer ramp.
+10. Install the oil drain plug. Tighten the oil drain plug.
+11. Fill transmission to specification.
+12. Install new quad ring in groove of primary cover. Verify
+that quad ring is fully seated in groove.
+13. Install six screws to secure clutch inspection cover to
+primary cover. Tighten in a crosswise pattern to 90-120
+in-lbs (10.3-13.6 Nm).
+14. Adjust the clutch and the clutch lever free play. See
+1.11 CLUTCH.
+15. Install left side rider footrest and mounting bracket
+assembly.
+a.
+Models with Mid-mount Controls: See 2.40 RIDER
+FOOT CONTROLS: XL MID-MOUNT CONTROLS
+or 2.42 RIDER FOOT CONTROLS: XR 1200X.
+b.
+Models with Forward Controls: See 2.41 RIDER
+FOOT CONTROLS: XL FORWARD CONTROLS.
+16. Adjust primary chain free play. When tension is set, tighten
+locknut to 20-25 ft-lbs (27.1-33.9 Nm). See 1.9 PRIMARY
+CHAIN.
+17. Install rubber washer and gear shift lever on shifter shaft.
+Secure with pinch screw and washer. Tighten to 16-20 ft-
+lbs (21.7-27.1 Nm).
+Connect positive (+) battery cable first. If positive (+) cable
+should contact ground with negative (-) cable connected,
+the resulting sparks can cause a battery explosion, which
+could result in death or serious injury. (00068a)
+18. Install the battery cables.
+14
+1
+15
+7
+13
+10
+9
+2
+8
+5
+3
+11
+12
+6
+4
+16
+sm07176
+Figure 5-8. Outer Primary Cover Torque Sequence
+HOME
+2013 Sportster Service: Drive/Transmission 5-7
+
+--- Page 486 ---
+5.4
+PRIMARY DRIVE AND CLUTCH: XL MODELS
+TROUBLESHOOTING
+Refer to Table 5-4.
+Table 5-4. Clutch Troubleshooting
+REMEDY
+CAUSE
+CHECK
+ORDER
+SYMPTOM
+Check and adjust clutch release mechanism.
+Incorrect clutch release adjustment
+1
+Clutch slips
+Check service wear limits. Replace plates.
+Worn clutch plates
+2
+Check and adjust clutch release mechanism.
+Incorrect clutch release adjustment
+1
+Clutch drags
+Replace release ramps and/or balls.
+Worn clutch release ramps or balls
+2
+Replace clutch steel plates.
+Warped clutch steel plates
+3
+Replace clutch gear or hub as required.
+Worn or damaged clutch gear splines
+4
+Drain lubricant to correct level.
+Overfilled primary
+5
+REMOVAL
+TOOL NAME
+PART NUMBER
+SPORTSTER 5-SPEED SPROCKET
+LOCKING LINK
+HD-38362
+PRIMARY DRIVE LOCKING TOOL
+HD-46283
+To prevent accidental vehicle start-up, which could cause
+death or serious injury, disconnect battery cables (negative
+(-) cable first) before proceeding. (00307a)
+NOTE
+See Figure 5-10. If replacement of clutch pack (28) is the only
+service work required, perform REMOVAL steps 1 and 4 only,
+and then proceed to the NOTES under DISASSEMBLY.
+1.
+Disconnect negative (-) battery cable from stud on engine
+crankcase
+behind
+starter
+motor
+assembly.
+See
+1.22 BATTERY MAINTENANCE.
+2.
+Open left side cover. See 2.18 LEFT SIDE COVER.
+3.
+Remove positive (+) battery cable from battery positive
+(+) terminal. See 1.22 BATTERY MAINTENANCE.
+4.
+Remove the primary cover. Discard the primary cover
+gasket. See 5.3 PRIMARY COVER.
+NOTE
+See Figure 5-9. Do not position the sprocket locking link too
+close to the shifter shaft (2). If the sprocket locking link contacts
+the shifter shaft the sprocket locking link may damage the
+shifter shaft and/or the engine crankcase.
+5.
+Install a locking link:
+a.
+XL
+883
+Models:
+Use
+SPORTSTER
+5-SPEED
+SPROCKET LOCKING LINK (Part No. HD-38362).
+b.
+XL 1200 Models: Use PRIMARY DRIVE LOCKING
+TOOL (Part No. HD-46283).
+6.
+Remove the engine sprocket nut. Do not remove engine
+sprocket at this time.
+7.
+See Figure 5-10. Remove large retaining ring (16).
+Remove adjusting screw assembly (12, 13, 14 and 15)
+from pressure plate (11).
+NOTE
+Transmission mainshaft nut (7) has left-hand threads. Turn nut
+clockwise to loosen and remove from mainshaft.
+8.
+Remove mainshaft nut (7) and spring washer (6).
+9.
+Remove the clutch assembly, primary chain and engine
+sprocket as an assembly from the vehicle.
+10. Inspect primary chain. Replace if necessary.
+11. Inspect stator and rotor. Replace if necessary. See
+6.24 ALTERNATOR.
+2
+1
+sm01257a
+1.
+Sprocket locking link
+2.
+Shifter shaft
+Figure 5-9. Using Sprocket Locking Link (Part No.
+HD-46283 or HD-38362) to Loosen Engine Sprocket Nut
+HOME
+5-8 2013 Sportster Service: Drive/Transmission
+
+--- Page 487 ---
+28
+2
+1
+3
+4
+5
+8
+21
+22
+23
+24
+25
+9
+14
+13
+15
+16
+17
+18
+19
+20
+26
+27
+10
+11
+6
+7
+12
+sm01352
+15.
+1.
+Release plate
+Retaining ring
+2.
+16.
+Clutch shell and sprocket
+Retaining ring
+17.
+3.
+Diaphragm spring
+Ball bearing
+4.
+18.
+Retaining ring
+Spring seat
+19.
+5.
+Retaining ring
+Clutch hub
+6.
+20.
+Spring washer
+Retaining ring
+21.
+7.
+Inner ramp
+Mainshaft nut
+8.
+22.
+Spring plate
+Outer ramp
+23.
+9.
+Nut
+Steel plate (6)
+10.
+24.
+Friction plate, fiber (8)
+Locking plate
+25.
+11.
+Clutch adjustment spring
+Pressure plate
+12.
+26.
+Adjusting screw
+Ball (3)
+27.
+13.
+Clutch cable coupling
+Bearing
+14.
+28.
+Retaining ring
+Clutch pack (consists of items 8, 9, 10)
+Figure 5-10. Clutch Assembly: XL Models
+HOME
+2013 Sportster Service: Drive/Transmission 5-9
+
+--- Page 488 ---
+DISASSEMBLY
+TOOL NAME
+PART NUMBER
+CLUTCH SPRING FORCING SCREW
+HD-38515-91
+SPRING COMPRESSING TOOL
+HD-38515-A
+NOTES
+•
+See Figure 5-10. If replacement of clutch pack (28) is the
+only service work required, perform DISASSEMBLY Steps
+2-5 and 7 only, and then proceed to the NOTE under
+INSPECTION AND REPAIR.
+•
+Observe all WARNING and CAUTION statements which
+apply to the steps specified.
+1.
+See Figure 5-10. With clutch assembly removed from
+primary chaincase, install the adjusting screw assembly
+(12, 13, 14 and 15) into the pressure plate (11):
+a.
+Match the two tabs on release plate (15) to the
+notches in the pressure plate.
+b.
+Install the retaining ring (16).
+Disassemble clutch using a spring compressing tool. The
+diaphragm spring is compressed and, if removed without
+proper tools can fly out, which could result in death or
+serious injury. (00292a)
+2.
+See Figure 5-11. Compress clutch diagram spring.
+a.
+Thread the CLUTCH SPRING FORCING SCREW
+(Part No. HD-38515-91) onto the clutch adjusting
+screw.
+b.
+Place the bridge of the SPRING COMPRESSING
+TOOL (Part No. HD-38515-A) against diaphragm
+spring.
+c.
+Thread the tool handle onto end of forcing screw.
+NOTE
+See Figure 5-10. Turn compressing tool handle only enough
+to remove retaining ring (19) and spring seat (18). Excessive
+compression of diaphragm spring could damage clutch pres-
+sure plate.
+3.
+See Figure 5-10. With a wrench on the clutch spring for-
+cing screw flats to prevent the forcing screw from turning,
+turn handle clockwise until tool relieves pressure on
+retaining ring (19) and spring seat (18).
+4.
+Remove and discard retaining ring. Remove spring seat
+from the groove in clutch hub (5) prongs. Remove the
+assembly of diaphragm spring (17), pressure plate (11),
+adjusting screw components (12, 13, 14 and 15) and
+compressing tool.
+5.
+Turn the compressing tool handle counterclockwise until
+the clutch spring forcing screw disconnects from the clutch
+adjusting screw. Remove spring seat and diaphragm
+spring from pressure plate assembly.
+6.
+Remove retaining ring (16) and adjusting screw assembly
+from pressure plate. If necessary, disassemble adjusting
+screw assembly by removing retaining ring (14), and then
+separating the remaining adjusting screw components
+(12, 13, and 15).
+7.
+Remove the clutch pack (28) from the clutch hub. The
+clutch pack consists of one spring plate (8), six steel plates
+(9), and eight friction (fiber) plates (10).
+NOTE
+See Figure 5-10. Bearing (3) will be damaged by disassembly
+of clutch hub (5) and shell (2). Always replace bearing (3) if
+hub and shell are disassembled. If the assembly is pressed
+apart, the bearing must be replaced.
+8.
+If necessary, disassemble clutch shell and clutch hub as
+follows:
+a.
+Remove retaining ring (1) from inboard end of clutch
+hub (5).
+b.
+Using an arbor press, separate clutch hub from
+assembly of clutch shell (2), bearing (3), and retaining
+ring (4).
+c.
+Remove retaining ring (4) from groove in clutch shell.
+d.
+Press on the inboard side of bearing (3) outer race
+to remove bearing from clutch shell.
+2
+4
+1
+3
+sm01261
+1.
+Forcing screw
+2.
+Bridge, spring compressing tool
+3.
+Handle
+4.
+Open-end wrench
+Figure 5-11. Compressing Clutch Diaphragm Spring
+INSPECTION AND REPAIR: XL MODELS
+NOTE
+See Figure 5-10. If replacement of clutch pack (28) is the only
+service work required, perform all INSPECTION AND REPAIR
+steps (except Step 2f), and then proceed to the NOTES under
+ASSEMBLY.
+HOME
+5-10 2013 Sportster Service: Drive/Transmission
+
+--- Page 489 ---
+Compressed air can pierce the skin and flying debris from
+compressed air could cause serious eye injury. Wear
+safety glasses when working with compressed air. Never
+use your hand to check for air leaks or to determine air
+flow rates. (00061a)
+1.
+See Figure 5-10. Wash all parts, except the friction plates
+(10) and bearings (3 and 13), in a non-volatile cleaning
+solution or solvent. Blow parts dry with low pressure
+compressed air.
+2.
+Examine the clutch components as follows:
+a.
+Inspect all clutch plates for wear and discoloration.
+b.
+Inspect all friction plates (10) for worn lining surfaces
+or checked or chipped linings.
+c.
+Inspect each steel plate (9) for grooves.
+d.
+Place each steel plate on a flat surface. Using a feeler
+gauge, check for flatness in several places. If any one
+of the plates are damaged, or warped more than 0.006
+in (0.15 mm), replace the entire clutch pack.
+e.
+Wipe the lubricant from the seven wide friction plates.
+f.
+See Figure 5-12. Measure the thickness of each fric-
+tion plate. If any one of the plates is less than 0.0795
+in (2.02 mm), replace the entire clutch pack.
+g.
+See Figure 5-10. Inspect clutch shell ball bearing (3)
+for smoothness by rotating clutch shell while holding
+clutch hub. If bearing is rough or binds, it must be
+replaced.
+h.
+See Figure 5-13. Check the primary chain sprocket
+(3) and the starter ring gear (4) on the clutch shell (1).
+If either sprocket or ring gear are badly worn or dam-
+aged, replace the clutch shell.
+i.
+Check the slots (5, 6) that mate with the clutch plates
+on both clutch shell and clutch hub (2). If slots are
+worn or damaged, replace shell and/or hub.
+j.
+See Figure 5-10. Check the diaphragm spring (17)
+for cracks or bent tabs. Install a new spring if either
+condition exists.
+sm07238
+Figure 5-12. Friction Plate Thickness
+1
+2
+6
+5
+4
+3
+sm01263b
+1.
+Clutch shell
+2.
+Clutch hub
+3.
+Primary chain sprocket
+4.
+Starter ring gear
+5.
+Clutch hub slots
+6.
+Clutch shell slots
+Figure 5-13. Checking Clutch Hub and Clutch Shell
+HOME
+2013 Sportster Service: Drive/Transmission 5-11
+
+--- Page 490 ---
+ASSEMBLY
+TOOL NAME
+PART NUMBER
+CLUTCH SPRING FORCING SCREW
+HD-38515-91
+SPRING COMPRESSING TOOL
+HD-38515-A
+NOTES
+•
+See Figure 5-10. If replacement of clutch pack (28) is the
+only service work required, perform all ASSEMBLY Steps
+except 2, 5 and 6, and then proceed to the NOTE under
+INSTALLATION.
+•
+Replace the clutch pack, steel plates, friction plates and
+spring plate, as a set.
+1.
+Submerge and soak all friction and steel plates in
+GENUINE HARLEY-DAVIDSON FORMULA+ TRANSMIS-
+SION AND PRIMARY CHAINCASE LUBRICANT for at
+least five minutes.
+2.
+See Figure 5-14. Assemble the clutch hub (1) and clutch
+shell (4):
+a.
+Press a new ball bearing (3) into clutch shell.
+b.
+Secure the bearing with a new retaining ring (2).
+c.
+Press inboard end of clutch hub into clutch shell
+bearing.
+d.
+Secure with a new retaining ring (5) on end of hub.
+5
+4
+3
+2
+1
+sm01354
+1.
+Clutch hub
+2.
+Retaining ring
+3.
+Ball bearing
+4.
+Clutch shell
+5.
+Retaining ring
+Figure 5-14. Clutch Hub and Shell Assembly
+NOTE
+See Figure 5-10. The clutch pack (28) consists of one spring
+plate (8), six steel plates (9) and eight friction (fiber) plates
+(10).
+3.
+Install clutch pack into clutch shell in order:
+F - St - F - St - F - St - F - Sp - F - St - F - St - F - St - F
+(F = Friction plate, St = Steel plate, Sp = Spring plate)
+4.
+Place pressure plate (11) and adjusting screw onto clutch
+pack (28).
+5.
+Assemble bearing (13) and adjusting screw (12) in release
+plate (15). Secure with new retaining ring (14).
+6.
+Align the two tabs on perimeter of release plate (15) with
+the corresponding recesses in pressure plate. Install
+adjusting screw assembly (12, 13, 14, 15) into pressure
+plate (11). Secure adjusting screw assembly with new
+retaining ring (16).
+7.
+Install diaphragm spring (17) with its concave side facing
+inboard (toward pressure plate), onto pressure plate
+assembly. Align square openings of pressure plate and
+diaphragm spring (17).
+8.
+Position spring seat (18) with its flat, larger outer diameter
+side facing inboard (toward diaphragm spring).
+9.
+Install a new retaining ring (19) onto convex (outboard)
+side of diaphragm spring.
+10. Thread the CLUTCH SPRING FORCING SCREW (Part
+No. HD-38515-91) onto the clutch adjusting screw. Place
+the bridge of the SPRING COMPRESSING TOOL (Part
+No. HD-38515-A) against diaphragm spring. Thread the
+tool handle onto end of forcing screw. Do not tighten
+compressing tool against diaphragm spring at this time.
+11. See Figure 5-11. Place an open-end wrench (4) on the
+clutch spring forcing screw (1) flats to prevent the forcing
+screw from turning.
+NOTE
+Turn compressing tool handle only enough to install spring
+seat and retaining ring. Excessive compression of diaphragm
+spring could damage clutch pressure plate.
+12. See Figure 5-10. Turn compressing tool handle clockwise
+to compress diaphragm spring (17). Compresses just
+enough to install spring seat (18) and retaining ring (19)
+into the groove in clutch hub (5) prongs.
+13. Verify retaining ring is positioned against flange face
+(outboard side) of spring seat and fully seated in groove
+of clutch hub. Carefully loosen and remove compressing
+tool.
+NOTE
+As the compressing tool is removed, the diaphragm spring will
+move outward. This movement will force the spring seat up
+into the inside of the retaining ring. The spring seat provides
+an operating surface for the diaphragm spring. Additionally, it
+prevents the retaining ring from coming out during operation.
+HOME
+5-12 2013 Sportster Service: Drive/Transmission
+
+--- Page 491 ---
+INSTALLATION
+TOOL NAME
+PART NUMBER
+SPORTSTER 5-SPEED SPROCKET
+LOCKING LINK
+HD-38362
+PRIMARY DRIVE LOCKING TOOL
+HD-46283
+TORQUE VALUE
+FASTENER
+326-353 Nm
+240-260 ft-lbs
+Engine sprocket nut: XL
+Models
+67.8-81.3 Nm
+50-60 ft-lbs
+Transmission mainshaft nut:
+XL Models
+NOTE
+See Figure 5-10. If replacement of clutch pack (28) is the only
+service work required, perform INSTALLATION last step only.
+1.
+See Figure 5-10. Remove retaining ring (16). Remove
+adjusting screw assembly (12, 13, 14, 15) from pressure
+plate (11). This allows installation of the transmission
+mainshaft nut and washer.
+2.
+Clean the oil off the threads of the engine sprocket shaft,
+the engine sprocket nut, the transmission mainshaft and
+the mainshaft nut.
+3.
+Install the engine sprocket, primary chain and clutch
+assembly as a unit.
+NOTE
+See Figure 5-15. Do not position the sprocket locking link too
+close to the shifter shaft (2). If the sprocket locking link contacts
+the shifter shaft while tightening the engine sprocket nut, the
+shifter shaft and/or the engine crankcase may be damaged.
+4.
+See Figure 5-15. Install the sprocket locking link.
+a.
+XL 883 Models: Use the SPORTSTER 5-SPEED
+SPROCKET LOCKING LINK (Part No. HD-38362).
+b.
+XL
+1200
+Models:
+Use
+the
+PRIMARY
+DRIVE
+LOCKING TOOL (Part No. HD-46283).
+5.
+Apply two or three drops of LOCTITE 262 HIGH
+STRENGTH THREADLOCKER AND SEALANT (red) onto
+threads of engine sprocket shaft.
+6.
+Install engine sprocket nut. Tighten to 240-260 ft-lbs (326-
+353 Nm).
+NOTE
+See Figure 5-16. Washer (2) must be installed with the word
+"out" facing the transmission mainshaft nut (1). Incorrect
+assembly can result in clutch and/or transmission failure.
+7.
+See Figure 5-16. Apply two or three drops of LOCTITE
+262 HIGH STRENGTH THREADLOCKER AND SEALANT
+(red) onto threads of transmission mainshaft. Install spring
+washer (2) and mainshaft nut (1) (left-hand threads) on
+transmission mainshaft. Tighten nut to 50-60 ft-lbs (67.8-
+81.3 Nm).
+8.
+Remove the sprocket locking link.
+9.
+See Figure 5-17. Install adjusting screw assembly (1) in
+pressure plate, noting that two tabs on perimeter of release
+plate must be inserted into corresponding recesses in
+pressure plate. Secure assembly with a new retaining ring
+(2).
+10. Install primary cover using new gasket. See 5.3 PRIMARY
+COVER.
+11. Adjust primary chain and clutch. See 1.9 PRIMARY CHAIN
+and 1.11 CLUTCH.
+12. Fill transmission with GENUINE HARLEY-DAVIDSON
+FORMULA+ TRANSMISSION AND PRIMARY CHAIN-
+CASE LUBRICANT. See 1.10 TRANSMISSION LUB-
+RICANT.
+13. Connect battery and close left side cover. See 1.22 BAT-
+TERY MAINTENANCE.
+2
+1
+sm06563
+1.
+Sprocket locking link
+2.
+Shifter shaft
+Figure 5-15. Tighten Engine Sprocket Fastener (typical)
+3
+2
+1
+sm01355
+1.
+Mainshaft nut
+2.
+Spring washer
+3.
+Clutch hub
+Figure 5-16. Mainshaft Nut and Washer
+HOME
+2013 Sportster Service: Drive/Transmission 5-13
+
+--- Page 492 ---
+1
+2
+sm01268a
+1.
+Adjusting screw assembly
+2.
+Retaining ring
+Figure 5-17. Clutch Adjusting Screw Assembly and
+Retaining Ring
+HOME
+5-14 2013 Sportster Service: Drive/Transmission
+
+--- Page 493 ---
+5.5
+PRIMARY DRIVE AND CLUTCH: XR 1200X
+TROUBLESHOOTING
+See 5.4 PRIMARY DRIVE AND CLUTCH: XL MODELS,
+Troubleshooting.
+REMOVAL
+TOOL NAME
+PART NUMBER
+SPORTSTER 5-SPEED SPROCKET
+LOCKING LINK
+HD-38362
+PRIMARY DRIVE LOCKING TOOL
+HD-46283
+To prevent accidental vehicle start-up, which could cause
+death or serious injury, disconnect battery cables (negative
+(-) cable first) before proceeding. (00307a)
+1.
+Disconnect negative (-) battery cable from stud on engine
+crankcase
+behind
+starter
+motor
+assembly.
+See
+1.22 BATTERY MAINTENANCE.
+2.
+Open left side cover. See 2.18 LEFT SIDE COVER.
+3.
+Remove positive (+) battery cable from battery positive
+(+) terminal. See 1.22 BATTERY MAINTENANCE.
+4.
+Remove primary cover and discard primary cover gasket.
+See 5.3 PRIMARY COVER.
+NOTES
+•
+See Figure 5-18. Make sure not to position the sprocket
+locking link (1) too close to the shifter shaft (2). Contact
+between sprocket locking link and shifter shaft during
+engine sprocket bolt removal will cause damage to the
+surrounding assemblies.
+•
+The engine sprocket bolt is a single-use fastener. Discard
+and replace with a new bolt upon removal.
+•
+Japanese models require PRIMARY DRIVE LOCKING
+TOOL (Part No. HD-46283).
+5.
+Install SPORTSTER 5-SPEED SPROCKET LOCKING
+LINK (Part No. HD-38362). Remove and discard the
+engine sprocket bolt. Do not remove engine sprocket at
+this time.
+6.
+See Figure 5-19. Remove large retaining ring (12).
+Remove adjusting screw assembly (13, 14, 15 and 16)
+from pressure plate (17).
+NOTE
+Transmission mainshaft nut (23) has left-hand threads. Turn
+nut clockwise to loosen and remove from mainshaft.
+7.
+Remove nut (23) and spring washer (24). Remove the
+clutch assembly, primary chain and engine sprocket from
+the vehicle as an assembly.
+8.
+Inspect primary chain. Replace as necessary.
+9.
+Inspect stator and rotor. See 6.24 ALTERNATOR. Replace
+damaged parts as necessary.
+NOTE
+If replacement of primary chain is the only service work
+required, proceed directly to 5.5 PRIMARY DRIVE AND
+CLUTCH: XR 1200X, Installation. Skip Step 1 of that procedure
+and begin with the NOTE preceding Step 2.
+2
+1
+sm01257a
+1.
+Sprocket locking link
+2.
+Shifter shaft
+Figure 5-18. Loosen Engine Sprocket Bolt
+HOME
+2013 Sportster Service: Drive/Transmission 5-15
+
+--- Page 494 ---
+28
+29
+30
+27
+26
+25
+24
+23
+22
+21
+20
+19
+17
+18
+16
+15
+13
+12
+14
+11
+10
+9
+8
+7
+5
+1
+2
+3
+4
+6
+sm00278
+21.
+11.
+1.
+Damper spring
+Diaphragm spring
+Spring
+2.
+22.
+12.
+Lockplate
+Damper spring seat
+Retaining ring
+13.
+3.
+23.
+Release plate
+Nut
+Mainshaft nut
+24.
+14.
+4.
+Washer
+Retaining ring
+Outer ramp
+5.
+25.
+15.
+Coupling
+Clutch hub
+Bearing
+16.
+6.
+26.
+Adjusting screw
+Ball (3)
+Inner thrust washer
+27.
+17.
+7.
+Needle bearing inner race
+Pressure plate
+Inner ramp
+8.
+28.
+18.
+Retaining ring
+Needle bearing
+Friction plate, fiber (7)
+19.
+9.
+29.
+Steel plate (7)
+Retaining ring
+Clutch shell and sprocket
+30.
+20.
+10.
+Outer thrust washer
+Friction plate, narrow, fiber
+Spring seat
+Figure 5-19. Clutch Assembly: XR 1200X
+HOME
+5-16 2013 Sportster Service: Drive/Transmission
+
+--- Page 495 ---
+DISASSEMBLY
+TOOL NAME
+PART NUMBER
+CLUTCH SPRING FORCING SCREW
+HD-38515-91
+SPRING COMPRESSING TOOL
+HD-38515-A
+1.
+See Figure 5-19. With clutch assembly removed from
+primary chaincase, install adjusting screw assembly (13,
+14, 15 and 16) into pressure plate (17):
+a.
+Match the two tabs on perimeter of release plate (13)
+to the notches in pressure plate.
+b.
+Install the retaining ring (12).
+Disassemble clutch using a spring compressing tool. The
+diaphragm spring is compressed and, if removed without
+proper tools can fly out, which could result in death or
+serious injury. (00292a)
+2.
+Assemble the compressing tool:
+a.
+Thread the CLUTCH SPRING FORCING SCREW
+(Part No. HD-38515-91) onto the clutch adjusting
+screw.
+b.
+Place the bridge of SPRING COMPRESSING TOOL
+(Part No. HD-38515-A) against diaphragm spring.
+c.
+Thread the tool handle onto end of forcing screw.
+NOTE
+Excessive compression of diaphragm spring could damage
+clutch pressure plate.
+3.
+With a wrench on the clutch spring forcing screw flats to
+prevent the forcing screw from turning, turn handle clock-
+wise until tool relieves pressure on retaining ring (9) and
+spring seat (10).
+4.
+Remove and discard retaining ring. Remove spring seat
+from the groove in clutch hub prongs. Remove the dia-
+phragm spring (11), pressure plate (17), adjusting screw
+components (13, 14, 15 and 16) and compressing tool as
+an assembly.
+5.
+Turn the compressing tool handle counterclockwise until
+the clutch spring forcing screw disconnects from the clutch
+adjusting screw. Remove spring seat and diaphragm
+spring from pressure plate assembly.
+6.
+Remove retaining ring (12) and adjusting screw assembly
+from pressure plate. If necessary, disassemble adjusting
+screw assembly. See 5.5 PRIMARY DRIVE AND CLUTCH:
+XR 1200X, Adjusting Screw.
+7.
+Remove the clutch pack from the clutch hub. The clutch
+pack consists of seven friction (fiber) plates (18), seven
+steel plates (19), one narrow friction plate (20), one
+damper spring (21) and one seat (22).
+ADJUSTING SCREW
+1.
+See Figure 5-20. Remove adjusting screw assembly.
+a.
+Remove large retaining ring (1).
+b.
+Remove adjusting screw assembly from pressure
+plate (9).
+2.
+If necessary, disassemble adjusting screw assembly.
+a.
+Remove and discard small retaining ring (6).
+b.
+Separate the adjusting screw (8) from the bearing (7)
+and release plate (5).
+c.
+Remove bearing (7) from release plate (5).
+3.
+Replace
+components
+as
+required
+and
+reassemble
+adjusting screw assembly in reverse order.
+4.
+Install adjusting screw assembly into pressure plate.
+a.
+See Figure 5-35. Align two tabs on perimeter of
+release plate with corresponding recesses (3) in
+pressure plate.
+b.
+Secure the adjusting screw assembly with new
+retaining ring.
+8
+9
+7
+5
+6
+1
+2
+3
+4
+sm00281
+1.
+Retaining ring
+2.
+Spring seat
+3.
+Diaphragm spring
+4.
+Retaining ring
+5.
+Release plate
+6.
+Retaining ring
+7.
+Bearing
+8.
+Adjusting screw
+9.
+Pressure plate
+Figure 5-20. Adjusting Screw Assembly
+CLUTCH PACK CLEANING AND
+INSPECTION
+Steel Plates
+1.
+Wash the steel plates, and the damper spring and seat in
+solvent.
+HOME
+2013 Sportster Service: Drive/Transmission 5-17
+
+--- Page 496 ---
+2.
+See Figure 5-21. Inspect each steel plate.
+a.
+Check for wear, grooves, or discoloration.
+b.
+Gauge warpage around the plate. If warpage exceeds
+specifications, replace the entire clutch pack. Refer
+to Table 5-5.
+3.
+Inspect the damper spring and the spring seat. Replace
+as required.
+sm07239
+Figure 5-21. Gauging a Steel Plate
+Friction Plates
+NOTE
+Do not wash the friction plates in solvent.
+1.
+Wipe the friction plates clean of lubricant.
+2.
+See Figure 5-22. Inspect each friction plate.
+a.
+Check for wear or discoloration.
+b.
+Measure the seven friction plates. If one thickness is
+less than specified, replace the entire clutch pack.
+Refer to Table 5-5.
+sm07238
+Figure 5-22. Friction Plate Thickness
+Table 5-5. Clutch Pack Plate Specifications
+SERVICE WEAR LIMIT
+ITEM
+mm
+in
+CLUTCH PLATE THICKNESS
+2.0200
+0.0795
+Friction plate (fiber)
+N/A
+N/A
+Steel plate
+MAXIMUM ALLOWABLE WARPAGE
+0.1500
+0.0059
+Friction plate (fiber)
+0.1500
+0.0059
+Steel plate
+CLUTCH SHELL/HUB INSPECTION
+1.
+Inspect engine sprocket for damage or excessive wear.
+Replace as required.
+2.
+Disassemble adjusting screw assembly and inspect
+bearing,
+release
+plate,
+and
+adjusting
+screw.
+See
+5.5 PRIMARY DRIVE AND CLUTCH: XR 1200X, Adjusting
+Screw.
+3.
+Remove clutch hub from clutch shell. Inspect primary chain
+sprocket and the starter ring gear on the clutch shell.
+4.
+Inspect slots that mate with the clutch plates on both clutch
+shell and hub.
+5.
+See Figure 5-23. Inspect the clutch shell compensating
+spring set.
+NOTE
+It is possible for the compensating springs to float and move
+during inspection. This condition is normal.
+6.
+See Figure 5-24. Inspect clutch shell needle bearing for
+smoothness. Rotate the clutch shell while holding the
+clutch hub. If bearing is rough or binds, it must be replaced.
+HOME
+5-18 2013 Sportster Service: Drive/Transmission
+
+--- Page 497 ---
+See 5.5 PRIMARY DRIVE AND CLUTCH: XR 1200X,
+Clutch Shell Bearing Replacement.
+7.
+See Figure 5-25. Inspect clutch shell bearing inner race
+on the back side of the clutch hub for pitting and wear. If
+the inner race shows any signs of damage, the complete
+hub assembly must be replaced.
+8.
+Replace damaged parts as necessary.
+sm00291a
+Figure 5-23. Compensating Spring Set
+sm00292a
+Figure 5-24. New Needle Bearing in Clutch Shell
+sm00293a
+Figure 5-25. Clutch Hub Bearing Race
+CLUTCH SHELL BEARING REPLACEMENT
+TOOL NAME
+PART NUMBER
+CLUTCH SHELL BEARING
+REMOVER/INSTALLER
+B-45926
+NOTE
+The clutch shell uses a caged needle bearing that corresponds
+to an inner race installed on the clutch hub.
+1.
+See Figure 5-27. Place clutch shell on support blocks with
+sprocket side facing up.
+NOTE
+The CLUTCH SHELL BEARING REMOVER/INSTALLER (Part
+No. B-45926) is clearly marked for removal and installation
+purposes.
+2.
+See Figure 5-27. Insert removal end of tool into bearing
+assembly and remove bearing from clutch shell.
+3.
+See Figure 5-28. Remove bearing guide from end of
+CLUTCH SHELL BEARING REMOVER/INSTALLER (Part
+No. B-45926).
+4.
+Place new needle bearing onto installer end of tool and
+insert the bearing guide.
+5.
+See Figure 5-29. Place clutch shell on support blocks with
+sprocket side facing up.
+6.
+Press bearing into clutch shell until tool bottoms on the
+shell. This will be the correct installed height.
+HOME
+2013 Sportster Service: Drive/Transmission 5-19
+
+--- Page 498 ---
+3
+1
+2
+sm00294
+1.
+Removal end of bearing tool
+2.
+Installation end of bearing tool
+3.
+Bearing guide, installer
+Figure 5-26. Clutch Shell Bearing Remover/Installer
+sm00295a
+Figure 5-27. Removing Clutch Shell Needle Bearing
+2
+1
+sm00296
+1.
+Place needle bearing on tool in this location
+2.
+Bearing guide
+Figure 5-28. Bearing Installer
+1
+2
+sm00297a
+1.
+Needle bearing
+2.
+Clutch shell
+Figure 5-29. Installing Clutch Shell Needle Bearing
+ASSEMBLY
+TOOL NAME
+PART NUMBER
+SPRING COMPRESSING TOOL
+HD-38515-A
+1.
+Submerge and soak all friction and steel plates in
+GENUINE HARLEY-DAVIDSON FORMULA+ TRANSMIS-
+SION AND PRIMARY CHAINCASE LUBRICANT for at
+least five minutes.
+2.
+See Figure 5-30. Install narrow friction plate on the clutch
+hub, engaging tabs on plate with slots in clutch shell.
+3.
+See Figure 5-31. Install damper spring seat (1) on clutch
+hub so that it seats inboard of narrow friction plate (3).
+HOME
+5-20 2013 Sportster Service: Drive/Transmission
+
+--- Page 499 ---
+4.
+Install damper spring (2) on clutch hub with the concave
+side up (facing opposite damper spring seat).
+5.
+Install a steel plate (4) and then a friction plate (5) on the
+clutch hub. Install six remaining sets in the same manner,
+alternating between steel plates and friction plates.
+1
+2
+sm00285a
+1.
+Narrow plate
+2.
+Regular plate
+Figure 5-30. Friction Plates
+6.
+Place pressure plate, diaphragm spring, adjusting screw
+assembly with new retaining ring and spring seat onto
+clutch pack.
+7.
+Install the retaining ring:
+a.
+See Figure 5-32. Align square openings of pressure
+plate and diaphragm spring so that the assembly can
+be installed over prongs on clutch hub.
+b.
+Position spring seat with its larger outer diameter side
+toward diaphragm spring.
+NOTE
+Turn compressing tool handle only the amount required
+to install spring seat and retaining ring. Excessive com-
+pression of diaphragm spring could damage clutch pres-
+sure plate.
+c.
+Install SPRING COMPRESSING TOOL (Part No. HD-
+38515-A) onto clutch hub against diaphragm spring.
+d.
+Place a wrench on the clutch spring forcing screw
+flats to prevent the forcing screw from turning.
+e.
+Turn compressing tool handle clockwise until dia-
+phragm spring compresses just enough to install new
+retaining ring into the groove in clutch hub prongs.
+f.
+With retaining ring fully seated in groove of clutch
+hub, remove the compression tool.
+NOTE
+Remove the tool to allow the diaphragm spring to move outward
+forcing the spring seat up into the inside of the retaining ring.
+The spring seat is an operating surface for the diaphragm
+spring and prevents the retaining ring from coming out.
+5
+1
+2
+4
+3
+sm00286a
+1.
+Damper spring seat
+2.
+Damper spring
+3.
+Narrow friction plate
+4.
+Steel plate
+5.
+Friction plate
+Figure 5-31. Clutch Pack Stack-Up
+1
+3
+5
+4
+2
+sm01265a
+1.
+Diaphragm spring (pressure plate below)
+2.
+Prongs on clutch hub
+3.
+Retaining ring
+4.
+Adjusting screw assembly
+5.
+Spring seat
+Figure 5-32. Spring Seat Installation
+HOME
+2013 Sportster Service: Drive/Transmission 5-21
+
+--- Page 500 ---
+INSTALLATION
+TOOL NAME
+PART NUMBER
+SPORTSTER 5-SPEED SPROCKET
+LOCKING LINK
+HD-38362
+PRIMARY DRIVE LOCKING TOOL
+HD-46283
+TORQUE VALUE
+FASTENER
+210.0-224.0
+Nm
+155-165 ft-lbs
+Engine sprocket bolt: XR
+1200X
+67.8-81.3 Nm
+50-60 ft-lbs
+Transmission mainshaft nut:
+XR 1200X
+1.
+See Figure 5-19. Remove retaining ring (12). Remove
+adjusting screw assembly (13, 14, 15, 16) from pressure
+plate (17) to allow installation of the transmission mainshaft
+nut and washer.
+NOTE
+Prior to installing engine sprocket bolt and transmission main-
+shaft nut, thoroughly clean threads of engine sprocket shaft,
+transmission mainshaft and mainshaft nut to remove any oil
+that might contaminate and interfere with locking agent.
+2.
+Thoroughly clean threads of engine sprocket shaft, trans-
+mission mainshaft and mainshaft nut to remove any oil.
+NOTES
+•
+See Figure 5-33. Do not position the sprocket locking link
+(1) too close to the shifter shaft (2). The sprocket locking
+can damage the shifter shaft and/or engine crankcase.
+•
+Japan models use PRIMARY DRIVE LOCKING TOOL
+(Part No. HD-46283).
+3.
+See
+Figure
+5-33.
+Install
+SPORTSTER
+5-SPEED
+SPROCKET LOCKING LINK (Part No. HD-38362) (1).
+4.
+Install new engine sprocket bolt. Tighten to 155-165 ft-lbs
+(210.0-224.0 Nm).
+NOTE
+See Figure 5-34. Washer (2) must be installed with the word
+"out" facing the transmission mainshaft nut (1). Incorrect
+assembly can result in clutch and/or transmission failure.
+5.
+Install mainshaft nut.
+a.
+See Figure 5-34. Apply two or three drops of LOCTITE
+262 HIGH STRENGTH THREADLOCKER AND
+SEALANT (red) onto threads of transmission main-
+shaft.
+b.
+Install spring washer (2) and mainshaft nut (1) (left-
+hand threads) on transmission mainshaft.
+c.
+Tighten to 50-60 ft-lbs (67.8-81.3 Nm).
+6.
+Remove the sprocket locking link.
+7.
+See Figure 5-35. Install adjusting screw assembly in
+pressure plate with two tabs on perimeter of release plate
+matched to recesses in pressure plate. Secure with a new
+retaining ring.
+8.
+Install primary cover using new gasket. See 5.3 PRIMARY
+COVER.
+9.
+Adjust primary chain and clutch. See 1.9 PRIMARY CHAIN
+and 1.11 CLUTCH.
+10. Fill transmission. See 1.10 TRANSMISSION LUBRICANT.
+11. Connect battery and close left side cover. See 1.22 BAT-
+TERY MAINTENANCE.
+2
+1
+sm06563
+1.
+Sprocket locking link
+2.
+Shifter shaft
+Figure 5-33. Tighten Engine Sprocket Bolt
+1
+3
+2
+sm00290
+1.
+Mainshaft nut
+2.
+Washer
+3.
+Clutch hub
+Figure 5-34. Mainshaft Nut and Washer
+HOME
+5-22 2013 Sportster Service: Drive/Transmission
+
+--- Page 501 ---
+2
+3
+1
+3
+sm00288a
+1.
+Adjusting screw assembly
+2.
+Retaining ring
+3.
+Tab recesses
+Figure 5-35. Clutch Adjusting Screw Assembly and
+Retaining Ring
+HOME
+2013 Sportster Service: Drive/Transmission 5-23
+
+--- Page 502 ---
+5.6
+DRIVE BELT
+DRIVE BELT HANDLING
+See Figure 5-36.
+•
+Do not exceed 5 in (127 mm) forward bend (1).
+•
+Do not exceed 10 in (254 mm) reverse bend (2).
+•
+Do not twist (3).
+•
+Do not crimp, pinch or kink (4).
+•
+Do not pry (5).
+4
+3
+5
+1
+2
+sm02440a
+Figure 5-36. Drive Belt Handling
+DRIVE BELT: XL MODELS
+TORQUE VALUE
+FASTENER
+40.7-44.8 Nm
+30-33 ft-lbs
+Exhaust pipe clamp bracket
+fastener: XL Models
+9.0-13.6 Nm
+80-120 in-lbs
+Sprocket cover, forward and
+lower screws
+129-142 Nm
+95-105 ft-lbs
+Axle, rear, nut
+Removal
+1.
+Remove
+mufflers
+and
+rear
+exhaust
+pipe.
+See
+4.13 EXHAUST SYSTEM: XL MODELS.
+2.
+Mid-Mount
+Controls:
+Remove
+right
+side
+rider
+footrest/brake pedal and mounting bracket assembly. See
+2.40 RIDER FOOT CONTROLS: XL MID-MOUNT CON-
+TROLS.
+3.
+See Figure 5-37. Remove screw (6), washer (5) and
+exhaust pipe clamp bracket (4).
+4.
+Remove two screws (2, 3).
+5.
+See Figure 5-38. Remove E-clip (1). Discard E-clip.
+6.
+Loosen rear axle nut (4).
+7.
+Turn the axle adjuster nut (2) on each side of rear fork an
+equal number of turns counterclockwise to decrease belt
+tension.
+8.
+Remove right lower shock absorber screw, washer and
+locknut. See 2.24 SHOCK ABSORBERS, Removal.
+9.
+Remove the belt guard. See 2.22 BELT GUARD AND
+DEBRIS DEFLECTOR, Belt Guard: XL Models.
+10. Remove the debris deflector. See 2.22 BELT GUARD
+AND DEBRIS DEFLECTOR, Debris Deflector: XL Models.
+Never bend belt forward into a loop smaller than the drive
+sprocket diameter. Never bend belt into a reverse loop.
+Over bending can damage belt resulting in premature
+failure, which could cause loss of control and death or
+serious injury. (00339a)
+11. See Figure 5-39. Remove belt.
+3
+2
+6
+5
+4
+1
+sm01356
+1.
+Sprocket cover
+2.
+Screw
+3.
+Screw
+4.
+Exhaust pipe clamp bracket
+5.
+Washer
+6.
+Screw
+Figure 5-37. Sprocket Cover: XL Models
+HOME
+5-24 2013 Sportster Service: Drive/Transmission
+
+--- Page 503 ---
+2
+1
+3
+6
+5
+4
+sm03591d
+1.
+E-clip
+2.
+Axle adjuster nut (2)
+3.
+Axle adjuster (2)
+4.
+Axle nut
+5.
+Washer
+6.
+Protective cap (2)
+Figure 5-38. Drive Belt Adjustment: XL Models
+sm07540
+Figure 5-39. Drive Belt Removal: XL Models
+Installation
+1.
+Install belt onto sprockets.
+2.
+Install the front of belt guard. See 2.22 BELT GUARD AND
+DEBRIS DEFLECTOR, Belt Guard: XL Models.
+3.
+Install the debris deflector. See 2.22 BELT GUARD AND
+DEBRIS DEFLECTOR, Debris Deflector: XL Models.
+4.
+Install right lower shock absorber bolt, washer and locknut.
+See 2.24 SHOCK ABSORBERS, Installation.
+NOTE
+See Figure 5-37. Short screw (2) goes in bottom hole. Long
+screw (3) goes in top hole. Do not tighten screws.
+5.
+Install sprocket cover (1). Secure with two screws.
+6.
+Install exhaust pipe clamp bracket (4), washer (5) and
+screw (6).
+7.
+Tighten:
+a.
+Exhaust pipe clamp bracket fastener 30-33 ft-lbs
+(40.7-44.8 Nm)
+b.
+Sprocket cover fasteners 80-120 in-lbs (9.0-13.6 Nm)
+8.
+Mid-Mount Controls: Install right side rider footrest/brake
+pedal and mounting bracket assembly. See 2.40 RIDER
+FOOT CONTROLS: XL MID-MOUNT CONTROLS.
+9.
+Install rear exhaust pipe and mufflers. See 4.13 EXHAUST
+SYSTEM: XL MODELS.
+10. Adjust
+belt
+tension.
+See
+1.12
+DRIVE
+BELT
+AND
+SPROCKETS, Drive Belt Deflection.
+11. Check wheel alignment. See 1.24 WHEEL ALIGNMENT,
+Wheel Alignment.
+12. See Figure 5-38. Tighten rear axle nut (4) to 95-105 ft-lbs
+(129-142 Nm).
+13. Install new E-clip (1).
+IDLER PULLEY: XR 1200X
+TORQUE VALUE
+FASTENER
+95-109 Nm
+70-80 ft-lbs
+Idler pulley fastener: XR
+1200X
+44.7-47.5 Nm
+33-35 ft-lbs
+Idler pulley bracket flanged
+nut: XR 1200X
+40.7-44.8 Nm
+30-33 ft-lbs
+Sprocket cover, rear screw
+9.0-13.6 Nm
+80-120 in-lbs
+Sprocket cover, forward and
+lower screws
+Removal
+1.
+See Figure 5-40. Remove sprocket cover (1).
+NOTE
+It is not necessary to remove the drive belt completely.
+2.
+Release tension from drive belt and slide belt off drive
+sprocket (5). See 5.6 DRIVE BELT, Drive Belt: XL Models.
+NOTE
+If exhaust system interference prevents removal, loosen all
+exhaust system mount fasteners and flange nuts. Pull exhaust
+system away from engine to allow room to remove idler
+assembly.
+3.
+Remove nuts (3) and washers (4). Remove idler pulley
+and bracket assembly from vehicle.
+4.
+Spin and check idler pulley (7) for bearing wear. See
+1.12 DRIVE BELT AND SPROCKETS, Inspection.
+NOTE
+The idler pulley bearings can not be replaced separately.
+5.
+If idler pulley needs replacement, remove fastener (8) and
+bushings (2). Discard idler pulley and replace with new
+idler pulley (7).
+HOME
+2013 Sportster Service: Drive/Transmission 5-25
+
+--- Page 504 ---
+1
+8
+2
+3
+4
+6
+5
+7
+sm05541
+1.
+Sprocket cover
+2.
+Bushing (2)
+3.
+Flanged nut (2)
+4.
+Washer (2)
+5.
+Drive sprocket
+6.
+Idler pulley bracket
+7.
+Idler pulley
+8.
+Fastener
+Figure 5-40. Drive Belt Idler: XR 1200X
+Installation
+1.
+See Figure 5-40. Install new or existing idler pulley (7), if
+removed. Tighten fastener (8) to 70-80 ft-lbs (95-109 Nm).
+2.
+Install idler pulley and bracket assembly. Install washers
+(4) and flanged nuts (3). Tighten to 33-35 ft-lbs (44.7-47.5
+Nm).
+3.
+Install drive belt and adjust belt tension and wheel align-
+ment. See 1.24 WHEEL ALIGNMENT.
+4.
+Install sprocket cover:
+a.
+Tighten rear (larger) screw to 30-33 ft-lbs (40.7-44.8
+Nm).
+b.
+Tighten forward and lower (smaller) screws to 80-120
+in-lbs (9.0-13.6 Nm).
+5.
+If loosened, align. Tighten exhaust system components.
+See 4.14 EXHAUST SYSTEM: XR 1200X.
+DRIVE BELT: XR 1200X
+TORQUE VALUE
+FASTENER
+40.7-44.8 Nm
+30-33 ft-lbs
+Sprocket cover, rear screw
+9.0-13.6 Nm
+80-120 in-lbs
+Sprocket cover, forward and
+lower screws
+129-142 Nm
+95-105 ft-lbs
+Axle, rear, nut
+Removal
+1.
+Remove exhaust system. See 4.14 EXHAUST SYSTEM:
+XR 1200X.
+2.
+See Figure 5-41. Remove screws (2, 3, 4). Remove
+sprocket cover (1).
+3.
+See Figure 5-42. Remove E-clip. Discard E-clip (1).
+4.
+Loosen rear axle nut (4).
+5.
+Turn the axle adjuster nut (2) on each side of rear fork an
+equal number of turns counterclockwise to release belt
+tension.
+6.
+Remove right lower shock absorber screw, washer and
+locknut. See 2.24 SHOCK ABSORBERS, Removal.
+7.
+Remove belt guard. See 2.22 BELT GUARD AND DEBRIS
+DEFLECTOR, Belt Guard: XR 1200X.
+8.
+Remove debris deflector. See 2.22 BELT GUARD AND
+DEBRIS DEFLECTOR, Debris Deflector: XR 1200X.
+Never bend belt forward into a loop smaller than the drive
+sprocket diameter. Never bend belt into a reverse loop.
+Over bending can damage belt resulting in premature
+failure, which could cause loss of control and death or
+serious injury. (00339a)
+9.
+See Figure 5-43. Remove belt.
+1
+2
+3
+4
+sm05328
+1.
+Sprocket cover
+2.
+Rear screw and washer
+3.
+Front screw
+4.
+Lower screw
+Figure 5-41. Sprocket Cover: XR 1200X
+HOME
+5-26 2013 Sportster Service: Drive/Transmission
+
+--- Page 505 ---
+3
+5
+1
+6
+4
+2
+sm07549
+1.
+E-clip
+2.
+Axle adjuster nut (2)
+3.
+Axle adjuster (2)
+4.
+Axle nut
+5.
+Washer
+6.
+Protective cap (2)
+Figure 5-42. Drive Belt Adjustment: XR 1200X
+sm07548
+Figure 5-43. Drive Belt Removal: XR 1200X
+Installation
+1.
+Install belt onto sprockets.
+2.
+Install belt guard. See 2.22 BELT GUARD AND DEBRIS
+DEFLECTOR, Belt Guard: XR 1200X.
+3.
+Install debris deflector. See 2.22 BELT GUARD AND
+DEBRIS DEFLECTOR, Debris Deflector: XR 1200X.
+4.
+Install right lower shock absorber bolt, washer and locknut.
+See 2.24 SHOCK ABSORBERS, Installation.
+NOTE
+See Figure 5-41. Long screw (3) goes in top hole. Short screw
+(4) goes in bottom hole.
+5.
+Install sprocket cover (1).
+a.
+Tighten screw (2) to 30-33 ft-lbs (40.7-44.8 Nm).
+b.
+Tighten screws (3, 4) to 80-120 in-lbs (9.0-13.6 Nm).
+6.
+Install exhaust system. See 4.14 EXHAUST SYSTEM: XR
+1200X, Installation.
+7.
+Adjust
+belt
+tension.
+See
+1.12
+DRIVE
+BELT
+AND
+SPROCKETS, Drive Belt Deflection.
+8.
+Check rear wheel alignment. See 1.24 WHEEL ALIGN-
+MENT, Wheel Alignment.
+9.
+See Figure 5-42. Tighten rear axle nut (4) to 95-105 ft-lbs
+(129-142 Nm). Install new E-clip (1).
+HOME
+2013 Sportster Service: Drive/Transmission 5-27
+
+--- Page 506 ---
+5.7
+TRANSMISSION POWER FLOW
+GENERAL
+See Figure 5-44. The transmission is a five-speed constant-
+mesh type housed in an extension of the crankcase. The
+transmission permits the rider to vary the ratio of engine speed-
+to-rear driving wheel speed in order to meet the varying condi-
+tions of operation.
+The transmission is foot-operated by the gear shifter lever,
+which transmits the force through a gear shifter shaft. The
+shifter shaft actuates a pawl and a shifter fork drum. The shifter
+fork drum moves shifter forks. The shifter forks slide a series
+of shifter dogs into and out of mesh with the other gears.
+HOME
+5-28 2013 Sportster Service: Drive/Transmission
+
+--- Page 507 ---
+2
+3
+4
+1
+5
+2
+3
+4
+1
+5
+2
+3
+4
+1
+5
+2
+3
+4
+1
+5
+2
+3
+4
+1
+5
+2
+3
+4
+1
+5
+3
+{
+1
+2
+N
+1
+2
+4
+5
+3
+4
+5
+6
+7
+sm03353
+5.
+1.
+Power flow
+Mainshaft
+2.
+6.
+Countershaft
+Moves in
+7.
+3.
+Moves out
+Countershaft gears
+4.
+Sliding member
+Figure 5-44. Transmission Power Flow
+HOME
+2013 Sportster Service: Drive/Transmission 5-29
+
+--- Page 508 ---
+5.8
+CASE DISASSEMBLY FOR TRANSMISSION
+REMOVAL
+GENERAL
+The rear compartment of the left and right crankcase halves
+form the transmission case. Servicing of transmission compon-
+ents requires removing the engine and disassembling (splitting)
+the crankcase.
+ENGINE REMOVAL AND DISASSEMBLY
+TOOL NAME
+PART NUMBER
+ENGINE SUPPORT CRADLE
+HD-42310-45
+1.
+Remove engine from chassis. See 3.10 REMOVING
+ENGINE FROM CHASSIS.
+2.
+Support engine using ENGINE SUPPORT CRADLE (Part
+No. HD-42310-45).
+3.
+Disassemble top end. See 3.13 TOP END OVERHAUL:
+DISASSEMBLY.
+4.
+Remove primary cover, clutch assembly, primary chain
+and engine sprocket. See 5.4 PRIMARY DRIVE AND
+CLUTCH: XL MODELS or 5.5 PRIMARY DRIVE AND
+CLUTCH: XR 1200X.
+5.
+Disassemble gearcase. See 3.17 BOTTOM END OVER-
+HAUL: DISASSEMBLY.
+6.
+Remove transmission sprocket.
+7.
+See Figure 5-45. Place transmission in 1st gear. Remove
+countershaft retaining screw (1).
+8.
+Place transmission in neutral. See Figure 5-46. Unplug
+neutral switch connector [131] (2) by pulling connector
+straight off neutral switch (1). Remove neutral switch and
+flat washer.
+9.
+See Figure 5-47. Verify shifter drum detent is visible in
+neutral switch hole indicating that transmission is in
+neutral.
+2
+1
+sm03354
+1.
+Countershaft retaining screw
+2.
+Shifter shaft assembly
+Figure 5-45. Countershaft Retaining Screw
+1
+2
+sm03355
+1.
+Neutral indicator switch
+2.
+Neutral switch connector
+Figure 5-46. Neutral Switch and Connector
+sm03356
+Figure 5-47. Shifter Drum Neutral Detent
+10. See Figure 5-48 and Figure 5-49. Compress the ratchet
+arms (item 2, Figure 5-48) in order to clear the shifter
+drum, and remove shifter shaft assembly from left crank-
+case half.
+11. Remove starter. See 6.10 STARTER.
+12. See Figure 5-50. With transmission still in neutral, scribe
+a line on the end of the shifter drum at the 12 o'clock
+position for later reference.
+HOME
+5-30 2013 Sportster Service: Drive/Transmission
+
+--- Page 509 ---
+2
+3
+2
+1
+sm03357a
+1.
+Shifter shaft
+2.
+Ratchet arms
+3.
+Return spring
+Figure 5-48. Shifter Shaft Assembly
+sm01323a
+Figure 5-49. Removing Shifter Shaft Assembly
+sm03359
+Figure 5-50. Scribed Line on Shifter Drum at 12 o'clock
+1
+2
+1
+1
+1
+1
+1
+1
+1
+4
+4
+1
+1
+3
+3
+3
+3
+sm03405a
+1.
+Long fastener: left side
+2.
+XR 1200X: double-headed long fastener
+3.
+Short fastener: left side
+4.
+Long fastener: right side
+Figure 5-51. Crankcase Fasteners
+NOTE
+Crankcase assembly has 17 fasteners: 15 inserted from left
+side and two inserted from right side. Make certain all fasteners
+have been removed before attempting to separate crankcase
+halves.
+13. See Figure 5-51. Remove 15 crankcase fasteners (11 long
+and four short) from left side of crankcase assembly.
+Remove two fasteners from right side of crankcase
+assembly.
+HOME
+2013 Sportster Service: Drive/Transmission 5-31
+
+--- Page 510 ---
+14. Tap crankcase gently with rawhide mallet to loosen and
+separate the halves. See Figure 5-52. Remove left
+crankcase assembly with transmission.
+NOTE
+Flywheel assembly slides off left main bearing by hand. No
+tools are required for this operation.
+15. See Figure 5-53. Remove flywheel assembly from right
+crankcase half.
+16. See Figure 5-54. Remove screw (1), gear detent assembly
+(2) and detent spring (3) from inside transmission cavity
+of right crankcase.
+sm06548
+Figure 5-52. Separating Crankcase Halves
+sm06549
+Figure 5-53. Removing Flywheel Assembly From Right
+Crankcase Half
+3
+1
+2
+sm06783
+1.
+Screw
+2.
+Gear detent assembly
+3.
+Detent spring
+Figure 5-54. Gear Detent Assembly
+HOME
+5-32 2013 Sportster Service: Drive/Transmission
+
+--- Page 511 ---
+5.9
+TRANSMISSION REMOVAL AND DISASSEMBLY
+TRANSMISSION REMOVAL FROM LEFT
+CRANKCASE
+TOOL NAME
+PART NUMBER
+REMOVER
+B-43895-1
+TRANSMISSION REMOVAL AND
+INSTALLATION TOOL
+B-43985
+NOTE
+See Figure 5-55. Shifter design allows for one common part
+number for both countershaft shifter forks (4, 5). As the trans-
+mission runs, each shifter fork develops a certain wear pattern
+with its mating parts. Install shifter forks in original locations.
+3
+5
+3
+1
+4
+2
+sm06844
+1.
+Shifter drum
+2.
+Mainshaft shifter fork (4th/5th)
+3.
+Shifter fork shaft
+4.
+Countershaft shifter fork (1st)
+5.
+Coutnershaft shifter fork (2nd/3rd)
+Figure 5-55. Shifter Forks, Drum and Shafts
+1.
+See Figure 5-56. Remove shifter fork shafts by inserting
+a small flat punch in the slots and tapping on the end of
+each shaft until it falls free.
+NOTE
+Carefully tap on alternate sides of the shaft using the provided
+slots.
+2.
+See Figure 5-57. Remove shifter drum (1) and shifter forks
+(2). Mark each shifter fork as it is removed, so it can be
+reinstalled in the same location.
+sm03369b
+Figure 5-56. Slots For Removing Shifter Fork Shafts
+2
+3
+1
+4
+2
+5
+sm03370a
+1.
+Shifter drum
+2.
+Shifter fork (3)
+3.
+Mainshaft
+4.
+Mainshaft 2nd gear
+5.
+Countershaft
+Figure 5-57. Transmission Assembly
+HOME
+2013 Sportster Service: Drive/Transmission 5-33
+
+--- Page 512 ---
+3
+2
+1
+4
+5
+6
+sm03372
+1.
+Press ram
+2.
+Transmission remover
+3.
+Crankcase
+4.
+Transmission assembly (countershaft visible)
+5.
+Parallel support (2)
+6.
+Press bed
+Figure 5-58. Pressing Transmission From Left Crankcase
+Wear safety glasses or goggles when removing or
+installing retaining rings. Retaining rings can slip from the
+pliers and could be propelled with enough force to cause
+serious eye injury. (00312a)
+NOTE
+Use the TRANSMISSION REMOVAL AND INSTALLATION
+TOOL (Part No. B-43985) to remove the transmission.
+3.
+See Figure 5-58. Remove left crankcase half and transmis-
+sion assembly (4) from engine stand.
+a.
+Place crankcase half (3) and transmission assembly
+(4) on arbor press (1) and support transmission
+assembly on parallel supports (5).
+b.
+Press transmission assembly using REMOVER (Part
+No. B-43895-1) (2) to remove transmission from
+crankcase half.
+c.
+Remove crankcase from press.
+MAINSHAFT/COUNTERSHAFT
+NOTES
+•
+Transmission operation creates a specific wear pattern
+on the parts. Always install parts in their original locations
+and orientations.
+•
+See Figure 5-59. As each component is removed, place
+it on a clean surface in the exact order of removal.
+1
+2
+1
+2
+sm03373a
+1.
+Mainshaft
+2.
+Countershaft
+Figure 5-59. Transmission Parts Identification
+MAINSHAFT DISASSEMBLY
+TOOL NAME
+PART NUMBER
+TRANSMISSION SHAFT RETAINING
+RING PLIERS
+J-5586-A
+NOTES
+•
+Mainshaft 2nd and 3rd gears are integral to the shaft.
+•
+Mainshaft 1st gear is directional. Mark gear when removed
+for correct installation.
+•
+Press transmission assembly out of left crankcase half to
+service mainshaft and countershaft.
+•
+All thrust washers are one common part number. This
+transmission requires no shimming.
+•
+Use correct retaining ring pliers and correct tips. Verify
+that tips are not excessively worn or damaged.
+Wear safety glasses or goggles when removing or
+installing retaining rings. Retaining rings can slip from the
+pliers and could be propelled with enough force to cause
+serious eye injury. (00312a)
+1.
+See Figure 5-60. Remove 1st gear (1).
+2.
+Use TRANSMISSION SHAFT RETAINING RING PLIERS
+(Part No. J-5586-A) to expand and remove retaining ring
+(2). Discard retaining ring.
+3.
+Slide thrust washer (3) off end of mainshaft.
+4.
+Remove 4th gear (4) and split bearing (5). Discard bearing.
+HOME
+5-34 2013 Sportster Service: Drive/Transmission
+
+--- Page 513 ---
+3
+2
+1
+4
+5
+6
+7
+8
+sm03375
+5.
+1.
+Split bearing
+Mainshaft 1st gear
+2.
+6.
+Retaining ring
+Mainshaft
+7.
+3.
+Mainshaft 3rd gear (integral to shaft)
+Thrust washer
+4.
+8.
+Mainshaft 4th gear
+Mainshaft 2nd gear (integral to shaft)
+Figure 5-60. Transmission Mainshaft Assembly Once Removed from Left Crankcase/Disassembly
+Cleaning and Inspection
+Compressed air can pierce the skin and flying debris from
+compressed air could cause serious eye injury. Wear
+safety glasses when working with compressed air. Never
+use your hand to check for air leaks or to determine air
+flow rates. (00061a)
+1.
+Clean all parts in cleaning solvent. Blow dry with com-
+pressed air.
+2.
+Check gear teeth for damage. Replace if necessary.
+3.
+Inspect the engaging dogs on the gears. Replace if
+necessary.
+COUNTERSHAFT DISASSEMBLY
+TOOL NAME
+PART NUMBER
+RETAINING RING PLIERS
+J-5586-A
+NOTES
+•
+Countershaft 5th gear is integral to the shaft.
+•
+Once the transmission assembly has been pressed out
+of the left crankcase half, the mainshaft and countershaft
+assemblies can be serviced separately.
+•
+All thrust washers are one common part number. This
+transmission requires no shimming.
+•
+Use correct retaining ring pliers with correct tips. Verify
+that tips are not excessively worn or damaged.
+Wear safety glasses or goggles when removing or
+installing retaining rings. Retaining rings can slip from the
+pliers and could be propelled with enough force to cause
+serious eye injury. (00312a)
+1.
+See Figure 5-61. Remove spacer (19) and 2nd gear (18)
+from the end of the of the countershaft (2). Remove and
+discard split bearing (17).
+2.
+Remove spacer (16).
+NOTE
+When removing the dog ring (15), it is important to mark the
+direction of the ring on the shaft as parts establish wear pat-
+terns.
+3.
+Remove dog ring (15).
+4.
+Using RETAINING RING PLIERS (Part No. J-5586-A),
+expand and remove retaining ring (14). Discard retaining
+ring.
+5.
+Remove thrust washer (13), 3rd gear (12), and split
+bearing (11). Discard bearing.
+6.
+Remove thrust washer (10).
+7.
+Expand, remove and discard retaining ring (9).
+8.
+Remove 4th gear (8) and dog ring (7).
+9.
+Expand, remove and discard retaining ring (6).
+10. Remove thrust washer (5), 1st gear (4) and split bearing
+(3). Discard bearing.
+HOME
+2013 Sportster Service: Drive/Transmission 5-35
+
+--- Page 514 ---
+Cleaning and Inspection
+Compressed air can pierce the skin and flying debris from
+compressed air could cause serious eye injury. Wear
+safety glasses when working with compressed air. Never
+use your hand to check for air leaks or to determine air
+flow rates. (00061a)
+1.
+Clean all parts (except bearings) in cleaning solvent and
+blow dry with compressed air.
+2.
+Check gear teeth for damage. Replace if necessary.
+3.
+Inspect the engaging dogs on the gears. Replace if
+necessary.
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13 14
+15
+16
+17
+18
+19
+1
+sm03376
+15.
+8.
+1.
+Dog ring
+Countershaft 4th gear
+Countershaft 5th gear
+(integral to shaft)
+16.
+9.
+Spacer
+Retaining ring
+2.
+10.
+Countershaft
+17.
+Thrust washer
+Split bearing
+18.
+11.
+3.
+Countershaft 2nd gear
+Split bearing
+Split bearing
+4.
+19.
+12.
+Countershaft 1st gear
+Spacer
+Countershaft 3rd gear
+13.
+5.
+Thrust washer
+Thrust washer
+6.
+14.
+Retaining ring
+Retaining ring
+7.
+Dog ring
+Figure 5-61. Transmission Countershaft Assembly Once Removed from Left Crankcase/Disassembly
+HOME
+5-36 2013 Sportster Service: Drive/Transmission
+
+--- Page 515 ---
+5.10
+TRANSMISSION ASSEMBLY
+MAINSHAFT ASSEMBLY
+TOOL NAME
+PART NUMBER
+RETAINING RING PLIERS
+J-5586-A
+Wear safety glasses or goggles when removing or
+installing retaining rings. Retaining rings can slip from the
+pliers and could be propelled with enough force to cause
+serious eye injury. (00312a)
+NOTES
+•
+Use correct retaining ring pliers and correct tips. Verify
+that tips are not excessively worn or damaged.
+•
+Lubricate spit bearings and internal bores of gears with
+SCREAMIN' EAGLE ASSEMBLY LUBE prior to assembly.
+1.
+See Figure 5-62. Install new split bearing (5) in 4th gear
+position on mainshaft.
+2.
+Install 4th gear (4) and thrust washer (3).
+3.
+Using RETAINING RING PLIERS (Part No. J-5586-A),
+expand and install new retaining ring (2).
+4.
+Install 1st gear (1).
+3
+2
+1
+4
+5
+6
+7
+8
+sm03375
+5.
+1.
+Split bearing
+Mainshaft 1st gear
+2.
+6.
+Retaining ring
+Mainshaft
+7.
+3.
+Mainshaft 3rd gear (integral to shaft)
+Thrust washer
+4.
+8.
+Mainshaft 4th gear
+Mainshaft 2nd gear (integral to shaft)
+Figure 5-62. Transmission Mainshaft Assembly Once Removed from Left Crankcase/Disassembly
+COUNTERSHAFT ASSEMBLY
+TOOL NAME
+PART NUMBER
+RETAINING RING PLIERS
+J-5586-A
+Wear safety glasses or goggles when removing or
+installing retaining rings. Retaining rings can slip from the
+pliers and could be propelled with enough force to cause
+serious eye injury. (00312a)
+NOTES
+•
+Use correct retaining ring pliers and correct tips. Verify
+that tips are not excessively worn or damaged.
+•
+During assembly, the split bearings and the internal bores
+of the gears must be lubricated with SCREAMIN' EAGLE
+ASSEMBLY LUBE prior to assembly. Leaving these parts
+dry could accelerate wear at start-up.
+1.
+See Figure 5-63. Install new split bearing (3) in 1st gear
+position on mainshaft.
+2.
+Install 1st gear (4) and thrust washer (5).
+3.
+Using RETAINING RING PLIERS (Part No. J-5586-A),
+expand and install new retaining ring (6).
+4.
+Install dog ring (7) onto 4th gear (8). Now install dog ring
+and gear assembly onto countershaft.
+5.
+Expand and install new retaining ring (9).
+6.
+Install thrust washer (10).
+7.
+Install new split bearing (11) in 3rd gear position on
+mainshaft.
+8.
+Install 3rd gear (12) and thrust washer (13).
+HOME
+2013 Sportster Service: Drive/Transmission 5-37
+
+--- Page 516 ---
+9.
+Expand and install new retaining ring (14).
+10. Install dog ring (15). Make sure to install with dog ring
+facing same direction as when it was removed.
+11. Install spacer (16).
+12. Install new split bearing (17) in 2nd gear position on shaft.
+13. Install 2nd gear (18) and spacer (19).
+NOTE
+At this point both mainshaft and countershaft sub-assemblies
+are ready to be pressed into the left crankcase half.
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13 14
+15
+16
+17
+18
+19
+1
+sm03376
+15.
+8.
+1.
+Dog ring
+Countershaft 4th gear
+Countershaft 5th gear
+(integral to shaft)
+16.
+9.
+Spacer
+Retaining ring
+2.
+10.
+Countershaft
+17.
+Thrust washer
+Split bearing
+18.
+11.
+3.
+Countershaft 2nd gear
+Split bearing
+Split bearing
+4.
+19.
+12.
+Countershaft 1st gear
+Spacer
+Countershaft 3rd gear
+13.
+5.
+Thrust washer
+Thrust washer
+6.
+14.
+Retaining ring
+Retaining ring
+7.
+Dog ring
+Figure 5-63. Transmission Countershaft Assembly Once Removed from Left Crankcase/Disassembly
+HOME
+5-38 2013 Sportster Service: Drive/Transmission
+
+--- Page 517 ---
+5.11
+MAIN DRIVE GEAR AND BEARING
+GENERAL
+NOTE
+See Figure 5-64. Main drive gear (2) removal requires
+replacement of the main drive gear bearing (7 or 14). Gear
+removal procedure destroys bearing's inner race.
+11
+1
+3
+4
+6
+14
+13
+12
+9
+10
+8
+7
+5
+2
+1
+sm01328
+8.
+1.
+Countershaft bearing (closed end)
+Needle bearing (2)
+2.
+9.
+Main drive gear
+Retaining ring
+10.
+3.
+Oil seal
+O-ring
+4.
+11.
+Oil seal
+Retaining ring
+12.
+5.
+Spacer (XR 1200X)
+Shifter drum bushing
+6.
+13.
+Right crankcase
+O-ring (XR 1200X)
+14.
+7.
+Double roller bearing (XR 1200X)
+Ball bearing (XL models)
+Figure 5-64. Main Drive Gear and Bearing Assembly
+HOME
+2013 Sportster Service: Drive/Transmission 5-39
+
+--- Page 518 ---
+REMOVAL
+TOOL NAME
+PART NUMBER
+CROSS PLATE
+B-45847
+RECEIVER CUP
+HD-35316-11
+BEARING DRIVER
+HD-35316-13
+8 INCH BOLT
+HD-35316-4A
+WASHER
+HD-35316-7
+BEARING DRIVER
+HD-35316-9
+MAIN DRIVE GEAR REMOVER AND
+INSTALLER SET
+HD-35316-D
+Main Drive Gear
+1.
+Split crankcases. See 5.8 CASE DISASSEMBLY FOR
+TRANSMISSION REMOVAL.
+2.
+See Figure 5-65. From inside right crankcase, tap out seal
+(3) at end of main drive gear (1). Discard seal.
+3.
+Obtain MAIN DRIVE GEAR REMOVER AND INSTALLER
+SET (Part No. HD-35316-D). See Figure 5-66. Position
+CROSS PLATE (Part No. B-45847) (1) on right crankcase
+as shown. Position so roll pins (2) fit into crankcase mating
+screw holes and bolt hole (3) is centered over main drive
+gear (4).
+2
+3
+4
+1
+5
+sm01360
+1.
+Main drive gear
+2.
+Needle bearing (2)
+3.
+Seal
+4.
+O-ring
+5.
+Retaining ring
+Figure 5-65. Main Drive Gear Assembly (typical)
+4.
+See Figure 5-67. Insert 8 INCH BOLT (Part No. HD-35316-
+4A) (2) through cross plate (1) and main drive gear (3).
+5.
+At outside of case, place WASHER (Part No. HD-35316-
+7) (4), BEARING (5), FLAT WASHER (6) and NUT (7)
+over end of bolt. Tighten nut until main drive gear is free.
+1
+4
+3
+2
+sm01303
+1.
+Cross plate
+2.
+Roll pin (2)
+3.
+Bolt hole
+4.
+Main drive gear
+Figure 5-66. Positioning Cross Plate (typical)
+4
+3
+7
+6
+1
+2
+5
+sm01304
+1.
+Cross plate
+2.
+8 in bolt
+3.
+Main drive gear
+4.
+Washer
+5.
+Bearing
+6.
+Washer
+7.
+Nut
+Figure 5-67. Removing Main Drive Gear (typical)
+HOME
+5-40 2013 Sportster Service: Drive/Transmission
+
+--- Page 519 ---
+Main Drive Gear Ball Bearing
+Wear safety glasses or goggles when removing or
+installing retaining rings. Retaining rings can slip from the
+pliers and could be propelled with enough force to cause
+serious eye injury. (00312a)
+NOTE
+Use correct retaining ring pliers and correct tips. Verify that
+tips are not excessively worn or damaged.
+1.
+See Figure 5-64. Remove and discard oil seal (10).
+Remove and discard main drive gear bearing retaining
+ring (9).
+2.
+XR 1200X: Remove spacer (12) and O-ring (13).
+3.
+See Figure 5-68. Install driver components: From inside
+crankcase, position bearing driver (2) over main drive gear
+bearing.
+a.
+XL Models: Use the BEARING DRIVER (Part
+No. HD-35316-9).
+b.
+XR 1200X: Use the BEARING DRIVER (Part No. HD-
+35316-13).
+4.
+Insert 8 INCH BOLT (Part No. HD-35316-4A) (1) through
+bearing driver and bearing.
+5.
+At outside of case, slide RECEIVER CUP (Part No. HD-
+35316-11) (3) onto bolt and over bearing. Install the
+bearing (4), flat washer (5) and nut (6) over end of bolt.
+NOTE
+Support bearing remover assembly as you remove bearing in
+the following step. Entire assembly will fall out of crankcase
+when bearing comes free.
+6.
+Tighten nut until main drive gear ball bearing is free.
+7.
+Discard main drive gear ball bearing.
+2
+3
+1
+4
+5
+6
+sm01305a
+1.
+8 inch bolt
+2.
+Bearing driver
+3.
+Receiver cup
+4.
+Bearing
+5.
+Flat washer
+6.
+Nut
+Figure 5-68. Removing Main Drive Gear Bearing (typical)
+DISASSEMBLY
+TOOL NAME
+PART NUMBER
+BEARING RACE PULLER
+HD-95637-46B
+1.
+See Figure 5-64. Remove retaining ring (11) from inboard
+end of main drive gear (2). Discard retaining ring.
+2.
+See Figure 5-65. Drive out needle bearings (2) from inside
+bore of main drive gear (1). Discard needle bearings. Do
+not reuse bearings after removal from drive gear bore.
+3.
+Remove and discard O-ring (4).
+NOTE
+When the main drive gear is removed, a portion of the bearing
+inner race remains attached to the main drive gear. Remove
+this inner race before installing main drive gear.
+HOME
+2013 Sportster Service: Drive/Transmission 5-41
+
+--- Page 520 ---
+4.
+See Figure 5-69. Attach BEARING RACE PULLER (Part
+No. HD-95637-46B) (3) to inner race (2) on main drive
+gear (1).
+5.
+Place main drive gear with bearing race puller assembly
+onto press bed as shown in the photo.
+NOTE
+Provide a soft surface to catch the main drive gear when it falls
+free in the next step.
+6.
+Press main drive gear out of inner bearing race. Discard
+inner bearing race.
+2
+4
+1
+3
+sm01306
+1.
+Main drive gear
+2.
+Inner bearing race (not visible in this photo)
+3.
+Bearing race puller
+4.
+Press ram
+Figure 5-69. Removing Inner Bearing Race From Main Drive
+Gear (typical)
+ASSEMBLY
+TOOL NAME
+PART NUMBER
+INNER/OUTER MAIN DRIVE GEAR
+NEEDLE BEARING INSTALLATION
+TOOL: XL MODELS
+HD-47855
+INNER/OUTER MAIN DRIVE GEAR
+NEEDLE BEARING INSTALLATION
+TOOL: XR 1200X
+HD-48643
+NOTE
+The correct installed bearing depth is reached when the
+installation tool bottoms on the gear.
+1.
+See Figure 5-70 or Figure 5-71. Place main drive gear (4)
+on press bed with gear end facing up.
+2.
+Place needle bearing (3) squarely into end of drive gear
+with lettered side of bearing facing up. Always press on
+lettered side of bearing to install. Insert the installation tool
+(2) with end stamped "INNER" facing needle bearing.
+a.
+XL Models: INNER/OUTER MAIN DRIVE GEAR
+NEEDLE
+BEARING
+INSTALLATION
+TOOL:
+XL
+MODELS (Part No. HD-47855)
+b.
+XR 1200X: INNER/OUTER MAIN DRIVE GEAR
+NEEDLE BEARING INSTALLATION TOOL: XR
+1200X (Part No. HD-48643)
+3.
+Press in the inner bearing until the installation tool bottoms
+on the main drive gear.
+2
+1
+4
+3
+sm01307
+1.
+Press ram
+2.
+Needle bearing installation tool
+3.
+Needle bearing
+4.
+Main drive gear
+Figure 5-70. Pressing Inner Needle Bearing Assembly into
+Main Drive Gear: XL Models
+1
+2
+4
+3
+sm05493
+1.
+Press ram
+2.
+Needle bearing installation tool
+3.
+Needle bearing (not visible)
+4.
+Main drive gear
+Figure 5-71. Pressing Inner Needle Bearing Assembly into
+Main Drive Gear: XR 1200X
+4.
+See Figure 5-72 or Figure 5-73. Place main drive gear (4)
+on press bed with gear end facing down.
+5.
+Place needle bearing (3) squarely into end of drive gear
+with lettered side of bearing facing up. Always press on
+HOME
+5-42 2013 Sportster Service: Drive/Transmission
+
+--- Page 521 ---
+lettered side of bearing to install. Insert installation tool (2)
+with end stamped "OUTER" facing needle bearing.
+6.
+Press in the outer needle bearing until the installation tool
+bottoms on the main drive gear.
+7.
+See Figure 5-64. Install new retaining ring (11) in inboard
+end of main drive gear (2).
+2
+1
+4
+3
+sm01308
+1.
+Press ram
+2.
+Needle bearing installation tool
+3.
+Needle bearing
+4.
+Main drive gear
+Figure 5-72. Pressing Outer Needle Bearing Assembly into
+Main Drive Gear: XL Models
+2
+1
+4
+3
+sm05494
+1.
+Press ram
+2.
+Needle bearing installation tool
+3.
+Needle bearing (not visible)
+4.
+Main drive gear
+Figure 5-73. Pressing Outer Needle Bearing Assembly into
+Main Drive Gear: XR 1200X
+INSTALLATION
+TOOL NAME
+PART NUMBER
+CROSS PLATE
+B-45847
+INSTALLER CUP
+HD-35316-12
+BEARING DRIVER
+HD-35316-13
+8 INCH BOLT
+HD-35316-4A
+WASHER
+HD-35316-7
+BEARING DRIVER
+HD-35316-8
+MAIN DRIVE GEAR REMOVER AND
+INSTALLER SET
+HD-35316-C
+MAIN DRIVE GEAR SEAL INSTALLER
+KIT
+HD-47856
+INSTALLER
+HD-47856-1
+PILOT
+HD-47856-2
+ADAPTER
+HD-47856-4
+LARGE NUT
+HD-47856-5
+Main Drive Gear Bearing: XL Models
+1.
+See Figure 5-74. Place CROSS PLATE (Part No. B-45847)
+(1) on right crankcase as shown. Position cross plate so
+that roll pins (2) fit into crankcase mating screw holes and
+bolt hole (3) in cross plate is centered over crankcase
+bearing bore (4).
+2.
+See Figure 5-75. Insert 8 INCH BOLT (Part No. HD-35316-
+4A) (2) through cross plate (1) and main drive gear bearing
+bore.
+3.
+Place main drive gear bearing (3), BEARING DRIVER
+(Part No. HD-35316-8) (4), BEARING (5), FLAT WASHER
+(6) and NUT (7) over end of bolt.
+NOTE
+Do not continue to tighten nut after bearing bottoms against
+lip in crankcase bearing bore. Tightening nut too much can
+break lip in bearing bore casting.
+4.
+Tighten nut until main drive gear bearing bottoms against
+lip cast into crankcase bearing bore.
+5.
+Remove main drive gear bearing installer tool.
+Wear safety glasses or goggles when removing or
+installing retaining rings. Retaining rings can slip from the
+pliers and could be propelled with enough force to cause
+serious eye injury. (00312a)
+NOTE
+Use correct retaining ring pliers and correct tips. Verify that
+tips are not excessively worn or damaged.
+6.
+See Figure 5-78. At outside of case install new beveled
+retaining ring (9) in groove inside bearing bore with
+beveled side facing outside of case.
+7.
+Lubricate main drive gear bearing with SCREAMIN'
+EAGLE ASSEMBLY LUBE.
+HOME
+2013 Sportster Service: Drive/Transmission 5-43
+
+--- Page 522 ---
+4
+1
+2
+2
+3
+sm01309
+1.
+Cross plate
+2.
+Roll pin (2)
+3.
+Bolt hole
+4.
+Crankcase bearing bore
+Figure 5-74. Positioning Cross Plate: XL Models
+5
+2
+4
+6
+1
+3
+7
+sm01310a
+1.
+Cross plate
+2.
+8 inch bolt
+3.
+Main drive gear bearing
+4.
+Bearing driver
+5.
+Bearing
+6.
+Flat washer
+7.
+Nut
+Figure 5-75. Installing Main Drive Gear Bearing: XL Models
+Main Drive Gear Bearing: XR 1200X
+NOTE
+Due to the design of the bearing, BEARING DRIVER (Part
+No. HD-35316-13) and an arbor press must be used to press
+the main drive gear bearing on all XR 1200X.
+1.
+See Figure 5-76. From the outside of the case, position
+the main drive gear bearing (3) and bearing driver (2) over
+bearing bore in crankcase.
+2.
+Press on main drive gear bearing driver until driver bottoms
+against lip cast into crankcase bearing bore.
+1
+2
+3
+sm05744
+1.
+Press ram
+2.
+Bearing driver
+3.
+Main drive gear bearing
+Figure 5-76. Installing Main Drive Gear Bearing: XR 1200X
+Main Drive Gear
+1.
+See Figure 5-77. Lubricate both main drive gear needle
+bearing assemblies with SPECIAL PURPOSE GREASE.
+2.
+See Figure 5-78. Install new O-ring (3) into groove in main
+drive gear (2). Lubricate O-ring with SCREAMIN' EAGLE
+ASSEMBLY LUBE.
+sm03400
+Figure 5-77. Lubricating Main Drive Gear Needle Bearing
+HOME
+5-44 2013 Sportster Service: Drive/Transmission
+
+--- Page 523 ---
+11
+1
+3
+4
+6
+14
+13
+12
+9
+10
+8
+7
+5
+2
+1
+sm01328
+8.
+1.
+Countershaft bearing (closed end)
+Needle bearing (2)
+2.
+9.
+Main drive gear
+Retaining ring
+10.
+3.
+Oil seal
+O-ring
+4.
+11.
+Oil seal
+Retaining ring
+12.
+5.
+Spacer (XR 1200X)
+Shifter drum bushing
+6.
+13.
+Right crankcase
+O-ring (XR 1200X)
+14.
+7.
+Double roller bearing (XR 1200X)
+Ball bearing (XL models)
+Figure 5-78. Main Drive Gear and Bearing Assembly
+3.
+See Figure 5-79. Insert 8 INCH BOLT (Part No. HD-35316-
+4A) (1) through WASHER (Part No. HD-35316-7) (2) and
+main drive gear (3). From inside of case insert bolt with
+washer and main drive gear through inner race of main
+drive gear bearing.
+4.
+At outside of case, place INSTALLER CUP (Part No. HD-
+35316-12) (4), BEARING (5), FLAT WASHER (6) and NUT
+(7) over end of bolt. Tighten nut until main drive gear bot-
+toms against main drive gear bearing.
+5.
+Remove
+MAIN
+DRIVE
+GEAR
+REMOVER
+AND
+INSTALLER SET (Part No. HD-35316-C) set.
+6.
+See Figure 5-78. Tap in new oil seal (4) at threaded end
+of main drive gear to a depth of 0.060-0.030 in (1.524-
+0.762 mm).
+HOME
+2013 Sportster Service: Drive/Transmission 5-45
+
+--- Page 524 ---
+3
+6
+5
+4
+1
+2
+7
+sm01311b
+1.
+8 inch bolt
+2.
+Washer
+3.
+Main drive gear
+4.
+Installer cup
+5.
+Bearing
+6.
+Flat washer
+7.
+Nut
+Figure 5-79. Installing Main Drive Gear (typical)
+Main Drive Gear Seal
+1.
+XR 1200X: See Figure 5-78. Install spacer (12) and new
+O-ring (13) onto main drive gear.
+2.
+Obtain MAIN DRIVE GEAR SEAL INSTALLER KIT (Part
+No. HD-47856).
+3.
+See Figure 5-80. From outside of crankcase, install PILOT
+(Part No. HD-47856-2) over end of main drive gear bearing
+inner race.
+4.
+Coat lips of new main drive gear seal with SCREAMIN'
+EAGLE ASSEMBLY LUBE.
+5.
+See Figure 5-81. Place seal over pilot and position seal
+squarely in end of crankcase bore.
+NOTE
+ADAPTER (Part No. HD-47856-4) and main drive gear have
+left-hand threads.
+6.
+See Figure 5-82. Thread ADAPTER (Part No. HD-47856-
+4) onto end of main drive gear several turns. Do NOT
+tighten on drive gear. Doing so could make it difficult to
+remove adapter after seal has been installed.
+sm01312a
+Figure 5-80. Install Pilot (typical)
+HOME
+5-46 2013 Sportster Service: Drive/Transmission
+
+--- Page 525 ---
+sm01313a
+Figure 5-81. Install Main Drive Gear Seal (typical, XL model
+shown)
+sm01314a
+Figure 5-82. Install Adapter (typical, XL model shown)
+7.
+See Figure 5-83. Slide INSTALLER (Part No. HD-47856-
+1) over adapter until cupped end of installer is flat against
+seal.
+8.
+See Figure 5-84. Thread LARGE NUT (Part No. HD-
+47856-5) onto end of adapter, until it tightens against
+installer.
+9.
+See Figure 5-85. Place crow's foot wrench (1) with 1/2
+inch drive breaker bar (2) on large nut. Place an adjustable
+wrench (3) on flats of hex head cast into end of adapter.
+10. Holding adjustable wrench, tighten large nut with crow's
+foot wrench until outer face of seal is flush with outer edge
+of crankcase bore.
+NOTE
+It is acceptable to recess seal to about 0.030 in (0.762 mm)
+below outer edge of bore. Seal will be controlled by tool.
+11. Remove nut, installer, adapter and pilot.
+sm01315a
+Figure 5-83. Place Installer over Adapter (typical, XL model
+shown)
+HOME
+2013 Sportster Service: Drive/Transmission 5-47
+
+--- Page 526 ---
+sm01316a
+Figure 5-84. Install Nut (typical, XL model shown)
+2
+1
+3
+sm01317a
+1.
+Crowfoot wrench
+2.
+1/2 inch breaker bar
+3.
+Adjustable wrench
+Figure 5-85. Press Seal Into Crankcase (typical, XL model
+shown)
+HOME
+5-48 2013 Sportster Service: Drive/Transmission
+
+--- Page 527 ---
+5.12
+TRANSMISSION RIGHT CASE BEARINGS
+REMOVAL
+TOOL NAME
+PART NUMBER
+BUSHING AND BEARING PULLER
+HD-95760-69A
+1/2 INCH COLLET
+HD-95765-69A
+Split crankcases. See 5.8 CASE DISASSEMBLY FOR
+TRANSMISSION REMOVAL.
+Countershaft Needle Bearing
+See Figure 5-86. From inside transmission case use a bearing
+driver to remove countershaft bearing (1) from crankcase bore.
+Shifter Drum Bushing
+1.
+See Figure 5-86. The shifter drum bushing (2) is a press
+fit in the right crankcase half. Inspect the bushing against
+the corresponding end of the shifter drum for proper fit
+and wear.
+2.
+If bushing is to be replaced, use BUSHING AND BEARING
+PULLER (Part No. HD-95760-69A) with 1/2 INCH COLLET
+(Part No. HD-95765-69A) to remove bushing from crank-
+case bore.
+INSTALLATION
+TOOL NAME
+PART NUMBER
+SNAP-ON BUSHING DRIVER SET
+A-157C
+Countershaft Needle Bearing
+1.
+Find a bearing driver 1-1/4 inch in diameter.
+2.
+See Figure 5-86. Position the open end of the countershaft
+bearing (1) toward the bore in the outside of the case.
+3.
+Square the driver against the closed end of the bearing.
+4.
+Drive the bearing flush or no more than 0.030 in (0.762
+mm) below the outside surface.
+5.
+Lubricate with SCREAMIN' EAGLE ASSEMBLY LUBE.
+Shifter Drum Bushing
+1.
+See Figure 5-86. Using SNAP-ON BUSHING DRIVER
+SET (Part No. A-157C) and the 1/2 inch adapter (Part No.
+A157-8), install a new shifter drum bushing (2).
+2.
+Lubricate with SCREAMIN' EAGLE ASSEMBLY LUBE.
+2
+1
+sm07172
+1.
+Countershaft needle bearing
+2.
+Shifter drum bushing
+Figure 5-86. Transmission Right Case Bearings
+HOME
+2013 Sportster Service: Drive/Transmission 5-49
+
+--- Page 528 ---
+5.13
+TRANSMISSION LEFT CASE BEARINGS
+REMOVAL
+TOOL NAME
+PART NUMBER
+SNAP-ON SNAP RING PLIERS
+PR-36
+Mainshaft and Countershaft Bearings
+1.
+Split crankcases. See 5.8 CASE DISASSEMBLY FOR
+TRANSMISSION REMOVAL.
+2.
+Disassemble transmission. See 5.9 TRANSMISSION
+REMOVAL AND DISASSEMBLY.
+a.
+Remove shifter forks and drum.
+b.
+Remove countershaft and mainshaft.
+3.
+Inspect the mainshaft and countershaft ball bearings for
+pitting, scoring, discoloration or other damage.
+4.
+See Figure 5-88. If bearing replacement is required,
+remove retaining rings (1, 2) using SNAP-ON SNAP RING
+PLIERS (Part No. PR-36).
+5.
+Press out bearings (3, 4) from the inside of the crankcase.
+Shifter Drum Bushing
+1.
+Inspect the shifter drum bushing for pitting, scoring, discol-
+oration or excessive wear.
+2.
+If bushing requires replacement, press bushing out of
+crankcase from primary side toward inside of case.
+INSTALLATION
+Mainshaft and Countershaft Bearings
+1.
+Place crankcase on press with inside surface of crankcase
+downward.
+2.
+Lay bearing squarely over bore with printed side of bearing
+upward.
+3.
+Place a driver (slightly smaller than outside diameter of
+bearing) against outer race.
+4.
+Press bearing into bore until bearing bottoms against
+shoulder.
+5.
+Install new retaining ring with beveled side facing away
+from bearing.
+Shift Drum Bushing
+1.
+Place crankcase on press with outside surface of crank-
+case downward.
+2.
+See Figure 5-87. Lay bushing squarely over bore. Using
+a pressing tool larger than OD of bushing, press bushing
+into bore until tool contacts crankcase.
+1
+2
+3
+sm03388
+1.
+Press bushing to contact shoulder in crankcase
+half.
+2.
+Shifter drum bushing.
+3.
+Outside crankcase
+Figure 5-87. Shifter Drum Bushing Assembly
+3
+4
+1
+2
+sm01370
+1.
+Retaining ring
+2.
+Retaining ring
+3.
+Mainshaft bearing
+4.
+Countershaft bearing
+Figure 5-88. Ball Bearing Assembly
+HOME
+5-50 2013 Sportster Service: Drive/Transmission
+
+--- Page 529 ---
+5.14
+TRANSMISSION INSTALLATION
+GENERAL
+Before reinstalling transmission and reassembling crankcase
+halves, perform any necessary engine overhaul procedures.
+See 3.9 BOTTOM END SERVICE and 3.8 TOP END SERVICE.
+INSTALLATION
+TOOL NAME
+PART NUMBER
+TRANSMISSION REMOVAL AND
+INSTALLATION TOOL
+B-43985
+INSTALLER
+B-43985-3
+GUIDE
+B-43985-4
+CASE HOLDING FIXTURE
+HD-46285-2
+TORQUE VALUE
+FASTENER
+10.2-12.4 Nm
+90-110 in-lbs
+Gear detent assembly screw
+1.
+See Figure 5-89. Assemble detent spring (3) onto gear
+detent assembly (2).
+2.
+Install detent assembly with spring into place in transmis-
+sion cavity of right crankcase.
+3.
+Secure with screw (1). Tighten to 90-110 in-lbs (10.2-12.4
+Nm).
+NOTE
+Use the TRANSMISSION REMOVAL AND INSTALLATION
+TOOL (Part No. B-43985) to install the countershaft.
+4.
+See Figure 5-90. Place transmission assembly (2) onto
+CASE HOLDING FIXTURE (Part No. HD-46285-2) (3) on
+press bed. Use support block(s) (4) if necessary.
+5.
+Screw the GUIDE (Part No. B-43985-4) (1) into end of
+countershaft.
+3
+1
+2
+sm06783
+1.
+Screw
+2.
+Gear detent assembly
+3.
+Detent spring
+Figure 5-89. Gear Detent Assembly
+3
+1
+4
+2
+sm01318a
+1.
+Countershaft guide
+2.
+Transmission
+3.
+Transmission fixture
+4.
+Support block(s)
+Figure 5-90. Transmission on Fixture
+6.
+See Figure 5-91. Install left crankcase (3) over transmis-
+sion assembly (4).
+7.
+Place the INSTALLER (Part No. B-43985-3) (2) over
+mainshaft and countershaft bearings in crankcase.
+8.
+Position crankcase and transmission assemblies on press
+with installer under press ram (1).
+HOME
+2013 Sportster Service: Drive/Transmission 5-51
+
+--- Page 530 ---
+5
+4
+3
+1
+2
+sm01319a
+1.
+Press ram
+2.
+Installer
+3.
+Crankcase
+4.
+Transmission
+5.
+Transmission fixture
+Figure 5-91. Pressing Transmission into Left Crankcase
+NOTE
+Verify that the crankcase does not tilt when pressed onto
+transmission assembly. Place press ram on the installer closer
+to mainshaft to keep the crankcase level.
+9.
+Press crankcase onto transmission assembly until shafts
+bottom out on bearings.
+10. Remove left crankcase with transmission assembly from
+press.
+NOTE
+When removing assembly from fixture, prevent 1st gear from
+falling off shaft. Gear can be damaged if it strikes a hard sur-
+face.
+SHIFTER FORKS AND DRUM ASSEMBLY
+NOTES
+•
+See Figure 5-92. Each shifter fork develops a wear pattern
+with its mating parts. Install each shifter fork in its original
+location.
+•
+Lubricate the shaft bore in each shifter fork with
+SCREAMIN' EAGLE ASSEMBLY LUBE before assembly.
+1.
+Place 2nd/3rd gear shifter fork onto dog ring between
+countershaft 2nd and 3rd gears.
+2.
+Install shifter drum into left case half with scribed line at
+12 o'clock. This will place shifter drum in neutral position.
+NOTE
+See Figure 5-93. Install shifter fork shafts in the left case half
+by lightly tapping on the end of the shaft with a brass or hard
+plastic hammer until shaft is seated in bore.
+3.
+Place 1st gear shifter fork onto dog ring between counter-
+shaft 1st and 4th gear gears. Install shifter fork shaft
+through two installed shifter forks and into left crankcase
+half.
+4.
+Install 4th/5th gear shifter fork onto sliding gear with dogs
+located on mainshaft. Install remaining shifter fork shaft
+through last installed shifter fork and into left crankcase
+half.
+NOTE
+Seat shifter fork shafts in left crankcase half bore using light
+taps with a brass hammer.
+3
+5
+3
+1
+4
+2
+sm06844
+1.
+Shifter drum
+2.
+Mainshaft shifter fork (4th/5th)
+3.
+Shifter fork shaft
+4.
+Countershaft shifter fork (1st)
+5.
+Coutnershaft shifter fork (2nd/3rd)
+Figure 5-92. Shifter Forks, Drum and Shafts
+sm01320a
+Figure 5-93. Installing Shifter Fork Shafts
+HOME
+5-52 2013 Sportster Service: Drive/Transmission
+
+--- Page 531 ---
+ASSEMBLING CRANKCASES
+TOOL NAME
+PART NUMBER
+GEAR DETENT ASSEMBLY AID
+B-45520
+CRANKSHAFT GUIDE TOOL
+HD-42326-A
+TORQUE VALUE
+FASTENER
+20.3-25.8 Nm
+15-19 ft-lbs
+Crankcase fastener
+13.6-20.3 Nm
+120-180
+in-lbs
+Neutral indicator switch
+1.
+See Figure 5-94. Retract detent assembly in right case
+half and thread GEAR DETENT ASSEMBLY AID (Part
+No. B-45520) into neutral switch hole until it has bottomed
+in right case half.
+2.
+See Figure 5-95. Install flywheel assembly into right
+crankcase half.
+Do not rotate right crankcase half in engine stand such
+that flywheel sprocket shaft is facing down. The flywheel
+assembly can fall out, resulting in parts damage or mod-
+erate injury. (00553b)
+NOTE
+Always place transmission in 1st gear when assembling
+crankcases. Other gear selections could cause damage.
+3.
+Place transmission in 1st gear.
+4.
+See Figure 5-96. Assemble crankcase halves together.
+a.
+Slide CRANKSHAFT GUIDE TOOL (Part No. HD-
+42326-A) onto flywheel sprocket shaft.
+b.
+Apply a thin coat of HARLEY-DAVIDSON GRAY
+HIGH-PERFORMANCE SEALANT - GRAY to crank-
+case joint faces.
+c.
+Lubricate main drive gear inner bearings with
+SCREAMIN' EAGLE ASSEMBLY LUBE.
+d.
+Carefully fit crankcases together.
+e.
+Apply
+several
+drops
+of
+LOCTITE
+262
+HIGH
+STRENGTH THREADLOCKER AND SEALANT (red)
+to last few threads of crankcase fasteners.
+f.
+Install 11 long and four short from the left side and
+two long from the right side.
+g.
+See Figure 5-97. In sequence, tighten to 15-19 ft-lbs
+(20.3-25.8 Nm).
+5.
+Remove GEAR DETENT ASSEMBLY AID and install
+neutral indicator switch and flat washer. Tighten to 120-
+180 in-lbs (13.6-20.3 Nm).
+1
+2
+sm01372
+1.
+Detent assembly
+2.
+Detent assembly aid
+Figure 5-94. Using Gear Detent Assembly Aid (Part No.
+B-45520)
+sm06549
+Figure 5-95. Installing Flywheel Assembly In Right
+Crankcase
+HOME
+2013 Sportster Service: Drive/Transmission 5-53
+
+--- Page 532 ---
+sm06554
+Figure 5-96. Assembling Crankcases With Crankshaft
+Guide Tool (Part No. HD-42326-A)
+14
+13
+12
+11
+9
+10
+15
+4
+3
+2
+1
+5
+6
+7
+8
+16
+17
+sm01380b
+Figure 5-97. Crankcase Fastener Torque Sequence
+SHIFTER SHAFT INSTALLATION
+TORQUE VALUE
+FASTENER
+44.8-50.2 Nm
+33-37 ft-lbs
+Countershaft retaining screw
+1.
+See Figure 5-98. Correctly install shifter return spring onto
+the reverse side of the shifter shaft assembly before pla-
+cing shaft in left crankcase half.
+NOTE
+See Figure 5-100. Verify shifter shaft return spring assembly
+and installation. Incorrect spring installation could cause prob-
+lems with shifting.
+2.
+See Figure 5-100. Press the ratchet arms and insert shaft
+assembly into the bushing in the left case half and release.
+Ratchet arms should now be inside the end plate of the
+shifter drum contacting the shifter drum pins.
+3.
+See Figure 5-101. Apply several drops of LOCTITE 262
+HIGH STRENGTH THREADLOCKER AND SEALANT
+(red) to last few threads of countershaft retaining screw.
+Thread screw into end of shaft.
+4.
+Place transmission in gear and tighten screw to 33-37 ft-
+lbs (44.8-50.2 Nm).
+5.
+Install transmission sprocket. See 5.15 TRANSMISSION
+SPROCKET.
+6.
+Continue assembling engine. See 3.22 BOTTOM END
+OVERHAUL: ASSEMBLY and 3.16 TOP END OVER-
+HAUL: ASSEMBLY.
+7.
+Install primary chain and engine sprocket, clutch assembly,
+and primary cover. See 5.4 PRIMARY DRIVE AND
+CLUTCH: XL MODELS or 5.5 PRIMARY DRIVE AND
+CLUTCH: XR 1200X.
+8.
+Install engine in chassis. See 3.11 INSTALLING ENGINE
+IN CHASSIS.
+sm01467
+Figure 5-98. Shifter Shaft Return Spring (Correctly
+Installed)
+HOME
+5-54 2013 Sportster Service: Drive/Transmission
+
+--- Page 533 ---
+sm01468
+Figure 5-99. Shifter Shaft Return Spring (Incorrectly
+Installed)
+sm01323a
+Figure 5-100. Installing Shifter Shaft Assembly
+sm01324b
+Figure 5-101. Countershaft Retaining Screw
+HOME
+2013 Sportster Service: Drive/Transmission 5-55
+
+--- Page 534 ---
+5.15
+TRANSMISSION SPROCKET
+REMOVAL
+TOOL NAME
+PART NUMBER
+ENGINE CRADLE
+HD-42310-45
+FINAL DRIVE SPROCKET HOLDING
+TOOL REACTION ADAPTER
+HD-46282-1A
+FINAL DRIVE SPROCKET HOLDING
+TOOL
+HD-46282-A
+MAINSHAFT LOCKNUT WRENCH
+HD-46288
+To prevent accidental vehicle start-up, which could cause
+death or serious injury, remove main fuse before pro-
+ceeding. (00251b)
+Preparation
+1.
+Remove main fuse.
+2.
+Shift transmission into neutral.
+XL Models
+1.
+Remove rear muffler and rear exhaust pipe. See
+4.13 EXHAUST SYSTEM: XL MODELS.
+2.
+See Figure 5-102. Remove screw (6), washer (5) and
+exhaust pipe clamp bracket (4). Remove two screws (2,
+3) and remove sprocket cover (1).
+3.
+Remove belt guard. See 2.22 BELT GUARD AND DEBRIS
+DEFLECTOR.
+4.
+Remove rear drive belt from transmission sprocket. Pull
+belt back out of the way. Do not bend belt too tightly or
+twist belt. See 5.6 DRIVE BELT.
+5.
+See Figure 5-103. Remove screw and washer (6) from
+exhaust interconnect bracket.
+XR 1200X
+1.
+Remove exhaust system. See 4.14 EXHAUST SYSTEM:
+XR 1200X.
+2.
+Remove three screws securing sprocket cover to engine
+crankcase. Remove sprocket cover.
+3.
+Remove belt guard. See 2.22 BELT GUARD AND DEBRIS
+DEFLECTOR.
+4.
+Remove the rear brake master cylinder assembly:
+a.
+Remove two screws securing rear brake master cyl-
+inder assembly, rider footrest and mounting bracket
+to vehicle's frame.
+b.
+Carefully pull assembly back out of the way. Secure
+to frame with cable strap or bungee cord.
+c.
+Do not kink or bend metal portion of brake line.
+5.
+Remove rear drive belt from transmission sprocket. Pull
+belt back out of the way. Do not bend belt too tightly or
+twist belt. See 5.6 DRIVE BELT.
+4
+3
+2
+1
+5
+6
+sm01469
+1.
+Sprocket cover
+2.
+Screw
+3.
+Screw
+4.
+Exhaust pipe clamp bracket
+5.
+Washer
+6.
+Screw
+Figure 5-102. Sprocket Cover: XL Models
+2
+1
+5
+3
+4
+6
+sm01324a
+1.
+Main drive gear shaft
+2.
+Transmission sprocket
+3.
+Transmission sprocket nut
+4.
+Lockplate
+5.
+Screw (2)
+6.
+Screw and washer
+Figure 5-103. Transmission Sprocket Assembly: All Models
+HOME
+5-56 2013 Sportster Service: Drive/Transmission
+
+--- Page 535 ---
+All Models
+1.
+See Figure 5-103. Remove two screws (5) and sprocket
+lockplate (4).
+NOTES
+•
+See Figure 5-105. On XR 1200X and XL models without
+passenger footrests, install FINAL DRIVE SPROCKET
+HOLDING TOOL REACTION ADAPTER (Part No. HD-
+46282-1A) into bottom footrest bracket hole in frame. Place
+handle of tool underneath adapter.
+•
+If the engine is mounted in the ENGINE CRADLE (Part
+No. HD-42310-45), the rear crankcase support serves as
+a tool stop for the sprocket holding tool.
+2.
+See Figure 5-104. Install the FINAL DRIVE SPROCKET
+HOLDING TOOL (Part No. HD-46282-A) (1). Hold the
+sprocket nut with MAINSHAFT LOCKNUT WRENCH (Part
+No. HD-46288) (2). Use a breaker bar (3) to loosen the
+nut. Place handle of sprocket holding tool under bottom
+of footrest bracket. Turn nut clockwise to remove it.
+1
+3
+2
+sm01326a
+1.
+Transmission sprocket holding tool
+2.
+Mainshaft locknut wrench
+3.
+Breaker bar
+Figure 5-104. Removing Transmission Locknut
+1
+2
+sm05495
+1.
+Transmission sprocket holding tool
+2.
+Sprocket holding tool adapter
+Figure 5-105. Sprocket Holding Tool and Adapter
+(installation XR 1200X)
+INSTALLATION
+TOOL NAME
+PART NUMBER
+TRANSMISSION SPROCKET
+HOLDING TOOL
+HD-46282
+SPROCKET HOLDING TOOL
+ADAPTER
+HD-46282-1A
+MAINSHAFT LOCKNUT WRENCH
+HD-46288
+TORQUE VALUE
+FASTENER
+68 Nm
+50 ft-lbs
+Transmission sprocket nut
+10.3-13.6 Nm
+90-120 in-lbs
+Transmission sprocket lock-
+plate fastener
+40.7-44.8 Nm
+30-33 ft-lbs
+Muffler interconnect bracket
+mounting screw: XR 1200X
+40.7-44.8 Nm
+30-33 ft-lbs
+Exhaust pipe clamp bracket
+fastener: XR 1200X
+9.0-13.6 Nm
+80-120 in-lbs
+Sprocket cover, forward and
+lower screws
+61-68 Nm
+45-50 ft-lbs
+Footrest mount fastener
+40.7-44.8 Nm
+30-33 ft-lbs
+Sprocket cover, rear screw
+9.0-13.6 Nm
+80-120 in-lbs
+Sprocket cover, forward and
+lower screws
+Preparation
+1.
+See Figure 5-103. Install transmission sprocket (2) onto
+main drive gear shaft (1).
+NOTE
+See Figure 5-105. On XR 1200X and XL models without pas-
+senger
+footrests,
+screw
+SPROCKET
+HOLDING
+TOOL
+ADAPTER (Part No. HD-46282-1A) into top footrest bracket
+hole in frame. Place handle of tool on top of adapter.
+2.
+Shift transmission into neutral. Apply LOCTITE 262 HIGH
+STRENGTH THREADLOCKER AND SEALANT (red) to
+the left-hand threads of transmission sprocket nut (3).
+Apply a thin film of SCREAMIN' EAGLE ASSEMBLY LUBE
+to the back face of the sprocket nut. Turn the nut
+counterclockwise to install it onto main drive gear shaft.
+a.
+See Figure 5-106. Use TRANSMISSION SPROCKET
+HOLDING TOOL (Part No. HD-46282) (1), MAIN-
+SHAFT LOCKNUT WRENCH (Part No. HD-46288)
+(2), and a torque wrench (3). Place handle of sprocket
+holding tool on top of footrest bracket. Tighten nut to
+50 ft-lbs (68 Nm) initial torque, ONLY.
+b.
+See Figure 5-107. Scribe a line on the transmission
+sprocket nut and continue the line on the transmission
+sprocket as shown.
+c.
+Tighten the transmission sprocket nut an additional
+30-40 degrees.
+NOTE
+The lockplate has can be turned to either side to align the
+screw holes. If the screw holes cannot be properly aligned,
+HOME
+2013 Sportster Service: Drive/Transmission 5-57
+
+--- Page 536 ---
+tighten the nut slightly until the holes align. Do not exceed
+45 degrees. Never LOOSEN nut to align the screw holes.
+d.
+See Figure 5-103. Install lockplate (4) over nut (3) so
+that two of lockplate's four drilled holes (diagonally
+opposite) align with sprocket's (2) two tapped holes.
+3
+2
+1
+sm01327a
+1.
+Transmission sprocket holding tool
+2.
+Mainshaft locknut wrench
+3.
+Torque wrench
+Figure 5-106. Tightening Transmission Locknut: All Models
+45
+30
+2
+1
+3
+sm01470
+1.
+Transmission sprocket
+2.
+Sprocket nut
+3.
+Line scribed on nut and sprocket
+Figure 5-107. Transmission Sprocket Nut Final Tightening
+Procedure
+NOTE
+Always install BOTH screws to secure the lockplate.
+3.
+Install socket head screws (5) through two of the four holes
+in lockplate, then into two corresponding tapped holes in
+sprocket. Tighten to 90-120 in-lbs (10.3-13.6 Nm).
+4.
+XR 1200X and XL Models without Passenger Footrests:
+Remove SPROCKET HOLDING TOOL ADAPTER (Part
+No. HD-46282-1A).
+XL 1200X
+1.
+See Figure 5-103. Install screw and washer (6) to secure
+muffler interconnect bracket to engine crankcase. Tighten
+to 30-33 ft-lbs (40.7-44.8 Nm).
+2.
+Install rear drive belt onto transmission sprocket. See
+5.6 DRIVE BELT.
+3.
+Adjust rear belt deflection and rear wheel alignment. See
+1.24 WHEEL ALIGNMENT.
+4.
+Install belt guard. See 2.22 BELT GUARD AND DEBRIS
+DEFLECTOR.
+5.
+See Figure 5-102. Install sprocket cover (1). Secure with
+two screws (2, 3). Note that long screw goes in top hole,
+short screw in bottom hole. Do not tighten screws at this
+time.
+6.
+Install exhaust pipe clamp bracket (4), washer (5) and
+screw (6). Tighten to 30-33 ft-lbs (40.7-44.8 Nm). Now
+tighten screws (2, 3) to 80-120 in-lbs (9.0-13.6 Nm).
+7.
+Install
+rear
+exhaust
+pipe
+and
+rear
+muffler.
+See
+4.13 EXHAUST SYSTEM: XL MODELS.
+XR 1200X
+1.
+Install rear drive belt onto transmission sprocket. See
+5.6 DRIVE BELT.
+2.
+Adjust rear belt deflection and rear wheel alignment. See
+1.24 WHEEL ALIGNMENT.
+3.
+Attach rear brake master cylinder, rider footrest and
+mounting bracket assembly to frame with two screws.
+Tighten to 45-50 ft-lbs (61-68 Nm).
+4.
+Install belt guard. See 2.22 BELT GUARD AND DEBRIS
+DEFLECTOR.
+5.
+Install sprocket cover.
+a.
+Install longer screw in top hole.
+b.
+Install shorter one in bottom hole.
+c.
+Install larger diameter fastener in rear hole.
+d.
+Tighten rear (larger dia.) fastener to 30-33 ft-lbs (40.7-
+44.8 Nm).
+e.
+Tighten forward and lower (smaller) screws to 80-120
+in-lbs (9.0-13.6 Nm).
+6.
+Install exhaust system. See 4.14 EXHAUST SYSTEM: XR
+1200X.
+All Models
+Install main fuse.
+HOME
+5-58 2013 Sportster Service: Drive/Transmission
+

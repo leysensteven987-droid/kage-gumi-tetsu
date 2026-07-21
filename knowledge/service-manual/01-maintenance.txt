@@ -1,0 +1,6996 @@
+# 1. MAINTENANCE
+# Source: 2013 HD Sportster Service Manual (99484-13)
+# Pages: 23-104
+
+--- Page 23 ---
+TABLE OF CONTENTS
+SUBJECT............................................................................................................................PAGE NO.
+1.1 FASTENER TORQUE VALUES.................................................................................................1-1
+1.2 GENERAL..................................................................................................................................1-3
+1.3 FUEL AND OIL..........................................................................................................................1-7
+1.4 BULB REQUIREMENTS............................................................................................................1-9
+1.5 MAINTENANCE SCHEDULE..................................................................................................1-10
+1.6 ENGINE OIL AND FILTER.......................................................................................................1-15
+1.7 AIR FILTER..............................................................................................................................1-19
+1.8 TIRES AND WHEELS..............................................................................................................1-23
+1.9 PRIMARY CHAIN.....................................................................................................................1-26
+1.10 TRANSMISSION LUBRICANT..............................................................................................1-27
+1.11 CLUTCH.................................................................................................................................1-29
+1.12 DRIVE BELT AND SPROCKETS..........................................................................................1-31
+1.13 THROTTLE CONTROL.........................................................................................................1-35
+1.14 CABLE AND CHASSIS LUBRICATION.................................................................................1-36
+1.15 BRAKES................................................................................................................................1-37
+1.16 BRAKE PADS AND DISCS: XL MODELS.............................................................................1-40
+1.17 BRAKE PADS AND DISCS: XR 1200X.................................................................................1-47
+1.18 SPARK PLUGS......................................................................................................................1-53
+1.19 STEERING HEAD BEARINGS..............................................................................................1-55
+1.20 CRITICAL FASTENERS........................................................................................................1-56
+1.21 ENGINE MOUNTS AND STABILIZER LINKS.......................................................................1-58
+1.22 BATTERY MAINTENANCE....................................................................................................1-59
+1.23 EXHAUST SYSTEM..............................................................................................................1-65
+1.24 WHEEL ALIGNMENT............................................................................................................1-66
+1.25 SUSPENSION ADJUSTMENTS............................................................................................1-68
+1.26 HEADLAMP ALIGNMENT.....................................................................................................1-72
+1.27 STORAGE..............................................................................................................................1-74
+1.28 TROUBLESHOOTING...........................................................................................................1-76
+MAINTENANCE
+
+--- Page 24 ---
+NOTES
+
+--- Page 25 ---
+1.1
+FASTENER TORQUE VALUES
+FASTENER TORQUE VALUES IN THIS
+CHAPTER
+The table below lists torque values for all fasteners presented
+in this chapter.
+NOTES
+TORQUE VALUE
+FASTENER
+1.5 MAINTENANCE SCHEDULE, General
+4.1-6.8 Nm
+36-60 in-lbs
+Air cleaner cover screw
+1.7 AIR FILTER, XL Models except XL 1200V
+4.1-6.8 Nm
+36-60 in-lbs
+Air cleaner cover screw
+1.7 AIR FILTER, XL 1200V
+4.1-6.8 Nm
+36-60 in-lbs
+Air cleaner cover screw
+1.5 MAINTENANCE SCHEDULE, General
+4.5-6.8 Nm
+40-60 in-lbs
+Air filter screw
+1.7 AIR FILTER, XL Models except XL 1200V
+4.5-6.8 Nm
+40-60 in-lbs
+Air filter screw
+1.7 AIR FILTER, XL 1200V
+4.5-6.8 Nm
+40-60 in-lbs
+Air filter screw
+1.12 DRIVE BELT AND SPROCKETS, Drive Belt
+Deflection
+129-142 Nm
+95-105 ft-lbs
+Axle, rear, nut
+1.24 WHEEL ALIGNMENT, Wheel Alignment
+129-142 Nm
+95-105 ft-lbs
+Axle, rear, nut
+1.22 BATTERY MAINTENANCE, Battery Installa-
+tion and Connection
+6.2-8.5 Nm
+55-75 in-lbs
+Battery cable connector nut
+1.5 MAINTENANCE SCHEDULE, General
+6.8-7.9 Nm
+60-70 in-lbs
+Battery negative terminal screw
+1.22 BATTERY MAINTENANCE, Battery Installa-
+tion and Connection
+6.8-7.9 Nm
+60-70 in-lbs
+Battery negative terminal screw
+1.22 BATTERY MAINTENANCE, Battery Installa-
+tion and Connection
+6.8-7.9 Nm
+60-70 in-lbs
+Battery positive terminal screw
+1.22 BATTERY MAINTENANCE, Battery Installa-
+tion and Connection
+4.1-6.8 Nm
+36-60 in-lbs
+Battery strap screw
+1.12 DRIVE BELT AND SPROCKETS, Drive Belt
+Deflection
+3.4-4.5 Nm
+30-40 in-lbs
+Brake hose clamp to rear fork screw
+1.16 BRAKE PADS AND DISCS: XL
+MODELS, Brake Pad Replacement: Front
+1.0-2.0 Nm
+9-17 in-lbs
+Brake master cylinder, front, reservoir
+cover screws
+1.17 BRAKE PADS AND DISCS: XR 1200X, Brake
+Pad Replacement: Front
+1.0-2.0 Nm
+9-17 in-lbs
+Brake master cylinder, front, reservoir
+cover screws
+1.5 MAINTENANCE SCHEDULE, General
+1.0-2.0 Nm
+9-17 in-lbs
+Brake master cylinder, front, reservoir
+cover screws
+1.16 BRAKE PADS AND DISCS: XL
+MODELS, Brake Pad Replacement: Front
+14.8-19.6 Nm
+131-173 in-lbs
+Brake pad pin
+1.16 BRAKE PADS AND DISCS: XL
+MODELS, Brake Pad Replacement: Rear
+14.8-19.6 Nm
+131-173 in-lbs
+Brake pad pin
+1.17 BRAKE PADS AND DISCS: XR 1200X, Brake
+Pad Replacement: Front
+14.8-19.6 Nm
+131-173 in-lbs
+Brake pad pin
+1.17 BRAKE PADS AND DISCS: XR 1200X, Brake
+Pad Replacement: Rear
+14.8-19.6 Nm
+131-173 in-lbs
+Brake pad pin
+1.16 BRAKE PADS AND DISCS: XL
+MODELS, Brake Pad Replacement: Front
+2.0-2.9 Nm
+18-25 in-lbs
+Brake pad pin plug
+1.16 BRAKE PADS AND DISCS: XL
+MODELS, Brake Pad Replacement: Rear
+2.0-2.9 Nm
+18-25 in-lbs
+Brake pad pin plug
+1.17 BRAKE PADS AND DISCS: XR 1200X, Brake
+Pad Replacement: Rear
+2.0-2.9 Nm
+18-25 in-lbs
+Brake pad pin plug
+1.5 MAINTENANCE SCHEDULE, General
+27.1-33.9 Nm
+20-25 ft-lbs
+Chain tensioner nut
+1.11 CLUTCH, Adjustment
+13.6 Nm
+120 in-lbs
+Clutch cable adjuster jamnut
+1.5 MAINTENANCE SCHEDULE, General
+10.3-13.6 Nm
+90-120 in-lbs
+Clutch inspection cover screws
+HOME
+2013 Sportster Service: Maintenance 1-1
+
+--- Page 26 ---
+NOTES
+TORQUE VALUE
+FASTENER
+1.10 TRANSMISSION LUBRICANT, Transmission
+Lubrication
+10.3-13.6 Nm
+90-120 in-lbs
+Clutch inspection cover screws
+1.10 TRANSMISSION LUBRICANT, Transmission
+Lubrication
+10.3-13.6 Nm
+90-120 in-lbs
+Clutch inspection cover screws
+1.11 CLUTCH, Adjustment
+10.3-13.6 Nm
+90-120 in-lbs
+Clutch inspection cover screws
+1.19 STEERING HEAD BEARINGS, Fall-Away
+40.7-47.5 Nm
+30-35 ft-lbs
+Fork bracket pinch screw
+1.19 STEERING HEAD BEARINGS, Fall-Away
+40.7-47.5 Nm
+30-35 ft-lbs
+Fork stem pinch bolt
+1.5 MAINTENANCE SCHEDULE, General
+4.5-5.1 Nm
+40-45 in-lbs
+Fuel pump module mounting screw
+1.5 MAINTENANCE SCHEDULE, General
+16.3-24.4 Nm
+12-18 ft-lbs
+Handlebar clamp screw
+1.26 HEADLAMP ALIGNMENT, Headlamp:
+Adjustment
+14-27 Nm
+120-240 in-lbs
+Headlamp clamp nut: XL 883L/N/R, XR
+1200X
+1.26 HEADLAMP ALIGNMENT, Headlamp:
+Adjustment
+40.7-47.5 Nm
+30-35 ft-lbs
+Headlamp horizontal adjustment: XL
+1200X/C/C ANV/CP/CA/CB/V
+1.26 HEADLAMP ALIGNMENT, Headlamp:
+Adjustment
+40.7-47.5 Nm
+30-35 ft-lbs
+Headlamp vertical adjustment: XL
+1200X/C/C ANV/CP/CA/CB/V
+1.6 ENGINE OIL AND FILTER, Changing Oil and
+Filter
+0.7-1.1 Nm
+6-10 in-lbs
+Oil drain hose worm clamp
+1.9 PRIMARY CHAIN, Free Play Adjustment
+27.1-33.9 Nm
+20-25 ft-lbs
+Primary chain adjuster locknut
+1.5 MAINTENANCE SCHEDULE, General
+19.0-40.7 Nm
+14-30 ft-lbs
+Primary chaincase drain plug
+1.10 TRANSMISSION LUBRICANT, Transmission
+Lubrication/Apply LOCTITE 565 THREAD
+SEALANT
+19.0-40.7 Nm
+14-30 ft-lbs
+Primary chaincase drain plug
+1.5 MAINTENANCE SCHEDULE, General
+10.2-13.6 Nm
+90-120 in-lbs
+Primary chain inspection cover
+1.9 PRIMARY CHAIN, Free Play Adjustment
+10.2-13.6 Nm
+90-120 in-lbs
+Primary chain inspection cover
+1.5 MAINTENANCE SCHEDULE, General
+16.3-24.4 Nm
+12-18 ft-lbs
+Spark plug
+1.5 MAINTENANCE SCHEDULE, General
+16.3-24.4 Nm
+12-18 ft-lbs
+Spark plug
+1.18 SPARK PLUGS, Installation
+16.3-24.4 Nm
+12-18 ft-lbs
+Spark plug
+1.5 MAINTENANCE SCHEDULE, General
+6.2 Nm
+55 in-lbs
+Spoke nipple
+1.8 TIRES AND WHEELS, Wheel Spokes
+6.2 Nm
+55 in-lbs
+Spoke nipple
+1.5 MAINTENANCE SCHEDULE, General
+4.0-5.1 Nm
+35-45 in-lbs
+Switch housing screw
+1.13 THROTTLE CONTROL, Cable Inspection and
+Lubrication
+4.0-5.1 Nm
+35-45 in-lbs
+Switch housing screw
+HOME
+1-2 2013 Sportster Service: Maintenance
+
+--- Page 27 ---
+1.2
+GENERAL
+SERVICING A NEW MOTORCYCLE
+Perform the service and maintenance operations as
+indicated in the regular service interval table. Lack of
+regular maintenance at the recommended intervals can
+affect the safe operation of your motorcycle, which could
+result in death or serious injury. (00010a)
+Perform necessary set-up tasks before customer delivery. See
+applicable model year predelivery and set-up instructions.
+The performance of new motorcycle initial service is required
+to keep warranty in force and to verify proper emissions sys-
+tems operation. See 1.5 MAINTENANCE SCHEDULE.
+SAFE OPERATING MAINTENANCE
+NOTES
+•
+Do not attempt to tighten engine head bolts or engine
+damage may result.
+•
+During the initial break-in period, use only GENUINE
+HARLEY-DAVIDSON
+H-D
+360
+MOTORCYCLE
+OIL
+20W50. Failure to use the recommended oil will result in
+improper break-in of the engine cylinders and piston rings.
+Inspect motorcycle on a regular basis for additional mainten-
+ance needs. Routinely check components between regular
+maintenance intervals. Always inspect motorcycle after periods
+of storage before riding.
+Check:
+1.
+Tires for correct pressure, excessive wear or any signs of
+tire damage.
+2.
+Drive belt tension and condition.
+3.
+Brakes, steering and throttle for responsiveness.
+4.
+Brake fluid level and condition. Hydraulic lines and fittings
+for leaks. Also, check brake pads and discs for wear.
+5.
+Cables for fraying, crimping and free operation.
+6.
+Engine oil and transmission fluid levels.
+7.
+Headlamp, auxiliary/fog lamp, tail lamp, stop lamp, horn
+and turn signal operation.
+SHOP PRACTICES
+Repair Notes
+General maintenance practices are given in this section.
+NOTES
+•
+Repair = Disassembly/Assembly.
+•
+Replacement = Substitute a new part for existing com-
+ponent.
+All special tools and torque values are noted at the point of
+use.
+All required parts or materials can be found in the parts catalog.
+Safety
+Safety is always the most important consideration when per-
+forming any job.
+•
+Always have a complete understanding of the task.
+•
+Use common sense.
+•
+Use the proper tools.
+•
+Protect yourself and bystanders with approved eye protec-
+tion.
+Don't just do the job, do the job safely.
+Removing Parts
+Always consider the weight of a part when lifting. Use a hoist
+whenever necessary. Do not lift heavy parts by hand. If a hoist
+and adjustable lifting beam or sling are needed to remove some
+parts, verify that:
+•
+The lengths of multiple chains or cables from the hoist to
+the part are equal and parallel.
+•
+Slings, chains and cables are positioned directly over the
+center of the part.
+•
+No obstructions will interfere with the lifting operation.
+•
+Parts are not left suspended.
+Be sure to check capacity rating and condition of hoists,
+slings, chains and cables before use. Exceeding capacity
+ratings or using lifting devices that are in poor condition
+can lead to an accident, which could result in death or
+serious injury. (00466c)
+Always use blocking or proper stands to support the part that
+has been hoisted. If a part cannot be removed, verify that all
+bolts and attaching hardware have been removed. Verify that
+no parts are in the way of the part being removed.
+When removing hoses, wiring or tubes, always tag each part
+to verify proper installation.
+Cleaning
+Always clean around lines or covers before they are removed.
+Plug, tape or cap holes and openings to keep out dirt, dust and
+debris. Clean and inspect all parts as they are removed. Verify
+all holes and passages are clean and open. After cleaning,
+cover all parts with clean lint-free cloth, paper or other material.
+Verify the part is clean when installed.
+Thoroughly clean all parts to be reused before assembly. Clean
+parts promote better component operation and longer life.
+Seals, filters and covers used in this vehicle keep out
+extraneous dirt and dust. Keep these items in good condition
+to guarantee satisfactory operation.
+HOME
+2013 Sportster Service: Maintenance 1-3
+
+--- Page 28 ---
+When instructed to clean fastener threads or threaded holes,
+always:
+•
+Clean all threadlocking material from fastener threads and
+threaded holes.
+•
+Use a wire brush to clean fastener threads.
+•
+Use a thread chaser or other suitable tool to clean
+threaded holes.
+•
+Use PJ1 cleaner or equivalent to remove all traces of oil
+and contaminants from threads.
+•
+Clear all threaded holes with low pressure compressed
+air.
+Always verify cleanliness of blind holes before assembly.
+Tightening a screw with dirt, water or oil in the hole can cause
+castings to crack or break.
+Disassembly and Assembly
+Always assemble or disassemble one part at a time. Do not
+work on two assemblies simultaneously. Make all necessary
+adjustments. Inspect your work when finished to verify that
+everything is done.
+Operate the vehicle to perform any final check or adjustments.
+If all is correct, the vehicle is ready to go back to the customer.
+Checking Torques on Fasteners
+Check torque using a torque wrench set to the minimum spe-
+cification for that fastener. If the fastener does not rotate, the
+torque has been maintained. If the fastener rotates, remove it
+to determine if it has a threadlocking agent.
+If it has a threadlocking agent, clean all material from the
+threaded hole. Replace the fastener with a new one or clean
+the original fastener threads and apply the appropriate
+threadlocking product. Install and tighten the fastener to spe-
+cification.
+If the fastener does not use a threadlocking agent, install and
+tighten it to specification.
+Magnetic Parts Trays
+Magnetic parts trays are common in the service facility because
+they are convenient and can keep parts from becoming lost
+during a repair procedure. However, hardened steel parts can
+become magnetized when held in magnetic parts trays.
+Metal fragments from normal wear are usually trapped in the
+oil filter or by the magnetic drain plug. Magnetized parts in the
+engine can retain these fragments, potentially causing acceler-
+ated engine wear and damage.
+Never place parts that will be returned to service inside the
+vehicle's powertrain such as gears, thrust washers and espe-
+cially bearings in magnetic parts trays.
+REPAIR AND REPLACEMENT
+PROCEDURES
+Hardware and Threaded Parts
+Install thread repair inserts when threaded holes in castings
+are stripped, damaged or not capable of withstanding specified
+torque.
+Replace bolts, nuts, studs, washers, spacers and small
+common hardware if missing or damaged. Clean up or repair
+minor thread damage with a suitable tap or die.
+Replace all damaged or missing lubrication fittings.
+Use LOCTITE 565 THREAD SEALANT on pipe fitting threads.
+Threadlocking Agents
+Always follow specific service manual procedures when working
+with fasteners containing preapplied threadlocking agents when
+fastener
+replacement
+is
+recommended.
+When
+re-using
+fasteners containing threadlocking agents, thoroughly clean
+all fasteners and threaded holes. Always use the recommended
+threadlocking agent for the specific procedure.
+Wiring, Hoses and Lines
+Replace hoses, clamps, electrical wiring, electrical switches
+or fuel lines if they do not meet specifications.
+Instruments and Gauges
+Replace damaged or defective instruments and gauges.
+Bearings
+Always use the proper tools and fixtures when servicing bear-
+ings.
+Anti-friction bearings must be handled in a special way. To
+keep out dirt and abrasives, cover the bearings as soon as
+they are removed from the package.
+When bearings are installed against shoulders, always verify
+that the chamfered side of the bearing faces the shoulder.
+Lubricate bearings and all metal contact surfaces before
+pressing into place. Only apply pressure on the part of the
+bearing that makes direct contact with the mating part. Install
+bearings with numbered side facing out.
+Only remove bearings if necessary. Removal usually damages
+bearings requiring replacement with new parts.
+Bushings
+Do not remove a bushing unless damaged, excessively worn
+or loose in its bore. Press out bushings requiring replacement.
+When pressing or driving bushings, always apply pressure in
+line with the bushing bore. Use a bearing/bushing driver or a
+bar with a smooth, flat end. Never use a hammer to drive
+bushings.
+Verify that all oil holes are properly aligned during installation.
+Gaskets
+Always discard gaskets after removal. Replace with new gas-
+kets. Never use the same gasket twice. Verify that gasket holes
+match up with holes in the mating part. Be aware that sections
+of a gasket may be used to seal passages.
+Lip-Type Seals
+Lip seals are used to seal oil or grease and are usually installed
+with the sealing lip facing the contained lubricant. Seal orient-
+ation, however, may vary under different applications.
+Do not remove seals unless necessary. Only remove seals to
+gain access to other parts or if seal damage or wear dictates
+replacement.
+HOME
+1-4 2013 Sportster Service: Maintenance
+
+--- Page 29 ---
+Leaking oil or grease usually means that a seal is damaged.
+Replace leaking seals to prevent overheated bearings.
+Always discard seals after removal. Do not use the same seal
+twice.
+O-Rings
+Always discard O-rings after removal. Many O-rings are similar
+in size and appearance. Always use new O-rings keeping them
+packaged until use to avoid confusion. To prevent leaks, lub-
+ricate the O-rings before installation with the same type of
+lubricant as that being sealed. Be sure that all gasket, O-ring
+and seal mating surfaces are thoroughly clean before installa-
+tion.
+Gears
+Always check gears for damaged or worn teeth.
+Remove burrs and rough spots with a honing stone or crocus
+cloth before installation.
+Lubricate mating surfaces before pressing gears on shafts.
+Shafts
+If a shaft does not come out easily, check that all nuts, bolts
+or retaining rings have been removed. Check to see if other
+parts are in the way before using force to remove.
+Shafts fitted to tapered splines should be very tight. If shafts
+are not tight, disassemble and inspect tapered splines. Discard
+parts that are worn. Verify that tapered splines are clean, dry
+and free of burrs before putting them in place. Press mating
+parts together tightly.
+Clean all rust from the machined surfaces of new parts.
+Part Replacement
+Harley-Davidson parts and accessories are designed for
+Harley-Davidson motorcycles. Using non-Harley-Davidson
+parts or accessories can adversely affect performance,
+stability or handling, which could result in death or serious
+injury. (00001b)
+Always install new genuine Harley-Davidson parts and
+accessories. This will provide best service life and maintain
+compliance with noise and emissions regulations.
+Installing non-Harley-Davidson, off-road or competition parts
+can void warranty or result in an unsafe vehicle.
+CLEANING
+Part Protection
+Before cleaning, protect rubber parts (such as hoses, boots
+and electrical insulation) from cleaning solutions. Use a grease-
+proof barrier material. Remove the rubber part if it cannot be
+properly protected.
+Cleaning Process
+Any cleaning method may be used as long as it does not result
+in parts damage. Thorough cleaning is necessary for proper
+parts inspection. Strip rusted paint areas to bare metal before
+priming and repainting.
+Rust or Corrosion Removal
+Remove rust and corrosion with a wire brush, abrasive cloth,
+sand blasting, vapor blasting or rust remover. Use buffing
+crocus cloth on highly polished parts that are rusted.
+Bearings
+Wash bearings in a non-flammable petroleum cleaning solution.
+Never use a solution that contains chlorine. Knock out packed
+lubricant by tapping the bearing against a wooden block. Wash
+bearings again.
+Using compressed air to "spin dry" bearings can cause
+bearing to fly apart, which could result in death or serious
+injury. (00505b)
+Cover bearings with a clean shop towel and allow to air dry.
+Do not spin bearings while they are drying. Never use com-
+pressed air to dry bearings.
+When dry, coat bearings with clean oil. Wrap bearings in clean
+paper.
+TOOL SAFETY
+Air Tools
+•
+Always use approved eye protection equipment when
+performing any task using air-operated tools.
+•
+On all power tools, use only recommended accessories
+with proper capacity ratings.
+•
+Do not exceed air pressure ratings of any power tools.
+•
+Bits should be placed against work surface before air
+hammers are operated.
+•
+Disconnect the air supply line to an air hammer before
+attaching a bit.
+•
+Never point an air tool at yourself or another person.
+•
+Protect bystanders with approved eye protection.
+Wrenches
+•
+Never use an extension on a wrench handle.
+•
+If possible, always pull on a wrench handle and adjust
+your stance to prevent a fall if something suddenly
+releases.
+•
+Always keep the wrench squarely installed on the fastener.
+•
+Never use a hammer on any wrench other than a
+STRIKING FACE wrench.
+•
+Discard any wrench with damaged or battered points.
+•
+Never use a pipe wrench to bend, raise or lift a pipe.
+HOME
+2013 Sportster Service: Maintenance 1-5
+
+--- Page 30 ---
+Pliers/Cutters/Pry Bars
+•
+Plastic- or vinyl-covered pliers handles are not intended
+to act as insulation. Do not use them on live electrical cir-
+cuits.
+•
+Do not use pliers or cutters for cutting hardened wire
+unless they were designed for that purpose.
+•
+Always cut at right angles.
+•
+Do not use any pry bar as a chisel, punch or hammer.
+Hammers
+•
+Never strike a hammer against a hardened object, such
+as another hammer.
+•
+Always grasp a hammer handle firmly, close to the end.
+•
+Strike the object with the full face of the hammer.
+•
+Never work with a hammer which has a loose head or
+cracked handle.
+•
+Discard hammer if face is chipped or mushroomed.
+•
+Wear approved eye protection when using striking tools.
+•
+Protect bystanders with approved eye protection.
+Punches/Chisels
+•
+Never use a punch or chisel with a chipped or mush-
+roomed end. Dress mushroomed chisels and punches
+with a grinder.
+•
+Hold a chisel or a punch with a tool holder if possible.
+•
+When using a chisel on a small piece, clamp the piece
+firmly in a vise and chip toward the stationary jaw.
+•
+Always wear approved eye protection when using these
+tools.
+•
+Protect bystanders with approved eye protection.
+Screwdrivers
+•
+Do not use a screwdriver for prying, punching, chiseling,
+scoring or scraping.
+•
+Use the right type of screwdriver for the job. Match the tip
+of a screwdriver to the fastener.
+•
+Do not interchange POZIDRIV, PHILLIPS or REED AND
+PRINCE screwdrivers.
+•
+Screwdriver handles are not intended to act as insulation.
+Do not use them on live electrical circuits.
+•
+Do not use a screwdriver with rounded edges because it
+will slip. Redress with a grinder.
+Ratchets and Handles
+•
+Periodically clean and lubricate ratchet mechanisms with
+a light grade oil. Do not replace parts individually. Ratchets
+should be rebuilt with the entire contents of service kit.
+•
+Never hammer on a ratchet or put a pipe extension on a
+ratchet handle for added leverage.
+•
+Always support the ratchet head when using socket
+extensions, but do not put your hand on the head or you
+may interfere with the action of its reversing mechanism.
+•
+When breaking a fastener loose, apply a small amount of
+pressure as a test to be sure the ratchet's gear wheel is
+engaged with the pawl.
+Sockets
+•
+Never use hand sockets on power or impact wrenches.
+Select only impact sockets for use with air or electric
+impact wrenches.
+•
+Select the right size socket for the job.
+•
+Always keep the wrench or socket squarely on the
+fastener.
+•
+Replace sockets showing cracks or wear.
+•
+Keep sockets clean.
+•
+Always use approved eye protection when using power
+or impact sockets.
+Storage Units
+•
+Do not open more than one loaded drawer at a time. Close
+each drawer before opening another to prevent the cabinet
+from unexpectedly tipping over.
+•
+Close lids and lock drawers and doors before moving
+storage units.
+•
+Do not pull on a tool cabinet. Always push tool cabinets
+in front of you.
+•
+Set the brakes on the locking casters after the cabinet has
+been rolled into position.
+HOME
+1-6 2013 Sportster Service: Maintenance
+
+--- Page 31 ---
+1.3
+FUEL AND OIL
+FUEL
+Always use a good quality unleaded gasoline. Octane ratings
+are usually found on the pump. Refer to Table 1-1.
+Avoid spills. Slowly remove filler cap. Do not fill above
+bottom of filler neck insert, leaving air space for fuel
+expansion. Secure filler cap after refueling. Gasoline is
+extremely flammable and highly explosive, which could
+result in death or serious injury. (00028a)
+Use care when refueling. Pressurized air in fuel tank can
+force gasoline to escape through filler tube. Gasoline is
+extremely flammable and highly explosive, which could
+result in death or serious injury. (00029a)
+Modern service station pumps dispense a high flow of gasoline
+into a motorcycle fuel tank making air entrapment and pressur-
+ization a possibility.
+Table 1-1. Octane Ratings
+RATING
+SPECIFICATION
+91 (95 RON)
+Pump Octane (R+M)/2
+GASOLINE BLENDS
+Your motorcycle was designed to get the best performance
+and efficiency using unleaded gasoline. Most gasoline is
+blended with alcohol and/or ether to create oxygenated blends.
+The type and amount of alcohol or ether added to the fuel is
+important.
+Do not use gasoline that contains methanol. Doing so can
+result in fuel system component failure, engine damage
+and/or equipment malfunction. (00148a)
+•
+Gasoline/METHYL TERTIARY BUTYL ETHER (MTBE)
+blends are a mixture of gasoline and as much as 15%
+MTBE. Gasoline/MTBE blends use in your motorcycle is
+approved.
+•
+ETHANOL fuel is a mixture of ethanol (grain alcohol) and
+unleaded gasoline and can have an impact on fuel
+mileage. Fuels with an ethanol content of up to 10% may
+be used in your motorcycle without affecting vehicle per-
+formance. U.S. EPA regulations currently indicate that
+fuels with 15% ethanol (E15) are restricted from use in
+motorcycles at the time of this publication. Some motor-
+cycles are calibrated to operate with higher ethanol con-
+centrations to meet the fuel standards in certain countries.
+•
+REFORMULATED
+OR
+OXYGENATED
+GASOLINES
+(RFG) describes gasoline blends that are specifically
+designed to burn cleaner than other types of gasoline.
+This results in fewer tailpipe emissions. They are also
+formulated to evaporate less when filling the tank. Refor-
+mulated gasolines use additives to oxygenate the gas.
+Your motorcycle will run normally using this type of fuel.
+Harley-Davidson recommends using it whenever possible
+as an aid to cleaner air in our environment.
+•
+Do not use racing fuel or fuel containing methanol. Use
+of these fuels will damage the fuel system.
+•
+The only octane booster Harley-Davidson recommends
+is SCREAMIN' EAGLE SUPER OCTANE BOOST (avail-
+able only in the U.S.). This is the only octane booster that
+has been extensively tested and approved for use with
+Harley-Davidson engines and components.
+Some gasoline blends might adversely affect starting, driveab-
+ility or fuel efficiency. If any of these problems are experienced,
+try a different brand of gasoline or gasoline with a higher octane
+blend.
+ENGINE LUBRICATION
+Prolonged or repeated contact with used motor oil may
+be harmful to skin and could cause skin cancer. Promptly
+wash affected areas with soap and water. (00358b)
+If swallowed, do not induce vomiting. Contact a physician
+immediately. In case of contact with eyes, immediately
+flush with water. Contact a physician if irritation persists.
+(00357c)
+Do not switch lubricant brands indiscriminately because
+some lubricants interact chemically when mixed. Use of
+inferior lubricants can damage the engine. (00184a)
+Engine oil is a major factor in the performance and service life
+of the engine. Always use the proper grade of oil for the lowest
+temperature expected before the next scheduled oil change.
+Refer to Table 1-2.
+This motorcycle was originally equipped with GENUINE
+HARLEY-DAVIDSON H-D 360 MOTORCYCLE OIL 20W50.
+H-D 360 is the preferred oil under normal operating conditions.
+If operation under extreme cold or heat are expected, refer to
+Table 1-2 for alternative choices.
+If necessary and H-D 360 is not available, add oil certified for
+diesel engines. Acceptable designations include: CH-4, CI-4
+and CJ-4. The preferred viscosities, in descending order are:
+20W50, 15W40 and 10W40.
+At the first opportunity, see an authorized dealer to change
+back to 100 percent Harley-Davidson oil.
+HOME
+2013 Sportster Service: Maintenance 1-7
+
+--- Page 32 ---
+Table 1-2. Recommended Engine Oils
+COLD WEATHER
+STARTS BELOW
+50 °F (10 °C)
+LOWEST AMBIENT
+TEMPERATURE
+RATING
+VISCOSITY
+TYPE
+Excellent
+Above 30 °F (-1 °C)
+HD 360
+SAE 20W50
+Screamin' Eagle SYN 3 Full Synthetic
+Motorcycle Lubricant
+Good
+Above 40 °F (4 °C)
+HD 360
+SAE 20W50
+Genuine Harley-Davidson H-D 360
+Motorcycle Oil
+Poor
+Above 60 °F (16 °C)
+HD 360
+SAE 50
+Genuine Harley-Davidson H-D 360
+Motorcycle Oil
+Poor
+Above 80 °F (27 °C)
+HD 360
+SAE 60
+Genuine Harley-Davidson H-D 360
+Motorcycle Oil
+Excellent
+Below 40 °F (4 °C)
+HD 360
+SAE 10W40
+Genuine Harley-Davidson H-D 360
+Motorcycle Oil
+WINTER LUBRICATION
+Change engine oil often in colder climates. If motorcycle is
+frequently used for trips less than 15 mi (24 km), in ambient
+temperatures below 60 °F (16 °C), reduce oil change intervals
+to 1500 mi (2400 km).
+NOTE
+The further below freezing the temperature drops, the shorter
+the oil change interval should be.
+Water vapor is a normal by-product of combustion in any
+engine. During cold weather operation, some water vapor
+condenses to liquid form on the cool metal surfaces inside the
+engine. In freezing weather this water will become slush or ice.
+Over time, accumulated slush or ice may block the oil lines
+and cause engine damage.
+If the engine is run frequently and allowed to thoroughly warm
+up, most of this water will become vapor again and will be
+blown out through the crankcase breather.
+If the engine is not run frequently and not allowed to thoroughly
+warm up, this water will accumulate, mix with the engine oil
+and form a sludge that is harmful to the engine.
+HOME
+1-8 2013 Sportster Service: Maintenance
+
+--- Page 33 ---
+1.4
+BULB REQUIREMENTS
+BULB CHART
+Table 1-3. Bulb Chart
+HARLEY-DAVIDSON
+PART NUMBER
+CURRENT
+DRAW
+(AMPERAGE)
+BULBS
+REQUIRED
+DESCRIPTION
+(ALL LAMPS 12 V)
+LAMP
+68329-03
+5.0/4.58
+1
+High beam/low beam
+Headlamp
+53436-97
+0.32
+1
+Position lamp international
+LED assembly
+-
+-
+All models***
+Indicator lamp module
+LED assembly
+-
+-
+XL 883N, XL 1200X/V (Domestic)***
+License plate lamp
+52441-95
+0.35
+2
+XL 883N, XL 1200X/V (HDI)
+LED assembly
+-
+-
+Tail and stop lamp
+Tail and stop lamp
+XL 1200C/C ANV/CP/CA/CB***
+68167-04
+2.10/0.59
+1
+Tail and stop lamp (all other models)
+68168-89A
+2.25/0.59
+2
+Front/running
+Turn signal lamp
+68163-84
+1.75
+2
+Front international
+68168-89A
+2.25
+2
+Rear (Domestic XL 883N, XL 1200X/V)**
+68572-64B
+2.25
+-
+Rear (Canada XL 883N, XL 1200X)
+LED assembly
+-
+2
+Rear (HDI XL 883R, XL 1200X/V)***
+68163-84
+1.75
+2
+Rear (all other models)
+* XL 1200C/C ANV/CP/CA/CB tail and stop lamp is illuminated with LED's. Replace entire assembly upon failure.
+** Functions as turn signal, tail and stop lamps.
+*** This is an LED assembly. Replace entire assembly upon failure.
+HOME
+2013 Sportster Service: Maintenance 1-9
+
+--- Page 34 ---
+1.5
+MAINTENANCE SCHEDULE
+GENERAL
+TORQUE VALUE
+FASTENER
+4.5-6.8 Nm
+40-60 in-lbs
+Air filter screw
+4.1-6.8 Nm
+36-60 in-lbs
+Air cleaner cover screw
+6.8-7.9 Nm
+60-70 in-lbs
+Battery negative terminal
+screw
+1.0-2.0 Nm
+9-17 in-lbs
+Brake master cylinder, front,
+reservoir cover screws
+10.3-13.6 Nm
+90-120 in-lbs
+Clutch inspection cover
+screws
+16.3-24.4 Nm
+12-18 ft-lbs
+Handlebar clamp screw
+4.0-5.1 Nm
+35-45 in-lbs
+Switch housing screw
+4.5-5.1 Nm
+40-45 in-lbs
+Fuel pump module mounting
+screw
+27.1-33.9 Nm
+20-25 ft-lbs
+Chain tensioner nut
+10.2-13.6 Nm
+90-120 in-lbs
+Primary chain inspection cover
+19.0-40.7 Nm
+14-30 ft-lbs
+Primary chaincase drain plug
+16.3-24.4 Nm
+12-18 ft-lbs
+Spark plug
+16.3-24.4 Nm
+12-18 ft-lbs
+Spark plug
+6.2 Nm
+55 in-lbs
+Spoke nipple
+At each regular service interval, perform the required mainten-
+ance. Refer to Table 1-4.
+Use the quick reference maintenance chart for torque values,
+lubricants or cross references to maintenance procedures.
+Refer to Table 1-5.
+Use the lubricants, greases and sealants table to identify
+maintenance supplies. Refer to Table 1-6.
+Table 1-4. Regular Service Intervals: 2013 Sportster Models
+NOTES
+50000
+MI
+80000
+KM
+45000
+MI
+72000
+KM
+40000
+MI
+64000
+KM
+35000
+MI
+56000
+KM
+30000
+MI
+48000
+KM
+25000
+MI
+40000
+KM
+20000
+MI
+32000
+KM
+15000
+MI
+24000
+KM
+10000
+MI
+16000
+KM
+5000 MI
+8000 KM
+1000 MI
+1600 KM
+PROCEDURE
+ITEM SERVICED
+3, 7
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+Replace
+Engine oil and filter
+1, 3
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+Inspect for leaks,
+contact or abrasion
+Oil lines and brake
+system
+7
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+Inspect, service as
+required
+Air cleaner
+3
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+Check pressure,
+inspect tread
+Tires
+1, 5, 7
+X
+X
+X
+X
+X
+Check tightness
+Wheel spokes
+(if equipped)
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+Check adjustment
+Primary chain
+7
+X
+X
+X
+X
+X
+X
+Replace
+Transmission lub-
+ricant
+1, 7
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+Check adjustment
+Clutch
+1
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+Inspect, adjust belt
+Drive belt and
+sprockets
+1
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+Check, adjust and
+lubricate
+Throttle, brake and
+clutch controls
+1
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+Inspect and lub-
+ricate
+Jiffy stand
+1, 3
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+Inspect for leaks,
+contact or abrasion
+Fuel lines and fit-
+tings
+1
+Replace every 100,000 mi (160,000 km).
+Replace
+Fuel filter element
+4
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+Inspect sight glass
+Brake fluid
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+Inspect for wear
+Brake pads and
+discs
+HOME
+1-10 2013 Sportster Service: Maintenance
+
+--- Page 35 ---
+Table 1-4. Regular Service Intervals: 2013 Sportster Models
+NOTES
+50000
+MI
+80000
+KM
+45000
+MI
+72000
+KM
+40000
+MI
+64000
+KM
+35000
+MI
+56000
+KM
+30000
+MI
+48000
+KM
+25000
+MI
+40000
+KM
+20000
+MI
+32000
+KM
+15000
+MI
+24000
+KM
+10000
+MI
+16000
+KM
+5000 MI
+8000 KM
+1000 MI
+1600 KM
+PROCEDURE
+ITEM SERVICED
+1, 6
+X
+X
+X
+X
+X
+X
+X
+X
+Inspect
+Front brake lever
+pin
+1, 6
+X
+X
+Lubricate
+Front brake lever
+pin
+1, 6
+X
+X
+X
+X
+X
+X
+X
+X
+Inspect
+Brake caliper pins
+1, 6
+X
+X
+Lubricate
+Brake caliper pins
+1, 6
+X
+X
+X
+X
+X
+X
+X
+X
+Inspect
+Brake caliper boots
+and bushings
+1, 6
+X
+X
+Replace
+Brake caliper boots
+and bushings
+1, 6
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+Inspect
+Rear master cyl-
+inder outer boot
+1, 6
+X
+X
+Replace brake
+rubber components
+in master cylinders
+and calipers
+Brake components
+1, 6
+X
+X
+Lubricate master
+cylinder pistons
+Brake components
+8
+X
+Replace
+Spark plugs
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+Check operation
+Electrical equip-
+ment and switches
+1, 9
+X
+Rebuild
+Front forks
+1, 2
+X
+X
+X
+Adjust
+Steering head
+bearings
+1
+Inspect every 30,000 mi (48,000 km)
+Rear fork bearings
+1
+X
+X
+X
+X
+X
+X
+Check tightness
+Critical fasteners
+1
+X
+X
+X
+X
+X
+Inspect
+Engine mounts and
+stabilizer links
+Check battery and clean connections annually.
+Battery
+3, 7
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+Inspect for leaks,
+cracks, and loose
+or missing
+fasteners or heat
+shields
+Exhaust system
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+Verify component
+and system func-
+tions
+Road test
+1. Should be performed by an authorized Harley-Davidson dealer, unless you have the proper tools, service data and are mechanically qualified.
+NOTES:
+2. Disassemble, lubricate and inspect every 30,000 mi (48,000 km).
+3. Perform annually or at specified intervals, whichever comes first.
+4. Replace DOT 4 hydraulic brake fluid and flush system every two (2) years.
+5. Perform spoke tension check at 1000 mi (1600 km), 5000 mi (8000 km), 20,000 mi (32,000 km) services and every 15,000 mi (24,000 km)
+interval thereafter. Not all vehicles are equipped with spoke wheels. Consult appropriate topic in service manual.
+6. Replace every four (4) years or at specified intervals, whichever comes first.
+7. Perform maintenance more frequently in severe riding conditions (such as extreme temperatures, dusty environments, mountainous or rough
+roads, long storage conditions, short runs, heavy stop/go traffic or poor fuel quality).
+8. Replace every two (2) years or at specified intervals, whichever comes first.
+9. Disassemble, inspect, rebuild forks and replace fork oil every 50,000 mi (80,000 km).
+Table 1-5. Quick Reference Maintenance Chart
+DATA
+SPECIFICATION
+ITEM SERVICED
+See 1.7 AIR FILTER
+Air cleaner
+40-60 in-lbs (4.5-6.8 Nm)
+Air filter screw torque: XL Models
+36-60 in-lbs (4.1-6.8 Nm)
+Air cleaner cover screw torque: XL Models
+Electrical Contact Lubricant
+Lubricant
+Battery
+60-70 in-lbs (6.8-7.9 Nm)
+Terminal screw torque
+HOME
+2013 Sportster Service: Maintenance 1-11
+
+--- Page 36 ---
+Table 1-5. Quick Reference Maintenance Chart
+DATA
+SPECIFICATION
+ITEM SERVICED
+DOT 4 Brake Fluid
+Brake fluid type
+Brake fluid reservoir level
+(Check sight glass. If fluid
+is low, remove reservoir
+cover and re-check.)
+1/4 in (6.35 mm) from the top of the reservoir
+Proper fluid level (front brake)
+Upper fluid level in reservoir
+Proper fluid level (rear brake)
+9-17 in-lbs (1.0-2.0 Nm)
+Front master cylinder reservoir cover screw torque
+0.04 in (1.02 mm)
+Minimum brake pad thickness
+Brake pad linings and discs
+See stamp on side of disc.
+Minimum brake disc thickness
+1/4 turn
+Free play at adjuster screw
+Clutch adjustment
+1/16-1/8 in (1.6-3.2 mm)
+Free play at hand lever
+90-120 in-lbs (10.3-13.6 Nm)
+Clutch inspection cover screw torque
+Harley Lube
+Lubricant
+Clutch and throttle cables
+12-18 ft-lbs (16.3-24.4 Nm)
+Handlebar clamp screw torque
+35-45 in-lbs (4.0-5.1 Nm)
+Switch housing screw torque
+See 1.20 CRITICAL FASTENERS.
+Critical fasteners
+10 lb (4.5 kg)
+Apply upward measurement force at midpoint of
+bottom belt strand.
+Drive belt
+XL 883L/XL 883N/XL 1200X/XL 1200V/XL
+1200C/C ANV/XL 1200CP/XL 1200CA/XL
+1200CB:
+Belt deflection with motorcycle on jiffy stand, belt
+and sprockets at ambient temperature (cold engine),
+without rider or luggage
+1/4-5/16 in (6.35-7.94 mm)
+XL 883R: 9/16-5/8 in (14.3-15.9 mm)
+XR 1200X: 1/4-3/8 in (6.4-9.5 mm)
+Belt deflection measurement taken midway between
+rear sprocket and idler
+950-1050 rpm
+Idle speed
+Engine idle speed
+See 2.26 FRONT ENGINE MOUNT/ISOLATOR, 2.27 REAR ENGINE MOUNT/ISOLATOR, and
+2.25 STABILIZER LINKS.
+Engine mounts/isolators
+and stabilizers
+2.8 qt (2.65 L)
+Oil capacity
+Engine oil and filter
+Hand tighten 1/2-3/4 turn after gasket contact.
+Filter
+Type "E" Hydraulic Fork Oil
+Type
+Front fork oil: XL Models
+See 2.19 FRONT FORK: XL MODELS,
+Assembly.
+Amount
+Big Piston Fork Oil
+Type
+Front fork oil: XR 1200X
+See 2.20 FRONT FORK: XR 1200X, Assembly.
+Amount
+40-45 in-lbs (4.5-5.1 Nm)
+Fuel pump module mounting screw torque
+Fuel filter
+1/4-3/8 in (6.3-9.5 mm)
+Deflection with hot engine
+Primary chain tension
+3/8-1/2 in (9.5-12.7 mm)
+Deflection with cold engine
+20-25 ft-lbs (27.1-33.9 Nm)
+Chain tensioner nut torque
+90-120 in-lbs (10.2-13.6 Nm)
+Primary chain inspection cover screw torque
+32 oz (946 mL)
+Lubricant capacity
+Primary chain/transmission
+lubricant
+14-30 ft-lbs (19.0-40.7 Nm)
+Primary chaincase drain plug torque
+Genuine Harley-Davidson Formula+ Transmis-
+sion and Primary Chaincase Lubricant
+Lubricant
+6R12
+Type
+Spark plugs: XL Models
+0.038-0.043 in (0.96-1.09 mm)
+Gap
+12-18 ft-lbs (16.3-24.4 Nm)
+Torque
+HOME
+1-12 2013 Sportster Service: Maintenance
+
+--- Page 37 ---
+Table 1-5. Quick Reference Maintenance Chart
+DATA
+SPECIFICATION
+ITEM SERVICED
+10R12X
+Type
+Spark plugs: XR 1200X
+0.032-0.038 in (0.81-0.97 mm)
+Gap
+12-18 ft-lbs (16.3-24.4 Nm)
+Torque
+Special Purpose Grease
+Lubricant
+Steering head bearings
+Front: 36 psi (248 kPa)
+XL 883L
+Tire condition and pressure
+Rear: 42 psi (290 kPa)
+Front: 30 psi (207 kPa)
+XL Models (except XL 1200X/C/C ANV/CP/CA/CB)
+Rear: 40 psi (276 kPa)
+Front: 36 psi (248 kPa)
+XL 1200X/C/C ANV/CP/CA/CB
+Rear: 40 psi (275 kPa)
+Front: 36 psi (248 kPa)
+XR 1200X
+Rear: 42 psi (290 kPa)
+Replace tire if 1/32 in (0.8 mm) or less of tread
+pattern remains.
+Wear
+55 in-lbs (6.2 Nm)
+Spoke nipple torque
+Wheel spokes
+HOME
+2013 Sportster Service: Maintenance 1-13
+
+--- Page 38 ---
+Table 1-6. Lubricants, Greases, Sealants
+PACKAGE
+PART NUMBER
+ITEM
+5 oz tube
+021200-19718 *
+3M 847 Adhesive
+15 oz. aerosol
+3M General Purpose Adhesive Remover
+1 oz squeeze tube
+98960-97
+Anti-Seize Lubricant
+16 oz bottle
+62600029
+Big Piston Fork Oil (Sportster XR only)
+squeeze packet (included in master cylinder
+rebuild kit)
+42830-05
+CCI #20 Brake Grease
+12 oz bottle
+99953-99A
+DOT 4 Brake Fluid
+2 cc packet
+94674-99
+Dow Corning Moly 44 Grease
+1 oz squeeze tube
+99861-02
+Electrical Contact Lubricant
+1 qt bottle
+99851-05
+Formula+ Transmission and Primary Chaincase
+Lubricant
+squeeze packet
+42820-04
+G40M Brake Grease
+1 gal container
+99822-02
+Genuine Harley-Davidson Extended Life Antifreeze
+and Coolant (V-Rod only)
+1 qt bottle
+99816-2050/00QT
+Genuine Harley-Davidson H-D 360 20W50
+Motorcycle Oil
+10 g tube
+99839-95
+Harley-Davidson Adhesive (Griplock)
+1.9 oz squeeze tube
+99650-02
+Harley-Davidson High Performance Sealant - Gray
+6 oz can
+98261-91V
+Harley-Davidson Leather Dressing
+1 oz tube
+11300005
+Harley-Davidson Seal Grease
+1/4 oz needle dispenser
+94968-09
+Harley® Lube
+3.5 oz tube
+99653-85
+Hylomar Gasket and Thread Sealant
+6 mL tube
+99811-97
+Loctite 222 Low Strength Threadlocker and Sealant (purple)
+6 mL tube
+99642-97
+Loctite 243 Medium Strength Threadlocker and Sealant (blue)
+50 mL bottle
+11100005
+Loctite 246 Medium Strength/High Temperature Threadlocker
+(blue)
+6 mL tube
+94759-99
+Loctite 262 High Strength Threadlocker and Sealant (red)
+50 mL bottle
+11100006
+Loctite 411 Prism Instant Adhesive
+Loctite 420 Super Bonder Adhesive
+6 mL tube
+99818-97
+Loctite 565 Thread Sealant
+Loctite 770 Prism Primer
+1.75 oz bottle
+98968-99
+Loctite 7649 Cleaner/Primer
+1.9 oz tube
+99650-02
+RTV Silicone Sealer
+4 oz bottle
+94971-09
+Screamin' Eagle Assembly Lube
+1 qt bottle
+99824-03/00QT
+Screamin' Eagle SYN3 Full Synthetic Motorcycle
+Lubricant 20W50
+14 oz cartridge
+99857-97A
+Special Purpose Grease
+16 oz bottle
+62600026
+Type "E" Hydraulic Fork Oil
+1 lb can
+99855-89
+Wheel Bearing Grease
+14 oz cartridge
+99856-92
+* Not a Harley-Davidson part number
+HOME
+1-14 2013 Sportster Service: Maintenance
+
+--- Page 39 ---
+1.6
+ENGINE OIL AND FILTER
+CHECKING AND ADDING OIL
+Removing and Replacing Oil Filler Cap
+1.
+Park the motorcycle on level ground on the jiffy stand.
+2.
+See Figure 1-1. Remove the filler cap from the oil tank.
+a.
+Press straight down on the filler cap and release. The
+cap will pop up.
+b.
+Pull up on the filler cap while turning counterclockwise
+one-quarter turn as if removing the filler cap.
+3.
+Wipe the dipstick clean.
+NOTE
+See Figure 1-2. Align tabs on oil tank filler neck to slots (1, 2)
+on dipstick.
+4.
+Insert the dipstick into the tank.
+a.
+Turn the filler cap clockwise one-quarter turn as if
+screwing the filler cap into tank. When the filler cap
+stops turning, it is seated.
+b.
+Press down on the filler cap until it snaps in place,
+flush with the top of the oil tank cover.
+om00907
+Figure 1-1. Filler Cap Location
+2
+1
+om00200
+1.
+Wide slot
+2.
+Narrow slot
+Figure 1-2. Filler Cap Slots
+Oil Level Cold Check
+NOTES
+•
+Check engine oil level at each complete fuel refill.
+•
+An accurate engine oil check can only be made with the
+engine at operating temperature (Hot Check).
+1.
+Park the motorcycle on level ground on the jiffy stand.
+2.
+Remove the filler cap and wipe the dipstick clean. Install
+the oil filler cap in tank.
+3.
+Remove oil filler cap again and visually check for oil in the
+tank.
+4.
+If oil is not visible in the tank, install the filler cap.
+NOTE
+If the oil pressure lamp stays lit after starting engine, immedi-
+ately shut the engine off.
+5.
+Start and idle the engine for 30 seconds. Stop the engine.
+6.
+Remove oil filler cap and visually check for oil in the tank.
+Do not overfill oil. Doing so can result in oil carryover to
+the air cleaner leading to equipment damage and/or
+equipment malfunction. (00190b)
+NOTE
+Use only recommended oil. Recommended viscosity depends
+upon ambient temperature. Refer to Table 1-2.
+7.
+If there is no oil visible in the tank, add oil until it is present
+on the bottom of the dipstick.
+HOME
+2013 Sportster Service: Maintenance 1-15
+
+--- Page 40 ---
+8.
+When oil is present on the bottom of the dipstick, perform
+a hot check.
+Oil Level Hot Check
+1.
+Run the engine until the engine oil is at operating temper-
+ature.
+2.
+Idle the motorcycle on the jiffy stand for one to two
+minutes. Turn the engine off.
+3.
+Park the motorcycle on level ground on the jiffy stand.
+4.
+Remove the filler cap. Wipe the dipstick clean and install
+the filler cap in the tank.
+Do not allow hot oil level to fall below Add/Fill mark on
+dipstick. Doing so can result in equipment damage and/or
+equipment malfunction. (00189a)
+NOTES
+•
+Use only recommended oil. Recommended viscosity
+depends upon ambient temperature. Refer to Table 1-2.
+•
+Do not overfill the oil tank. The oil tank has a built-in
+pressure relief valve. If the oil tank is overfilled, excessive
+pressure is created in the oil tank. The pressure relief valve
+will open to relieve the pressure and prevent damage to
+the oil tank. Excessive oil due to overfilling will also be
+forced out the pressure relief valve when it opens.
+Do not overfill oil. Doing so can result in oil carryover to
+the air cleaner leading to equipment damage and/or
+equipment malfunction. (00190b)
+5.
+See Figure 1-3. Remove the filler cap and check the hot
+oil level on the dipstick.
+a.
+Below the lower mark: Add only enough oil until the
+level reads between the upper and lower marks.
+b.
+Between the upper and lower marks: It is safe to
+operate the motorcycle.
+c.
+At (or above) the upper mark: Drain the oil until the
+level reads between the upper and lower marks.
+6.
+Install the filler cap.
+7.
+If oil was added, remove the filler cap and verify the engine
+oil level in the oil tank. Do not fill oil tank to a level above
+upper mark on the dipstick. Install the filler cap.
+2
+1
+om00999a
+1.
+Lower mark (FILL)
+2.
+Upper mark (FULL)
+Figure 1-3. Dipstick
+CHANGING OIL AND FILTER
+TOOL NAME
+PART NUMBER
+HARLEY-DAVIDSON OIL FILTER
+WRENCH
+HD-42311
+HARLEY-DAVIDSON OIL FILTER
+WRENCH
+HD-44067-A
+TORQUE VALUE
+FASTENER
+0.7-1.1 Nm
+6-10 in-lbs
+Oil drain hose worm clamp
+Do not switch lubricant brands indiscriminately because
+some lubricants interact chemically when mixed. Use of
+inferior lubricants can damage the engine. (00184a)
+Completely drain oil tank of used oil at scheduled service
+intervals. Refill with fresh oil. Refer to Table 1-4.
+NOTES
+•
+Change oil at specified intervals in normal service at warm
+or moderate temperatures.
+•
+Change engine oil at shorter intervals in cold weather or
+in severe operating conditions. See 1.3 FUEL AND OIL,
+Winter Lubrication.
+•
+Change engine oil at shorter intervals if ridden extremely
+hard, used in competition, or driven on dusty roads.
+•
+Always change oil filter when changing engine oil.
+Be sure that no lubricants or fluids get on tires, wheels or
+brakes when changing fluid. Traction can be adversely
+affected, which could result in loss of control of the
+motorcycle and death or serious injury. (00047d)
+Draining Oil Tank
+1.
+Run engine until engine oil has reached normal operating
+temperature.
+HOME
+1-16 2013 Sportster Service: Maintenance
+
+--- Page 41 ---
+2.
+Remove dipstick from oil tank. Oil will drain faster when
+the dipstick is removed.
+3.
+See Figure 1-4. Place a suitable container directly under
+the drain hose (1) at the bottom rear of the engine crank-
+case. The container must be able to hold approximately
+3.0 qt (2.8 L).
+4.
+Loosen worm drive clamp (2). Pull drain plug (3) from end
+of drain hose. Completely drain engine oil from oil tank.
+Drain engine crankcase only if needed.
+5.
+Install drain plug into end of drain hose. Tighten worm
+drive clamp to 6-10 in-lbs (0.7-1.1 Nm).
+2
+3
+1
+sm01684
+1.
+Oil tank drain hose
+2.
+Worm drive clamp
+3.
+Drain plug
+Figure 1-4. Oil Tank Drain Hose
+Removing Oil Filter
+1.
+Place a drain pan beneath front of engine crankcase.
+Use Harley-Davidson oil filter wrench for filter removal.
+This tool can prevent damage to crankshaft position sensor
+and/or sensor cable. (00192b)
+2.
+See Figure 1-5 and Figure 1-6. Remove oil filter using
+HARLEY-DAVIDSON OIL FILTER WRENCH (Part No. HD-
+42311) or HARLEY-DAVIDSON OIL FILTER WRENCH
+(Part No. HD-44067-A). Turn oil filter counterclockwise to
+remove from filter mount.
+3.
+Drain oil filter into drain pan. Discard oil filter.
+4.
+Clean any oil spills off crankcase and frame.
+NOTE
+Dispose of oil and oil filter in accordance with local regulations.
+sm01673
+Figure 1-5. Oil Filter Wrenches
+2
+1
+sm03917
+1.
+Oil filter mount
+2.
+Oil filter
+Figure 1-6. Oil Filter
+Installing Oil Filter
+NOTE
+Minimize the time required for buildup of oil pressure when
+engine is first started. Partially fill oil filter before installation.
+1.
+Pour about 4 fl oz (120 mL) of fresh, clean engine oil into
+new oil filter. Allow time for oil to soak into filter element.
+2.
+See Figure 1-7. Wipe filter gasket contact surface of oil
+filter mount with a clean cloth. Surface should be smooth
+and free of any debris or old gasket material.
+3.
+Apply a thin film of oil to gasket contact surface on crank-
+case (3) and gasket surface of new oil filter.
+NOTE
+Do not use oil filter wrench to install new oil filter.
+4.
+Install new oil filter. Screw filter clockwise onto adapter
+until gasket contacts the filter mount surface. Then hand
+tighten an additional 1/2-3/4-turn to secure the oil filter.
+HOME
+2013 Sportster Service: Maintenance 1-17
+
+--- Page 42 ---
+2
+3
+1
+om00108a
+1.
+Thin film of oil ONLY
+2.
+Oil filter
+3.
+Mounting plate
+Figure 1-7. Applying Thin Oil Film
+Refilling Oil Tank
+Do not overfill oil. Doing so can result in oil carryover to
+the air cleaner leading to equipment damage and/or
+equipment malfunction. (00190b)
+NOTE
+Do not overfill the oil tank. The oil tank has a built-in pressure
+relief valve. If the oil tank is overfilled, excessive pressure is
+created in the oil tank. The pressure relief valve will open to
+relieve the pressure and prevent damage to the oil tank.
+Excessive oil due to overfilling will also be forced out the
+pressure relief valve when it opens.
+1.
+Refer to Table 1-2. Always use the proper grade of oil for
+the lowest expected air temperature before the next regu-
+larly scheduled oil change. Pour 2.0 qt (1.9 L) of oil into
+engine oil tank.
+2.
+Install dipstick in oil tank. Verify cap is fully seated.
+3.
+See Figure 1-8. Start engine. Verify that oil pressure signal
+lamp turns off when engine speed is 1000 rpm or above.
+Turn engine off.
+4.
+Check for oil leaks at oil filter and oil tank drain hose.
+Perform oil level hot check.
+sm07562
+Figure 1-8. Oil Pressure Indicator
+HOME
+1-18 2013 Sportster Service: Maintenance
+
+--- Page 43 ---
+1.7
+AIR FILTER
+XL MODELS EXCEPT XL 1200V
+TORQUE VALUE
+FASTENER
+4.5-6.8 Nm
+40-60 in-lbs
+Air filter screw
+4.1-6.8 Nm
+36-60 in-lbs
+Air cleaner cover screw
+Removal
+1.
+See Figure 1-9. Remove the two fasteners (1) and the trim
+insert (2) from the air cleaner cover (3).
+2.
+Remove the air cleaner cover from the backplate. Remove
+air cleaner seal (4) from the cover.
+3.
+Remove three fasteners (5). Remove the air filter (6) and
+the gasket (7) from the backplate. Discard the gasket.
+4.
+Inspect the O-rings. Replace as necessary.
+5.
+Inspect the cover seal. Replace as necessary.
+6.
+Clean the air cleaner backplate.
+7.
+Clean the inside of air cleaner cover.
+Install air filter before running engine. Failure to do so can
+draw debris into the engine and could result in engine
+damage. (00207a)
+Installation
+1.
+See Figure 1-9. Apply a thin coat of engine oil or light
+grease to the O-rings (8).
+2.
+Position a new gasket (7) on the air cleaner. Line up the
+gasket holes with the backplate holes.
+NOTE
+Install the air filter with THIS SIDE OUT on top.
+3.
+Apply a drop of LOCTITE 243 MEDIUM STRENGTH
+THREADLOCKER AND SEALANT (blue) to each of three
+air filter fasteners (5). Install the air filter (6) onto the
+backplate. Tighten to 40-60 in-lbs (4.5-6.8 Nm).
+4.
+Fit air cleaner seal (4) onto air cleaner cover (3). Verify
+alignment around cover edge.
+5.
+Install air cleaner cover onto backplate. Do not pinch or
+distort seal.
+6.
+Install trim insert (2) and cover assembly with fasteners
+(1). Tighten to 36-60 in-lbs (4.1-6.8 Nm).
+6
+8
+3
+7
+2
+4
+1
+5
+sm03384a
+1.
+Fastener
+2.
+Trim insert
+3.
+Air cleaner cover
+4.
+Air cleaner seal
+5.
+Fastener
+6.
+Air filter element
+7.
+Gasket
+8.
+O-ring
+Figure 1-9. Air Filter Element: XL Models except XL 1200V
+XL 1200V
+TORQUE VALUE
+FASTENER
+4.5-6.8 Nm
+40-60 in-lbs
+Air filter screw
+4.1-6.8 Nm
+36-60 in-lbs
+Air cleaner cover screw
+Removal
+1.
+See Figure 1-10. Remove the fastener (1) from the air
+cleaner cover (2).
+2.
+Remove the cover from the backplate. Remove air cleaner
+seal (3) from the cover.
+3.
+Remove three fasteners (4). Remove the air filter (5) from
+the backplate.
+4.
+Inspect the O-rings. Replace as necessary.
+5.
+Inspect the cover seal. Replace as necessary.
+6.
+Clean the air cleaner backplate.
+7.
+Clean the inside of air cleaner cover.
+Install air filter before running engine. Failure to do so can
+draw debris into the engine and could result in engine
+damage. (00207a)
+HOME
+2013 Sportster Service: Maintenance 1-19
+
+--- Page 44 ---
+Installation
+1.
+Apply a thin coat of engine oil to the O-rings (6).
+2.
+Install a new gasket (7) on the air cleaner. Line up the
+gasket holes with the backplate holes.
+NOTE
+Install the filter (5) with THIS SIDE OUT on top.
+3.
+See Figure 1-10. Apply a drop of LOCTITE 243 MEDIUM
+STRENGTH THREADLOCKER AND SEALANT (blue) to
+each of three air filter fasteners (4).
+4.
+Install the air filter onto the backplate. Tighten to 40-60
+in-lbs (4.5-6.8 Nm).
+5.
+Fit air cleaner seal (3) onto air cleaner cover (2). Verify
+alignment around cover edge.
+6.
+Install air cleaner cover onto backplate. Do not pinch or
+distort seal.
+7.
+Install cover. Tighten to 36-60 in-lbs (4.1-6.8 Nm).
+4
+2
+5
+1
+3
+6
+7
+sm07433
+1.
+Screw
+2.
+Cover
+3.
+Seal
+4.
+Screw (3)
+5.
+Filter
+6.
+O-ring
+7.
+Gasket
+Figure 1-10. Air Filter Element: XL 1200V
+XR 1200X
+Removal
+Stop the engine when refueling or servicing the fuel
+system. Do not smoke or allow open flame or sparks near
+gasoline. Gasoline is extremely flammable and highly
+explosive, which could result in death or serious injury.
+(00002a)
+1.
+Remove the fuel tank. See 4.5 FUEL TANK: XR 1200X.
+2.
+Remove the air box. See 1.7 AIR FILTER, XR 1200X.
+3.
+See Figure 1-11. Remove the two screws (2, 3) securing
+the air filter cover (4) to air box (1).
+4.
+Using a small flat blade screwdriver, gently pry two button
+head clips (5) securing air filter cover to air box. Discard
+button head clips.
+5.
+See Figure 1-12. Gently pull rear end of air filter cover (2)
+away from air box. Disengage front of air filter cover from
+the air box and set the cover aside.
+6.
+See Figure 1-13. Using a flat blade screwdriver, gently
+pry the lower front corner of the filter (2) out of the air box.
+Work screwdriver around bottom of filter gasket (4) to free
+the filter.
+7.
+Carefully pull the filter out of the air box.
+8.
+Clean the inside of the air box housing and cover.
+9.
+Inspect the air filter seal. Replace if necessary.
+5
+1
+2
+5
+4
+3
+sm06726
+1.
+Air box assembly
+2.
+Screw
+3.
+Screw
+4.
+Air filter cover
+5.
+Button head clip (2)
+Figure 1-11. Unbolting Air Filter Cover
+HOME
+1-20 2013 Sportster Service: Maintenance
+
+--- Page 45 ---
+1
+2
+3
+sm04934
+1.
+Air box assembly
+2.
+Air filter cover
+3.
+Air filter element
+Figure 1-12. Removing Air Filter Cover
+1
+2
+3
+4
+sm04935
+1.
+Air box assembly
+2.
+Air filter element
+3.
+Screwdriver
+4.
+Gasket (built into air filter element)
+Figure 1-13. Removing Air Filter Element
+Installation
+1.
+See Figure 1-13. Form a new air filter into a curved shape.
+Slide top of air filter up into opening in air box. Top of the
+air filter must fit into channel in top of air box.
+2.
+Press bottom and ends of air filter into air box. The air filter
+must fit into the air box opening.
+3.
+See Figure 1-12. Position front of air filter cover (2) onto
+air box. Do not install button head clips at this time.
+4.
+Active Intake Models: See Figure 1-15.
+a.
+Verify that the active intake connector wiring harness
+(4) is in the air box recess (5).
+b.
+Position the breather hose assembly inside the to air
+box. The breather hose cannot interfere with the active
+air solenoid flapper.
+NOTE
+Do not pinch the active intake connector wiring harness with
+the air filter cover.
+5.
+Install rear of air filter cover (2) onto air box. Secure with
+two screws.
+6.
+Install new button head clips. Press in firmly.
+7.
+Install the air box. See 1.7 AIR FILTER, XR 1200X.
+8.
+Install the fuel tank. See 4.5 FUEL TANK: XR 1200X.
+sm04937
+Figure 1-14. Filter Element Channel
+HOME
+2013 Sportster Service: Maintenance 1-21
+
+--- Page 46 ---
+1
+2
+3
+4
+5
+sm04938
+1.
+Air box assembly
+2.
+Air filter cover
+3.
+Active intake connector [178] (if equipped)
+4.
+Wiring harness
+5.
+Recess
+Figure 1-15. Installing Air Filter Cover
+CLEANING FILTER ELEMENT
+Do not use gasoline or solvents to clean filter element.
+Flammable cleaning agents can cause an intake system
+fire, which could result in death or serious injury. (00101a)
+NOTE
+Do not tap the filter on a hard surface.
+1.
+Wash the filter in warm soapy water.
+2.
+To remove soot, soak the filter in warm soapy water for
+30 minutes.
+NOTE
+The filter is clean if light is visible through filter.
+3.
+Hold the filter up to light.
+Compressed air can pierce the skin and flying debris from
+compressed air could cause serious eye injury. Wear
+safety glasses when working with compressed air. Never
+use your hand to check for air leaks or to determine air
+flow rates. (00061a)
+4.
+Dry the filter with low-pressure compressed air from the
+inside.
+HOME
+1-22 2013 Sportster Service: Maintenance
+
+--- Page 47 ---
+1.8
+TIRES AND WHEELS
+AIR PRESSURE
+Be sure tires are properly inflated, balanced, undamaged,
+and have adequate tread. Inspect your tires regularly and
+see a Harley-Davidson dealer for replacements. Riding
+with excessively worn, unbalanced, improperly inflated,
+overloaded or damaged tires can lead to tire failure and
+adversely affect stability and handling, which could result
+in death or serious injury. (00014b)
+Always maintain proper tire pressure as specified in Table 1-7.
+Do not load tires beyond GAWR specified in Table 2-4.
+Underinflated, over-inflated or overloaded tires can fail.
+Check tire pressure when the tires are cold. Refer to Table 1-7.
+NOTE
+Harley-Davidson does not perform any testing with only
+nitrogen in tires. Harley-Davidson neither recommends nor
+discourages the use of pure nitrogen to inflate tires.
+Table 1-7. Air Pressure (cold): 2013 Sportster Models
+kPa
+psi
+WHEEL
+MODEL
+248
+36
+Front
+XL 883L
+290
+42
+Rear
+207
+30
+Front
+XL 883N
+276
+40
+Rear
+207
+30
+Front
+XL 883R
+276
+40
+Rear
+248
+36
+Front
+XL 1200C/C ANV
+276
+40
+Rear
+248
+36
+Front
+XL 1200CP
+276
+40
+Rear
+248
+36
+Front
+XL 1200CA
+276
+40
+Rear
+248
+36
+Front
+XL 1200CB
+276
+40
+Rear
+207
+30
+Front
+XL 1200V
+276
+40
+Rear
+248
+36
+Front
+XL 1200X
+276
+40
+Rear
+248
+36
+Front
+XR 1200X
+290
+42
+Rear
+TIRE REPLACEMENT
+Tread Wear
+Replace tire immediately with a Harley-Davidson specified
+tire when wear bars become visible or only 1/32 in (0.8
+mm) tread depth remains. Riding with a worn tire could
+result in death or serious injury. (00090c)
+Harley-Davidson tires are equipped with wear bars that run
+horizontally across the tread. When a tire is worn to the point
+that the wear bars are visible, or 1/32 in (0.8 mm) tread depth
+remains, the tire can:
+•
+Be more easily damaged leading to tire failure.
+•
+Provide reduced traction.
+•
+Adversely affect stability and handling.
+Replace the tires with new tires before the tread wear bars
+appear:
+•
+See Figure 1-16 or Figure 1-17. Indicators (1) on the tire
+sidewalls point to tread wear bars (2) in the tread.
+•
+Tread wear bars appear in the tread pattern when 1/32 in
+(0.8 mm) or less of tread remains.
+2
+1
+sm07185d
+1.
+Indicator
+2.
+Tread wear bar
+Figure 1-16. Tread Pattern: Michelin Tires
+HOME
+2013 Sportster Service: Maintenance 1-23
+
+--- Page 48 ---
+1
+2
+sm07439a
+1.
+Indicator
+2.
+Tread wear bar
+Figure 1-17. Tread Pattern: Dunlop Tires
+Tire Damage
+Replace tires with new tires when:
+•
+Tire cords or fabric are visible through cracked sidewalls,
+snags or deep cuts.
+•
+A bump, bulge or split is found anywhere on the tire.
+•
+A puncture, cut or other damage cannot be repaired.
+SPECIFIED TIRES
+Match tires, tubes, rim strips or seals, air valves and caps
+to the correct wheel. Contact a Harley-Davidson dealer.
+Mismatching can lead to tire damage, allow tire slippage
+on the wheel or cause tire failure, which could result in
+death or serious injury. (00023c)
+Use only Harley-Davidson specified tires. See a Harley-
+Davidson dealer. Using non-specified tires can adversely
+affect stability, handling or braking, which could result in
+death or serious injury. (00024b)
+•
+Store new tires on a horizontal tire rack. Do not stack tires
+in a vertical stack.
+•
+Mount only Harley-Davidson specified tires. Refer to
+Table 1-8.
+Table 1-8. Specified Tires: 2013 Sportster Models
+SPECIFIED TIRE
+WHEEL
+MODEL
+Michelin Scorcher "11F" 120/70ZR18
+F
+XL 883L
+Michelin Scorcher "11" 150/60ZR17
+R
+Michelin Scorcher "31" 100/90B19
+F
+XL 883N/R
+Michelin Scorcher "31" 150/80B16
+R
+Michelin Scorcher "31" 130/90B16
+F
+XL 1200C/X
+XL 1200C
+ANV
+XL 1200CP
+XL 1200CA
+XL 1200CB
+Michelin Scorcher "31" 150/80B16
+R
+Dunlop D402F MH90 21 M/C 54H WW
+F
+XL 1200V
+Dunlop D401 150/80B16 M/C 71H
+WWW
+R
+Michelin Scorcher "11F" 120/70ZR18
+F
+XR 1200X
+Michelin Scorcher "11" 180/55ZR17
+R
+WHEEL BEARINGS
+NOTE
+Replace bearings in sets only. See 2.5 WHEELS, Sealed Wheel
+Bearings.
+1.
+Replace when bearings exceed end play service wear
+limit of 0.002 in (0.051 mm).
+2.
+Inspect any time the wheels are removed.
+a.
+Inspect the play of the wheel bearings by finger while
+they are in the wheel.
+b.
+Rotate the inner bearing race. Listen for abnormal
+noise.
+c.
+Verify smooth bearing rotation.
+3.
+Check wheel bearings and axle spacers for wear and
+corrosion. Excessive play or roughness indicates worn
+bearings.
+WHEEL SPOKES
+TOOL NAME
+PART NUMBER
+SPOKE TORQUE WRENCH
+HD-48985
+SPOKE NIPPLE WRENCH
+HD-94681-80
+TORQUE VALUE
+FASTENER
+6.2 Nm
+55 in-lbs
+Spoke nipple
+Spokes that are too tight can draw nipples through the rim
+or distort hub flanges. Spokes that are too loose can
+continue to loosen when put in service. Either condition
+can adversely affect stability and handling, which could
+result in death or serious injury. (00286a)
+HOME
+1-24 2013 Sportster Service: Maintenance
+
+--- Page 49 ---
+Do not over tighten spoke nipples. Protruding spoke
+nipples can damage rim seal, resulting in rapid tire defla-
+tion, which could cause death or serious injury. (00611b)
+When lifting a motorcycle using a jack, be sure jack con-
+tacts both lower frame tubes where down tubes and lower
+frame tubes converge. Never lift by jacking on cross-
+members, oil pan or other housings. Failure to comply can
+cause serious damage resulting in the need to perform
+major repair work. (00586c)
+Identify Wheel Spoke Groups
+NOTE
+Spokes are grouped in sets of four.
+1.
+Raise wheel with a suitable lifting device.
+2.
+See Figure 1-18. Starting at the valve stem, identify the
+first group of four spokes (1-4).
+3.
+Using a different color for each spoke in the group, draw
+an alignment mark across the spoke nipple and onto the
+rim.
+4.
+Continue around the wheel marking the rest of the spokes
+the same as they were marked in the previous way.
+Wheel Spoke Adjustment
+NOTES
+•
+Do not tighten spoke more than 1/4 turn past alignment
+mark. If more tension is needed, label spoke and check
+after completing rest of wheel.
+•
+Do not use the spoke torque wrench to loosen spokes.
+Use SPOKE NIPPLE WRENCH (Part No. HD-94681-80)
+to loosen spokes.
+1.
+See Figure 1-18. Starting with the first group of spokes,
+loosen spoke (1) using SPOKE NIPPLE WRENCH (Part
+No. HD-94681-80) 1/4 turn.
+2.
+Using SPOKE TORQUE WRENCH (Part No. HD-48985)
+tighten spoke (1) to the value listed in Table 1-9.
+a.
+While tightening, if the torque wrench clicks before
+the alignment marks align, continue to turn the spoke
+nipple until the marks align.
+b.
+If the alignment marks align and the torque specifica-
+tion has not been reached, continue to tighten the
+spoke nipple until the correct torque is achieved, but
+do not turn spoke nipple more then 1/4 turn past
+alignment mark.
+3.
+Repeat previous two steps for spoke (4) in the same group.
+4.
+Continue around the wheel checking spokes 1 and 4 until
+all groups are done.
+5.
+Repeat procedure for spokes (2, 3) in each group.
+NOTE
+When checking any spokes that were labeled, make sure to
+use the original alignment mark.
+6.
+Check spokes, if any, that were labeled as not reaching
+the proper torque value after tightening 1/4 turn past
+alignment mark.
+a.
+Loosen spoke 1/4 turn past original alignment mark
+using SPOKE NIPPLE WRENCH (Part No. HD-94681-
+80).
+b.
+While tightening, if the torque wrench clicks before
+the alignment marks align, continue to turn the spoke
+nipple until the marks align.
+c.
+If the alignment marks align and the torque specifica-
+tion has not been reached, continue to tighten the
+spoke nipple until the correct torque is achieved, but
+do not turn spoke nipple more then 1/4 turn past
+alignment mark.
+7.
+True the wheel. See 2.7 CHECKING AND TRUING
+WHEELS.
+Table 1-9. Spoke Nipple Torque Specification
+MINIMUM TORQUE
+RIM TYPE
+55 in-lbs (6.2 Nm)
+All
+1
+3
+2
+4
+sm06507
+Figure 1-18. Tightening Laced Wheels (typical)
+HOME
+2013 Sportster Service: Maintenance 1-25
+
+--- Page 50 ---
+1.9
+PRIMARY CHAIN
+FREE PLAY ADJUSTMENT
+TORQUE VALUE
+FASTENER
+27.1-33.9 Nm
+20-25 ft-lbs
+Primary chain adjuster locknut
+10.2-13.6 Nm
+90-120 in-lbs
+Primary chain inspection cover
+To prevent accidental vehicle start-up, which could cause
+death or serious injury, remove main fuse before pro-
+ceeding. (00251b)
+1.
+Remove main fuse.
+2.
+See Figure 1-19. Remove the primary chain inspection
+cover (1).
+NOTE
+Rotate the engine to measure free play at several chain posi-
+tions.
+3.
+See Figure 1-20. Through the inspection opening, measure
+chain free play at the tightest position.
+NOTE
+Factory Setting: The factory sets initial cold engine free play
+to 1/4-3/8 in (6.35-9.53 mm). With the engine cold, measure
+free play on a primary chain that has never been adjusted:
+•
+Less than 1/4 in (6.35 mm): Adjust to specification.
+•
+Between 1/4 in (6.35 mm) and 3/8 in (9.53 mm): Do NOT
+adjust.
+Do not adjust the primary chain tighter than specified.
+Running chain too tight will result in excessive wear.
+(00202a)
+4.
+If the measurement is not in specification, adjust the
+primary chain. Refer to Table 1-10.
+a.
+See Figure 1-19. Loosen the locknut (2).
+b.
+With a hex key, turn the adjuster screw (3) clockwise
+to reduce free play or counterclockwise to increase
+free play.
+c.
+When free play is within specification, hold the
+adjuster screw with a hex key and tighten the locknut
+to 20-25 ft-lbs (27.1-33.9 Nm).
+5.
+If the primary chain cannot be adjusted to specification,
+replace the chain. See 5.4 PRIMARY DRIVE AND
+CLUTCH: XL MODELS or 5.5 PRIMARY DRIVE AND
+CLUTCH: XR 1200X.
+6.
+Install a new gasket and the primary chain inspection
+cover. Tighten to 90-120 in-lbs (10.2-13.6 Nm).
+7.
+Install main fuse.
+3
+2
+1
+sm06896
+1.
+Inspection cover
+2.
+Locknut
+3.
+Adjuster screw
+Figure 1-19. Primary Chain Inspection Cover and Adjuster
+om00206c
+Figure 1-20. Primary Chain Free Play
+Table 1-10. Primary Chain Free Play Specifications
+mm
+in
+ENGINE
+9.5-12.7
+3/8-1/2
+Cold
+6.3-9.5
+1/4-3/8
+Hot
+HOME
+1-26 2013 Sportster Service: Maintenance
+
+--- Page 51 ---
+1.10
+TRANSMISSION LUBRICANT
+TRANSMISSION LUBRICATION
+TORQUE VALUE
+FASTENER
+10.3-13.6 Nm
+90-120 in-lbs
+Clutch inspection cover
+screws
+19.0-40.7 Nm
+14-30 ft-lbs
+Primary chaincase drain plug
+10.3-13.6 Nm
+90-120 in-lbs
+Clutch inspection cover
+screws
+Check Lubricant Level
+1.
+Ride motorcycle until engine is warmed up to normal
+operating temperature.
+NOTE
+Support motorcycle upright to equalize lubricant level in the
+transmission compartments.
+2.
+Position motorcycle upright.
+To prevent accidental vehicle start-up, which could cause
+death or serious injury, remove main fuse before pro-
+ceeding. (00251b)
+3.
+Remove main fuse.
+4.
+Remove foot controls:
+a.
+XL Models with Mid-mount Controls: Remove left
+side rider footrest and mounting bracket assembly.
+See 2.40 RIDER FOOT CONTROLS: XL MID-MOUNT
+CONTROLS.
+b.
+XR 1200X: Remove left side rider footrest, mounting
+bracket assembly, and shift linkage. See 2.42 RIDER
+FOOT CONTROLS: XR 1200X.
+5.
+See Figure 1-21. Remove screws with washers and
+remove clutch inspection cover (1).
+6.
+See Figure 1-22. Verify that lubricant level is even with
+bottom of clutch diaphragm spring (1).
+When draining or adding lubricant, do not allow dirt, debris
+or other contaminants to enter the engine. (00198a)
+Do not overfill the primary chaincase with lubricant.
+Overfilling can cause rough clutch engagement, incomplete
+disengagement, clutch drag and/or difficulty in finding
+neutral at engine idle. (00199b)
+7.
+If the level is low, add FORMULA+ TRANSMISSION AND
+PRIMARY CHAINCASE LUBRICANT through clutch
+inspection cover opening. Verify that lubricant level is even
+with bottom of clutch diaphragm spring.
+8.
+Install the clutch inspection cover:
+a.
+Install a new quad ring. Verify that the quad ring is
+fully seated in groove of primary cover.
+b.
+See Figure 1-23. Install cover and tighten screws in
+sequence to 90-120 in-lbs (10.3-13.6 Nm).
+9.
+Install left side rider footrest:
+a.
+XL Models with Mid-mount Controls: Install left
+side rider footrest and mounting bracket assembly.
+See 2.40 RIDER FOOT CONTROLS: XL MID-MOUNT
+CONTROLS.
+b.
+XR 1200X: Install left side rider footrest, mounting
+bracket assembly, and shift linkage. See 2.42 RIDER
+FOOT CONTROLS: XR 1200X.
+10. Install main fuse.
+11. Run engine. Check for leaks.
+3
+2
+1
+om00908
+1.
+Clutch inspection cover
+2.
+Drain plug
+3.
+Primary chain inspection cover
+Figure 1-21. Primary Cover: XL Model
+HOME
+2013 Sportster Service: Maintenance 1-27
+
+--- Page 52 ---
+1
+5
+4
+3
+2
+om00397
+1.
+Clutch diaphragm spring
+2.
+Clutch adjusting screw
+3.
+Quad ring
+4.
+Primary cover
+5.
+Chaincase lubricant level
+Figure 1-22. Chaincase Lubricant Level
+Change Lubricant
+Be sure that no lubricants or fluids get on tires, wheels or
+brakes when changing fluid. Traction can be adversely
+affected, which could result in loss of control of the
+motorcycle and death or serious injury. (00047d)
+1.
+Ride motorcycle until engine is warmed up to normal
+operating temperature.
+2.
+Turn the engine off and position motorcycle on jiffy stand.
+This will allow the chaincase lubricant to drain out of
+transmission.
+To prevent accidental vehicle start-up, which could cause
+death or serious injury, remove main fuse before pro-
+ceeding. (00251b)
+3.
+Remove main fuse.
+4.
+See Figure 1-21. Position a suitable container under
+transmission drain plug (2).
+5.
+Remove drain plug. Drain lubricant.
+6.
+Position the motorcycle straight up and level. This allows
+additional fluid to be drained from clutch compartment.
+NOTE
+Dispose of lubricant in accordance with local regulations.
+Do not over-tighten filler or drain plug. Doing so could
+result in a lubricant leak. (00200b)
+7.
+Clean magnetic drain plug. Replace O-ring if damaged.
+8.
+Apply LOCTITE 565 THREAD SEALANT and install drain
+plug. Tighten to 14-30 ft-lbs (19.0-40.7 Nm).
+9.
+Remove the clutch inspection cover.
+10. See Figure 1-22. Add 1.00 qt (0.95 L) of FORMULA+
+TRANSMISSION AND PRIMARY CHAINCASE LUB-
+RICANT through clutch inspection cover opening. Verify
+that lubricant level is even with bottom of clutch diaphragm
+spring (1).
+11. Install the clutch inspection cover:
+a.
+Install a new quad ring. Verify that the quad ring is
+fully seated in groove of the primary cover.
+b.
+See Figure 1-23. Install cover and tighten screws in
+sequence to 90-120 in-lbs (10.3-13.6 Nm).
+12. Install main fuse.
+13. Run engine. Check for lubricant leaks.
+6
+5
+4
+1
+2
+3
+sm07590
+Figure 1-23. Clutch Inspection Cover Torque Sequence
+HOME
+1-28 2013 Sportster Service: Maintenance
+
+--- Page 53 ---
+1.11
+CLUTCH
+ADJUSTMENT
+TORQUE VALUE
+FASTENER
+10.3-13.6 Nm
+90-120 in-lbs
+Clutch inspection cover
+screws
+13.6 Nm
+120 in-lbs
+Clutch cable adjuster jamnut
+Release the Clutch Cable Tension
+To prevent accidental vehicle start-up, which could cause
+death or serious injury, remove main fuse before pro-
+ceeding. (00251b)
+1.
+Remove main fuse.
+2.
+XL Models: See Figure 1-24. Remove cable adjuster from
+the frame retaining clips.
+3.
+See Figure 1-25. Pull the boot (1) away from the cable
+adjuster (2).
+4.
+Loosen the jamnut (3).
+5.
+Turn the adjuster to loosen the clutch cable at the hand
+lever.
+sm01436a
+Figure 1-24. Clutch Cable Adjuster Location: XL Models
+1
+4
+3
+2
+sm01437a
+1.
+Rubber boot
+2.
+Cable adjuster
+3.
+Jamnut
+4.
+Cable end
+Figure 1-25. Clutch Cable Adjuster
+Clutch Adjustment
+1.
+Access the clutch inspection cover:
+a.
+XL Models with Mid-mount Controls: Remove the
+clutch side rider footrest and mounting bracket
+assembly. See 2.40 RIDER FOOT CONTROLS: XL
+MID-MOUNT CONTROLS.
+b.
+XR 1200X: Remove the clutch side rider footrest and
+shifter mounting bracket and a shift linkage pivot bolt.
+See 2.42 RIDER FOOT CONTROLS: XR 1200X.
+2.
+Remove the clutch inspection cover. Discard the quad
+ring.
+3.
+See Figure 1-26. Remove the hex lockplate with the spring
+(1) from the clutch adjusting screw (2).
+4.
+Turn the adjusting screw counterclockwise until resistance
+is felt and then turn the adjusting screw clockwise 1/4 turn.
+5.
+Install the hex lockplate with the spring and turn the
+adjusting screw clockwise to fit the lockplate onto the flats
+of the adjusting screw.
+6.
+Install the clutch inspection cover.
+a.
+Install a new quad ring in the primary cover.
+b.
+Install the inspection cover.
+c.
+Install the screws and tighten in a cross pattern to 90-
+120 in-lbs (10.3-13.6 Nm).
+7.
+Install the foot controls:
+a.
+XL Models with Mid-mount Controls: Install the
+footrest and mounting bracket. See 2.40 RIDER
+FOOT CONTROLS: XL MID-MOUNT CONTROLS.
+b.
+XR 1200X: Install the rider footrest and shifter
+mounting bracket and shift linkage. See 2.42 RIDER
+FOOT CONTROLS: XR 1200X.
+HOME
+2013 Sportster Service: Maintenance 1-29
+
+--- Page 54 ---
+1
+2
+sm06842
+1.
+Hex lockplate and spring
+2.
+Adjusting screw
+Figure 1-26. Clutch Adjustment Screw
+Lever Free Play
+1.
+Turn the adjuster away from the jamnut until there is no
+slack in the cable at the clutch lever.
+2.
+See Figure 1-27. Pull the clutch cable ferrule (2) away
+from the clutch lever bracket (3) and measure the free
+play (4).
+3.
+Adjust to specification. Refer to Table 1-11.
+4.
+Tighten the jamnut to 120 in-lbs (13.6 Nm).
+5.
+Pull the rubber boot over the cable adjuster.
+6.
+XL Models: Secure the cable in the cable retainers.
+7.
+Install main fuse.
+1
+3
+2
+4
+sm01439
+1.
+Clutch cable
+2.
+Cable ferrule
+3.
+Clutch lever bracket
+4.
+1/16-1/8 in (1.6-3.2 mm) free play
+Figure 1-27. Clutch Free Play Adjustment
+Table 1-11. Clutch Lever Free Play Specifications
+mm
+in
+FREE PLAY
+1.6-3.2
+1/16-1/8
+Measurement
+HOME
+1-30 2013 Sportster Service: Maintenance
+
+--- Page 55 ---
+1.12
+DRIVE BELT AND SPROCKETS
+GENERAL
+Never bend belt forward into a loop smaller than the drive
+sprocket diameter. Never bend belt into a reverse loop.
+Over bending can damage belt resulting in premature
+failure, which could cause loss of control and death or
+serious injury. (00339a)
+In the case of stone damage to belt, inspect the sprockets for
+damage and replace as required. If replacing belt, always
+replace both transmission and rear sprockets.
+CLEANING
+Keep dirt, grease, oil, and debris off the drive belt and
+sprockets. Clean the belt with a rag slightly dampened with a
+light cleaning agent.
+INSPECTION
+Sprockets
+NOTE
+Chrome chips or rear sprocket gouges large enough to be
+harmful will leave a pattern on the belt face.
+1.
+See Figure 1-28. Inspect each tooth (1) of rear sprocket
+for:
+a.
+Tooth damage.
+b.
+Large chrome chips with sharp edges.
+c.
+Gouges caused by hard objects.
+d.
+Excessive loss of chrome plating (see next step).
+2.
+To check if chrome plating has worn off, drag a scribe or
+sharp knife point across the bottom of a groove (2)
+(between two teeth) with medium pressure.
+a.
+If scribe or knife point slides across groove without
+digging in or leaving a visible mark, chrome plating
+is still good.
+b.
+If scribe or knife points digs in and leaves a visible
+mark, it is cutting the bare aluminum. A knife point
+will not penetrate the chrome plating.
+3.
+Replace rear sprocket if major tooth damage or loss of
+chrome exists.
+1
+2
+sm03283
+1.
+Tooth
+2.
+Groove
+Figure 1-28. Rear Sprocket
+Idler Pulley: XR 1200X
+See Figure 1-29. Inspect idler pulley for signs of uneven wear.
+Excessive lateral side play of 0.035 in (0.9 mm) or roughness
+indicates worn bearings. Replace idler pulley as an assembly.
+See 5.6 DRIVE BELT.
+sm00093
+Figure 1-29. Measuring Lateral Side Play on Idler Pulley
+Drive Belt
+NOTE
+Belt teeth are coated with polyethylene lubricant. Coating will
+wear off over time. This is not an indicator of belt wear.
+See Figure 1-30. Inspect drive belt for:
+•
+Cuts or unusual wear patterns.
+•
+Outside edge bevelling (8). Some bevelling is common,
+but it indicates that sprockets are misaligned.
+•
+Stone punctures (7) on outside ribbed surface. If
+cracks/damage exists near edge of belt, replace belt
+immediately. Damage to center of belt will require belt
+replacement eventually. When cracks extend to the edge
+of the belt, failure is imminent.
+•
+Inside (toothed portion) of belt for exposed tensile cords
+(normally covered by nylon layer and polyethylene layer).
+HOME
+2013 Sportster Service: Maintenance 1-31
+
+--- Page 56 ---
+This condition will result in belt failure and indicates worn
+transmission sprocket teeth. Replace belt and transmission
+sprocket.
+•
+Signs of puncture or cracking at the base of the belt teeth.
+Replace belt if either condition exists.
+•
+If conditions 2, 3, 6 or 7 (on edge of belt) exist, replace
+belt.
+NOTE
+Condition 1 may develop into 2 or 3 over time. Condition 1 is
+not grounds for replacing the belt, but it should be watched
+closely before condition 2 develops which will require belt
+replacement.
+Table 1-12. Drive Belt Wear Analysis
+REQUIRED ACTION
+CONDITION
+NO.*
+OK to run, but monitor condi-
+tion.
+Internal tooth cracks
+(hairline)
+1
+Replace belt.
+External tooth cracks
+2
+Replace belt.
+Missing teeth
+3
+OK to run, but monitor condi-
+tion.
+Chipping
+(not serious)
+4
+OK to run, but monitor condi-
+tion.
+Fuzzy edge cord
+5
+Replace belt and sprocket.
+Hook wear
+6
+Replace belt if damage is on
+the edge.
+Stone damage
+7
+OK to run, but monitor condi-
+tion.
+Bevel wear
+(outboard edge only)
+8
+Check idler bearings and
+bracket attachment.
+Excess edge wear
+XR only
+* See Figure 1-30.
+1
+3
+5
+7
+2
+4
+6
+8
+sm06897a
+Figure 1-30. Drive Belt Wear Patterns
+DRIVE BELT DEFLECTION
+TOOL NAME
+PART NUMBER
+BELT TENSION GAUGE
+HD-35381A
+TORQUE VALUE
+FASTENER
+129-142 Nm
+95-105 ft-lbs
+Axle, rear, nut
+3.4-4.5 Nm
+30-40 in-lbs
+Brake hose clamp to rear fork
+screw
+Gauging Deflection
+Check belt deflection at the loosest spot in the belt with the
+transmission in neutral and the motorcycle at ambient temper-
+ature.
+1.
+With the motorcycle unladen and resting on its jiffy stand,
+fit the BELT TENSION GAUGE (Part No. HD-35381A) on
+the belt.
+a.
+XL Models: See Figure 1-31. Position the gauge half-
+way between the transmission and rear wheel
+sprockets.
+b.
+XR 1200X: See Figure 1-32. Fit the tension gauge
+half-way (1) between the idler wheel and rear
+sprocket.
+HOME
+1-32 2013 Sportster Service: Maintenance
+
+--- Page 57 ---
+2.
+With the BELT TENSION GAUGE set to 0 lb (0 kg), note
+the current belt position.
+a.
+XL Models: See Figure 1-31. View position through
+window on drive belt guard.
+b.
+XR 1200X: See Figure 1-32. Check position (2) on
+front of debris deflector.
+3.
+Using the BELT TENSION GAUGE, apply 10 lb (4.5 kg)
+of force to the bottom belt.
+4.
+Count the number of gradations (3) between the original
+belt position and after applying the force. Multiply this
+number by 1/8 in (3.2 mm) to determine the deflection.
+5.
+Compare
+the
+deflection
+to
+specifications.
+Refer
+to
+Table 1-13.
+6.
+Adjust as necessary.
+Be sure wheel and brake caliper are aligned. Riding with
+a misaligned wheel or brake caliper can cause the brake
+disc to bind and lead to loss of control, which could result
+in death or serious injury. (00050a)
+NOTE
+When gauging deflection, check the rear brake caliper position
+on rear brake disc. Disc should run true within brake caliper.
+Table 1-13. Belt Deflection Specifications*
+mm
+in
+MODELS
+14.3-15.9
+9/16-5/8
+XL 883R
+6.4-7.9
+1/4-5/16
+Other XL models
+6.4-9.5
+1/4-3/8
+XR 1200X
+* Deflection measured at 10 lb (4.5 kg) tension.
+1
+2
+3
+om01614
+1.
+10 lb (4.5 kg)
+2.
+Deflection gauge
+3.
+Graduations 1/8 in (3.2 mm)
+Figure 1-31. Belt Deflection: XL Models
+1
+2
+3
+om01272c
+1.
+10 lb (4.5 kg)
+2.
+Deflection gauge
+3.
+Graduations 1/8 in (3.2 mm)
+Figure 1-32. Belt Deflection: XR 1200X
+Adjustment
+NOTE
+Rear brake line is clamped tightly to rear fork to avoid chafing
+of brake line in clamp. A small amount of slack must be main-
+tained in rear brake line between clamp and rear caliper when
+rear wheel is adjusted.
+1.
+XL Models: See Figure 1-33. Remove screw (4) from
+clamp (3) on rear brake line (2).
+2.
+See Figure 1-34. Remove and discard E-clip (1) and
+loosen rear axle nut (4).
+NOTE
+Turn both adjuster nuts the same number of turns in order to
+maintain approximate alignment of rear wheel.
+3.
+Turn axle adjuster nuts (2) on each side of rear fork
+clockwise to decrease belt deflection (increase tension),
+or counterclockwise to increase belt deflection (decrease
+tension).
+4.
+Check rear wheel alignment. See 1.24 WHEEL ALIGN-
+MENT, Wheel Alignment.
+Do not exceed specified torque when tightening axle nut.
+Exceeding torque can cause wheel bearings to seize during
+vehicle operation, which could result in death or serious
+injury. (00408e)
+HOME
+2013 Sportster Service: Maintenance 1-33
+
+--- Page 58 ---
+5.
+After belt deflection and wheel alignment are properly
+adjusted,
+a.
+Tighten axle nut (4) to 95-105 ft-lbs (129-142 Nm).
+Install new E-clip (1).
+b.
+XL Models: See Figure 1-33. Reposition clamp (3)
+on rear brake line (2) and secure clamp to rear fork
+(1) with screw (4). Tighten to 30-40 in-lbs (3.4-4.5
+Nm).
+3
+3
+2
+4
+1
+5
+sm01443
+1.
+Rear fork
+2.
+Rear brake line
+3.
+Clamp
+4.
+Screw
+5.
+Rear brake caliper
+Figure 1-33. Rear Brake Line: XL Models
+2
+1
+3
+6
+5
+4
+sm03591d
+1.
+E-clip
+2.
+Axle adjuster nut (2)
+3.
+Axle adjuster (2)
+4.
+Axle nut
+5.
+Washer
+6.
+Protective cap (2)
+Figure 1-34. Drive Belt Adjustment: XL Models
+HOME
+1-34 2013 Sportster Service: Maintenance
+
+--- Page 59 ---
+1.13
+THROTTLE CONTROL
+CABLE INSPECTION AND LUBRICATION
+TORQUE VALUE
+FASTENER
+4.0-5.1 Nm
+35-45 in-lbs
+Switch housing screw
+1.
+Release the throttle cable tension. See 1.13 THROTTLE
+CONTROL, Cable Adjustment.
+2.
+See Figure 1-35. Remove screws (1) to separate the upper
+switch housing from the lower housing.
+3.
+Unhook ferrules and cables from throttle grip. Remove
+throttle sleeve.
+4.
+Inspect each cable. Replace cable assembly if cable is
+frayed or kinked.
+5.
+Inspect cable outer sheath from throttle grip to induction
+module. Replace if necessary.
+6.
+Apply a light coat of graphite to handlebar. Replace throttle
+grip.
+7.
+Pour two drops of HARLEY LUBE into the cable housings.
+8.
+Install switch housing. Tighten to 35-45 in-lbs (4.0-5.1
+Nm).
+9.
+Adjust throttle cables.
+CABLE ADJUSTMENT
+Operation
+Before starting engine, be sure throttle control will snap
+back to idle position when released. A throttle control that
+prevents engine from automatically returning to idle can
+lead to loss of control, which could result in death or ser-
+ious injury. (00390a)
+1.
+Back off the friction screw.
+2.
+Roll on and release the throttle grip. If the throttle does
+not return to closed (idle), inspect and adjust throttle
+cables.
+3.
+With engine idling, turn handlebar stop to stop. If engine
+speed changes, adjust throttle cables.
+Adjustment
+1.
+See Figure 1-35. Loosen throttle friction screw (3).
+2.
+Slide rubber boot off control cable adjusters (6).
+3.
+Loosen jamnuts (7).
+4.
+Turn cable adjusters to shorten cable housings to minimum
+length.
+5.
+Point front wheel straight ahead. With engine OFF, gently
+turn throttle control grip (2) to fully open. Hold in position.
+6.
+Gently turn adjuster (6) on throttle control cable (4) coun-
+terclockwise until throttle cam (8) touches throttle cam
+stop (10). Release throttle grip. Turn adjuster counterclock-
+wise an additional 1/2-1 turn. Tighten jamnut on throttle
+cable adjuster.
+7.
+Turn handlebar to right stop. Turn adjuster (6) on idle
+control cable (5) to lengthen sleeve until end of cable
+housing touches spring (9) within cable guide (11).
+NOTE
+Verify that throttle wheel returns to idle each time throttle grip
+is released.
+8.
+Check adjustment. Twist and release throttle grip two or
+three times. If throttle does not return to idle, turn idle
+adjuster to shorten sleeve until correct. Tighten jamnuts.
+9.
+Slide the rubber boots over the cable adjusters.
+4
+4
+5
+2
+9
+5
+3
+11
+1
+10
+8
+6
+7
+sm01645b
+1.
+Screw (2)
+2.
+Throttle grip
+3.
+Friction screw
+4.
+Throttle (pull open) cable
+5.
+Idle (pull close) cable
+6.
+Cable adjuster (2)
+7.
+Jamnut (2)
+8.
+Throttle cam
+9.
+Spring
+10. Throttle cam stop
+11. Cable guide
+Figure 1-35. Throttle Cable Adjustment (typical)
+HOME
+2013 Sportster Service: Maintenance 1-35
+
+--- Page 60 ---
+1.14
+CABLE AND CHASSIS LUBRICATION
+GENERAL
+Inspect
+and
+lubricate
+the
+following
+items
+according
+to1.5 MAINTENANCE SCHEDULE.
+•
+Front brake hand lever
+•
+Clutch hand lever
+•
+Throttle control cables
+•
+Throttle control grip sleeve
+•
+Clutch cable
+•
+Foot shift lever pivot (if applicable)
+•
+Rear brake lever pivot
+•
+Steering head bearings
+•
+Jiffy stand
+If service is on muddy or dusty roads, clean and lubricate at
+shorter intervals.
+CABLES AND HAND LEVERS
+For throttle cables, see 2.28 THROTTLE CABLES: ALL
+MODELS.
+Use HARLEY® LUBE for clutch lever and cable.
+Use G40M BRAKE GREASE on front brake lever pin pivot hole
+and on the end of piston that contacts brake lever.
+FOOT SHIFT LEVER AND REAR BRAKE
+PEDAL
+Clean and lubricate the foot shift lever pivot (on models with
+forward controls) and rear brake pedal pivot with ANTI-SEIZE
+LUBRICANT at scheduled service intervals as specified in
+1.5 MAINTENANCE SCHEDULE.
+If service is on muddy or dusty roads, clean and lubricate
+components at shorter intervals.
+JIFFY STAND
+Clean and lubricate the jiffy stand. For more information, see
+2.38 JIFFY STAND.
+STEERING HEAD BEARINGS
+Lubricate the steering head bearings with SPECIAL PURPOSE
+GREASE. See 1.19 STEERING HEAD BEARINGS.
+HOME
+1-36 2013 Sportster Service: Maintenance
+
+--- Page 61 ---
+1.15
+BRAKES
+GENERAL
+The front and rear brakes are fully hydraulic disc brake systems
+that require little maintenance.
+Use denatured alcohol to clean brake system components.
+Do not use mineral-based solvents (such as gasoline or
+paint thinner), which will deteriorate rubber parts even
+after assembly. Deterioration of these components can
+cause brake failure, which could result in death or serious
+injury. (00291a)
+Direct contact of D.O.T. 4 brake fluid with eyes can cause
+irritation. Avoid eye contact. In case of eye contact flush
+with large amounts of water and get medical attention.
+Swallowing large amounts of D.O.T. 4 brake fluid can cause
+digestive discomfort. If swallowed, obtain medical atten-
+tion. Use in well ventilated area. KEEP OUT OF REACH OF
+CHILDREN. (00240a)
+D.O.T. 4 brake fluid will damage painted and body panel
+surfaces it comes in contact with. Always use caution and
+protect surfaces from spills whenever brake work is per-
+formed. Failure to comply can result in cosmetic damage.
+(00239b)
+NOTES
+•
+If DOT 4 brake fluid contacts painted surfaces, IMMEDI-
+ATELY flush area with clear water.
+•
+Cover handlebar switches with a shop towel before adding
+brake fluid to front master cylinder reservoir. Spilling brake
+fluid on handlebar switches may render them inoperative.
+After repairing the brake system, test brakes at low speed.
+If brakes are not operating properly, testing at high speeds
+can cause loss of control, which could result in death or
+serious injury. (00289a)
+BRAKE LINES
+Inspect brake lines for leaks, contact or abrasion. Refer to
+Table 1-14.
+Table 1-14. Brake Line Inspection
+REMEDY
+INSPECTION
+LINE TYPE
+OK/Monitor
+No marks
+Steel lines
+Slight mark in paint or plating*
+Copper colored-paint/plating worn off*
+Silver colored base material-no noticeable feel of wear*
+Replace
+Silver colored base material-noticeable feel of wear*
+Brake fluid leak or other damage
+OK/Monitor
+No marks
+Rubber hose
+Slight dent or flattening of ribs*
+Replace
+Worn to bottom of ribs
+Brake fluid leak or other damage
+OK/Monitor
+No marks
+Protective cover
+(steel, rubber, plastic or braided) Slight dent in covering*
+Slight dent or flattening of plastic covering*
+Replace
+Worn or cut-through covering-exposed brake line material
+Brake fluid leak or other damage
+* If there is line contact, reposition the line. If base material is visible, prevent corrosion with touch-up paint.
+FLUID LEVEL
+1.
+Front brake: Position vehicle on a flat level surface. Turn
+handlebar so front brake master cylinder is approximately
+level. See Figure 1-36.
+2.
+Check for fluid through reservoir sight glass.
+NOTE
+XL Models: See Figure 1-37. Rear brake reservoir cover may
+be removed to more easily verify fluid level in reservoir.
+HOME
+2013 Sportster Service: Maintenance 1-37
+
+--- Page 62 ---
+3.
+Rear brake: Prepare vehicle:
+a.
+Have an assistant hold vehicle upright on a level
+surface.
+b.
+See Figure 1-38 or Figure 1-39. Check that fluid level
+is between upper (3) and lower (4) marks on reservoir
+sight window.
+4.
+If fluid is not visible through sight glass (front) or level in
+sight window is low (rear), check system for leaks. Check
+that brake pads are properly installed and not worn beyond
+service wear limits. Perform any necessary repairs. See
+1.16 BRAKE PADS AND DISCS: XL MODELS or
+1.17 BRAKE PADS AND DISCS: XR 1200X.
+5.
+If fluid is still not visible through sight glass (front) or level
+in sight window is low (rear), remove cover to verify fluid
+level. If necessary, add DOT 4 BRAKE FLUID. Replace
+cover. See 2.17 BLEEDING BRAKES.
+6.
+Front brake hand lever and rear brake foot pedal must
+have a firm feel when applied. If not, bleed system using
+only DOT 4 BRAKE FLUID. See 2.17 BLEEDING
+BRAKES.
+NOTE
+XL Models: Replace rear brake reservoir cover if removed.
+sm06942
+Figure 1-36. Master Cylinder Sight Glass (typical)
+pd00095a
+Figure 1-37. Rear Brake Master Cylinder Reservoir Cover
+(typical)
+2
+1
+3
+4
+sm07317
+1.
+Reservoir
+2.
+Reservoir cap
+3.
+Upper fluid level
+4.
+Lower fluid level
+Figure 1-38. Rear Brake Master Cylinder Reservoir: XL
+Models
+HOME
+1-38 2013 Sportster Service: Maintenance
+
+--- Page 63 ---
+2
+1
+3
+4
+sm05262a
+1.
+Reservoir
+2.
+Reservoir cap
+3.
+Upper fluid level
+4.
+Lower fluid level
+Figure 1-39. Rear Brake Master Cylinder Reservoir: XR
+1200X
+TROUBLESHOOTING
+Use the following troubleshooting guide to help in determining
+probable causes of poor brake operation. Refer to Table 1-15.
+Table 1-15. Troubleshooting Brakes
+REMEDY
+CHECK FOR
+CONDITION
+Bleed brake system.
+Air in system
+Excessive lever or pedal
+travel or spongy feel
+Fill master cylinder reservoir with approved brake
+fluid. Bleed brake system.
+Master cylinder reservoir low on fluid
+Replace brake pads.
+Worn brake pads
+Chattering sound when brake
+is applied
+Tighten bolts.
+Loose mounting bolts
+Replace brake disc.
+Warped brake disc
+Fill master cylinder reservoir with approved brake
+fluid and bleed brake system.
+Low fluid level
+Ineffective brake lever or
+pedal - travels to limit
+Rebuild master cylinder.
+Piston cup not functioning
+Replace brake disc.
+Distorted or glazed brake disc
+Ineffective brake lever or
+pedal - travel normal
+Replace brake pads.
+Distorted, glazed or contaminated brake pads
+Inspect master cylinder.
+Cup in master cylinder blocking relief port
+Brake pads drag on disc - do
+not retract.
+Correct fluid level.
+Master cylinder overfilled
+HOME
+2013 Sportster Service: Maintenance 1-39
+
+--- Page 64 ---
+1.16
+BRAKE PADS AND DISCS: XL MODELS
+INSPECTION
+Brake Pads
+Direct contact of D.O.T. 4 brake fluid with eyes can cause
+irritation. Avoid eye contact. In case of eye contact flush
+with large amounts of water and get medical attention.
+Swallowing large amounts of D.O.T. 4 brake fluid can cause
+digestive discomfort. If swallowed, obtain medical atten-
+tion. Use in well ventilated area. KEEP OUT OF REACH OF
+CHILDREN. (00240a)
+D.O.T. 4 brake fluid will damage painted and body panel
+surfaces it comes in contact with. Always use caution and
+protect surfaces from spills whenever brake work is per-
+formed. Failure to comply can result in cosmetic damage.
+(00239b)
+Always replace brake pads in complete sets for correct
+and safe brake operation. Improper brake operation could
+result in death or serious injury. (00111a)
+See Figure 1-40. Replace brake pads if brake pad friction
+material on either the front or rear caliper is worn to 0.04 in
+(1.02 mm) or less (3) above the backing plate. Always replace
+both pads in a caliper as a set. See 1.16 BRAKE PADS AND
+DISCS: XL MODELS, Brake Pad Replacement: Front or
+1.16 BRAKE PADS AND DISCS: XL MODELS, Brake Pad
+Replacement: Rear.
+When checking the brake pads and discs, inspect the brake
+hoses for correct routing and any signs of damage or leakage.
+1
+2
+3
+sm07224
+1.
+Front, from below
+2.
+Rear, from above
+3.
+MIN thickness
+Figure 1-40. XL Brake Pad MIN Thickness
+Brake Disc Thickness, Lateral Runout and
+Warpage
+See Figure 1-41. The minimum brake disc thickness is stamped
+on the side of the disc. Replace disc if worn past minimum
+thickness or badly scored.
+Maximum brake disc lateral runout and warpage is 0.008 in
+(0.2 mm) when measured near the outside diameter.
+•
+To replace front brake disc(s), see 2.5 WHEELS, Front
+Wheel.
+•
+To replace rear brake disc, see 2.5 WHEELS, Rear Wheel.
+HOME
+1-40 2013 Sportster Service: Maintenance
+
+--- Page 65 ---
+4
+4
+5
+1
+3
+3
+2
+2
+4
+4
+3
+3
+sm01427
+1.
+Front brake caliper (from below)
+2.
+Brake disc
+3.
+Brake pad
+4.
+Brake pad backing plate
+5.
+Rear brake caliper (from rear)
+Figure 1-41. Brake Pads and Discs
+BRAKE PAD REPLACEMENT: FRONT
+TORQUE VALUE
+FASTENER
+14.8-19.6 Nm
+131-173
+in-lbs
+Brake pad pin
+2.0-2.9 Nm
+18-25 in-lbs
+Brake pad pin plug
+1.0-2.0 Nm
+9-17 in-lbs
+Brake master cylinder, front,
+reservoir cover screws
+D.O.T. 4 brake fluid will damage painted and body panel
+surfaces it comes in contact with. Always use caution and
+protect surfaces from spills whenever brake work is per-
+formed. Failure to comply can result in cosmetic damage.
+(00239b)
+NOTES
+•
+Do not remove front caliper(s) from mounting bracket
+unless caliper mounting pins require service. Caliper
+removal increases risk of contaminate damage.
+•
+If DOT 4 brake fluid contacts painted surfaces, IMMEDI-
+ATELY flush area with clear water.
+•
+Cover handlebar switches with a shop towel before adding
+brake fluid to front master cylinder reservoir. Spilling brake
+fluid on handlebar switches may render them inoperative.
+1.
+Position motorcycle so that front master cylinder reservoir
+is level.
+2.
+See Figure 1-42. Remove two screws (5), reservoir cover
+(4), diaphragm plate (3) and diaphragm (2) from master
+cylinder reservoir (1).
+3.
+Wrap a shop towel around the master cylinder reservoir
+to contain any brake fluid spills.
+NOTE
+As the pistons are pushed back into the caliper, fluid level may
+rise higher than fluid level mark at about 1/4 in (6.35 mm) below
+top of reservoir. You may have to remove fluid to allow for this.
+4.
+Press against the side of the brake caliper body to push
+the outside brake pad (pad closest to caliper pistons) back.
+This pushes the caliper pistons back into their bores.
+HOME
+2013 Sportster Service: Maintenance 1-41
+
+--- Page 66 ---
+5
+4
+1
+3
+2
+sm01421
+1.
+Front brake master cylinder assembly
+2.
+Diaphragm
+3.
+Diaphragm plate
+4.
+Reservoir cover
+5.
+Captive screw (2)
+Figure 1-42. Front Brake Master Cylinder Cover Assembly
+(typical)
+NOTES
+•
+See Figure 1-43. Verify that the pad spring is installed
+before installing the new pads.
+•
+Front and rear brake caliper pads are not interchangeable.
+sm01428
+Figure 1-43. Front Caliper Pad Spring
+5.
+See Figure 1-44. Remove pad pin plug (3).
+6.
+See Figure 1-45. Loosen, but do not remove, brake pad
+pin.
+NOTE
+Do not completely remove brake pad pin from caliper during
+the next step. Completely removing pad pin at this time may
+cause difficulty during assembly.
+7.
+Once the pistons have been fully retracted into their bores,
+pull pad pin part way until inside pad drops free. Note the
+pad's original orientation for replacement purposes.
+2
+1
+3
+4
+sm01429
+1.
+Front brake caliper
+2.
+Caliper mounting bracket
+3.
+Pad pin plug
+4.
+Caliper mounting pins
+Figure 1-44. Front Caliper Assembly
+sm01430
+Figure 1-45. Brake Pad Pin (plug removed)
+8.
+See Figure 1-46. Install new inside brake pad (1) using
+same orientation as pad previously removed. Align
+mounting tabs.
+9.
+While holding new inside pad in place, pull pad pin out
+and remove outside brake pad. Note the pad's original
+orientation for replacement purposes.
+10. Install new outside brake pad using the same orientation
+as pad previously removed. Align mounting tabs.
+11. Temporarily insert a 1/8 drill bit in caliper pad pin hole to
+hold both pads in place.
+12. Inspect pad pin for grooving and wear. Measure pad pin
+diameter in an unworn area, and then in the area of any
+HOME
+1-42 2013 Sportster Service: Maintenance
+
+--- Page 67 ---
+grooving or wear. If wear exceeds 0.011 in (0.28 mm),
+replace pin.
+3
+1
+1
+3
+2
+2
+4
+5
+sm01431
+1.
+Brake pad
+2.
+Front mounting tab
+3.
+Pad pin hole
+4.
+Front caliper mounting bracket
+5.
+Slot
+Figure 1-46. Front Brake Pads
+13. Press brake pads firmly up against pad spring. Remove
+drill bit. Install pad pin. Tighten to 131-173 in-lbs (14.8-
+19.6 Nm).
+NOTE
+If pad pin does not fit, check the following:
+•
+You are using a set of pads, not two identical pads.
+•
+Pad spring orientation must match Figure 1-43.
+•
+See Figure 1-46. Fully seat mounting tabs (2) in slot (5).
+•
+Push pads against pad spring before installing pad pin.
+14. See Figure 1-44. Install pad pin plug (3). Tighten to 18-25
+in-lbs (2.0-2.9 Nm).
+After servicing brakes and before moving motorcycle,
+pump brakes to build brake system pressure. Insufficient
+pressure can adversely affect brake performance, which
+could result in death or serious injury. (00279a)
+15. Pump brake lever to move pistons out until they contact
+outside brake pad. Verify piston location against pad.
+Direct contact of D.O.T. 4 brake fluid with eyes can cause
+irritation. Avoid eye contact. In case of eye contact flush
+with large amounts of water and get medical attention.
+Swallowing large amounts of D.O.T. 4 brake fluid can cause
+digestive discomfort. If swallowed, obtain medical atten-
+tion. Use in well ventilated area. KEEP OUT OF REACH OF
+CHILDREN. (00240a)
+D.O.T. 4 brake fluid will damage painted and body panel
+surfaces it comes in contact with. Always use caution and
+protect surfaces from spills whenever brake work is per-
+formed. Failure to comply can result in cosmetic damage.
+(00239b)
+NOTE
+If DOT 4 brake fluid contacts painted surfaces, IMMEDIATELY
+flush area with clear water.
+16. See Figure 1-47. Check brake fluid level in master cylinder.
+Add enough DOT 4 BRAKE FLUID to reservoir to bring
+fluid level even with ridge (1) cast into inside of reservoir,
+about 1/4 in (6.35 mm) below top edge.
+1
+2
+sm01422
+1.
+Cast-in ridge
+2.
+Sight glass
+Figure 1-47. Filling Front Master Cylinder Reservoir
+(typical)
+17. See Figure 1-42. Install diaphragm (2), diaphragm plate
+(3), reservoir cover (4) and screws (5) on front brake
+master cylinder reservoir. Tighten screws to 9-17 in-lbs
+(1.0-2.0 Nm).
+After repairing the brake system, test brakes at low speed.
+If brakes are not operating properly, testing at high speeds
+can cause loss of control, which could result in death or
+serious injury. (00289a)
+HOME
+2013 Sportster Service: Maintenance 1-43
+
+--- Page 68 ---
+18. Test brake system.
+a.
+Turn ignition switch ON. Pump brake lever to verify
+operation of the stop lamp.
+b.
+Test ride the motorcycle. If the brakes feel spongy,
+bleed the system. See 2.17 BLEEDING BRAKES.
+NOTE
+Avoid making hard stops for the first 100 mi (160 km). This
+allows the new pads to become conditioned to the brake discs.
+BRAKE PAD REPLACEMENT: REAR
+TORQUE VALUE
+FASTENER
+14.8-19.6 Nm
+131-173
+in-lbs
+Brake pad pin
+2.0-2.9 Nm
+18-25 in-lbs
+Brake pad pin plug
+D.O.T. 4 brake fluid will damage painted and body panel
+surfaces it comes in contact with. Always use caution and
+protect surfaces from spills whenever brake work is per-
+formed. Failure to comply can result in cosmetic damage.
+(00239b)
+NOTES
+•
+See Figure 1-50. Do not remove or loosen the caliper
+mounting pins (4). Removing caliper from mounting bracket
+increases the risk of contaminants falling into caliper boots
+and bushings. These contaminants could damage caliper
+during vehicle operation.
+•
+If DOT 4 brake fluid contacts painted surfaces, IMMEDI-
+ATELY flush area with clear water.
+1.
+Position vehicle on a flat level surface.
+NOTE
+See Figure 1-48. As the piston is pushed back into the caliper,
+fluid level may rise higher than the upper fluid level (3) in the
+reservoir (1). You may have to remove fluid to allow for this.
+2.
+See Figure 1-48. Remove rear master cylinder reservoir
+cap (2).
+3.
+Place a suitable container under the rear master cylinder
+to catch any fluid that may overflow.
+2
+4
+3
+5
+2
+1
+4
+3
+sm01425
+1.
+Rear brake master cylinder reservoir
+2.
+Reservoir cap
+3.
+Upper fluid level
+4.
+Lower fluid level
+5.
+Reservoir cover
+Figure 1-48. Rear Brake Master Cylinder Reservoir: XL
+Models
+4.
+Press against the side of the brake caliper body to push
+the outside brake pad (pad closest to caliper piston) back.
+This pushes the caliper piston back into its bore.
+NOTES
+•
+See Figure 1-49. Verify that the pad spring is installed
+before installing new pads.
+•
+Front and rear brake pads are not interchangeable.
+HOME
+1-44 2013 Sportster Service: Maintenance
+
+--- Page 69 ---
+sm01432
+Figure 1-49. Rear Caliper Pad Spring
+5.
+See Figure 1-50. Remove pad pin plug (3).
+6.
+See Figure 1-51. Loosen, but do not remove, brake pad
+pin.
+NOTE
+Do not completely remove brake pad pin from caliper during
+the next step. Completely removing pad pin at this time may
+cause difficulty during assembly.
+7.
+Once the piston has been fully retracted into its bore, pull
+pad pin part way until inside pad drops free. Note the pad's
+original orientation for replacement purposes.
+4
+3
+2
+1
+sm03590a
+1.
+Rear brake caliper
+2.
+Caliper mounting bracket
+3.
+Pad pin plug
+4.
+Caliper mounting pins
+Figure 1-50. Rear Caliper Assembly
+sm01434
+Figure 1-51. Brake Pad Pin (plug removed)
+8.
+See Figure 1-52. Install new inside brake pad (2) using
+same orientation as pad previously removed. Align
+mounting tabs.
+9.
+While holding new inside pad in place, pull pad pin out
+and remove outside brake pad (1). Note the pad's original
+orientation for replacement purposes.
+10. Install new outside brake pad using the same orientation
+as pad previously removed. Align mounting tabs.
+11. Temporarily insert a 1/8-in (3.175 mm) drill bit in caliper
+pad pin hole to hold pads in place.
+12. Inspect pad pin for grooving and wear. Measure pad pin
+diameter in an unworn area, and then in the area of any
+grooving or wear. If wear exceeds 0.011 in (0.28 mm),
+replace pin.
+13. Press brake pads firmly up against pad spring. Remove
+drill bit. Install pad pin. Tighten to 131-173 in-lbs (14.8-
+19.6 Nm).
+HOME
+2013 Sportster Service: Maintenance 1-45
+
+--- Page 70 ---
+NOTE
+If pad pin does not fit, check the following:
+•
+You are using a set of pads, not two identical pads.
+•
+Pad spring orientation must match Figure 1-49.
+•
+See Figure 1-52. Pad front mounting tabs (3) must be fully
+seated in mounting bracket slot (6).
+•
+Before the pad pin is installed, push pads up against the
+pad spring.
+14. See Figure 1-50. Install pad pin plug (3). Tighten to 18-25
+in-lbs (2.0-2.9 Nm).
+3
+4
+1
+2
+4
+5
+6
+sm01435a
+1.
+Outside brake pad
+2.
+Inside brake pad
+3.
+Front mounting tab
+4.
+Pad pin hole
+5.
+Rear caliper mounting bracket
+6.
+Slot
+Figure 1-52. Rear Brake Pads
+After servicing brakes and before moving motorcycle,
+pump brakes to build brake system pressure. Insufficient
+pressure can adversely affect brake performance, which
+could result in death or serious injury. (00279a)
+15. Pump brake pedal to move piston out until it contacts
+outside brake pad. Verify piston location against pad.
+Direct contact of D.O.T. 4 brake fluid with eyes can cause
+irritation. Avoid eye contact. In case of eye contact flush
+with large amounts of water and get medical attention.
+Swallowing large amounts of D.O.T. 4 brake fluid can cause
+digestive discomfort. If swallowed, obtain medical atten-
+tion. Use in well ventilated area. KEEP OUT OF REACH OF
+CHILDREN. (00240a)
+D.O.T. 4 brake fluid will damage painted and body panel
+surfaces it comes in contact with. Always use caution and
+protect surfaces from spills whenever brake work is per-
+formed. Failure to comply can result in cosmetic damage.
+(00239b)
+NOTES
+•
+If DOT 4 brake fluid contacts painted surfaces, IMMEDI-
+ATELY flush area with clear water.
+•
+Fill the rear brake master cylinder reservoir must be in a
+level position.
+•
+See Figure 1-48. Reservoir cover (5) may be removed
+from rear brake master cylinder reservoir (1) to more easily
+verify fluid level in reservoir.
+16. See Figure 1-48. If desired, remove rear brake master
+cylinder reservoir cover (5) by grasping cover and gently
+pulling it straight away from reservoir (1).
+17. Check brake fluid level in master cylinder reservoir. If
+necessary, add DOT 4 BRAKE FLUID to reservoir until
+fluid reaches upper fluid level (3).
+18. Replace master cylinder reservoir cap (2). Replace
+reservoir cover (5), if removed.
+After repairing the brake system, test brakes at low speed.
+If brakes are not operating properly, testing at high speeds
+can cause loss of control, which could result in death or
+serious injury. (00289a)
+19. Test brake system.
+a.
+Turn ignition switch ON. Pump brake pedal to verify
+operation of the stop lamp.
+b.
+Test ride motorcycle at low speed. If the brakes feel
+spongy, bleed the system. See 2.17 BLEEDING
+BRAKES.
+NOTE
+Avoid making hard stops for the first 100 mi (160 km). This
+allows the new pads to become conditioned to the brake discs.
+HOME
+1-46 2013 Sportster Service: Maintenance
+
+--- Page 71 ---
+1.17
+BRAKE PADS AND DISCS: XR 1200X
+INSPECTION
+Brake Pads
+Always replace brake pads in complete sets for correct
+and safe brake operation. Improper brake operation could
+result in death or serious injury. (00111a)
+Direct contact of D.O.T. 4 brake fluid with eyes can cause
+irritation. Avoid eye contact. In case of eye contact flush
+with large amounts of water and get medical attention.
+Swallowing large amounts of D.O.T. 4 brake fluid can cause
+digestive discomfort. If swallowed, obtain medical atten-
+tion. Use in well ventilated area. KEEP OUT OF REACH OF
+CHILDREN. (00240a)
+D.O.T. 4 brake fluid will damage painted and body panel
+surfaces it comes in contact with. Always use caution and
+protect surfaces from spills whenever brake work is per-
+formed. Failure to comply can result in cosmetic damage.
+(00239b)
+See Figure 1-53. Replace brake pads if thickness of brake pad
+friction material (3) is worn to 0.040 in (1.02 mm) or less.
+Always replace both pads in a caliper as a set. See
+1.17 BRAKE PADS AND DISCS: XR 1200X, Brake Pad
+Replacement: Front or 1.17 BRAKE PADS AND DISCS: XR
+1200X, Brake Pad Replacement: Rear.
+When checking the brake pads and discs, inspect the brake
+hoses for correct routing and any signs of damage or leakage.
+Brake Disc Thickness, Lateral Runout and
+Warpage
+See Figure 1-54. The minimum brake disc (4) thickness is
+stamped on the side of the disc. Replace disc if worn past
+minimum thickness or badly scored.
+Maximum brake disc lateral runout and warpage is 0.008 in
+(0.2 mm) when measured near the outside diameter.
+•
+To replace front brake disc(s), see 2.5 WHEELS, Front
+Wheel.
+•
+To replace rear brake disc, see 2.5 WHEELS, Rear Wheel.
+1
+3
+2
+sm07225
+1.
+Front, from below
+2.
+Rear, from above
+3.
+MIN thickness
+Figure 1-53. Brake Pad MIN Thickness: XR 1200X
+4
+3
+2
+1
+sm05127
+1.
+Friction material thickness
+2.
+Pad backing plate
+3.
+Friction material
+4.
+Brake disc
+Figure 1-54. Brake Pad Inspection (front brake shown)
+HOME
+2013 Sportster Service: Maintenance 1-47
+
+--- Page 72 ---
+BRAKE PAD REPLACEMENT: FRONT
+TORQUE VALUE
+FASTENER
+14.8-19.6 Nm
+131-173
+in-lbs
+Brake pad pin
+1.0-2.0 Nm
+9-17 in-lbs
+Brake master cylinder, front,
+reservoir cover screws
+Removal
+D.O.T. 4 brake fluid will damage painted and body panel
+surfaces it comes in contact with. Always use caution and
+protect surfaces from spills whenever brake work is per-
+formed. Failure to comply can result in cosmetic damage.
+(00239b)
+NOTES
+•
+If DOT 4 brake fluid contacts painted surfaces, IMMEDI-
+ATELY flush area with clear water.
+•
+Cover handlebar switches with a shop towel before adding
+brake fluid to front master cylinder reservoir. Spilling brake
+fluid on handlebar switches may render them inoperative.
+1.
+Turn handlebar to level the front master cylinder reservoir.
+2.
+See Figure 1-55. Remove two screws (5), reservoir cover
+(4), diaphragm plate (3) and diaphragm (2) from master
+cylinder reservoir (1).
+NOTE
+As the pistons are pushed back into the caliper, fluid level may
+rise higher than fluid level mark at about 1/4 in (6.35 mm) below
+top of reservoir. Remove fluid as necessary to prevent overflow.
+3.
+Wrap a shop towel around the master cylinder reservoir
+to contain any brake fluid spills.
+4.
+Pry between the brake pads and brake disc to force all
+caliper pistons back into their bores. Do not to scratch the
+rotor or cause warpage.
+5
+4
+1
+3
+2
+sm01421
+1.
+Front brake master cylinder assembly
+2.
+Diaphragm
+3.
+Diaphragm plate
+4.
+Reservoir cover
+5.
+Captive screw (2)
+Figure 1-55. Front Brake Master Cylinder Cover Assembly
+(typical)
+5.
+See Figure 1-56. Remove pad pins (1).
+6.
+Remove pad spring (2) and brake pads through opening
+in caliper assembly.
+NOTE
+The pad pins are manufactured with a relief near the center of
+their length, where the pad spring touches. Do not use this
+area as a measurement point to determine pad pin wear.
+7.
+Inspect pad pin for grooving and wear. Measure pad pin
+diameter in an unworn area and in the area of any grooving
+or wear. If wear exceeds 0.011 in (0.28 mm), replace pin.
+8.
+Inspect pad spring for wear or cracks. Replace if neces-
+sary.
+HOME
+1-48 2013 Sportster Service: Maintenance
+
+--- Page 73 ---
+2
+1
+1
+sm05128b
+1.
+Pad pins
+2.
+Pad spring
+Figure 1-56. Front Caliper Assembly: XR 1200X
+Installation
+NOTE
+See Figure 1-57. When replacing front brake pads, make sure
+pad spring is installed with the arrow and word UP (2) pointing
+up and captured by both pad pins (3).
+1.
+See Figure 1-56. Install new outer brake pad and pad
+spring. Make sure friction material faces brake disc.
+NOTE
+If pad pin does not fit, check the following:
+•
+You are using the correct set of pads.
+•
+Pad spring orientation must match Figure 1-57.
+•
+Push pads tight up against pad spring before pad pins are
+installed.
+2.
+While holding new outer pad in place, insert pad pins
+through holes in tabs of pad and into pad spring.
+3.
+Install new inner brake pad, making sure friction material
+faces brake disc.
+4.
+Push pad pins through holes in tabs of inner pad and into
+holes in caliper housing.
+5.
+Tighten pad pins to 131-173 in-lbs (14.8-19.6 Nm).
+1
+3
+2
+sm05101
+1.
+Banjo bolt hole
+2.
+Arrow and word "UP"
+3.
+Pad pins (2)
+Figure 1-57. Front Caliper Pad Spring Orientation
+After servicing brakes and before moving motorcycle,
+pump brakes to build brake system pressure. Insufficient
+pressure can adversely affect brake performance, which
+could result in death or serious injury. (00279a)
+6.
+Pump brake lever to move pistons out until they contact
+outside brake pad. Verify piston location against pad.
+Direct contact of D.O.T. 4 brake fluid with eyes can cause
+irritation. Avoid eye contact. In case of eye contact flush
+with large amounts of water and get medical attention.
+Swallowing large amounts of D.O.T. 4 brake fluid can cause
+digestive discomfort. If swallowed, obtain medical atten-
+tion. Use in well ventilated area. KEEP OUT OF REACH OF
+CHILDREN. (00240a)
+D.O.T. 4 brake fluid will damage painted and body panel
+surfaces it comes in contact with. Always use caution and
+protect surfaces from spills whenever brake work is per-
+formed. Failure to comply can result in cosmetic damage.
+(00239b)
+NOTE
+If DOT 4 brake fluid contacts painted surfaces, IMMEDIATELY
+flush area with clear water.
+7.
+See Figure 1-58. Check brake fluid level in master cylinder.
+Add enough DOT 4 BRAKE FLUID to reservoir to bring
+fluid level even with ridge (1) cast into inside of reservoir,
+about 1/4 in (6.35 mm) below top edge.
+HOME
+2013 Sportster Service: Maintenance 1-49
+
+--- Page 74 ---
+1
+2
+sm01422
+1.
+Cast-in ridge
+2.
+Sight glass
+Figure 1-58. Filling Front Master Cylinder Reservoir
+(typical)
+8.
+See Figure 1-55. Install diaphragm (2), diaphragm plate
+(3), reservoir cover (4) and screws (5) on front brake
+master cylinder reservoir. Tighten screws to 9-17 in-lbs
+(1.0-2.0 Nm).
+After repairing the brake system, test brakes at low speed.
+If brakes are not operating properly, testing at high speeds
+can cause loss of control, which could result in death or
+serious injury. (00289a)
+9.
+Test brake system.
+a.
+Turn ignition switch ON. Pump brake lever to verify
+operation of the stop lamp.
+b.
+Test ride the motorcycle at low speed. If the brakes
+feel spongy, bleed the system. See 2.17 BLEEDING
+BRAKES.
+NOTE
+Avoid making hard stops for the first 100 mi (160 km). This
+allows the new pads to become conditioned to the brake discs.
+BRAKE PAD REPLACEMENT: REAR
+TORQUE VALUE
+FASTENER
+14.8-19.6 Nm
+131-173
+in-lbs
+Brake pad pin
+2.0-2.9 Nm
+18-25 in-lbs
+Brake pad pin plug
+Removal
+D.O.T. 4 brake fluid will damage painted and body panel
+surfaces it comes in contact with. Always use caution and
+protect surfaces from spills whenever brake work is per-
+formed. Failure to comply can result in cosmetic damage.
+(00239b)
+NOTES
+•
+Do not remove rear caliper from mounting bracket unless
+caliper mounting pins and boots require service. Removing
+caliper from mounting bracket unnecessarily increases
+the risk of contaminants falling into caliper boots and
+bushings. These contaminants could damage caliper
+during vehicle operation.
+•
+See Figure 1-60. It is not required or recommended to
+remove or loosen the caliper mounting fasteners (2).
+•
+It is not necessary or recommended to remove the rear
+brake caliper from the caliper mounting bracket to replace
+pads.
+•
+If DOT 4 brake fluid contacts painted surfaces, IMMEDI-
+ATELY flush area with clear water.
+1.
+Place motorcycle in an upright, level position.
+2.
+Remove rear master cylinder reservoir cover.
+3.
+Place a suitable container under the rear master cylinder
+to catch any fluid that may overflow.
+NOTE
+The fluid level can rise above the upper fluid level in the
+reservoir. Remove fluid as necessary.
+4.
+Press against the outside of the brake caliper body to push
+the caliper piston back into its bore, forcing fluid back to
+the reservoir.
+NOTE
+See Figure 1-59. Verify that pad spring is installed before
+installing new pads.
+sm05122
+Figure 1-59. Rear Caliper Pad Spring
+NOTE
+Left shock absorber is disconnected from rear fork for clarity
+of photograph. Pad replacement does not require the shock
+be disconnected.
+5.
+See Figure 1-60. Remove pad pin plug (1).
+6.
+Loosen, but do not remove, brake pad pin (metric).
+7.
+Pull pad pin part way out until inner pad drops free.
+Remove pad and note the pad's original orientation for
+replacement purposes.
+8.
+Continue to remove pad pin until outer pad drops free.
+HOME
+1-50 2013 Sportster Service: Maintenance
+
+--- Page 75 ---
+9.
+Inspect pad pin for grooving and wear.
+10. Measure pad pin diameter in an unworn area and then in
+the area of any grooving or wear. If wear exceeds 0.011
+in (0.28 mm), replace pin.
+1
+2
+2
+sm05129a
+1.
+Pad pin plug
+2.
+Mounting fasteners
+Figure 1-60. Rear Caliper Assembly: XR 1200X
+Installation
+NOTE
+The caliper and mounting bracket are shown removed for clarity
+of photograph. Removal is not required to replace brake pads.
+1.
+See Figure 1-61. Install new outside brake pad using the
+same orientation as pad previously removed. Make sure
+front mounting tab (3) is seated in slot (6) in caliper
+mounting bracket and pad friction material faces brake
+disc.
+2.
+Install pad pin into caliper and through outer pad.
+3.
+Position inner pad and continue to install pad pin while
+pressing brake pads firmly up against pad spring. Tighten
+pad pin to 131-173 in-lbs (14.8-19.6 Nm).
+NOTE
+If pad pin does not fit, check the following:
+•
+The part number of the pads.
+•
+See Figure 1-59. Check pad spring orientation.
+•
+See Figure 1-61. Pad front mounting tabs (3) must be fully
+seated in mounting bracket slot (6).
+•
+Push the pads tight up against pad spring before pad pin
+is installed.
+4.
+Install pad pin plug. Tighten to 18-25 in-lbs (2.0-2.9 Nm).
+3
+4
+1
+2
+4
+5
+6
+sm01435a
+1.
+Outside brake pad
+2.
+Inside brake pad
+3.
+Front mounting tab
+4.
+Pad pin hole
+5.
+Rear caliper mounting bracket
+6.
+Slot
+Figure 1-61. Rear Brake Pads: XR 1200X
+After servicing brakes and before moving motorcycle,
+pump brakes to build brake system pressure. Insufficient
+pressure can adversely affect brake performance, which
+could result in death or serious injury. (00279a)
+5.
+Pump brake pedal to move piston out until it contacts
+outside brake pad. Verify piston location against pad.
+Direct contact of D.O.T. 4 brake fluid with eyes can cause
+irritation. Avoid eye contact. In case of eye contact flush
+with large amounts of water and get medical attention.
+Swallowing large amounts of D.O.T. 4 brake fluid can cause
+digestive discomfort. If swallowed, obtain medical atten-
+tion. Use in well ventilated area. KEEP OUT OF REACH OF
+CHILDREN. (00240a)
+NOTE
+Position rear brake master cylinder reservoir level when filling
+or checking fluid level
+6.
+Check brake fluid level in master cylinder reservoir. If
+necessary, add DOT 4 BRAKE FLUID to reservoir until
+fluid reaches upper fluid level.
+7.
+Replace reservoir cover.
+HOME
+2013 Sportster Service: Maintenance 1-51
+
+--- Page 76 ---
+After repairing the brake system, test brakes at low speed.
+If brakes are not operating properly, testing at high speeds
+can cause loss of control, which could result in death or
+serious injury. (00289a)
+8.
+Test brake system.
+a.
+Turn ignition switch ON. Pump brake pedal to verify
+operation of the stop lamp.
+b.
+Test ride motorcycle at low speed. If the brakes feel
+spongy, bleed the system. See 2.17 BLEEDING
+BRAKES.
+NOTE
+Avoid making hard stops for the first 100 mi (160 km). This
+allows the new pads to become conditioned to the brake discs.
+HOME
+1-52 2013 Sportster Service: Maintenance
+
+--- Page 77 ---
+1.18
+SPARK PLUGS
+REMOVAL
+Disconnecting spark plug cable with engine running can
+result in electric shock and death or serious injury.
+(00464b)
+NOTE
+Allow the engine to cool before servicing.
+1.
+Disconnect spark plug cables.
+2.
+Remove spark plugs.
+INSPECTION
+NOTE
+Discard plugs with eroded electrodes, heavy deposits or a
+cracked insulator.
+See Figure 1-62. Compare plug deposits to Table 1-16.
+1
+2
+3
+4
+sm00099a
+Figure 1-62. Spark Plug Deposits
+Table 1-16. Spark Plug Deposit Analysis
+POSSIBLE CAUSE
+DEPOSITS
+PLUG*
+Worn pistons
+Worn piston rings
+Worn valves
+Worn valve guides
+Worn valve seals
+Weak battery
+Faulty ignition system
+Wet, black and shiny
+1
+Air-fuel mixture too rich
+Dry, fluffy or sooty
+and black
+2
+Air-fuel mixture too lean
+Hot running engine
+Valves not seating
+Improper ignition timing
+Light brown and
+glassy**
+May be accompanied
+by cracks in the insu-
+lator or by electrode
+erosion.
+3
+Balanced combustion
+Clean off deposits at regular
+intervals.
+White, gray or tan
+and powdery
+4
+* See Figure 1-62.
+** The glassy deposit on a spark plug may cause high-speed
+misfiring.
+CLEANING
+Compressed air can pierce the skin and flying debris from
+compressed air could cause serious eye injury. Wear
+safety glasses when working with compressed air. Never
+use your hand to check for air leaks or to determine air
+flow rates. (00061a)
+If the plugs require cleaning between tune-ups:
+1.
+Clean electrodes and insulator with electrical contact
+cleaner. Dry plug with compressed air.
+2.
+Use a thin file to flatten electrodes.
+NOTE
+Electrodes with sharp edges require 25-40 percent less voltage
+than ones with rounded edges.
+3.
+Check condition of threads in cylinder head. Use a penet-
+rating oil and clean out with a thread chaser. Verify that
+plug threads are clean.
+4.
+If necessary, replace with new spark plugs.
+INSTALLATION
+TORQUE VALUE
+FASTENER
+16.3-24.4 Nm
+12-18 ft-lbs
+Spark plug
+1.
+Verify proper gap before installing new or cleaned spark
+plugs.
+a.
+Select a wire-type feeler gauge within specification.
+Refer to Table 1-17.
+HOME
+2013 Sportster Service: Maintenance 1-53
+
+--- Page 78 ---
+NOTE
+The spark plug gap is within specification when there is a
+slight drag on the gauge.
+b.
+Pass the wire gauge between the center and the outer
+electrodes.
+c.
+If necessary use the proper tool to bend the outer
+electrode to bring the gap to within specification.
+2.
+Apply ANTI-SEIZE LUBRICANT to the spark plug threads.
+Tighten to 12-18 ft-lbs (16.3-24.4 Nm).
+3.
+See Figure 1-63. Connect spark plug cables. Verify cables
+are connected to coil, spark plugs and anchor clips or
+harness caddies.
+sm07488
+Figure 1-63. Spark Plug Cable Routing: All Models
+Table 1-17. Spark Plug Gap
+mm
+in
+TYPE
+MODEL
+0.97-1.09
+0.038-0.043
+6R12
+XL
+0.81-0.97
+0.032-0.038
+10R12X
+XR
+SPARK PLUG CABLE INSPECTION
+1.
+Inspect spark plug cables. Replace if necessary.
+a.
+Check for cracks or loose terminals.
+b.
+Check for loose fit on ignition coil and spark plugs.
+2.
+Check cable boots/caps for cracks or tears. Replace
+boots/caps that are worn or damaged.
+3.
+See Figure 1-64. Check spark plug cable resistance with
+an ohmmeter. Replace cables not meeting resistance
+specifications. Refer to Table 1-18.
+Table 1-18. Spark Plug Cable Resistance
+RESISTANCE (OHMS)
+CABLE
+1,750-4,836
+Front
+4,843-15,420
+Rear
+1
+3
+2
+4
+sm02659a
+1.
+Ohmmeter positive lead
+2.
+Ohmmeter negative lead
+3.
+Spark plug cable
+4.
+Ohmmeter
+Figure 1-64. Testing Resistance
+HOME
+1-54 2013 Sportster Service: Maintenance
+
+--- Page 79 ---
+1.19
+STEERING HEAD BEARINGS
+FALL-AWAY
+TORQUE VALUE
+FASTENER
+40.7-47.5 Nm
+30-35 ft-lbs
+Fork stem pinch bolt
+40.7-47.5 Nm
+30-35 ft-lbs
+Fork bracket pinch screw
+Measurement
+1.
+Raise the front wheel off the floor.
+2.
+Remove the components that interfere with front fork
+swing.
+3.
+Disconnect the clutch cable.
+4.
+Cover the front fender tip with a strip of masking tape.
+5.
+Install a pointer mounted to a floor stand. With the front
+wheel pointed straight ahead, position the pointer at the
+center of the fender.
+6.
+Tap the fender on one side until the front fork begins to
+pivot (fall-away) without being tapped. Mark that point.
+Repeat in the opposite direction.
+7.
+Measure the distance between the two fall-away marks.
+8.
+If fall-away is not within specification, adjust the fork stem
+bolt. Refer to Table 1-19.
+Table 1-19. Fall-Away Specifications
+MAXIMUM
+MINIMUM
+MODEL
+mm
+in
+mm
+in
+50
+2.0
+25
+1.0
+XL models
+100
+4.0
+50
+2.0
+XR 1200X
+Adjustment
+1.
+See Figure 1-65. Loosen the two lower bracket pinch
+screws (2) and the fork stem pinch screw (1).
+2.
+Adjust fall-away:
+a.
+If fall-away is more than the maximum, loosen the
+fork stem bolt (3).
+b.
+If fall-away is less than the minimum, tighten the fork
+stem bolt.
+3.
+Tighten the fork stem pinch screw to 30-35 ft-lbs (40.7-
+47.5 Nm) and tighten the lower bracket pinch screws to
+30-35 ft-lbs (40.7-47.5 Nm).
+4.
+Verify fall-away.
+LUBRICATION
+See Figure 1-65. Disassemble the steering head assembly
+and lubricate the tapered roller bearings with SPECIAL PUR-
+POSE GREASE. See 2.21 FORK STEM AND BRACKET
+ASSEMBLY.
+3
+2
+1
+2
+sm06644a
+1.
+Fork stem pinch screw
+2.
+Bracket pinch screws
+3.
+Fork stem bolt
+Figure 1-65. Steering Head Assembly (typical)
+HOME
+2013 Sportster Service: Maintenance 1-55
+
+--- Page 80 ---
+1.20
+CRITICAL FASTENERS
+INSPECTION
+Checking Torques on Fasteners
+Inspect critical fasteners at the scheduled service intervals.
+Replace any damaged or missing fasteners.
+1.
+Attempt to turn the fastener using a torque wrench set to
+the minimum torque specification for that fastener. Refer
+to Table 1-20.
+a.
+If the fastener does not rotate, the fastener torque
+has been maintained. No further attention is neces-
+sary.
+b.
+If the fastener rotates, remove it to determine if it has
+a locking agent.
+c.
+If it has a locking agent, clean all locking material from
+the threaded hole. Replace the fastener with a new
+one or clean the original fastener threads and apply
+the appropriate locking agent (see appropriate pro-
+cedure).
+d.
+Install fastener. Tighten to specification.
+2.
+If the fastener does not have a locking agent, install
+fastener. Tighten to specification.
+Table 1-20. Critical Fasteners
+TORQUE
+FASTENER
+SYSTEM
+4.0-5.1 Nm
+35-45 in-lbs
+Switch housing screws, upper and lower
+Hand controls
+12.2-14.9 Nm
+108-132 in-lbs
+Clutch lever handlebar clamp screws
+12.2-14.9 Nm
+108-132 in-lbs
+Master cylinder handlebar clamp screws
+33.9-47.5 Nm
+25-35 ft-lbs
+Stabilizer link screws
+Engine
+33.9-47.5 Nm
+25-35 ft-lbs
+Stabilizer link frame bracket mounting
+screws, upper front
+74.6-88.2 Nm
+55-65 ft-lbs
+Stabilizer link engine bracket mounting
+screws, upper front
+33.9-47.5 Nm
+25-35 ft-lbs
+Stabilizer link frame bracket mounting
+screws, lower front
+129-142 Nm
+95-105 ft-lbs
+Isolator mounting bolt, front
+81.4-95.0 Nm
+60-70 ft-lbs
+Fork pivot/engine mount bolts
+33.9-47.5 Nm
+25-35 ft-lbs
+Isolator mounting bracket screws, front (left
+side)
+33.9-47.5 Nm
+25-35 ft-lbs
+Isolator mounting bracket screws, rear (left
+side)
+27.1-33.9 Nm
+20-25 ft-lbs
+Brake line banjo bolts
+Brakes
+21.7-32.6 Nm
+16-24 ft-lbs
+Brake disc mounting screws, front
+40.7-61.1 Nm
+30-45 ft-lbs
+Brake disc mounting screws, rear
+1.0-2.0 Nm
+9-17 in-lbs
+Reservoir cover screws, front
+23.1-29.9 Nm
+17-22 ft-lbs
+Master cylinder mounting screws, rear: XL
+8.1-10.9 Nm
+72-96 in-lbs
+Master cylinder mounting screws, rear: XR
+23.1-29.9 Nm
+17-22 ft-lbs
+Master cylinder bracket-to-frame mounting
+screws, rear: XL
+61-67.8 Nm
+45-50 ft-lbs
+Master cylinder/footrest bracket-to-frame
+mounting screws, rear: XR
+38.0-51.6 Nm
+28-38 ft-lbs
+Brake caliper mounting bolts, front
+81-88 Nm
+60-65 ft-lbs
+Front
+Axle nuts
+129-142 Nm
+95-105 ft-lbs
+Rear
+HOME
+1-56 2013 Sportster Service: Maintenance
+
+--- Page 81 ---
+Table 1-20. Critical Fasteners
+TORQUE
+FASTENER
+SYSTEM
+40.7-47.5 Nm
+30-35 ft-lbs
+Lower bracket pinch screws
+Front fork/handlebar
+40.7-47.5 Nm
+30-35 ft-lbs
+Fork upper bracket pinch screws
+31.2-36.6 Nm, loosen,
+23-27 ft-lbs, loosen,
+Fork stem bolt
+8.1-10.9 Nm
+72-96 in-lbs
+40.7-47.5 Nm
+30-35 ft-lbs
+Fork stem pinch screw
+28.5-36.6 Nm
+21-27 ft-lbs
+Axle pinch screw, front: XL
+55.6-65.1 Nm
+41-48 ft-lbs
+Axle pinch screw, front: XR
+16.3-24.4 Nm
+12-18 ft-lbs
+Handlebar clamp mounting screw
+40.7-54.3 Nm
+30-40 ft-lbs
+Riser mounting bolts
+81.3 Nm, loosen 180
+degrees, 108 Nm
+60 ft-lbs, loosen 180 degrees,
+80 ft-lbs
+Sprocket mounting bolts, rear
+Final drive
+HOME
+2013 Sportster Service: Maintenance 1-57
+
+--- Page 82 ---
+1.21
+ENGINE MOUNTS AND STABILIZER LINKS
+INSPECTION
+Check engine mounts and stabilizer links as follows:
+1.
+See Figure 1-66. Check for cracks or tears in engine mount
+isolator rubber (17, 18).
+2.
+Check for lateral movement at each end of the three sta-
+bilizer links (8). Any lateral movement indicates the need
+to replace the stabilizer link. Rotational movement does
+not indicate excess wear.
+3.
+Check that all engine mount bolts and stabilizer link screws
+are tight. See 2.25 STABILIZER LINKS, 2.26 FRONT
+ENGINE MOUNT/ISOLATOR, or 2.27 REAR ENGINE
+MOUNT/ISOLATOR for torque specifications.
+4.
+Check that the mounts are supporting the weight of the
+motor.
+20
+4
+15
+3
+4
+5
+15
+8
+12
+4
+9
+17
+11
+6
+3
+4
+19
+8
+20
+18
+14
+1
+18
+10
+13
+16
+4
+8
+7
+2
+5
+sm03285
+15.
+8.
+1.
+Stabilizer link bracket (2)
+Stabilizer link (3)
+Screw (3)
+2.
+16.
+9.
+Screw (2)
+Engine bracket
+Front isolator mount
+10.
+3.
+17.
+Rear isolator mount
+Screw (3)
+Front mount isolator (2)
+18.
+11.
+4.
+Rear mount isolator (2)
+Nut
+Screw (11)
+5.
+19.
+12.
+Washer (4)
+Grounding strap
+Bolt
+13.
+6.
+20.
+Rear fork pivot shaft
+Spacer
+Rear fork pivot bolt (2)
+14.
+7.
+Rear pivot lockplate
+Lockwasher (2)
+Figure 1-66. Engine Mounting Assemblies: All Models (typical)
+HOME
+1-58 2013 Sportster Service: Maintenance
+
+--- Page 83 ---
+1.22
+BATTERY MAINTENANCE
+GENERAL
+Batteries contain sulfuric acid, which could cause severe
+burns to eyes and skin. Wear a protective face shield,
+rubberized gloves and protective clothing when working
+with batteries. KEEP BATTERIES AWAY FROM CHILDREN.
+(00063a)
+Never remove warning label attached to top of battery.
+Failure to read and understand all precautions contained
+in warning, could result in death or serious injury. (00064a)
+Batteries, battery posts, terminals and related accessories
+contain lead and lead compounds, and other chemicals
+known to the State of California to cause cancer, and birth
+defects or other reproductive harm. Wash hands after
+handling. (00019e)
+Keep battery clean and lightly coat terminals with petro-
+leum jelly to prevent corrosion. Failure to do so could
+result in damage to battery terminals. (00217a)
+AGM batteries are permanently sealed, maintenance-free,
+valve-regulated, lead/calcium and sulfuric acid batteries. The
+batteries are shipped pre-charged and ready to be put into
+service. Do not attempt to open these batteries for any reason.
+NOTE
+For charging information, see 1.22 BATTERY MAINTENANCE,
+Charging Battery. For testing information, see the electrical
+diagnostic manual.
+3
+4
+2
+1
+sm03272
+1.
+Warning label
+2.
+Positive (+) terminal
+3.
+Negative (-) terminal
+4.
+Warranty/date code label
+Figure 1-67. Battery
+1
+2
+3
+4
+5
+6
+om00618
+4.
+1.
+Keep flames away
+Contents are corrosive
+2.
+5.
+Wear safety glasses
+Read instructions
+6.
+3.
+Keep away from children
+Contents are explosive
+Figure 1-68. Battery Warning Label
+HOME
+2013 Sportster Service: Maintenance 1-59
+
+--- Page 84 ---
+Table 1-21. Antidotes for Battery Acid
+TREATMENT
+CONTACT
+Flush with water.
+External
+Drink large quantities of milk or water, followed
+by milk of magnesia, vegetable oil or beaten
+eggs. Get immediate medical attention.
+Internal
+Flush with water. Get immediate medical
+attention.
+Eyes
+BATTERY DISCONNECTION AND REMOVAL
+Disconnect negative (-) battery cable first. If positive (+)
+cable should contact ground with negative (-) cable con-
+nected, the resulting sparks can cause a battery explosion,
+which could result in death or serious injury. (00049a)
+1.
+Open left side cover.
+NOTE
+Models with sirens: Verify that fob is present and turn ignition
+key to IGNITION before removing main fuse or disconnecting
+battery.
+2.
+See Figure 1-69. Using a swivel socket (2), remove nut
+that secures the negative (-) battery cable (1) connector
+to ground stud (4) on crankcase boss behind starter motor
+assembly (3). Remove cable connector from stud.
+3.
+See Figure 1-70. Pull end of negative (-) cable (2) forward
+gently to free it from cable holder (1).
+4.
+See Figure 1-71. Press main fuse holder (1) toward the
+rear of the motorcycle until it pops off its mounting pin on
+battery strap (4). Remove main fuse holder from battery
+strap.
+5.
+Press data link connector (6) toward the rear of the
+motorcycle until it pops off its mounting pin on battery
+strap. Remove the connector from battery strap.
+6.
+Remove battery strap screw (5). Unhook battery strap
+from battery tray mount on top of battery and remove strap.
+7.
+Lift up protective rubber boot covering battery positive (+)
+terminal (3). Remove screw from battery positive (+) ter-
+minal and remove positive (+) battery cable.
+8.
+Disconnect positive (+) battery cable from cable holder
+(2).
+9.
+Slide the battery (with attached negative cable) out the
+left side until the negative battery cable is accessible.
+10. Disconnect the negative battery cable at the battery (-)
+terminal. Leave the cable on the vehicle.
+11. Remove battery from battery tray. Note routing of negative
+(-) battery cable around frame downtube.
+12. If battery is to be stored out of the motorcycle, close left
+side cover.
+1
+2
+3
+4
+sm06658
+1.
+Negative (-) battery cable
+2.
+Swivel socket
+3.
+Starter motor assembly
+4.
+Ground stud
+Figure 1-69. Negative (-) Battery Connection
+1
+2
+sm06659
+1.
+Cable holder
+2.
+Negative battery cable
+Figure 1-70. Negative (-) Battery Cable Holder
+HOME
+1-60 2013 Sportster Service: Maintenance
+
+--- Page 85 ---
+3
+4
+1
+5
+6
+2
+sm06657
+1.
+Main fuse and holder
+2.
+Positive (+) battery cable holder
+3.
+Positive (+) battery terminal (under protective
+rubber boot)
+4.
+Battery strap
+5.
+Screw
+6.
+Data link connector
+Figure 1-71. Main Fuse and Battery Location: All Models
+CLEANING AND INSPECTION
+NOTE
+Battery top must be clean and dry. Dirt and electrolyte on top
+of the battery causes battery to self-discharge.
+1.
+Clean battery top with a solution of baking soda (sodium
+bicarbonate) and water (5 teaspoons baking soda per
+quart or liter of water).
+2.
+When the solution stops bubbling, rinse off the battery with
+clean water.
+3.
+Clean cable connectors and battery terminals using a wire
+brush or sandpaper. Remove any oxidation.
+4.
+Inspect the battery screws, and cables for breakage, loose
+connections and corrosion.
+5.
+Check the battery terminals for melting or damage caused
+by over-tightening.
+6.
+Inspect the battery for discoloration, raised top or a warped
+or distorted case. This might indicate that the battery has
+been frozen, overheated or overcharged.
+7.
+Inspect the battery case for cracks or leaks.
+VOLTMETER TEST
+Batteries contain sulfuric acid, which could cause severe
+burns to eyes and skin. Wear a protective face shield,
+rubberized gloves and protective clothing when working
+with batteries. KEEP BATTERIES AWAY FROM CHILDREN.
+(00063a)
+Never remove warning label attached to top of battery.
+Failure to read and understand all precautions contained
+in warning, could result in death or serious injury. (00064a)
+Voltmeter Test
+The voltmeter test provides a general indicator of battery con-
+dition. Check the voltage of the battery to verify that it is fully
+charged.
+1.
+If the open circuit (disconnected) voltage reading is below
+12.6 V:
+a.
+Charge the battery.
+b.
+Check the voltage after the battery has set for at least
+one hour.
+2.
+If the voltage reading is 12.7 V or above:
+a.
+Perform a battery diagnostic test. See the electrical
+diagnostic manual for the load test procedure.
+b.
+Refer to Table 1-22.
+Table 1-22. Voltmeter Test For Battery Charge Conditions
+STATE OF CHARGE
+VOLTAGE (OCV)
+100%
+12.7 V
+75%
+12.6 V
+50%
+12.3 V
+25%
+12.0 V
+0%
+11.8 V
+CHARGING BATTERY
+Safety Precautions
+An automatic, constant monitoring battery charger/tender with
+a charging rate of 5 amps or less at less than 14.6 volts is
+recommended. The use of constant current chargers (including
+trickle chargers) to charge sealed AGM batteries is not
+recommended.
+Any overcharge will cause dry-out and premature battery
+failure. Always review charger instructions before charging a
+battery. In addition to the manufacturer's instructions, follow
+these general safety precautions:
+•
+Always wear eye, face and hand protection.
+•
+Always charge batteries in a well-ventilated area.
+•
+Turn the charger off before connecting or disconnecting
+the leads to the battery to avoid dangerous sparks.
+•
+Never try to charge a visibly damaged or frozen battery.
+•
+Connect the charger leads to the battery. Red positive
+lead to the positive terminal. Black negative lead to the
+negative terminal. If the battery is still in the vehicle, con-
+HOME
+2013 Sportster Service: Maintenance 1-61
+
+--- Page 86 ---
+nect the negative lead to the chassis ground. Verify that
+the ignition and all electrical accessories are turned off.
+•
+Verify that charger leads to battery are not separated,
+frayed or loose.
+•
+If the battery temperature exceeds 110 °F (43 °C) during
+charging, discontinue charger and allow the battery to
+cool.
+Using a Battery Charger
+Charge the battery if:
+•
+Vehicle lights appear dim.
+•
+Electric starter sounds weak.
+•
+Battery has not been used for an extended period of time.
+Explosive hydrogen gas, which escapes during charging,
+could cause death or serious injury. Charge battery in a
+well-ventilated area. Keep open flames, electrical sparks
+and smoking materials away from battery at all times.
+KEEP BATTERIES AWAY FROM CHILDREN. (00065a)
+If battery releases an excessive amount of gas during
+charging, decrease the charging rate. Overheating can
+result in plate distortion, internal shorting, drying out or
+damage. (00413b)
+1.
+Check charge state with voltmeter test. If battery voltage
+is less than 12.7 volts, see the next step.
+NOTES
+•
+Most constant monitoring battery chargers are completely
+automatic. They can be left connected to both AC power
+and to the battery that is being charged. When leaving this
+type of charger connected for extended periods of time,
+periodically check the battery to see if it is unusually warm.
+This is an indication that the battery may have a weak cell
+or internal short. Read the manufacturer's instructions for
+the charger.
+•
+Do not use battery chargers that produce excessively high
+voltage designed for flooded batteries or excessively high
+current designed for much larger batteries. Charging
+should be limited to 5 amps maximum at no more than
+14.6 volts.
+Unplug or turn OFF battery charger before connecting
+charger cables to battery. Connecting cables with charger
+ON can cause a spark and battery explosion, which could
+result in death or serious injury. (00066a)
+Do not reverse the charger connections described in the
+following steps or the charging system of the motorcycle
+could be damaged. (00214a)
+2.
+Connect red battery charger lead to the positive terminal
+and black battery charger lead to the negative terminal of
+the battery.
+NOTE
+If the battery is still in the vehicle, connect the negative lead
+to the chassis ground. Be sure that the ignition and all electrical
+accessories are turned off.
+3.
+Step away from the battery and turn on the charger.
+Unplug or turn OFF battery charger before disconnecting
+charger cables from battery. Disconnecting clamps with
+charger ON can cause a spark and battery explosion, which
+could result in death or serious injury. (00067a)
+4.
+After the battery is fully charged, turn the charger OFF.
+Disconnect the black battery charger lead to the negative
+terminal of the battery.
+5.
+Disconnect the red battery charger lead to the positive
+terminal of the battery.
+6.
+Mark the charging date on the battery.
+7.
+Perform a battery diagnostic test to determine the condition
+of the battery. See the electrical diagnostic manual.
+8.
+If charging a battery because voltmeter test reading was
+below 12.6 V, perform voltmeter test. See the electrical
+diagnostic manual.
+BATTERY INSTALLATION AND
+CONNECTION
+TORQUE VALUE
+FASTENER
+6.8-7.9 Nm
+60-70 in-lbs
+Battery negative terminal
+screw
+4.1-6.8 Nm
+36-60 in-lbs
+Battery strap screw
+6.8-7.9 Nm
+60-70 in-lbs
+Battery positive terminal screw
+6.2-8.5 Nm
+55-75 in-lbs
+Battery cable connector nut
+Connect the cables to the correct battery terminals. Failure
+to do so could result in damage to the motorcycle electrical
+system. (00215a)
+1.
+Open left side cover.
+2.
+Apply a light coat of petroleum jelly or corrosion retardant
+material to the negative (-) battery terminal.
+3.
+Slide fully charged battery into battery tray.
+4.
+Insert screw through negative battery cable and into neg-
+ative battery terminal. Thread screw into terminal. Tighten
+screw to 60-70 in-lbs (6.8-7.9 Nm).
+5.
+Verify that the negative (-) battery cable is disconnected
+from the ground stud on crankcase.
+6.
+Hook top of battery strap (4) to battery tray mount on top
+of battery. Install strap screw (5). Tighten to 36-60 in-lbs
+(4.1-6.8 Nm).
+HOME
+1-62 2013 Sportster Service: Maintenance
+
+--- Page 87 ---
+7.
+Route main positive battery cable through holders on
+electrical bracket.
+8.
+Hook main fuse holder (1) to top pin on battery strap and
+slide forward until it snaps into place.
+9.
+Hook data link connector (6) to bottom pin on battery strap
+and slide forward until it snaps into place.
+10. See Figure 1-70. Press negative (-) battery cable (2) into
+cable holder (1).
+Connect positive (+) battery cable first. If positive (+) cable
+should contact ground with negative (-) cable connected,
+the resulting sparks can cause a battery explosion, which
+could result in death or serious injury. (00068a)
+11. See Figure 1-71. With negative battery cable disconnected,
+insert positive terminal screw through main fuse cable
+then main positive battery cable. Install screw into positive
+battery terminal (3). Tighten to 60-70 in-lbs (6.8-7.9 Nm).
+12. Apply a light coat of petroleum jelly or corrosion retardant
+material to the positive (+) battery terminal. Place pro-
+tective rubber boot over terminal.
+13. See Figure 1-69. Place negative (-) battery cable connector
+onto ground stud (4) on crankcase boss behind starter
+motor assembly (3). Thread nut onto stud.
+14. See Figure 1-72 or Figure 1-73. Press negative (-) battery
+cable connector (1) against cable stop (2) on crankcase
+and tighten nut (3) to 55-75 in-lbs (6.2-8.5 Nm).
+15. Close left side cover.
+2
+3
+1
+sm03277a
+1.
+Negative battery cable connector
+2.
+Cable stop
+3.
+Nut
+Figure 1-72. Attaching Negative (-) Battery Cable to Ground
+Stud Crankcase: XL Models
+1
+2
+3
+sm05267a
+1.
+Negative battery cable connector
+2.
+Cable stop
+3.
+Nut
+Figure 1-73. Attaching Negative (-) Battery Cable to Ground
+Stud Crankcase: XR 1200X
+STORAGE
+TOOL NAME
+PART NUMBER
+GLOBAL BATTERY CHARGER
+99863-01A
+Batteries contain sulfuric acid, which could cause severe
+burns to eyes and skin. Wear a protective face shield,
+rubberized gloves and protective clothing when working
+with batteries. KEEP BATTERIES AWAY FROM CHILDREN.
+(00063a)
+If the motorcycle is stored with the security system armed,
+connect
+an
+automatic,
+constant
+monitoring
+battery
+charger/tender to maintain battery charge. Refer to the Harley-
+Davidson Parts and Accessories catalog.
+If the motorcycle is stored with the battery installed, without a
+GLOBAL BATTERY CHARGER, and with the security system
+not armed, remove main fuse.
+If the motorcycle will not be operated for several weeks, such
+as during the winter season, remove the battery from the
+motorcycle and fully charge.
+See Figure 1-74. A battery that is removed from the vehicle is
+affected by self-discharge. A battery that is stored in the vehicle
+is affected by self-discharge and, more significantly, by parasitic
+loads. A parasitic load is caused by things like diode leakage
+or maintaining computer memory with the vehicle turned off.
+Batteries self-discharge at a faster rate at higher ambient
+temperatures. To reduce the self-discharge rate, store battery
+in a cool, dry place.
+Charge the battery every two weeks if stored in the vehicle.
+Charge the battery once per month if stored out of the vehicle.
+NOTE
+Use the GLOBAL BATTERY CHARGER (Part No. 99863-01A)
+to maintain battery charge for extended periods of time without
+risk of overcharging or boiling.
+HOME
+2013 Sportster Service: Maintenance 1-63
+
+--- Page 88 ---
+3
+6
+9
+12
+15
+50%
+75%
+100%
+0
+2
+4
+3
+1
+om00036
+1.
+Capacity
+2.
+Months of non-use
+3.
+Measured at 105 °F (40 °C)
+4.
+Measured at 77 °F (25 °C)
+Figure 1-74. Effective Rate of Temperature on Battery
+Self-discharging Rate
+HOME
+1-64 2013 Sportster Service: Maintenance
+
+--- Page 89 ---
+1.23
+EXHAUST SYSTEM
+EXHAUST SYSTEM LEAK CHECK
+1.
+Check entire exhaust system for loose or missing
+fasteners, damaged pipe clamps or brackets, and obvious
+signs of leakage (carbon tracks at pipe joints, etc.).
+2.
+Check for loose or damaged heat shields. Repair or
+replace as necessary.
+3.
+Check for exhaust leaks:
+a.
+Start engine.
+b.
+Cover muffler end with a clean dry shop towel.
+c.
+Listen for exhaust leakage.
+d.
+Remove shop towel.
+4.
+Correct any leaks detected. See 4.13 EXHAUST SYSTEM:
+XL MODELS or 4.14 EXHAUST SYSTEM: XR 1200X.
+HOME
+2013 Sportster Service: Maintenance 1-65
+
+--- Page 90 ---
+1.24
+WHEEL ALIGNMENT
+WHEEL ALIGNMENT
+TOOL NAME
+PART NUMBER
+AXLE ALIGNMENT PLUGS
+HD-48856-A
+TORQUE VALUE
+FASTENER
+129-142 Nm
+95-105 ft-lbs
+Axle, rear, nut
+Checking Wheel Alignment
+Check vehicle alignment according to following proced-
+ures. Incorrect alignment can adversely affect stability and
+handling, which could result in death or serious injury.
+(00287a)
+NOTE
+Some models may require muffler removal.
+1.
+See Figure 1-75. Insert alignment plugs (1, 2) from the
+AXLE ALIGNMENT PLUGS (Part No. HD-48856-A) into
+right and left ends of rear axle. Turn handle until plug is
+firmly held in the axle.
+2.
+XL Models: See Figure 1-76. Fabricate an alignment tool
+using a piece of 1/8 in (3.175 mm) diameter aluminum
+welding rod 21.5 in (546 mm) long:
+a.
+Grind one end down to a blunt point.
+b.
+Use pliers to bend rod at a 90 degree angle, 2.25 in
+(57 mm) from the blunt point.
+c.
+Place a snug-fitting rubber grommet (2) on rod to act
+as a slide measurement indicator.
+3.
+XR 1200X: See Figure 1-77. Fabricate an alignment tool
+using a piece of 1/8 in (3.175 mm) diameter aluminum
+welding rod 22.375 in (568 mm) long:
+a.
+Grind one end down to a blunt point.
+b.
+Use pliers to bend rod as shown.
+c.
+Place a snug-fitting rubber grommet (2) on rod to act
+as a slide measurement indicator.
+4.
+Gauge distance between rear fork pivot bolt and rear axle
+alignment plug center:
+a.
+See Figure 1-78. Insert blunt point of alignment tool
+in rear fork pivot bolt dimple (2) on right side of rear
+fork (3).
+b.
+Slide rubber grommet along tool shaft until it aligns
+with hole in center of alignment plug (5).
+c.
+Without moving grommet, position alignment tool on
+left side of rear fork.
+5.
+Verify measurements match on both sides of axle. Adjust
+if necessary.
+1
+2
+sm07441a
+1.
+RH alignment plug
+2.
+LH alignment plug
+Figure 1-75. Axle Alignment Plugs
+1
+2
+3
+4
+sm05426
+1.
+Blunt point
+2.
+Rubber grommet
+3.
+2.25 in (57 mm)
+4.
+19.25 in (489 mm)
+Figure 1-76. Wheel Alignment Tool: XL Models
+HOME
+1-66 2013 Sportster Service: Maintenance
+
+--- Page 91 ---
+1
+6
+2
+5
+3
+4
+sm05427
+1.
+Blunt point
+2.
+Rubber grommet
+3.
+5/8 in (16 mm)
+4.
+15-1/4 in (387 mm)
+5.
+6-1/2 in (165 mm)
+6.
+3-7/8 in (98 mm)
+Figure 1-77. Wheel Alignment Tool: XR 1200X
+1
+3
+5
+4
+2
+sm01615a
+1.
+Wheel alignment tool
+2.
+Rear fork pivot bolt dimple
+3.
+Rear fork
+4.
+Rubber grommet
+5.
+Axle alignment plug
+Figure 1-78. Checking Wheel Alignment Using Wheel
+Alignment Tool: XL Models
+Adjusting Wheel Alignment
+1.
+Remove and discard E-clip.
+2.
+Loosen rear axle nut.
+3.
+On side of rear fork that has longer distance from pivot
+bolt to axle center, turn nut on axle adjuster counterclock-
+wise to shorten distance. Adjust axle until left and right
+side alignment measurements are equal.
+NOTES
+•
+Keep axle adjuster mechanisms firmly seated (under ten-
+sion) on each side of rear fork during wheel alignment
+procedures above. Do so by applying moderate upward
+force on lower span of drive belt. This tensions drive belt,
+which holds rear axle forward against both adjuster
+mechanisms.
+•
+Do not tighten rear axle nut or install new E-clip until after
+checking drive belt tension.
+4.
+Verify drive belt deflection after aligning rear wheel. Adjust
+if required. See 1.12 DRIVE BELT AND SPROCKETS,
+Drive Belt Deflection.
+NOTE
+If rear axle has been moved, verify slack in rear brake line
+between clamp and rear caliper. If necessary, reposition brake
+line. See 1.12 DRIVE BELT AND SPROCKETS, Drive Belt
+Deflection.
+Do not exceed specified torque when tightening axle nut.
+Exceeding torque can cause wheel bearings to seize during
+vehicle operation, which could result in death or serious
+injury. (00408e)
+5.
+Tighten axle nut to 95-105 ft-lbs (129-142 Nm) and install
+new E-clip.
+6.
+Install muffler if removed.
+HOME
+2013 Sportster Service: Maintenance 1-67
+
+--- Page 92 ---
+1.25
+SUSPENSION ADJUSTMENTS
+FRONT FORK: XR 1200X
+Adjust both forks equally. Improper fork adjustment can
+lead to loss of control, which could result in death or ser-
+ious injury. (00124c)
+Compression and rebound adjusting valves may be dam-
+aged if too much force is used at either end of the adjust-
+ment range. (00237a)
+Spring Preload
+1.
+See Figure 1-79. With a hex key, turn the preload adjuster
+counterclockwise until it stops. This is the minimum preload
+setting.
+2.
+Calculate the total load and turn the adjuster clockwise to
+specification. Refer to Table 1-23.
+Rebound Damping
+1.
+See Figure 1-80. Turn the rebound damping adjuster (1)
+clockwise H (hard) until it stops. This is the maximum
+rebound setting.
+2.
+Turn adjuster counterclockwise S (soft) to specification.
+Refer to Table 1-24.
+Compression Damping
+1.
+See Figure 1-80. Turn the compression damping adjuster
+(2) clockwise H (hard) until it stops. This is the maximum
+compression setting.
+2.
+Turn the adjuster counterclockwise S (soft) to specification.
+Refer to Table 1-24.
+om01386
+Figure 1-79. Spring Preload Adjuster: XR 1200X
+Table 1-23. Recommended Spring Preload: XR 1200X
+TURNS**
+FROM
+MINIMUM
+LOAD*
+0-4
+Less than 165 lb (75.0 kg)
+4-6
+165-195 lb (75.0-89.0 kg)
+6-8
+195-225 lb (89.0-102.0 kg)
+8-10
+225-255 lb (102.0-116.0 kg)
+More than 10
+255 lb (116.0 kg) to maximum added weight
+allowed. Refer to Table 2-4.
+*Add the weight of the rider, passenger, riding gear,
+accessories, and cargo.
+**Turns are clockwise turns in from minimum.
+•
+To increase preload, turn the adjuster clockwise.
+•
+To decrease preload, turn the adjuster counterclockwise.
+1
+2
+om01385
+1.
+Rebound damping adjuster
+2.
+Compression damping adjuster
+Figure 1-80. Fork Rebound and Compression Damping
+Adjusters: XR 1200X
+Table 1-24. Recommended Fork Rebound and
+Compression Damping: XR 1200X
+TURNS FROM MAX**
+DAMPING*
+3
+Rebound (REB)
+5
+Compression (COM)
+*Turns are counterclockwise out from maximum.
+•
+To increase damping, turn adjuster clockwise (H).
+•
+To decrease damping, turn adjuster counterclockwise
+(S).
+HOME
+1-68 2013 Sportster Service: Maintenance
+
+--- Page 93 ---
+SHOCK ABSORBER PRELOAD: ALL
+MODELS
+TOOL NAME
+PART NUMBER
+SHOCK ADJUSTMENT SPANNER
+94448-82B
+Adjust both shock absorbers equally. Improper adjustment
+can adversely affect stability and handling, which could
+result in death or serious injury. (00036b)
+Do not turn the shock absorber adjustment collar clock-
+wise beyond adjustment setting 5. Doing so may result in
+equipment damage. (00166b)
+NOTES
+•
+Five position shocks: See Figure 1-83. Do not turn the
+preload cam past position five (5) to position one (1) or
+from position one (1) to position five (5).
+•
+Three position shocks: Do not turn the preload cam past
+position three to position one or from position one (1) to
+position three.
+XL Models: See Figure 1-81. Using SHOCK ADJUSTMENT
+SPANNER (Part No. 94448-82B), turn the adjustment cam to
+specification.
+•
+Five position shocks: Refer to Table 1-25.
+•
+Three position shocks: Refer to Table 1-26.
+XR 1200X: See Figure 1-82. Use the spanner wrench with
+extension handle from the tool kit to turn the adjustment cam
+to specification. Refer to Table 1-25.
+om00396a
+Figure 1-81. Shock Absorber Preload Adjustment: XL
+Models
+om01381b
+Figure 1-82. Shock Absorber Preload Adjustment: XR
+1200X
+2
+1
+5
+3
+4
+pd00442
+Figure 1-83. Shock Preload Cam Positions (typical)
+XL 883L/N, XL1200X/V and certain XL1200CP models are
+configured for solo operation. If you choose to add a passenger
+and/or cargo to the vehicle, the ride quality may be comprom-
+ised. See a Harley-Davidson dealer for two-up seats, passenger
+pegs and suspension options.
+Table 1-25. Recommended Shock Preload: Five Position
+POSITION**
+LOAD*
+1
+Less than 165 lb (75.0 kg)
+2
+165-195 lb (75.0-89.0 kg)
+3
+195-225 lb (89.0-102.0 kg)
+4
+225-255 lb (102.0-116.0 kg)
+5
+255 lb (116.0 kg) to maximum added
+weight allowed. Refer to Table 2-3 and
+Table 2-4.
+* Add the weight of the rider, passenger, riding gear,
+accessories, and cargo.
+** See Figure 1-83.
+HOME
+2013 Sportster Service: Maintenance 1-69
+
+--- Page 94 ---
+Table 1-26. Recommended Shock Preload: Three Position
+POSITION
+LOAD*
+1
+Less than 165 lb (75.0 kg)
+2
+165-225 lb (75.0-102.0 kg)
+3
+225 lb (102.0 kg) to maximum added
+weight allowed. Refer to Table 2-4 and
+Table 2-3.
+* Add the weight of the rider, passenger, riding gear,
+accessories, and cargo.
+Table 1-27. Maximum Added Weight Allowed: Sportster
+Models
+MAX LOAD
+MODEL
+kg
+lb
+198.2
+437
+XL 883L
+197.3
+435
+XL 883N
+193.7
+427
+XL 883R
+189.6
+418
+XL 1200C/C ANV/CP
+193.7
+427
+XL 1200CA
+193.7
+427
+XL 1200CB
+196.4
+433
+XL 1200X
+201.8
+445
+XL 1200V
+193.7
+427
+XR 1200X
+SHOCK ABSORBER REBOUND AND
+COMPRESSION: XR 1200X
+Adjust both shock absorbers equally. Improper adjustment
+can adversely affect stability and handling, which could
+result in death or serious injury. (00036b)
+Compression and rebound adjusting valves may be dam-
+aged if too much force is used at either end of the adjust-
+ment range. (00237a)
+Shock Absorber Rebound Damping
+Adjustment
+1.
+See Figure 1-84. Turn the rebound adjuster in the direction
+of the embossed H (hard) until it stops. This is the max-
+imum rebound damping setting.
+2.
+Turn the rebound adjuster toward the embossed S (soft)
+the recommended number of clicks. Refer to Table 1-28.
+Shock Absorber Compression Damping
+Adjustment
+1.
+See Figure 1-85. Using fingers, turn the compression
+adjuster clockwise H (hard) until it stops. This is the max-
+imum compression damping setting.
+2.
+Turn the compression adjuster counterclockwise (H to S)
+(hard to soft) the recommended number of clicks. Refer
+to Table 1-28.
+om01382
+Figure 1-84. Rebound Damping Adjuster: XR 1200X
+sm06884
+Figure 1-85. Compresson Damping Adjuster: XR 1200X
+Table 1-28. Recommended Rear Shock Rebound and
+Compression Damping: XR 1200X
+CLICKS FROM MAX
+(H to S)
+DAMPING
+5
+Rebound (REB)
+7
+Compression (COMP)
+SUSPENSION TUNING: XR 1200X
+After the suspension has been set to the recommend settings
+and the tires have been inflated to recommended pressures,
+ride the motorcycle and adjust the suspension damping as
+required. Refer to Table 1-29.
+HOME
+1-70 2013 Sportster Service: Maintenance
+
+--- Page 95 ---
+Table 1-29. Suspension Damping Adjustment Guidelines: XR 1200X
+SUGGESTED REMEDY
+MOTORCYCLE BEHAVIOR
+Increase rebound damping.
+Soft or unsettled feeling around corners or after bumps
+Increase rebound damping.
+Leaping feeling or topping after large bumps
+Decrease rebound damping.
+Harsh/sharp feedback over bumps
+Decrease rebound damping.
+Feels like motorcycle drops down over chatter bumps
+Increase compression damping.
+Excessive bottoming through potholes
+Increase compression damping (forks).
+Excessive dive when applying front brake
+Decrease compression damping.
+Hard feeling or inadequate absorption over bumps
+Decrease compression damping.
+Feels excessively stiff or busy around corners
+HOME
+2013 Sportster Service: Maintenance 1-71
+
+--- Page 96 ---
+1.26
+HEADLAMP ALIGNMENT
+HEADLAMP ALIGNMENT
+The automatic-on headlamp feature provides increased
+visibility of the rider to other motorists. Be sure headlamp
+is on at all times. Poor visibility of rider to other motorists
+can result in death or serious injury. (00030b)
+NOTE
+Adjust the headlamps of motorcycles with multiple beam
+headlamps to converge into one pattern.
+1.
+Check the tire pressure.
+2.
+Adjust the rear shocks for the rider and intended load.
+3.
+Fill fuel tank or add an equal amount of ballast.
+NOTE
+Choose a wall in minimum light.
+4.
+See Figure 1-86. Park the motorcycle in a line (1) perpen-
+dicular to the wall.
+5.
+Position motorcycle so that front axle is 25 ft (7.6 m) from
+wall.
+6.
+Draw a vertical line (2) on the wall.
+7.
+With the motorcycle loaded, point the front wheel straight
+forward at wall. Measure the distance (4) from the floor to
+the center of the high beam bulb.
+8.
+Draw a horizontal line (5) through the vertical line on the
+wall. Place line 2.1 in (53.3 mm) lower than the measured
+bulb centerline.
+NOTE
+The headlamp is aligned when the light beam hot spot is
+centered over the intersection of the lines.
+9.
+Verify headlamp alignment. Adjust as necessary.
+¨
+2
+1
+5
+3
+4
+om00835c
+1.
+Perpendicular line
+2.
+Vertical line
+3.
+25 ft (7.6 m)
+4.
+High beam bulb centerline
+5.
+Horizontal line 2.1 in (53.3 mm) lower than bulb
+centerline
+Figure 1-86. Headlamp Alignment: Sportster Models
+HEADLAMP: ADJUSTMENT
+TORQUE VALUE
+FASTENER
+40.7-47.5 Nm
+30-35 ft-lbs
+Headlamp horizontal adjust-
+ment: XL 1200X/C/C
+ANV/CP/CA/CB/V
+40.7-47.5 Nm
+30-35 ft-lbs
+Headlamp vertical adjustment:
+XL 1200X/C/C
+ANV/CP/CA/CB/V
+14-27 Nm
+120-240
+in-lbs
+Headlamp clamp nut: XL
+883L/N/R, XR 1200X
+Adjustment: XL 1200X/C/C ANV/CP/CA/CB/V
+1.
+Set horizontal adjustment:
+a.
+See Figure 1-87. Loosen the horizontal adjustment
+screw (3).
+b.
+Turn the headlamp right or left as necessary to direct
+the light beam straight ahead.
+c.
+Tighten the horizontal adjustment screw to 30-35 ft-
+lbs (40.7-47.5 Nm).
+2.
+Set vertical adjustment:
+a.
+Loosen the locknut (1) for the vertical adjustment bolt.
+b.
+Tilt headlamp up or down to properly aim it at the
+horizontal line on the wall.
+c.
+Tighten headlamp locknut to 30-35 ft-lbs (40.7-47.5
+Nm).
+HOME
+1-72 2013 Sportster Service: Maintenance
+
+--- Page 97 ---
+2
+3
+1
+sm06940
+1.
+Locknut
+2.
+Vertical adjustment bolt
+3.
+Horizontal adjustment screw
+Figure 1-87. Headlamp Adjustment: XL 1200X/C/C
+ANV/CP/CA/CB/V
+Adjustment: XL 883R/L/N, XR 1200X
+1.
+See Figure 1-88. Remove snap plug (1) on top of head-
+lamp bracket (2).
+2.
+Loosen headlamp clamp nut (3).
+3.
+Tilt headlamp up or down to properly aim it in relation to
+the horizontal line and, at the same time, turn it right or
+left to direct light beam straight ahead.
+4.
+Tighten headlamp clamp nut to 120-240 in-lbs (14-27 Nm)
+after lamp is properly positioned.
+5.
+Install snap plug in headlamp bracket.
+3
+1
+2
+om01439
+1.
+Snap plug
+2.
+Headlamp bracket
+3.
+Clamp nut
+Figure 1-88. Headlamp Adjustment: XL 883R/L/N, XR 1200X
+(XR 1200X shown)
+HOME
+2013 Sportster Service: Maintenance 1-73
+
+--- Page 98 ---
+1.27
+STORAGE
+PLACING IN STORAGE
+TOOL NAME
+PART NUMBER
+STORAGE COVER
+98716-87A
+Do not store motorcycle with gasoline in tank within the
+home or garage where open flames, pilot lights, sparks or
+electric motors are present. Gasoline is extremely flam-
+mable and highly explosive, which could result in death
+or serious injury. (00003a)
+1.
+Change the engine oil. See 1.6 ENGINE OIL AND FILTER,
+Changing Oil and Filter.
+2.
+Check the transmission lubricant level. See 1.10 TRANS-
+MISSION LUBRICANT, Transmission Lubrication.
+Avoid spills. Slowly remove filler cap. Do not fill above
+bottom of filler neck insert, leaving air space for fuel
+expansion. Secure filler cap after refueling. Gasoline is
+extremely flammable and highly explosive, which could
+result in death or serious injury. (00028a)
+Use care when refueling. Pressurized air in fuel tank can
+force gasoline to escape through filler tube. Gasoline is
+extremely flammable and highly explosive, which could
+result in death or serious injury. (00029a)
+3.
+Fill fuel tank. Add fuel stabilizer following manufacturer's
+instructions.
+4.
+Remove the spark plugs, inject a few squirts of engine oil
+into each cylinder and crank the engine 5-6 revolutions.
+Replace the spark plugs.
+5.
+Inspect rear belt deflection. See 1.24 WHEEL ALIGN-
+MENT.
+6.
+Inspect rear belt and sprockets. See 1.12 DRIVE BELT
+AND SPROCKETS.
+7.
+Inspect air cleaner filter. See 1.7 AIR FILTER, XL Models
+except XL 1200V or 1.7 AIR FILTER, XR 1200X.
+8.
+Lubricate controls. See 1.14 CABLE AND CHASSIS
+LUBRICATION.
+9.
+Inspect operation of all electrical equipment and switches.
+10. Check tire inflation and inspect tires for wear and/or
+damage. See 1.8 TIRES AND WHEELS. If the motorcycle
+will be stored for an extended period of time, securely
+support the motorcycle under the frame so that all weight
+is off the tires.
+Be sure that brake fluid or other lubricants do not contact
+brake pads or discs. Such contact can adversely affect
+braking ability, which could cause loss of control, resulting
+in death or serious injury. (00290a)
+11. Wash painted and chrome-plated surfaces. Apply a light
+film of oil to exposed unpainted surfaces.
+Unplug or turn OFF battery charger before connecting
+charger cables to battery. Connecting cables with charger
+ON can cause a spark and battery explosion, which could
+result in death or serious injury. (00066a)
+Explosive hydrogen gas, which escapes during charging,
+could cause death or serious injury. Charge battery in a
+well-ventilated area. Keep open flames, electrical sparks
+and smoking materials away from battery at all times.
+KEEP BATTERIES AWAY FROM CHILDREN. (00065a)
+12. Remove battery from vehicle. Charge battery until the
+correct voltage is obtained. Charge the battery every other
+month if it is stored at temperatures below 60 °F (16 °C).
+Charge battery once a month if it is stored at temperatures
+above 60 °F (16 °C). See 1.22 BATTERY MAINTENANCE.
+Unplug or turn OFF battery charger before disconnecting
+charger cables from battery. Disconnecting clamps with
+charger ON can cause a spark and battery explosion, which
+could result in death or serious injury. (00067a)
+13. If the motorcycle is to be covered, use a material that will
+breathe, such as STORAGE COVER (Part No. 98716-
+87A) or light canvas. Plastic materials that do not breathe
+promote the formation of condensation, which leads to
+corrosion.
+REMOVAL FROM STORAGE
+The clutch failing to disengage can cause loss of control,
+which could result in death or serious injury. Prior to
+starting after extended periods of storage, place transmis-
+sion in gear and push vehicle back and forth several times
+to assure proper clutch disengagement. (00075a)
+1.
+Charge and install battery. If main fuse was removed, plug
+it in.
+2.
+Remove and inspect the spark plugs. Replace if neces-
+sary.
+3.
+Clean the air cleaner element.
+4.
+If fuel tank was drained, fill fuel tank with fresh gasoline.
+HOME
+1-74 2013 Sportster Service: Maintenance
+
+--- Page 99 ---
+5.
+Start the engine and run until it reaches normal operating
+temperature.
+6.
+Check engine oil level. Check the transmission lubricant
+level. Fill to proper levels with correct fluids, if required.
+7.
+Perform all of the checks in the PRE-RIDING CHECKLIST
+in the Owner's Manual.
+HOME
+2013 Sportster Service: Maintenance 1-75
+
+--- Page 100 ---
+1.28
+TROUBLESHOOTING
+GENERAL
+The Troubleshooting section of this manual is a guide to
+diagnose problems. Read the appropriate sections of this
+manual before performing any work. Improper repair and/or
+maintenance could result in death or serious injury.
+(00528b)
+Use the symptoms listed for general troubleshooting. More
+than one condition may be present at a time. Check all possible
+items to keep motorcycle in good operating condition.
+NOTE
+See the electrical diagnostic manual for additional information.
+ENGINE
+Starter Motor Does Not Operate or Does Not
+Turn Engine Over
+1.
+Engine run switch in OFF position.
+2.
+Ignition switch not in IGNITION position.
+3.
+Discharged
+battery,
+loose
+or
+corroded
+connections
+(solenoid chatters).
+4.
+Starter control circuit, relay, or solenoid faulty.
+5.
+Electric starter shaft pinion gear not engaging or overrun-
+ning clutch slipping.
+6.
+TSM/TSSM/HFSM Bank Angle Sensor tripped and ignition
+switch not cycled OFF then back to IGNITION position.
+7.
+Security system activated.
+8.
+Motorcycle in gear and clutch not pulled in.
+9.
+Main fuse not in place.
+10. Jiffy stand down and transmission in gear (HDI models).
+Engine Turns Over But Does Not Start
+1.
+Fuel tank empty.
+2.
+Fuel filter clogged.
+3.
+Plugged fuel injectors.
+4.
+Discharged battery, loose or damaged battery terminal
+connections.
+5.
+Fouled spark plugs.
+6.
+Spark plug cables in bad condition and shorting, cable
+connections loose or cables connected to incorrect cylin-
+ders.
+7.
+Ignition timing incorrect due to faulty coil, ECM or sensors
+(TMAP, CKP) and/or TSM/TSSM/HFSM.
+8.
+Bank Angle Sensor tripped and ignition/light key switch
+not cycled OFF then back to IGNITION.
+9.
+Damaged wire or loose wire connection at ignition coil,
+battery or ECM connector.
+10. Sticking or damaged valve(s) or wrong length pushrod(s).
+11. Engine lubricant too heavy (winter operation).
+NOTE
+For cold weather starts, always disengage clutch.
+Starts Hard
+1.
+Spark plugs in bad condition, have improper gap or are
+partially fouled.
+2.
+Spark plug cables in bad condition.
+3.
+Battery nearly discharged.
+4.
+Damaged wire or loose wire connection at battery terminal,
+ignition coil or ECM connector.
+5.
+Ignition not functioning properly (possible sensor failure).
+6.
+Faulty ignition coil.
+7.
+Fuel tank filler cap vent plugged or fuel line closed off
+restricting fuel flow.
+8.
+Water or dirt in fuel system.
+9.
+Intake air leak.
+10. Partially plugged fuel injectors.
+11. Valves sticking.
+12. Engine lubricant too heavy (winter operation).
+NOTE
+For cold weather starts, always disengage clutch.
+Starts But Runs Irregularly or Misses
+1.
+Spark plugs in bad condition or partially fouled.
+2.
+Spark plug cables in bad condition and shorting or leaking.
+3.
+Spark plug gap too close or too wide.
+4.
+Faulty ignition coil, ECM, or sensor (TMAP, CKP, ET or
+O2).
+5.
+Battery nearly discharged.
+6.
+Damaged wire or loose connection at battery terminals,
+ignition coil or ECM connector.
+7.
+Intermittent short circuit due to damaged wire insulation.
+8.
+Water or dirt in fuel system.
+9.
+Fuel tank vent system plugged.
+10. Air leak at intake manifold or air cleaner.
+11. Partially plugged fuel injectors.
+12. Damaged intake or exhaust valve(s).
+13. Weak or damaged valve springs.
+14. Incorrect valve timing.
+Spark Plug Fouls Repeatedly
+1.
+Incorrect spark plug.
+2.
+Piston rings badly worn or damaged.
+HOME
+1-76 2013 Sportster Service: Maintenance
+
+--- Page 101 ---
+3.
+Fuel mixture too rich.
+4.
+Valve guides or seals badly worn or damaged.
+Pre-Ignition or Detonation (Knocks or Pings)
+1.
+Excessive carbon deposit on piston head or in combustion
+chamber.
+2.
+Incorrect heat range spark plug.
+3.
+Faulty spark plug(s).
+4.
+Ignition timing advanced. ECM or sensors (CKP, ET or
+TMAP) defective.
+5.
+Fuel octane rating too low.
+6.
+Intake manifold vacuum leak.
+Check Engine Light Illuminates During
+Operation
+Fault detected. See the electrical diagnostic manual for this
+motorcycle.
+Overheating
+1.
+Insufficient oil supply or oil not circulating.
+2.
+Insufficient air flow over engine.
+3.
+Leaking valve(s).
+4.
+Heavy carbon deposits.
+5.
+Ignition timing retarded. ECM or sensor (CKP, TMAP)
+defective.
+Valve Train Noise
+1.
+Low oil pressure caused by oil feed pump not functioning
+properly or oil passages obstructed.
+2.
+Faulty hydraulic lifter(s).
+3.
+Bent pushrod(s).
+4.
+Incorrect pushrod length.
+5.
+Cam(s), cam gear(s), or cam bushing(s) worn.
+6.
+Rocker arm binding on shaft.
+7.
+Valve sticking in guide.
+Excessive Vibration
+1.
+Stabilizer links worn or loose, or stabilizer link brackets
+loose or damaged.
+2.
+Isolators worn or isolator bolts loose or damaged.
+3.
+Isolator mounting brackets (left side of vehicle) loose or
+damaged.
+4.
+Rubber mounts loose or worn.
+5.
+Rear fork pivot shaft fasteners loose.
+6.
+Front engine mounting bolts loose.
+7.
+Exhaust system binding or hitting frame.
+8.
+Engine/transmission and rear wheel not aligned properly.
+9.
+Damaged frame.
+10. Ignition timing advanced due to faulty sensor inputs (CKP,
+TMAP)/poorly tuned engine.
+11. Primary chain badly worn or links tight as a result of
+insufficient lubrication or misalignment.
+12. Wheels not aligned, rims bent, or tires worn or damaged.
+13. Internal engine problem.
+LUBRICATION SYSTEM
+TOOL NAME
+PART NUMBER
+BLACK LIGHT LEAK DETECTOR
+HD-35457
+Oil Does Not Return To Oil Tank
+1.
+Oil tank empty.
+2.
+Oil pump gerotors damaged. The oil pump is not func-
+tioning.
+3.
+Restricted oil hoses or fittings.
+4.
+Restricted oil filter.
+Engine Uses Too Much Oil Or Smokes
+Excessively
+1.
+Piston rings badly worn or damaged.
+2.
+Valve guide(s) or seal(s) worn or damaged.
+3.
+Restricted oil filter.
+4.
+Oil tank overfilled.
+5.
+Restricted oil return hose to tank.
+6.
+Restricted breather operation.
+7.
+Plugged crankcase scavenge port.
+8.
+Oil diluted with gasoline.
+Engine Leaks Oil From Cases, Pushrods,
+Hoses, Etc.
+1.
+Loose parts.
+2.
+Imperfect seal at gaskets, pushrod cover, washers, etc.
+NOTE
+To aid locating leaks, use BLACK LIGHT LEAK DETECTOR
+(Part No. HD-35457).
+3.
+Restricted oil return hose to tank.
+4.
+Restricted breather passage(s) to air cleaner.
+5.
+Restricted oil filter.
+6.
+Oil tank overfilled.
+7.
+Porosity.
+Low Oil Pressure
+1.
+Oil tank underfilled.
+2.
+Faulty low oil pressure switch.
+3.
+Worn oil pump gerotor(s).
+4.
+Worn pinion shaft drive gear.
+HOME
+2013 Sportster Service: Maintenance 1-77
+
+--- Page 102 ---
+5.
+Restricted feed hose from oil tank.
+6.
+Restricted high-pressure feed hose to oil filter housing.
+7.
+Oil diluted with gasoline.
+8.
+Oil bypass plunger stuck open.
+High Oil Pressure
+1.
+Oil tank overfilled.
+2.
+Restricted oil tank return hose.
+3.
+Oil bypass plunger stuck closed.
+ELECTRICAL SYSTEM
+NOTE
+For diagnostic information see the electrical diagnostic manual.
+Alternator Does Not Charge
+1.
+Voltage regulator module not grounded.
+2.
+Engine ground wire loose or damaged.
+3.
+Faulty voltage regulator module.
+4.
+Loose or damaged wires in charging circuit.
+5.
+Faulty stator and/or rotor.
+Alternator Charge Rate Is Below Normal
+1.
+Weak or damaged battery.
+2.
+Loose connections.
+3.
+Faulty voltage regulator module.
+4.
+Faulty stator and/or rotor.
+Speedometer Operates Erratically
+1.
+Contaminated vehicle speed sensor (remove sensor and
+clean off metal particles).
+2.
+Loose connections.
+TRANSMISSION
+Shifts Hard
+1.
+Clutch dragging slightly.
+2.
+Transmission lubricant level too high.
+3.
+Transmission lubricant too heavy (winter operation).
+4.
+Shifter return spring (inside primary chaincase) bent or
+broken.
+5.
+Bent shifter rod.
+6.
+Shifter forks sprung or damaged.
+7.
+Corners worn off gear dogs and shifter dog rings.
+Jumps Out Of Gear
+1.
+Shifter engaging parts (inside transmission) badly worn
+and rounded.
+2.
+Shifter forks bent.
+3.
+Shifter drum damaged/worn.
+4.
+Damaged gears.
+Clutch Slips
+1.
+Clutch controls improperly adjusted.
+2.
+Worn friction plates.
+3.
+Insufficient clutch spring tension.
+Clutch Drags Or Does Not Release
+1.
+Lubricant level too high in primary chaincase.
+2.
+Clutch controls improperly adjusted.
+3.
+Clutch plates warped.
+4.
+Insufficient clutch spring tension.
+5.
+Primary chain badly misaligned or too tight.
+Clutch Chatters
+Friction plates or steel plates worn, warped or dragging.
+HANDLING
+1.
+Tires improperly inflated. Do not overinflate.
+2.
+Loose wheel axle nuts. Tighten to torque specification.
+3.
+Improper vehicle alignment: rear wheel out of alignment
+with frame and front wheel.
+4.
+Rims and tires out-of-true sideways.
+5.
+Rims and tires out-of-round or eccentric with hub.
+6.
+Loose spokes (models with laced wheels).
+7.
+Irregular or peaked front tire tread wear.
+8.
+Damaged tires or improper front-rear tire combination.
+9.
+Tire and wheel unbalanced.
+10. Steering head bearings improperly adjusted or pitted or
+worn bearings and races.
+11. Shock absorbers damaged/worn - not functioning normally.
+12. Heavy front end loading. Non-standard equipment on the
+front end (such as heavy radio receivers, extra lighting
+equipment, or luggage) tends to cause unstable handling.
+13. Engine mounts/stabilizer links loose, worn or damaged.
+14. Rear
+fork
+pivot
+assembly:
+improperly
+tightened
+or
+assembled, or loose, pitted or damaged pivot bearings.
+BRAKES
+Brake Does Not Hold Normally
+1.
+Brake fluid reservoir low, system leaking or pads worn.
+2.
+Brake system contains air bubbles.
+3.
+Master cylinder/caliper piston seals worn or parts dam-
+aged.
+4.
+Brake pads contaminated with grease or oil.
+5.
+Brake pads badly worn.
+6.
+Brake disc badly worn or warped.
+7.
+Brake drags - insufficient brake pedal or hand lever free
+play, caliper piston worn or damaged, or excessive brake
+fluid in reservoir.
+HOME
+1-78 2013 Sportster Service: Maintenance
+
+--- Page 103 ---
+8.
+Brake fades due to heat build up - brake pads dragging
+or excessive braking.
+9.
+Brake fluid leak when under pressure.
+HOME
+2013 Sportster Service: Maintenance 1-79
+
+--- Page 104 ---
+1-80 2013 Sportster Service: Maintenance
+NOTES
+

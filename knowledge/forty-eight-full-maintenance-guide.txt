@@ -1,0 +1,77 @@
+Harley-Davidson Forty-Eight Full Maintenance
+Guide (Kilometers)
+I Battery Care
+- Ride every 1–2 weeks to keep the battery charged.
+- Use a battery tender when parked long-term.
+- Check terminals for corrosion and tightness.
+- Replace every 3–5 years if weak (≈ 50,000 km of use).
+I Fuel System
+- Use premium fuel (high-octane).
+- For storage longer than 1–2 months, add fuel stabilizer.
+- Run engine briefly to circulate stabilizer into fuel lines.
+II Engine Oil & Filter
+- Change every 8,000 km or once a year.
+- Change oil before winter storage.
+- Use Harley-approved 20W-50 oil (synthetic or mineral depending on climate).
+II Primary & Transmission Fluids
+- Primary chaincase fluid: change every 16,000 km.
+- Transmission fluid: change every 32,000 km.
+- Inspect regularly for leaks.
+II Drive Belt
+- Inspect for cracks/wear every 4,000 km.
+- Check belt tension and adjust if necessary.
+- Keep pulleys clean, avoid harsh cleaners.
+I Brakes
+- Inspect pads and rotors every 8,000 km.
+- Replace pads when thickness < 3 mm.
+- Replace brake fluid every 2 years.
+- Check for leaks and ensure firm lever/pedal feel.
+I Tires
+- Check pressure before every ride (≈ 2.5 bar front / 2.75 bar rear).
+- Inspect for cracks, flat spots, or uneven wear.
+- Replace at 5–7 years regardless of tread condition.
+II Controls & Cables
+- Check throttle and clutch free play every 8,000 km.
+- Lubricate if stiff or sticky.
+- Inspect for fraying or stiffness.
+I Suspension
+- Inspect fork seals for leaks.
+- Adjust rear shock preload when carrying a passenger or luggage.
+- Change fork oil every 32,000 km or sooner with heavy riding.
+I Spark Plugs & Air Filter
+- Inspect spark plugs every 16,000 km.
+- Replace spark plugs every 32,000 km.
+- Clean/replace air filter every 8,000 km (more often in dusty conditions).
+I Electrical System
+- Test headlights, signals, brake lights, and horn regularly.
+- Keep spare fuses in your toolkit.
+II General Pre-Ride Checks
+- Tire pressure & condition.
+- Oil level.
+- Brake fluid level.
+- Lights and signals.
+- Belt tension.
+- Leaks under the bike.
+I Cleaning & Storage
+- Wash with mild soap, avoid high-pressure water near electrics.
+- Dry and wax chrome/paint to prevent rust.
+- Winter storage:
+- • Fill tank + fuel stabilizer.
+- • Keep battery on tender.
+- • Cover with breathable motorcycle cover.
+- • Slightly elevate tires for very long storage.
+Maintenance Interval Checklist (Kilometers)
+Interval (km / time)
+Task
+Every ride
+Check tire pressure & condition, oil level, brake fluid, lights, belt tension, and leaks.
+Every 8,000 km / 1 year
+Change engine oil & filter; inspect brakes; check throttle/clutch free play; clean/replace air filte
+Every 16,000 km
+Change primary chaincase fluid; inspect spark plugs.
+Every 32,000 km
+Change transmission fluid; replace spark plugs; change fork oil.
+Every 2 years
+Replace brake fluid.
+Every 3–5 years
+Replace battery if weak; replace tires if 5–7 years old regardless of tread.
