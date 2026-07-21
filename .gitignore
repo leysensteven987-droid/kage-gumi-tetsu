@@ -4,3 +4,4 @@ data/garage/*
 !data/garage/.gitkeep
 .DS_Store
 *.log
+_mobile-verify/

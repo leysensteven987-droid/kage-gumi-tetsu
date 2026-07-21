@@ -451,6 +451,16 @@ export default function TetsuSurface({ onExit }) {
            The page GROUND + body TEXT come from the shared --kg-* tokens; these
            --tt-* vars carry only the monochrome-metal brand decoration. */
         .kg-tetsu{
+          /* Ground + text tokens — standalone fork owns these. In the kage-gumi
+             monorepo the --kg-* theme tokens were provided globally; forked out
+             on their own they were undefined, so every ground/border resolved to
+             transparent and text to default black (a white page with a solid
+             black kanji). Defined here as the murdered-out graphite ground the
+             monochrome-metal brand was designed against. */
+          --kg-bg-deep:#0d0e10; --kg-bg-page:#141518; --kg-bg-card:#1a1c1f; --kg-bg-card-alt:#1f2227;
+          --kg-border:#2a2d32; --kg-border-strong:#3b3f45;
+          --kg-text:#eceef1; --kg-text-body:#c4c8cd; --kg-text-muted:#8b9097; --kg-text-faint:#565a61;
+          --kg-watermark-opacity:.05;
           --tt-chrome:#d7dae0; --tt-steel:#9aa0a8; --tt-steel-dim:#6b7078; --tt-raise:#2c2e33;
           --tt-due:#c85a5f; --tt-soon:#b7935a; --tt-ok:var(--kg-text-muted);
           --tt-grad:linear-gradient(180deg,#ffffff 0%,#e9e4d9 20%,#9fa4ac 48%,#c9ccd2 58%,#70747b 100%);
@@ -493,11 +503,79 @@ export default function TetsuSurface({ onExit }) {
           .kg-tetsu *,.kg-tetsu *::before,.kg-tetsu *::after{animation:none !important;}
           .kg-tt-card:hover{transform:none;}
         }
+
+        /* ── Responsive rework (2026-07-21) ───────────────────────────────
+           This surface was forked from a desktop-first (~1280px min) dashboard
+           and read as unusable on a phone. These breakpoints collapse the
+           multi-column bench to a single, thumb-reachable column at ~390px with
+           a tablet mid-step — without touching the monochrome-metal identity.
+           The surface is styled with inline objects, which win the cascade, so
+           the layout overrides below carry !important by necessity. */
+        .kg-tetsu main{overflow-x:hidden;}
+        /* hover-lift is a mouse affordance; on touch it just leaves stuck states */
+        @media(hover:none){ .kg-tt-card:hover{transform:none;box-shadow:none;} }
+
+        /* Tablet and below — stack the 3-bay hero + the manual reader */
+        @media(max-width:1024px){
+          .kg-tt-main{padding:20px 20px 44px !important;}
+          .kg-tt-herogrid{grid-template-columns:1fr !important;}
+          .kg-tt-herogrid > div{border-right:none !important;border-bottom:1px solid var(--kg-border);}
+          .kg-tt-herogrid > div:last-child{border-bottom:none !important;}
+          .kg-tt-reader{flex-direction:column !important;}
+          .kg-tt-reader-rail{width:100% !important;flex-direction:row !important;flex-wrap:wrap !important;}
+          .kg-tt-reader-rail > button{flex:1 1 auto;min-height:42px;}
+          /* two-up garage grids collapse to one shrinkable column.
+             minmax(0,1fr) — a bare 1fr is minmax(auto,1fr), so the track grows to
+             its content's min-width and a wide no-wrap row still forces overflow. */
+          .kg-tt-colgrid{grid-template-columns:minmax(0,1fr) !important;}
+        }
+
+        /* Phone — one hand, ~390px */
+        @media(max-width:640px){
+          .kg-tt-header{padding:0 14px !important;gap:10px;}
+          .kg-tt-tagline{display:none !important;}
+          .kg-tt-header .kg-tt-btn{min-height:40px;padding:8px 12px !important;}
+          .kg-tt-main{padding:16px 14px 40px !important;}
+
+          /* section nav → full-width wrapping segmented control, finger-sized */
+          .kg-tt-viewseg{display:flex !important;width:100% !important;flex-wrap:wrap;}
+          .kg-tt-viewseg .kg-tt-seg{flex:1 1 auto;min-height:46px;padding:11px 10px !important;
+            font-size:12.5px !important;letter-spacing:1.5px !important;}
+
+          /* torque/fluids bench rows: let the fastener label shrink + wrap so the
+             row's min-content fits a phone card (its no-wrap value stays intact) */
+          .kg-tt-refrow{flex-wrap:wrap;}
+          .kg-tt-refrow > span:first-child{flex-shrink:1 !important;min-width:0;overflow-wrap:anywhere;}
+          .kg-tt-refrow > span:last-child{white-space:normal !important;overflow-wrap:anywhere;}
+
+          /* edit-form field grids collapse 3/4-up → 2-up */
+          .kg-tt-fieldgrid{grid-template-columns:1fr 1fr !important;}
+
+          /* interval rows: drop the status cluster under the task instead of overflowing */
+          .kg-tt-introw{flex-wrap:wrap !important;}
+          .kg-tt-introw > div:last-child{width:100%;flex-wrap:wrap;justify-content:space-between;padding-top:6px !important;}
+
+          /* odometer steppers — bigger tap targets */
+          .kg-tt-odostep button{width:46px !important;height:42px !important;font-size:20px !important;}
+
+          /* mod status toggle — taller segments to tap cleanly */
+          .kg-tt-modtoggle{display:flex !important;width:100%;}
+          .kg-tt-modtoggle button{flex:1 1 auto;min-height:40px;padding:8px 6px !important;font-size:12px !important;}
+
+          /* manual reading pane taller on the phone */
+          .kg-tt-scrollpane{max-height:60vh !important;}
+
+          /* garage header: left-align the state chips once the block stacks */
+          .kg-tt-garagehead > div:last-child{align-items:flex-start !important;}
+
+          /* watermark dialled back so it doesn't swamp a small screen */
+          .kg-tt-watermark{font-size:min(34vh,220px) !important;top:52px !important;}
+        }
       `}</style>
 
       {/* ── Header — layout-2.0 slim top bar: crumb wordmark left, status right;
              the chrome hairline along the bottom edge stays the brand signature ── */}
-      <header style={{ position: "relative", zIndex: 1, flexShrink: 0, height: 58, display: "flex",
+      <header className="kg-tt-header" style={{ position: "relative", zIndex: 1, flexShrink: 0, height: 58, display: "flex",
         alignItems: "center", justifyContent: "space-between", padding: "0 30px", overflow: "hidden",
         background: `linear-gradient(180deg, ${BLACK} 0%, ${GUN} 100%)`,
         borderBottom: `1px solid ${LINE}` }}>
@@ -505,7 +583,7 @@ export default function TetsuSurface({ onExit }) {
           <span style={{ fontFamily: F_KANJI, fontWeight: 700, fontSize: 26, lineHeight: .9, ...chromeText }}>鉄</span>
           <span style={{ fontFamily: F_COND, fontSize: 20, letterSpacing: 4, lineHeight: 1,
             textTransform: "uppercase", ...chromeText }}>TETSU</span>
-          <span style={{ fontSize: 11.5, letterSpacing: 3, color: STEEL_DIM, fontFamily: F_MONO }}>
+          <span className="kg-tt-tagline" style={{ fontSize: 11.5, letterSpacing: 3, color: STEEL_DIM, fontFamily: F_MONO }}>
             RIDE · WRENCH · REPEAT
           </span>
         </div>
@@ -558,16 +636,16 @@ export default function TetsuSurface({ onExit }) {
       <div style={{ position: "relative", zIndex: 1, flex: 1, minHeight: 0, display: "flex" }}>
 
         {/* MAIN — segmented views */}
-        <main style={{ flex: 1, minWidth: 0, overflowY: "auto", padding: "22px 34px 48px",
+        <main className="kg-tt-main" style={{ flex: 1, minWidth: 0, overflowY: "auto", padding: "22px 34px 48px",
           position: "relative", animation: "ttFade .35s ease" }}>
           {/* 鉄 page watermark — huge, decorative, theme-aware opacity */}
-          <span aria-hidden="true" style={{ position: "fixed", right: "-1%", top: 28, fontFamily: F_KANJI,
+          <span aria-hidden="true" className="kg-tt-watermark" style={{ position: "fixed", right: "-1%", top: 28, fontFamily: F_KANJI,
             fontWeight: 700, fontSize: "min(46vh, 420px)", lineHeight: .8, color: FAINT,
             opacity: "var(--kg-watermark-opacity)", pointerEvents: "none", userSelect: "none", zIndex: 0 }}>鉄</span>
 
           <div style={{ position: "relative", zIndex: 1 }}>
             {/* segmented control */}
-            <div style={{ display: "inline-flex", gap: 0, border: `1px solid ${LINE_STR}`, borderRadius: 9,
+            <div className="kg-tt-viewseg" style={{ display: "inline-flex", gap: 0, border: `1px solid ${LINE_STR}`, borderRadius: 9,
               overflow: "hidden", marginBottom: 20, background: BLACK }}>
               {VIEWS.map((v, i) => {
                 const on = view === v.id;
@@ -891,7 +969,7 @@ function GarageView({ bike, editing, updBike, odo, edit, items, raw, fluids, tor
                 </div>
                 <DelBtn onClick={() => edit.delRow("schedule", i)} />
               </div>
-              <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr 1fr", gap: 8, marginTop: 9 }}>
+              <div className="kg-tt-fieldgrid" style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr 1fr", gap: 8, marginTop: 9 }}>
                 <EField label="EVERY KM"><TNum value={item.intervalKm} onChange={v => edit.updRow("schedule", i, "intervalKm", v)} placeholder="8000" allowNull /></EField>
                 <EField label="EVERY MO"><TNum value={item.intervalMonths} onChange={v => edit.updRow("schedule", i, "intervalMonths", v)} placeholder="12" allowNull /></EField>
                 <EField label="LAST KM"><TNum value={item.lastKm} onChange={v => edit.updRow("schedule", i, "lastKm", v)} placeholder="0" /></EField>
@@ -912,7 +990,7 @@ function GarageView({ bike, editing, updBike, odo, edit, items, raw, fluids, tor
     <div style={{ animation: "ttFade .3s ease" }}>
 
       {/* ── page head — title block left, personal tag + state chips right ── */}
-      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start",
+      <div className="kg-tt-garagehead" style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start",
         gap: 20, flexWrap: "wrap", marginBottom: 26 }}>
         <div style={{ maxWidth: 560 }}>
           <div style={{ fontFamily: F_MONO, fontSize: 11, letterSpacing: 3, color: STEEL, marginBottom: 10 }}>
@@ -949,7 +1027,7 @@ function GarageView({ bike, editing, updBike, odo, edit, items, raw, fluids, tor
         <Rivet style={{ top: 7, right: 9 }} />
         <Rivet style={{ bottom: 7, left: 9 }} />
         <Rivet style={{ bottom: 7, right: 9 }} />
-        <div style={{ display: "grid", gridTemplateColumns: "1.25fr .95fr .85fr" }}>
+        <div className="kg-tt-herogrid" style={{ display: "grid", gridTemplateColumns: "1.25fr .95fr .85fr" }}>
 
           {/* bay 1 — identity + specs (edit form when EDIT is on) */}
           <div style={{ position: "relative", padding: "22px 26px", borderRight: `1px solid ${LINE}`, minWidth: 0 }}>
@@ -1006,7 +1084,7 @@ function GarageView({ bike, editing, updBike, odo, edit, items, raw, fluids, tor
               })}
             </div>
             <div style={{ display: "flex", alignItems: "center", gap: 12, marginTop: 12 }}>
-              <div style={{ display: "flex", alignItems: "center", border: `1px solid ${LINE_STR}`,
+              <div className="kg-tt-odostep" style={{ display: "flex", alignItems: "center", border: `1px solid ${LINE_STR}`,
                 borderRadius: 8, overflow: "hidden" }}>
                 <button className="kg-tt-btn" onClick={() => updBike("odometer", Math.max(0, odo - ODO_STEP))}
                   style={{ background: GUN3, border: "none", color: BONE, width: 32, height: 30,
@@ -1104,7 +1182,7 @@ function GarageView({ bike, editing, updBike, odo, edit, items, raw, fluids, tor
       )}
 
       {/* ── INTERVALS + LOG ── */}
-      <div style={{ display: "grid", gridTemplateColumns: "1.05fr .95fr", gap: 16, marginBottom: 28, alignItems: "start" }}>
+      <div className="kg-tt-colgrid" style={{ display: "grid", gridTemplateColumns: "1.05fr .95fr", gap: 16, marginBottom: 28, alignItems: "start" }}>
 
         {/* service intervals */}
         <div style={{ background: GUN, border: `1px solid ${LINE}`, borderRadius: 12, padding: "18px 20px" }}>
@@ -1177,7 +1255,7 @@ function GarageView({ bike, editing, updBike, odo, edit, items, raw, fluids, tor
       </div>
 
       {/* ── BENCH REFERENCE — torque card + fluids & capacities ── */}
-      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 16, alignItems: "start" }}>
+      <div className="kg-tt-colgrid" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 16, alignItems: "start" }}>
 
         {/* torque bench card */}
         <div style={{ background: GUN, border: `1px solid ${LINE}`, borderRadius: 12, padding: "18px 20px" }}>
@@ -1204,7 +1282,7 @@ function GarageView({ bike, editing, updBike, odo, edit, items, raw, fluids, tor
                 <div style={{ color: STEEL_DIM, fontSize: 14, padding: "22px 0" }}>No torque specs yet. Press EDIT to add them.</div>
               )}
               {torque.map((t, i) => (
-                <div key={`${t.item}-${i}`} style={{ display: "flex", alignItems: "baseline", gap: 10,
+                <div key={`${t.item}-${i}`} className="kg-tt-refrow" style={{ display: "flex", alignItems: "baseline", gap: 10,
                   padding: "8px 2px", borderBottom: i < torque.length - 1 ? `1px solid ${LINE}` : "none" }}>
                   <span style={{ fontSize: 13, color: BONE_DIM, flexShrink: 0 }}>{t.item}</span>
                   <span aria-hidden="true" style={{ flex: 1, borderBottom: `1px dotted ${LINE_STR}`,
@@ -1248,7 +1326,7 @@ function GarageView({ bike, editing, updBike, odo, edit, items, raw, fluids, tor
                 <div style={{ color: STEEL_DIM, fontSize: 14, padding: "22px 0" }}>No fluids listed yet. Press EDIT to add them.</div>
               )}
               {fluids.map((f, i) => (
-                <div key={`${f.name}-${i}`} style={{ display: "flex", alignItems: "baseline", gap: 10,
+                <div key={`${f.name}-${i}`} className="kg-tt-refrow" style={{ display: "flex", alignItems: "baseline", gap: 10,
                   padding: "9px 2px", borderBottom: i < fluids.length - 1 ? `1px solid ${LINE}` : "none" }}>
                   <span style={{ fontSize: 13, color: BONE_DIM, width: 150, flexShrink: 0 }}>{f.name}</span>
                   <span style={{ fontFamily: F_MONO, fontSize: 11.5, color: STEEL_DIM, flex: 1, minWidth: 0 }}>{f.spec}</span>
@@ -1276,7 +1354,7 @@ function IntervalRow({ item, odo, unit }) {
   const attentive = s.level === "due" || s.level === "soon";
   return (
     <div style={{ padding: "12px 2px", borderBottom: `1px solid ${LINE}` }}>
-      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", gap: 14 }}>
+      <div className="kg-tt-introw" style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", gap: 14 }}>
         <div style={{ minWidth: 0 }}>
           <div style={{ fontSize: 13.5, color: BONE_DIM, fontWeight: 500, lineHeight: 1.4 }}>{item.task}</div>
           <div style={{ fontFamily: F_MONO, fontSize: 10.5, color: FAINT, marginTop: 2 }}>
@@ -1330,7 +1408,7 @@ function LogbookView({ entries, raw, edit }) {
                 </div>
                 <DelBtn onClick={() => edit.delRow("log", i)} />
               </div>
-              <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr", gap: 8, marginTop: 9 }}>
+              <div className="kg-tt-fieldgrid" style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr", gap: 8, marginTop: 9 }}>
                 <EField label="DATE"><TInput value={e.date} onChange={v => edit.updRow("log", i, "date", v)} placeholder="YYYY-MM-DD" mono /></EField>
                 <EField label="ODO KM"><TNum value={e.odo} onChange={v => edit.updRow("log", i, "odo", v)} placeholder="0" /></EField>
                 <EField label="PHOTO"><TInput value={e.photo} onChange={v => edit.updRow("log", i, "photo", v)} placeholder="file name" mono /></EField>
@@ -1646,9 +1724,9 @@ function ManualReader() {
       )}
 
       {/* chapter rail + reading pane */}
-      <div style={{ display: "flex", gap: 14, alignItems: "stretch" }}>
+      <div className="kg-tt-reader" style={{ display: "flex", gap: 14, alignItems: "stretch" }}>
         {/* rail */}
-        <div style={{ flexShrink: 0, width: 190, display: "flex", flexDirection: "column", gap: 6 }}>
+        <div className="kg-tt-reader-rail" style={{ flexShrink: 0, width: 190, display: "flex", flexDirection: "column", gap: 6 }}>
           {chapErr && (
             <div style={{ fontSize: 13, color: DUE, fontFamily: F_MONO }}>Manual unavailable.</div>
           )}
@@ -1671,7 +1749,7 @@ function ManualReader() {
         </div>
 
         {/* pane */}
-        <div style={{ flex: 1, minWidth: 0, border: `1px solid ${LINE}`, borderRadius: 10, background: BLACK,
+        <div className="kg-tt-reader-pane" style={{ flex: 1, minWidth: 0, border: `1px solid ${LINE}`, borderRadius: 10, background: BLACK,
           display: "flex", flexDirection: "column", minHeight: 0 }}>
           {/* pane header */}
           <div style={{ flexShrink: 0, display: "flex", alignItems: "center", justifyContent: "space-between",
@@ -1724,7 +1802,7 @@ function ModStatusPill({ status }) {
 // flipped from the read view without entering EDIT (writes straight to the row). ─
 function ModStatusToggle({ status, onPick }) {
   return (
-    <div style={{ display: "inline-flex", marginTop: 11, border: `1px solid ${LINE_STR}`,
+    <div className="kg-tt-modtoggle" style={{ display: "inline-flex", marginTop: 11, border: `1px solid ${LINE_STR}`,
       borderRadius: 6, overflow: "hidden", flexWrap: "wrap" }}>
       {["installed", "stock", "planned", "wishlist"].map((v, i) => {
         const on = status === v;
@@ -1795,7 +1873,7 @@ function ModsView({ mods, edit }) {
                 </div>
                 <DelBtn onClick={() => edit.delRow("mods", i)} />
               </div>
-              <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr 1fr", gap: 8, marginTop: 9 }}>
+              <div className="kg-tt-fieldgrid" style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr 1fr", gap: 8, marginTop: 9 }}>
                 <EField label="CATEGORY"><TInput value={mod.category} onChange={v => edit.updRow("mods", i, "category", v)} placeholder="Exhaust" /></EField>
                 <EField label="STATUS">
                   <TSelect value={mod.status} onChange={v => edit.updRow("mods", i, "status", v)}
