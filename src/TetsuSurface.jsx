@@ -91,11 +91,11 @@ const ODO_STEP = 500;    // odometer stepper increment (km)
 // hero nameplate + odometer roller + oil dial + intervals + log spine + bench
 // reference; the id stays "maintenance" so no state wiring moves).
 const VIEWS = [
-  { id: "maintenance", label: "GARAGE" },
-  { id: "mods",        label: "MODS" },
-  { id: "logbook",     label: "LOGBOOK" },
-  { id: "manuals",     label: "MANUALS" },
-  { id: "chat",        label: "ASK TETSU" },
+  { id: "maintenance", label: "GARAGE",    kanji: "車", tab: "GARAGE" },
+  { id: "mods",        label: "MODS",      kanji: "改", tab: "MODS" },
+  { id: "logbook",     label: "LOGBOOK",   kanji: "録", tab: "LOG" },
+  { id: "manuals",     label: "MANUALS",   kanji: "書", tab: "MANUAL" },
+  { id: "chat",        label: "ASK TETSU", kanji: "鉄", tab: "ASK" },
 ];
 
 // Per-mod status styling — reuses the service-status tokens so no new hue enters
@@ -442,7 +442,7 @@ export default function TetsuSurface({ onExit }) {
 
   return (
     <div className="kg-tetsu" data-kg-component="tetsu-surface" data-kg-owner="kg"
-      style={{ position: "fixed", inset: 0, display: "flex", flexDirection: "column", overflow: "hidden",
+      style={{ position: "fixed", top: 0, left: 0, right: 0, display: "flex", flexDirection: "column", overflow: "hidden",
         background: INK,
         backgroundImage: "var(--tt-grain)",
         color: BONE_DIM, fontFamily: F_UI, lineHeight: 1.5 }}>
@@ -451,6 +451,11 @@ export default function TetsuSurface({ onExit }) {
            The page GROUND + body TEXT come from the shared --kg-* tokens; these
            --tt-* vars carry only the monochrome-metal brand decoration. */
         .kg-tetsu{
+          /* Size the app shell to the DYNAMIC viewport so the flex-child bottom
+             tab bar anchors to the TRUE visible bottom on mobile (dvh follows the
+             browser toolbars; svh/vh are progressive fallbacks for old engines). */
+          height:100vh; height:100svh; height:100dvh;
+          --tt-navh:56px;
           /* Ground + text tokens — standalone fork owns these. In the kage-gumi
              monorepo the --kg-* theme tokens were provided globally; forked out
              on their own they were undefined, so every ground/border resolved to
@@ -528,6 +533,34 @@ export default function TetsuSurface({ onExit }) {
              minmax(0,1fr) — a bare 1fr is minmax(auto,1fr), so the track grows to
              its content's min-width and a wide no-wrap row still forces overflow. */
           .kg-tt-colgrid{grid-template-columns:minmax(0,1fr) !important;}
+
+          /* ── mobile bottom tab bar — always-visible section nav ── */
+          .kg-tt-viewseg{display:none !important;}   /* top segmented control retires below desktop */
+          .kg-tt-bottomnav{
+            display:flex !important; position:relative;
+            background:linear-gradient(0deg, var(--kg-bg-deep), var(--kg-bg-card));
+            border-top:1px solid var(--kg-border);
+            padding-bottom:env(safe-area-inset-bottom);   /* clear the iOS home indicator */
+          }
+          /* chrome hairline along the top edge — the brand signature, echoing the header */
+          .kg-tt-bottomnav::before{content:"";position:absolute;left:0;right:0;top:0;height:2px;
+            background:var(--tt-hairline);pointer-events:none;}
+          .kg-tt-tab{
+            flex:1 1 0; min-width:0; min-height:var(--tt-navh);
+            display:flex; flex-direction:column; align-items:center; justify-content:center; gap:3px;
+            background:transparent; border:none; border-top:2px solid transparent;
+            padding:7px 2px 5px; cursor:pointer; color:var(--tt-steel-dim);
+            font-family:${F_MONO}; transition:color .15s ease, background .15s ease;
+          }
+          .kg-tt-tab-k{font-family:${F_KANJI}; font-weight:700; font-size:19px; line-height:1;}
+          .kg-tt-tab-l{font-size:9.5px; letter-spacing:1.5px;}
+          .kg-tt-tab[aria-current="page"]{color:var(--tt-chrome); border-top-color:var(--tt-chrome);
+            background:color-mix(in srgb, var(--tt-chrome) 9%, transparent);}
+
+          /* chat view fits between the header and the bottom bar (dynamic viewport) */
+          .kg-tt-chatwrap{
+            height:calc(100dvh - var(--tt-navh) - env(safe-area-inset-bottom) - 132px) !important;
+            min-height:280px !important;}
         }
 
         /* Phone — one hand, ~390px */
@@ -537,16 +570,15 @@ export default function TetsuSurface({ onExit }) {
           .kg-tt-header .kg-tt-btn{min-height:40px;padding:8px 12px !important;}
           .kg-tt-main{padding:16px 14px 40px !important;}
 
-          /* section nav → full-width wrapping segmented control, finger-sized */
-          .kg-tt-viewseg{display:flex !important;width:100% !important;flex-wrap:wrap;}
-          .kg-tt-viewseg .kg-tt-seg{flex:1 1 auto;min-height:46px;padding:11px 10px !important;
-            font-size:12.5px !important;letter-spacing:1.5px !important;}
-
           /* torque/fluids bench rows: let the fastener label shrink + wrap so the
              row's min-content fits a phone card (its no-wrap value stays intact) */
           .kg-tt-refrow{flex-wrap:wrap;}
           .kg-tt-refrow > span:first-child{flex-shrink:1 !important;min-width:0;overflow-wrap:anywhere;}
           .kg-tt-refrow > span:last-child{white-space:normal !important;overflow-wrap:anywhere;}
+          /* fluids carry three parts (name/spec/qty) — stack them instead of
+             cramming a long spec + qty into one horizontal row */
+          .kg-tt-fluidrow{flex-direction:column !important;align-items:flex-start !important;gap:2px !important;}
+          .kg-tt-fluidrow > span{width:auto !important;white-space:normal !important;}
 
           /* edit-form field grids collapse 3/4-up → 2-up */
           .kg-tt-fieldgrid{grid-template-columns:1fr 1fr !important;}
@@ -693,6 +725,27 @@ export default function TetsuSurface({ onExit }) {
         </main>
 
       </div>
+
+      {/* ── Mobile bottom tab bar — the always-visible section nav. It's a FLEX
+             CHILD of the app shell (not an overlay), so it pins to the shell's
+             true dynamic-viewport bottom, never scrolls away, and never hides
+             content behind it. Hidden ≥1024px where the top segmented control
+             takes over. Safe-area padding clears the iOS home indicator. ── */}
+      {loaded && (
+        <nav className="kg-tt-bottomnav" data-kg-component="tetsu-bottomnav" data-kg-owner="kg"
+          aria-label="Sections" style={{ flexShrink: 0, display: "none", zIndex: 6 }}>
+          {VIEWS.map(v => {
+            const on = view === v.id;
+            return (
+              <button key={v.id} className="kg-tt-tab" aria-current={on ? "page" : undefined}
+                onClick={() => setView(v.id)}>
+                <span className="kg-tt-tab-k" aria-hidden="true">{v.kanji}</span>
+                <span className="kg-tt-tab-l">{v.tab}</span>
+              </button>
+            );
+          })}
+        </nav>
+      )}
     </div>
   );
 }
@@ -1326,7 +1379,7 @@ function GarageView({ bike, editing, updBike, odo, edit, items, raw, fluids, tor
                 <div style={{ color: STEEL_DIM, fontSize: 14, padding: "22px 0" }}>No fluids listed yet. Press EDIT to add them.</div>
               )}
               {fluids.map((f, i) => (
-                <div key={`${f.name}-${i}`} className="kg-tt-refrow" style={{ display: "flex", alignItems: "baseline", gap: 10,
+                <div key={`${f.name}-${i}`} className="kg-tt-refrow kg-tt-fluidrow" style={{ display: "flex", alignItems: "baseline", gap: 10,
                   padding: "9px 2px", borderBottom: i < fluids.length - 1 ? `1px solid ${LINE}` : "none" }}>
                   <span style={{ fontSize: 13, color: BONE_DIM, width: 150, flexShrink: 0 }}>{f.name}</span>
                   <span style={{ fontFamily: F_MONO, fontSize: 11.5, color: STEEL_DIM, flex: 1, minWidth: 0 }}>{f.spec}</span>
@@ -2004,7 +2057,7 @@ function ModsView({ mods, edit }) {
 // ── CHAT — ASK TETSU, wired to POST /api/chat (agentId TETSU) ─────────────────
 function ChatView({ messages, input, setInput, busy, onSend }) {
   return (
-    <div style={{ animation: "ttFade .3s ease", display: "flex", flexDirection: "column",
+    <div className="kg-tt-chatwrap" style={{ animation: "ttFade .3s ease", display: "flex", flexDirection: "column",
       height: "calc(100vh - 200px)", minHeight: 360 }}>
       <div style={{ display: "flex", alignItems: "baseline", justifyContent: "space-between", marginBottom: 4 }}>
         <h2 style={{ fontFamily: F_COND, fontSize: 14, letterSpacing: 3, color: BONE, fontWeight: 700, margin: 0,
