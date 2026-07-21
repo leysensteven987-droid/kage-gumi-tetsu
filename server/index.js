@@ -18,6 +18,7 @@
 import express from "express";
 import { readdirSync, readFileSync, writeFileSync, existsSync, mkdirSync } from "node:fs";
 import { fileURLToPath } from "node:url";
+import { spawn } from "node:child_process";
 import path from "node:path";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -286,15 +287,122 @@ app.get("/api/link-preview", async (req, res) => {
   }
 });
 
-// ─── ASK TETSU chat — STUB ────────────────────────────────────────────────────
-// In the KG monorepo this POSTs to the crew's shared /api/chat (a real Claude-backed
-// operative). That runtime doesn't exist standalone, so return a friendly 200 in the
-// shape the surface reads (`data.reply`). It never shells out to claude.
-// TODO: wire real chat (Anthropic API / claude CLI) — see README Follow-ups.
-app.post("/api/chat", (_req, res) => {
-  res.json({
-    reply: "Ask-Tetsu chat isn't wired up in the standalone app yet. The garage log, service-manual search and link preview all work — the chat is a stub for now.",
+// ─── ASK TETSU chat — real, Claude-backed ─────────────────────────────────────
+// Standalone (no KG runtime), Tetsu answers by shelling out to the `claude` CLI —
+// the same pattern KG's server uses. No ANTHROPIC_API_KEY needed: the CLI uses its
+// own stored login (the box, kg-honbu, has it authenticated). If the CLI is absent
+// or errors, the endpoint degrades to a friendly message in the shape the surface
+// reads (`data.reply`) — never a hard 500.
+const CLAUDE_CMD = process.env.CLAUDE_CMD ||
+  (process.platform === "win32"
+    ? path.join(process.env.APPDATA || "", "npm", "claude.cmd")
+    : "claude");
+
+// Tetsu's persona, grounded to the owner's ACTUAL bike + the workshop manual so it
+// answers for this Forty-Eight, not motorcycles in general.
+const TETSU_PERSONA = [
+  "You are Tetsu (鉄), a seasoned, no-nonsense motorcycle wrench — the owner's personal mechanic.",
+  "You specialise in his bike: a 2013 Harley-Davidson Sportster Forty-Eight (XL1200X), air-cooled Evolution 1202cc 45° V-twin, belt final drive, 5-speed.",
+  "Give practical, hands-on, safety-first answers. Be concise and direct — use short bullet steps for procedures.",
+  "Treat the GARAGE DATA and SERVICE-MANUAL EXCERPTS below as ground truth for specs, fluids, torque values and intervals. Do NOT invent torque figures or fluid capacities — if a number isn't in the provided context and you're not certain, say to check the manual/torque card rather than guessing.",
+  "Flag anything safety-critical (brakes, fuel, tyres, torque on structural fasteners). Metric first, imperial in parentheses.",
+].join(" ");
+
+// Cheap manual retrieval: pull the lines from the 8 workshop-manual chapters that
+// match salient words in the question, so Tetsu can lean on the real manual without
+// us dumping all of it into the prompt. Hard-capped.
+function manualExcerptsFor(message, max = 24) {
+  const words = String(message).toLowerCase().match(/[a-z]{4,}/g) || [];
+  const uniq = [...new Set(words)].slice(0, 8);
+  if (!uniq.length) return "";
+  const out = [];
+  for (const c of MANUAL_CHAPTERS) {
+    let txt;
+    try { txt = readFileSync(path.join(MANUAL_DIR, c.file), "utf8"); } catch { continue; }
+    const lines = txt.split("\n");
+    for (let i = 0; i < lines.length && out.length < max; i++) {
+      const low = lines[i].toLowerCase();
+      if (uniq.some((w) => low.includes(w)) && lines[i].trim().length > 8) {
+        out.push(`[${c.label} L${i + 1}] ${lines[i].trim().slice(0, 200)}`);
+      }
+    }
+    if (out.length >= max) break;
+  }
+  return out.join("\n");
+}
+
+// Compact garage summary — the owner's real specs/fluids/torque/schedule, so "what
+// oil does it take" is answered from HIS fluids list, not a generic guess.
+function garageSummary() {
+  try {
+    const { garage } = loadTetsuGarage();
+    const parts = [];
+    if (garage.bikes?.length)    parts.push("BIKES: "    + garage.bikes.map((b) => JSON.stringify(b)).join(" | "));
+    if (garage.fluids?.length)   parts.push("FLUIDS: "   + garage.fluids.map((f) => JSON.stringify(f)).join(" | "));
+    if (garage.torque?.length)   parts.push("TORQUE: "   + garage.torque.map((t) => JSON.stringify(t)).join(" | "));
+    if (garage.schedule?.length) parts.push("SCHEDULE: " + garage.schedule.map((s) => JSON.stringify(s)).join(" | "));
+    if (garage.torqueNote)       parts.push("TORQUE NOTE: " + garage.torqueNote);
+    return parts.join("\n");
+  } catch { return ""; }
+}
+
+// Minimal one-shot claude invocation — prompt in via stdin, final reply out of the
+// stream-json `result` line. No streaming/retries: this is a single chat turn.
+function askClaude(systemPrompt, message, timeoutMs = 120000) {
+  return new Promise((resolve, reject) => {
+    const prompt = `${systemPrompt}\n\nUser: ${message}`;
+    const cliArgs = ["-p", "--verbose", "--output-format", "stream-json", "--dangerously-skip-permissions"];
+    const [cmd, args] = process.platform === "win32"
+      ? ["cmd.exe", ["/c", CLAUDE_CMD, ...cliArgs]]
+      : [CLAUDE_CMD, cliArgs];
+    // Strip the API-key placeholder so the CLI uses its own stored login, not a stub key.
+    const env = { ...process.env };
+    delete env.ANTHROPIC_API_KEY;
+    const child = spawn(cmd, args, { stdio: ["pipe", "pipe", "pipe"], env });
+    let buf = "", stderr = "", reply = "";
+    const timer = setTimeout(() => { child.kill(); reject(new Error(`timed out after ${timeoutMs / 1000}s`)); }, timeoutMs);
+    child.stdout.on("data", (d) => {
+      buf += d.toString();
+      const lines = buf.split("\n");
+      buf = lines.pop(); // hold the incomplete trailing line
+      for (const line of lines) {
+        const t = line.trim();
+        if (!t) continue;
+        try {
+          const obj = JSON.parse(t);
+          if (obj.type === "result" && obj.subtype === "success") reply = obj.result || "";
+        } catch { /* non-JSON line — ignore */ }
+      }
+    });
+    child.stderr.on("data", (d) => { stderr += d.toString(); });
+    child.on("error", (err) => { clearTimeout(timer); reject(err); });
+    child.on("close", (code) => {
+      clearTimeout(timer);
+      if (code !== 0) return reject(new Error(stderr.trim() || `claude exited ${code}`));
+      resolve(reply.trim());
+    });
+    child.stdin.write(prompt, "utf8");
+    child.stdin.end();
   });
+}
+
+app.post("/api/chat", async (req, res) => {
+  const message = String(req.body?.message || "").trim();
+  if (!message) return res.json({ reply: "Ask me something about the bike." });
+  const context = [
+    "=== GARAGE DATA ===",
+    garageSummary() || "(nothing on file yet)",
+    "",
+    "=== SERVICE-MANUAL EXCERPTS (2013 Sportster) ===",
+    manualExcerptsFor(message) || "(no direct manual matches — answer from knowledge and flag any uncertainty)",
+  ].join("\n");
+  try {
+    const reply = await askClaude(`${TETSU_PERSONA}\n\n${context}`, message);
+    res.json({ reply: reply || "…nothing came back. Try rephrasing." });
+  } catch (e) {
+    // Never a hard 500 — the surface reads data.reply/data.error, so hand back a note.
+    res.json({ reply: `Tetsu couldn't reach the workshop brain (claude CLI): ${String(e?.message || e)}. On the box, make sure the \`claude\` CLI is installed and logged in.` });
+  }
 });
 
 // ─── static UI + SPA fallback ─────────────────────────────────────────────────

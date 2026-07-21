@@ -29,7 +29,7 @@ attribute in the surface is intact.
 | `GET /api/manual/chapter?id=` | One chapter's full text. |
 | `GET /api/manual/search?q=` | Case-insensitive full-text search across all chapters. |
 | `GET /api/link-preview?url=` | Best-effort og:image / title / price scrape for the MODS quick-add. |
-| `POST /api/chat` | **Stub** — Ask-Tetsu chat (see Follow-ups). |
+| `POST /api/chat` | **Ask Tetsu** — shells out to the `claude` CLI, grounded in the garage specs + workshop-manual excerpts. Needs the `claude` CLI installed + logged in (the box has it); no API key. |
 
 ## Data & knowledge
 
@@ -74,12 +74,18 @@ Serves the UI + API on **5274**. Reach it from a phone on the LAN / Tailscale at
 `http://kg-honbu:5274`, or expose `tetsu.kage-gumi.com → localhost:5274` via a Cloudflare
 Tunnel. After a code update: `npm run build` then `pm2 restart kage-gumi-tetsu`.
 
-## Follow-ups
+## Ask Tetsu (chat)
 
-- **Ask-Tetsu chat is a stub.** In the monorepo it hit the crew's shared Claude-backed
-  `/api/chat`; standalone that runtime doesn't exist, so `POST /api/chat` returns a friendly
-  placeholder in the shape the surface expects. Wire a real backend later (Anthropic API or
-  the `claude` CLI) — see the `TODO` in `server/index.js`. The chat UI is intentionally left
-  in place.
-- **KG-side dashboard cleanup pending.** Tetsu now lives here as its own app; the monorepo's
-  Tetsu surface / routing / `#tetsu` entry can be retired on the KG side in a follow-up.
+`POST /api/chat` shells out to the local **`claude` CLI** (same pattern as KG — no
+`ANTHROPIC_API_KEY`, the CLI uses its own stored login). Each turn is grounded in the
+owner's **garage data** (bike, fluids, torque, schedule) plus a cheap keyword retrieval
+over the **workshop-manual chapters**, so Tetsu answers for *this* Forty-Eight and leans on
+the real manual instead of guessing torque figures. Requires the `claude` CLI installed and
+logged in on the host (the box has it); if it's missing the endpoint degrades to a friendly
+note rather than erroring. Optional `CLAUDE_CMD` env overrides the binary path.
+
+## Done / history
+
+- **Ask-Tetsu chat** — wired to the `claude` CLI (was a stub at fork time). ✔
+- **KG-side dashboard cleanup** — the monorepo's Tetsu surface / routing / `#tetsu` entry
+  were retired (Phase 4); KG now link-outs to this app. ✔
