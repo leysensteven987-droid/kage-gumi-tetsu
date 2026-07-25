@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TETSU · BOLDER — style tile · three directions</title>
+<style>
+/* ════════════════════════════════════════════════════════════════════════════
+   TETSU · BOLDER / BRIGHTER / RAWER — style tile, 2026-07-25
+   Three directions rendered against the REAL app components (header, odometer
+   roller, NEXT WRENCH callout, service-interval rows, tab bar, gear card,
+   logbook row, status chips). Local Windows faces only — Bahnschrift /
+   Consolas / Yu Gothic / Segoe UI. No webfonts, no images, no build.
+   Hard vetoes honoured: NO ORANGE anywhere, NO SKULL — the 鉄 kanji is the mark.
+   ════════════════════════════════════════════════════════════════════════════ */
+
+:root{
+  --cond:'Bahnschrift SemiBold','Bahnschrift','Segoe UI',sans-serif;
+  --ui:'Bahnschrift','Segoe UI',system-ui,sans-serif;
+  --mono:'Consolas',ui-monospace,monospace;
+  --kanji:'Yu Gothic UI','Yu Gothic','Meiryo',sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:#0c0d0f;color:#c8ccd2;font-family:var(--ui);line-height:1.5}
+.cond{font-family:var(--cond);font-stretch:75%;text-transform:uppercase}
+
+/* ── tile chrome (the artifact's own frame — neutral, stays out of the way) ── */
+.tile-head{padding:56px 6vw 40px;border-bottom:1px solid #24262a}
+.tile-head .k{font-family:var(--kanji);font-weight:700;font-size:46px;
+  background:linear-gradient(180deg,#fff,#9aa0a8 55%,#565b62);-webkit-background-clip:text;background-clip:text;color:transparent}
+.tile-head h1{font-family:var(--cond);font-stretch:75%;text-transform:uppercase;font-size:44px;letter-spacing:3px;color:#eef0f3;line-height:1.05;margin:10px 0 12px}
+.tile-head p{max-width:74ch;color:#8b9097;font-size:14.5px}
+.tile-head .veto{display:inline-flex;gap:18px;margin-top:16px;font-family:var(--mono);font-size:11px;letter-spacing:2px;color:#6b7076}
+.tile-head .veto b{color:#c85a5f;font-weight:700}
+.tile-nav{display:flex;gap:0;margin-top:26px;border:1px solid #2a2d32;width:max-content}
+.tile-nav a{display:block;padding:10px 22px;font-family:var(--mono);font-size:11.5px;letter-spacing:2px;color:#8b9097;text-decoration:none;border-right:1px solid #2a2d32}
+.tile-nav a:last-child{border-right:none}
+.tile-nav a:hover{color:#eef0f3;background:#17181b}
+
+/* section scaffolding shared by all three directions */
+.dir{padding:64px 6vw 84px}
+.dir-head{display:flex;align-items:baseline;gap:22px;flex-wrap:wrap;margin-bottom:8px}
+.dir-num{font-family:var(--mono);font-size:13px;letter-spacing:3px}
+.dir-name{font-family:var(--cond);font-stretch:75%;text-transform:uppercase;font-size:56px;letter-spacing:2px;line-height:1}
+.dir-intent{font-size:14.5px;max-width:80ch;margin:14px 0 40px}
+.lab{font-family:var(--mono);font-size:10.5px;letter-spacing:3px;text-transform:uppercase;margin-bottom:14px;display:block}
+.block{margin-bottom:44px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:start}
+.grid3{display:grid;grid-template-columns:1.1fr 1fr .9fr;gap:28px;align-items:start}
+@media(max-width:1100px){.grid2,.grid3{grid-template-columns:1fr}}
+
+/* palette ramp swatches */
+.ramp{display:flex;width:100%}
+.sw{flex:1 1 0;height:92px;display:flex;flex-direction:column;justify-content:flex-end;padding:8px 10px;font-family:var(--mono);font-size:10px;letter-spacing:1px;min-width:0}
+.sw i{font-style:normal;opacity:.85;display:block}
+.sw b{font-weight:400;display:block}
+
+/* type-scale rows */
+.ts-row{display:flex;align-items:baseline;gap:18px;padding:10px 0}
+.ts-tag{font-family:var(--mono);font-size:10px;letter-spacing:2px;width:150px;flex-shrink:0}
+
+/* ══════════════════════════════ DIRECTION 01 · FORGE LIGHT ═════════════════ */
+.d1{background:#e6e3dc;color:#191a1c;
+  background-image:
+    repeating-linear-gradient(90deg,rgba(25,26,28,.028) 0 1px,transparent 1px 3px),
+    radial-gradient(90% 60% at 50% 0%,rgba(255,255,255,.5),transparent 70%)}
+.d1 .dir-num{color:#b3232e}
+.d1 .dir-name{color:#111214}
+.d1 .dir-intent{color:#4c4f54}
+.d1 .lab{color:#6d7076}
+.d1 .lab::after{content:"";display:block;height:3px;width:44px;background:#111214;margin-top:7px}
+
+/* 01 mark — the stamped plate: white glyph knocked out of a solid ink slab */
+.d1-mark{display:flex;gap:26px;align-items:center;flex-wrap:wrap}
+.d1-plate{width:132px;height:132px;background:#111214;display:flex;align-items:center;justify-content:center;
+  box-shadow:7px 7px 0 rgba(17,18,20,.22);position:relative;flex-shrink:0}
+.d1-plate .g{font-family:var(--kanji);font-weight:700;font-size:86px;color:#f4f2ec;line-height:1}
+.d1-plate::after{content:"XL1200X";position:absolute;bottom:7px;right:9px;font-family:var(--mono);font-size:8.5px;letter-spacing:2px;color:#8b9097}
+.d1-mark p{font-size:13px;color:#4c4f54;max-width:40ch}
+
+/* 01 header — spec-sheet masthead: giant ink, one heavy rule */
+.d1-header{background:#f4f2ec;border:2px solid #111214;box-shadow:8px 8px 0 rgba(17,18,20,.18)}
+.d1-header .bar{display:flex;align-items:center;justify-content:space-between;padding:16px 24px;border-bottom:8px solid #111214}
+.d1-header .wm{display:flex;align-items:baseline;gap:14px}
+.d1-header .wm .g{font-family:var(--kanji);font-weight:700;font-size:34px;color:#111214;line-height:.9}
+.d1-header .wm .t{font-family:var(--cond);font-stretch:75%;text-transform:uppercase;font-size:30px;letter-spacing:5px;color:#111214;font-weight:700}
+.d1-header .wm .tag{font-family:var(--mono);font-size:10.5px;letter-spacing:3px;color:#8a867c}
+.d1-header .bar .st{display:flex;align-items:center;gap:16px;font-family:var(--mono);font-size:11px;letter-spacing:1.5px;color:#6d7076}
+.d1-header .bar .st .dot{width:8px;height:8px;background:#3f6b52;display:inline-block;margin-right:6px}
+.d1-btn{font-family:var(--mono);font-size:11px;letter-spacing:2px;font-weight:700;background:#111214;color:#f4f2ec;border:none;padding:9px 16px;cursor:pointer;box-shadow:3px 3px 0 rgba(17,18,20,.25)}
+.d1-btn.ghost{background:transparent;color:#111214;border:2px solid #111214;box-shadow:none}
+.d1-header .crumb{display:flex;gap:0;border-top:1px solid #d5d1c6}
+.d1-header .crumb span{font-family:var(--cond);font-stretch:78%;text-transform:uppercase;font-size:14px;letter-spacing:3px;padding:10px 22px;color:#8a867c;border-right:1px solid #d5d1c6}
+.d1-header .crumb span.on{background:#111214;color:#f4f2ec}
+
+/* 01 odometer — ink counters on paper, machined not glowing */
+.d1-odo{background:#f4f2ec;border:2px solid #111214;padding:22px 24px;box-shadow:8px 8px 0 rgba(17,18,20,.18)}
+.d1-odo .cells{display:flex;gap:5px}
+.d1-odo .c{width:46px;height:64px;background:#111214;color:#f4f2ec;display:flex;align-items:center;justify-content:center;
+  font-family:var(--mono);font-weight:700;font-size:38px;box-shadow:inset 0 4px 6px rgba(0,0,0,.55),inset 0 -4px 6px rgba(0,0,0,.55)}
+.d1-odo .c.hot{background:#f4f2ec;color:#111214;border:2px solid #111214;box-shadow:none}
+.d1-odo .sub{display:flex;justify-content:space-between;margin-top:12px;font-family:var(--mono);font-size:10.5px;letter-spacing:2px;color:#8a867c}
+.d1-next{margin-top:18px;border-top:2px solid #111214;padding-top:14px;display:flex;align-items:center;gap:18px}
+.d1-next .k{font-family:var(--kanji);font-weight:700;font-size:30px;color:#111214;opacity:.9}
+.d1-next .body{flex:1}
+.d1-next .t1{font-family:var(--cond);font-stretch:78%;text-transform:uppercase;font-size:19px;letter-spacing:1.5px;color:#111214;font-weight:700}
+.d1-next .t2{font-family:var(--mono);font-size:11px;color:#6d7076;margin-top:3px;letter-spacing:1px}
+.d1-next .n{font-family:var(--cond);font-stretch:70%;font-size:58px;font-weight:700;color:#b3232e;line-height:.9;text-align:right}
+.d1-next .n small{display:block;font-family:var(--mono);font-size:10px;letter-spacing:2px;color:#b3232e;font-weight:400;margin-top:4px}
+
+/* 01 interval rows — ledger lines, painted status plates */
+.d1-int{background:#f4f2ec;border:2px solid #111214;box-shadow:8px 8px 0 rgba(17,18,20,.18)}
+.d1-int .hd{display:flex;justify-content:space-between;align-items:center;padding:13px 20px;border-bottom:4px solid #111214}
+.d1-int .hd .t{font-family:var(--cond);font-stretch:75%;text-transform:uppercase;font-size:17px;letter-spacing:3px;font-weight:700;color:#111214}
+.d1-int .hd .m{font-family:var(--mono);font-size:10.5px;letter-spacing:2px;color:#8a867c}
+.d1-row{display:flex;align-items:center;gap:16px;padding:14px 20px;border-bottom:1px solid #d5d1c6;position:relative}
+.d1-row:last-child{border-bottom:none}
+.d1-row .task{flex:1;min-width:0}
+.d1-row .task .t{font-size:15.5px;font-weight:700;color:#191a1c}
+.d1-row .task .i{font-family:var(--mono);font-size:10.5px;color:#8a867c;margin-top:2px;letter-spacing:.5px}
+.d1-row .next{font-family:var(--mono);font-size:12px;color:#4c4f54;white-space:nowrap}
+.d1-row .next b{color:#111214}
+.d1-chip{font-family:var(--mono);font-size:10.5px;letter-spacing:2px;font-weight:700;padding:5px 12px;white-space:nowrap}
+.d1-chip.ok{border:2px solid #111214;color:#111214}
+.d1-chip.soon{background:#8a6a2f;color:#f4f2ec}
+.d1-chip.due{background:#b3232e;color:#fff;box-shadow:3px 3px 0 rgba(17,18,20,.3)}
+.d1-row .bar{position:absolute;left:0;bottom:-1px;height:4px;background:#111214}
+.d1-row .bar.due{background:#b3232e}
+.d1-row .bar.soon{background:#8a6a2f}
+
+/* 01 gear card */
+.d1-gear{background:#f4f2ec;border:2px solid #111214;box-shadow:8px 8px 0 rgba(17,18,20,.18);padding:18px 20px}
+.d1-gear .top{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}
+.d1-gear .name{font-family:var(--cond);font-stretch:78%;text-transform:uppercase;font-size:21px;letter-spacing:1px;font-weight:700;color:#111214;line-height:1.1}
+.d1-gear .cat{display:inline-block;font-family:var(--mono);font-size:10px;letter-spacing:2px;border:1px solid #111214;padding:2px 8px;margin-top:8px;color:#4c4f54}
+.d1-gear .meta{display:flex;gap:18px;margin-top:12px;font-family:var(--mono);font-size:13px}
+.d1-gear .meta .c{color:#111214;font-weight:700}
+.d1-gear .meta a{color:#b3232e;font-weight:700;text-decoration:none;letter-spacing:1px}
+/* 01 comparison strip */
+.d1-cmp{display:grid;grid-template-columns:1fr 1fr;gap:0;border:2px solid #111214;box-shadow:8px 8px 0 rgba(17,18,20,.18)}
+@media(max-width:900px){.d1-cmp{grid-template-columns:1fr}}
+.d1-cmp .half{padding:18px 20px}
+.d1-cmp .half.hk{background:#f4f2ec}
+.d1-cmp .half.lk{background:#111214}
+.d1-cmp .cap{font-family:var(--mono);font-size:9.5px;letter-spacing:2.5px;margin-bottom:12px;display:block}
+.d1-cmp .hk .cap{color:#8a867c}.d1-cmp .lk .cap{color:#6b7076}
+.d1-cmp .lk .d1-row{border-color:#2a2d32}
+.d1-cmp .lk .task .t{color:#f4f2ec}
+.d1-cmp .lk .task .i{color:#8b9097}
+.d1-cmp .lk .next{color:#c8ccd2}.d1-cmp .lk .next b{color:#fff}
+.d1-cmp .lk .d1-chip.ok{border-color:#f4f2ec;color:#f4f2ec}
+
+/* ══════════════════════════════ DIRECTION 02 · BLACK CHROME ════════════════ */
+.d2{background:#000;color:#c8ccd2;
+  background-image:radial-gradient(120% 70% at 50% -10%,rgba(255,255,255,.05),transparent 60%)}
+.d2 .dir-num{color:#8f959d}
+.d2 .dir-name{background:linear-gradient(180deg,#fff 0%,#eef0f3 24%,#9ba1a9 48%,#f0f2f5 57%,#5c6169 100%);
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+  filter:drop-shadow(0 2px 0 rgba(0,0,0,.9))}
+.d2 .dir-intent{color:#8b9097}
+.d2 .lab{color:#6b7076}
+.d2 .lab::after{content:"";display:block;height:2px;width:44px;margin-top:7px;
+  background:linear-gradient(90deg,#fff,#565b62)}
+.d2 .chrome{background:linear-gradient(180deg,#fff 0%,#eef0f3 24%,#9ba1a9 48%,#f0f2f5 57%,#5c6169 100%);
+  -webkit-background-clip:text;background-clip:text;color:transparent}
+.d2-hair{height:2px;background:linear-gradient(90deg,transparent,#eef0f3 25%,#70747b 50%,#eef0f3 75%,transparent)}
+
+/* 02 mark — chrome badge: glyph in a machined ring on black */
+.d2-mark{display:flex;gap:28px;align-items:center;flex-wrap:wrap}
+.d2-badge{width:150px;height:150px;border-radius:50%;flex-shrink:0;position:relative;
+  background:radial-gradient(circle at 32% 26%,#26282c,#0a0b0d 68%);
+  border:3px solid transparent;
+  background-clip:padding-box;
+  box-shadow:0 0 0 3px #0a0b0d,0 0 0 5px #9ba1a9,0 0 0 6px #33373c,0 14px 40px rgba(0,0,0,.8);
+  display:flex;align-items:center;justify-content:center}
+.d2-badge .g{font-family:var(--kanji);font-weight:700;font-size:92px;line-height:1;
+  background:linear-gradient(180deg,#fff 0%,#eef0f3 24%,#9ba1a9 48%,#f0f2f5 57%,#5c6169 100%);
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+  filter:drop-shadow(0 2px 1px rgba(0,0,0,.9))}
+.d2-mark p{font-size:13px;color:#8b9097;max-width:40ch}
+
+/* 02 header — showroom masthead: brighter chrome, bigger scale */
+.d2-header{background:linear-gradient(180deg,#000,#0e0f11);border:1px solid #24262a}
+.d2-header .bar{display:flex;align-items:center;justify-content:space-between;padding:18px 26px}
+.d2-header .wm{display:flex;align-items:baseline;gap:16px}
+.d2-header .wm .g{font-family:var(--kanji);font-weight:700;font-size:40px;line-height:.9}
+.d2-header .wm .t{font-family:var(--cond);font-stretch:75%;text-transform:uppercase;font-size:34px;letter-spacing:7px;font-weight:700}
+.d2-header .wm .tag{font-family:var(--mono);font-size:10.5px;letter-spacing:3px;color:#565b62}
+.d2-header .st{display:flex;align-items:center;gap:16px;font-family:var(--mono);font-size:11px;letter-spacing:1.5px;color:#8b9097}
+.d2-header .st .dot{width:8px;height:8px;border-radius:50%;background:#9fb8a9;box-shadow:0 0 8px rgba(159,184,169,.6);display:inline-block;margin-right:6px}
+.d2-btn{font-family:var(--mono);font-size:11px;letter-spacing:2px;font-weight:700;color:#0e0f11;border:none;padding:9px 18px;cursor:pointer;
+  background:linear-gradient(180deg,#fff,#c9ccd2 55%,#9ba1a9)}
+.d2-btn.ghost{background:transparent;color:#8b9097;border:1px solid #33373c}
+/* 02 tab bar */
+.d2-tabs{display:flex;border:1px solid #24262a;background:#000;width:max-content;max-width:100%}
+.d2-tabs span{font-family:var(--cond);font-stretch:78%;text-transform:uppercase;font-size:15px;letter-spacing:3px;padding:12px 26px;color:#565b62;border-right:1px solid #24262a}
+.d2-tabs span:last-child{border-right:none}
+.d2-tabs span.on{background:linear-gradient(180deg,#fff,#c9ccd2 55%,#9ba1a9);color:#0e0f11;font-weight:700}
+
+/* 02 odometer + next wrench — the money shot: giant chrome numerals */
+.d2-hero{background:linear-gradient(180deg,#0a0b0d,#111215);border:1px solid #24262a;padding:26px 28px;position:relative;overflow:hidden}
+.d2-hero::before{content:"鉄";position:absolute;right:-10px;top:-30px;font-family:var(--kanji);font-weight:700;font-size:240px;color:#fff;opacity:.03;line-height:1;pointer-events:none}
+.d2-hero .odom{font-family:var(--cond);font-stretch:70%;font-weight:700;font-size:104px;line-height:.9;letter-spacing:2px}
+.d2-hero .odom small{font-family:var(--mono);font-size:14px;letter-spacing:3px;color:#565b62;font-weight:400;margin-left:10px}
+.d2-hero .vit{display:flex;gap:44px;margin-top:22px;padding-top:18px;border-top:1px solid #24262a;flex-wrap:wrap}
+.d2-hero .vit .v .l{font-family:var(--mono);font-size:9.5px;letter-spacing:2.5px;color:#565b62;text-transform:uppercase}
+.d2-hero .vit .v .n{font-family:var(--mono);font-size:20px;font-weight:700;margin-top:4px;color:#eef0f3}
+.d2-hero .vit .v .n.due{color:#e04b55;text-shadow:0 0 14px rgba(224,75,85,.45)}
+.d2-hero .vit .v .n.soon{color:#d4af6a}
+.d2-next{margin-top:22px;display:flex;align-items:center;gap:20px;background:#000;border:1px solid #33373c;border-left:4px solid #e04b55;padding:16px 22px}
+.d2-next .t1{font-family:var(--cond);font-stretch:78%;text-transform:uppercase;font-size:20px;letter-spacing:2px;color:#eef0f3;font-weight:700}
+.d2-next .t2{font-family:var(--mono);font-size:11px;color:#8b9097;margin-top:3px;letter-spacing:1px}
+.d2-next .n{margin-left:auto;font-family:var(--cond);font-stretch:70%;font-size:52px;font-weight:700;color:#e04b55;line-height:.9;text-shadow:0 0 22px rgba(224,75,85,.4);text-align:right}
+.d2-next .n small{display:block;font-family:var(--mono);font-size:10px;letter-spacing:2px;font-weight:400;margin-top:4px;color:#8b9097;text-shadow:none}
+
+/* 02 interval rows */
+.d2-int{background:#0a0b0d;border:1px solid #24262a}
+.d2-int .hd{display:flex;justify-content:space-between;align-items:center;padding:14px 22px}
+.d2-int .hd .t{font-family:var(--cond);font-stretch:75%;text-transform:uppercase;font-size:17px;letter-spacing:3px;font-weight:700;color:#eef0f3}
+.d2-int .hd .m{font-family:var(--mono);font-size:10.5px;letter-spacing:2px;color:#565b62}
+.d2-row{display:flex;align-items:center;gap:16px;padding:15px 22px;border-top:1px solid #1b1d20;position:relative}
+.d2-row .task{flex:1;min-width:0}
+.d2-row .task .t{font-size:15px;font-weight:600;color:#eef0f3}
+.d2-row .task .i{font-family:var(--mono);font-size:10.5px;color:#565b62;margin-top:2px}
+.d2-row .next{font-family:var(--mono);font-size:12px;color:#8b9097;white-space:nowrap}
+.d2-row .next b{color:#eef0f3}
+.d2-chip{display:inline-flex;align-items:center;gap:7px;font-family:var(--mono);font-size:10.5px;letter-spacing:2px;font-weight:700;padding:5px 12px;border-radius:999px;white-space:nowrap}
+.d2-chip i{width:7px;height:7px;border-radius:50%;font-style:normal}
+.d2-chip.ok{border:1px solid #33373c;color:#c9ccd2}.d2-chip.ok i{background:#c9ccd2}
+.d2-chip.soon{border:1px solid rgba(212,175,106,.5);color:#d4af6a}.d2-chip.soon i{background:#d4af6a;box-shadow:0 0 8px rgba(212,175,106,.7)}
+.d2-chip.due{border:1px solid #e04b55;color:#fff;background:rgba(224,75,85,.16)}.d2-chip.due i{background:#e04b55;box-shadow:0 0 10px rgba(224,75,85,.9)}
+.d2-row .bar{position:absolute;left:0;bottom:0;height:3px}
+.d2-row .bar.ok{background:linear-gradient(90deg,transparent,#565b62)}
+.d2-row .bar.soon{background:linear-gradient(90deg,transparent,#d4af6a)}
+.d2-row .bar.due{background:linear-gradient(90deg,transparent,#e04b55);box-shadow:0 0 10px rgba(224,75,85,.5)}
+
+/* 02 logbook row */
+.d2-log{background:#0a0b0d;border:1px solid #24262a;padding:18px 22px;display:flex;gap:18px;align-items:flex-start}
+.d2-log .ph{width:96px;height:96px;flex-shrink:0;background:radial-gradient(circle at 30% 20%,#1b1d20,#000);border:1px solid #33373c;display:flex;align-items:center;justify-content:center;font-family:var(--kanji);font-size:34px;font-weight:700}
+.d2-log .d{font-family:var(--mono);font-size:12px;letter-spacing:1px}
+.d2-log .d b{font-weight:700}
+.d2-log .t{font-family:var(--cond);font-stretch:78%;text-transform:uppercase;font-size:20px;letter-spacing:1.5px;color:#eef0f3;font-weight:700;margin-top:5px}
+.d2-log .tags{display:flex;gap:7px;margin-top:9px}
+.d2-log .tags span{font-family:var(--mono);font-size:10.5px;letter-spacing:1.5px;border:1px solid #33373c;padding:2px 9px;border-radius:999px;color:#8b9097}
+
+/* ══════════════════════════════ DIRECTION 03 · WELD & STENCIL ══════════════ */
+.d3{background:#1b1c1f;color:#c8ccd2;
+  background-image:
+    repeating-linear-gradient(45deg,rgba(255,255,255,.022) 0 2px,transparent 2px 16px),
+    repeating-linear-gradient(-45deg,rgba(255,255,255,.022) 0 2px,transparent 2px 16px)}
+.d3 .dir-num{color:#c8323b}
+.d3 .dir-name{color:transparent;-webkit-text-stroke:2px #dfe3e9;letter-spacing:4px}
+.d3 .dir-intent{color:#8f949b}
+.d3 .lab{color:#7c8188}
+.d3 .lab::after{content:"";display:block;height:4px;width:44px;margin-top:7px;
+  background:repeating-linear-gradient(90deg,#dfe3e9 0 6px,transparent 6px 10px)}
+.d3-cut{clip-path:polygon(16px 0,100% 0,100% calc(100% - 16px),calc(100% - 16px) 100%,0 100%,0 16px)}
+.d3-ticks{height:7px;background:repeating-linear-gradient(90deg,#4a4e55 0 1px,transparent 1px 9px)}
+
+/* 03 mark — torch-cut plate, stroked glyph over the steel, weld-stitch frame */
+.d3-mark{display:flex;gap:28px;align-items:center;flex-wrap:wrap}
+.d3-plate{width:150px;height:150px;flex-shrink:0;background:#26282c;position:relative;
+  clip-path:polygon(18px 0,100% 0,100% calc(100% - 18px),calc(100% - 18px) 100%,0 100%,0 18px);
+  display:flex;align-items:center;justify-content:center;
+  background-image:repeating-linear-gradient(45deg,rgba(255,255,255,.03) 0 2px,transparent 2px 14px)}
+.d3-plate::before{content:"";position:absolute;inset:7px;border:2px dashed #9aa0a8;
+  clip-path:polygon(14px 0,100% 0,100% calc(100% - 14px),calc(100% - 14px) 100%,0 100%,0 14px)}
+.d3-plate .g{font-family:var(--kanji);font-weight:700;font-size:96px;line-height:1;color:transparent;-webkit-text-stroke:2.5px #f2f4f7;
+  filter:drop-shadow(0 3px 0 rgba(0,0,0,.7))}
+.d3-mark p{font-size:13px;color:#8f949b;max-width:40ch}
+
+/* 03 header — shop-door plate: stencil word, weld seam under */
+.d3-header{background:#232529;border:1px solid #3a3e44;box-shadow:6px 6px 0 rgba(0,0,0,.45)}
+.d3-header .bar{display:flex;align-items:center;justify-content:space-between;padding:16px 24px;flex-wrap:wrap;gap:12px}
+.d3-header .wm{display:flex;align-items:baseline;gap:14px}
+.d3-header .wm .g{font-family:var(--kanji);font-weight:700;font-size:34px;line-height:.9;color:transparent;-webkit-text-stroke:2px #f2f4f7}
+.d3-header .wm .t{font-family:var(--cond);font-stretch:75%;text-transform:uppercase;font-size:30px;letter-spacing:9px;color:#f2f4f7;font-weight:700}
+.d3-header .wm .tag{font-family:var(--mono);font-size:10.5px;letter-spacing:3px;color:#7c8188}
+.d3-header .seam{height:0;border-top:3px dashed #6c7178;margin:0 10px}
+.d3-header .st{display:flex;align-items:center;gap:14px;font-family:var(--mono);font-size:11px;letter-spacing:1.5px;color:#8f949b}
+.d3-btn{font-family:var(--mono);font-size:11px;letter-spacing:2px;font-weight:700;background:#f2f4f7;color:#1b1c1f;border:none;padding:9px 16px;cursor:pointer;
+  clip-path:polygon(8px 0,100% 0,100% calc(100% - 8px),calc(100% - 8px) 100%,0 100%,0 8px)}
+.d3-btn.ghost{background:transparent;color:#c8ccd2;border:2px solid #6c7178;clip-path:none}
+/* 03 tab bar — stencilled tags */
+.d3-tabs{display:flex;gap:10px;flex-wrap:wrap}
+.d3-tabs span{font-family:var(--cond);font-stretch:78%;text-transform:uppercase;font-size:15px;letter-spacing:4px;padding:11px 22px;color:#8f949b;border:2px dashed #4a4e55;background:#202226}
+.d3-tabs span.on{color:#1b1c1f;background:#f2f4f7;border:2px solid #f2f4f7;box-shadow:4px 4px 0 rgba(0,0,0,.5)}
+
+/* 03 odometer + next — outlined numerals like paint-pen on steel */
+.d3-hero{background:#232529;border:1px solid #3a3e44;padding:24px 26px;box-shadow:6px 6px 0 rgba(0,0,0,.45);position:relative}
+.d3-hero .odom{font-family:var(--cond);font-stretch:70%;font-weight:700;font-size:92px;line-height:.9;letter-spacing:3px;color:transparent;-webkit-text-stroke:2.5px #f2f4f7}
+.d3-hero .odom small{font-family:var(--mono);font-size:13px;letter-spacing:3px;color:#7c8188;font-weight:400;-webkit-text-stroke:0;color:#7c8188;margin-left:8px}
+.d3-hero .sub{font-family:var(--mono);font-size:10.5px;letter-spacing:2px;color:#7c8188;margin-top:10px}
+.d3-next{margin-top:18px;background:#1b1c1f;border:2px dashed #6c7178;padding:15px 20px;display:flex;align-items:center;gap:18px;flex-wrap:wrap}
+.d3-next .stamp{font-family:var(--cond);font-stretch:78%;text-transform:uppercase;font-size:13px;letter-spacing:3px;font-weight:700;color:#fff;background:#c8323b;padding:7px 13px;transform:rotate(-1.5deg);box-shadow:3px 3px 0 rgba(0,0,0,.5);flex-shrink:0}
+.d3-next .t1{font-family:var(--cond);font-stretch:78%;text-transform:uppercase;font-size:19px;letter-spacing:2px;color:#f2f4f7;font-weight:700}
+.d3-next .t2{font-family:var(--mono);font-size:11px;color:#8f949b;margin-top:3px;letter-spacing:1px}
+.d3-next .n{margin-left:auto;font-family:var(--cond);font-stretch:70%;font-size:48px;font-weight:700;line-height:.9;color:transparent;-webkit-text-stroke:2px #c8323b;text-align:right}
+.d3-next .n small{display:block;font-family:var(--mono);font-size:10px;letter-spacing:2px;font-weight:400;margin-top:4px;color:#c8323b;-webkit-text-stroke:0}
+
+/* 03 interval rows — job tickets with painted tags */
+.d3-int{background:#232529;border:1px solid #3a3e44;box-shadow:6px 6px 0 rgba(0,0,0,.45)}
+.d3-int .hd{display:flex;justify-content:space-between;align-items:center;padding:13px 20px;border-bottom:3px dashed #4a4e55}
+.d3-int .hd .t{font-family:var(--cond);font-stretch:75%;text-transform:uppercase;font-size:16px;letter-spacing:4px;font-weight:700;color:#f2f4f7}
+.d3-int .hd .m{font-family:var(--mono);font-size:10.5px;letter-spacing:2px;color:#7c8188}
+.d3-row{display:flex;align-items:center;gap:16px;padding:14px 20px;border-bottom:1px solid #33363b}
+.d3-row:last-child{border-bottom:none}
+.d3-row .task{flex:1;min-width:0}
+.d3-row .task .t{font-size:15px;font-weight:700;color:#e8ebef}
+.d3-row .task .i{font-family:var(--mono);font-size:10.5px;color:#7c8188;margin-top:2px}
+.d3-row .next{font-family:var(--mono);font-size:12px;color:#a7acb3;white-space:nowrap}
+.d3-row .next b{color:#f2f4f7}
+.d3-tag{font-family:var(--cond);font-stretch:78%;text-transform:uppercase;font-size:12px;letter-spacing:2.5px;font-weight:700;padding:5px 11px;white-space:nowrap;transform:rotate(-1deg)}
+.d3-tag.ok{color:#cfd4da;border:2px dashed #6c7178;transform:none}
+.d3-tag.soon{background:#b98f45;color:#1b1c1f;box-shadow:2px 2px 0 rgba(0,0,0,.5)}
+.d3-tag.due{background:#c8323b;color:#fff;box-shadow:3px 3px 0 rgba(0,0,0,.55)}
+
+/* 03 gear card — parts bin ticket */
+.d3-gear{background:#232529;border:1px solid #3a3e44;box-shadow:6px 6px 0 rgba(0,0,0,.45);padding:0}
+.d3-gear .strip{height:7px;background:repeating-linear-gradient(90deg,#4a4e55 0 1px,transparent 1px 9px)}
+.d3-gear .in{padding:16px 20px}
+.d3-gear .name{font-family:var(--cond);font-stretch:78%;text-transform:uppercase;font-size:20px;letter-spacing:1.5px;font-weight:700;color:#f2f4f7;line-height:1.15}
+.d3-gear .cat{display:inline-block;font-family:var(--mono);font-size:10px;letter-spacing:2px;border:1px dashed #6c7178;padding:2px 9px;margin-top:8px;color:#a7acb3}
+.d3-gear .meta{display:flex;gap:18px;margin-top:12px;font-family:var(--mono);font-size:13px;align-items:baseline;flex-wrap:wrap}
+.d3-gear .meta .c{color:#f2f4f7;font-weight:700;font-size:15px}
+.d3-gear .meta .dt{color:#7c8188}
+
+/* type-scale ink per direction */
+.d1 .ts-tag{color:#8a867c}.d2 .ts-tag{color:#565b62}.d3 .ts-tag{color:#7c8188}
+
+/* footer / verdict */
+.verdict{padding:60px 6vw 90px;border-top:1px solid #24262a;background:#0c0d0f}
+.verdict h2{font-family:var(--cond);font-stretch:75%;text-transform:uppercase;font-size:30px;letter-spacing:3px;color:#eef0f3;margin-bottom:16px}
+.verdict p{max-width:80ch;color:#8b9097;font-size:14.5px;margin-bottom:10px}
+.verdict b{color:#d7dae0}
+</style>
+</head>
+<body>
+
+<!-- ════════════════════════ TILE HEAD ════════════════════════ -->
+<header class="tile-head">
+  <span class="k">鉄</span>
+  <h1>Tetsu · Bolder — Three Directions</h1>
+  <p>Style tile for the next visual direction of the Forty-Eight garage app. Each direction is a genuine
+     take on <em>bolder / brighter / rawer</em>, rendered against the real components: the header, the odometer,
+     the NEXT WRENCH callout, service-interval rows with live status, the tab bar, a gear card and a logbook row.
+     All type is local Windows faces — Bahnschrift condensed, Consolas, Yu Gothic.</p>
+  <div class="veto"><span><b>VETO</b> NO ORANGE</span><span><b>VETO</b> NO SKULL — 鉄 IS THE MARK</span><span>REF · H-D.COM (BE/NL)</span></div>
+  <nav class="tile-nav">
+    <a href="#d1">01 FORGE LIGHT</a><a href="#d2">02 BLACK CHROME</a><a href="#d3">03 WELD &amp; STENCIL</a><a href="#verdict">VERDICT</a>
+  </nav>
+</header>
+
+<!-- ════════════════════════ DIRECTION 01 · FORGE LIGHT ════════════════════════ -->
+<section class="dir d1" id="d1">
+  <div class="dir-head">
+    <span class="dir-num">DIRECTION 01</span>
+    <span class="dir-name">Forge Light</span>
+  </div>
+  <p class="dir-intent"><strong>The spec-sheet, printed at the plant.</strong> "Brighter" taken literally: a high-key
+     bone-concrete ground, massive black condensed ink, 8px slab rules and hard offset shadows — the H-D.com
+     showroom look (their site is mostly white with giant black type). Chrome becomes ink-on-paper; the only
+     colour left standing is a signal red that means one thing: OVERDUE.</p>
+
+  <div class="block grid3">
+    <div>
+      <span class="lab">Colour ramp</span>
+      <div class="ramp">
+        <div class="sw" style="background:#f4f2ec;color:#191a1c"><i>paper</i><b>#F4F2EC</b></div>
+        <div class="sw" style="background:#e6e3dc;color:#191a1c"><i>concrete</i><b>#E6E3DC</b></div>
+        <div class="sw" style="background:#d5d1c6;color:#191a1c"><i>seam</i><b>#D5D1C6</b></div>
+        <div class="sw" style="background:#8a867c;color:#f4f2ec"><i>stone</i><b>#8A867C</b></div>
+        <div class="sw" style="background:#111214;color:#f4f2ec"><i>ink</i><b>#111214</b></div>
+      </div>
+      <div class="ramp" style="margin-top:6px">
+        <div class="sw" style="background:#3f6b52;color:#f4f2ec;height:56px"><i>ok</i><b>#3F6B52</b></div>
+        <div class="sw" style="background:#8a6a2f;color:#f4f2ec;height:56px"><i>soon · brass</i><b>#8A6A2F</b></div>
+        <div class="sw" style="background:#b3232e;color:#fff;height:56px"><i>due · signal</i><b>#B3232E</b></div>
+      </div>
+    </div>
+    <div>
+      <span class="lab">Type scale · Bahnschrift condensed / Consolas</span>
+      <div class="ts-row"><span class="ts-tag">DISPLAY 64/700</span><span class="cond" style="font-size:64px;font-weight:700;color:#111214;line-height:.95">Forty-Eight</span></div>
+      <div class="ts-row"><span class="ts-tag">H1 30/700 · LS3</span><span class="cond" style="font-size:30px;font-weight:700;letter-spacing:3px;color:#111214">Service Intervals</span></div>
+      <div class="ts-row"><span class="ts-tag">DATA 24 · CONSOLAS</span><span style="font-family:var(--mono);font-size:24px;font-weight:700;color:#111214">21,600 km · 24.4 Nm</span></div>
+      <div class="ts-row"><span class="ts-tag">LABEL 11 · LS3</span><span style="font-family:var(--mono);font-size:11px;letter-spacing:3px;color:#8a867c">EVERY 8,000 KM · 12 MO</span></div>
+    </div>
+    <div>
+      <span class="lab">The mark</span>
+      <div class="d1-mark">
+        <div class="d1-plate"><span class="g">鉄</span></div>
+        <p>The stamp: 鉄 knocked white out of a solid ink slab, model code etched in the corner.
+           No gradient — on paper the mark is pressure, not shine.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="block">
+    <span class="lab">Header + nav — real component</span>
+    <div class="d1-header">
+      <div class="bar">
+        <div class="wm"><span class="g">鉄</span><span class="t">Tetsu</span><span class="tag">RIDE · WRENCH · REPEAT</span></div>
+        <div class="st"><span><span class="dot"></span>1 BIKE · SAVED</span><button class="d1-btn ghost">EDIT</button><button class="d1-btn">← BACK</button></div>
+      </div>
+      <div class="crumb"><span class="on">Garage</span><span>Gear</span><span>Logbook</span><span>Manuals</span><span>Ask Tetsu</span></div>
+    </div>
+  </div>
+
+  <div class="block grid2">
+    <div>
+      <span class="lab">Odometer + next wrench — real components</span>
+      <div class="d1-odo">
+        <div class="cells"><span class="c">0</span><span class="c">2</span><span class="c">1</span><span class="c">6</span><span class="c">0</span><span class="c hot">0</span></div>
+        <div class="sub"><span>KM · STEP ±500</span><span>NEXT SERVICE 24,000 KM</span></div>
+        <div class="d1-next">
+          <span class="k">締</span>
+          <div class="body">
+            <div class="t1">Next wrench — Drive belt · tension + wear</div>
+            <div class="t2">due at 21,500 km · cold deflection 6.35–7.94 mm</div>
+          </div>
+          <div class="n">100<small>KM OVER</small></div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <span class="lab">Service intervals — real component</span>
+      <div class="d1-int">
+        <div class="hd"><span class="t">Service Intervals</span><span class="m">VS ODO 21,600</span></div>
+        <div class="d1-row">
+          <div class="task"><div class="t">Drive belt · tension + wear</div><div class="i">every 8,000 km · last 13,500 km</div></div>
+          <span class="next">next <b>21,500</b> · 100 over</span><span class="d1-chip due">DUE</span>
+          <span class="bar due" style="width:100%"></span>
+        </div>
+        <div class="d1-row">
+          <div class="task"><div class="t">Primary chaincase oil</div><div class="i">every 8,000 km · last 14,400 km</div></div>
+          <span class="next">next <b>22,400</b> · 800 left</span><span class="d1-chip soon">SOON</span>
+          <span class="bar soon" style="width:90%"></span>
+        </div>
+        <div class="d1-row">
+          <div class="task"><div class="t">Engine oil + filter</div><div class="i">every 8,000 km · 12 mo · last 16,000 km</div></div>
+          <span class="next">next <b>24,000</b> · 2,400 left</span><span class="d1-chip ok">OK</span>
+          <span class="bar" style="width:70%"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="block grid2">
+    <div>
+      <span class="lab">Gear card — real component</span>
+      <div class="d1-gear">
+        <div class="top">
+          <div><div class="name">Vance &amp; Hines Shortshots Staggered</div><span class="cat">EXHAUST</span></div>
+          <span class="d1-chip ok">INSTALLED</span>
+        </div>
+        <div class="meta"><span class="c">€620.00</span><span style="color:#8a867c">2025-04-12</span><a href="#">VIEW PART ↗</a></div>
+      </div>
+    </div>
+    <div>
+      <span class="lab">High-key vs low-key — the system survives inversion (night garage)</span>
+      <div class="d1-cmp">
+        <div class="half hk">
+          <span class="cap">DAY · BONE CONCRETE</span>
+          <div class="d1-row" style="padding:10px 0">
+            <div class="task"><div class="t">Engine oil + filter</div><div class="i">every 8,000 km · 12 mo</div></div>
+            <span class="d1-chip ok">OK</span>
+          </div>
+          <div class="d1-row" style="padding:10px 0">
+            <div class="task"><div class="t">Drive belt tension</div><div class="i">every 8,000 km</div></div>
+            <span class="d1-chip due">DUE</span>
+          </div>
+        </div>
+        <div class="half lk">
+          <span class="cap">NIGHT · INK GROUND — SAME SYSTEM, INVERTED</span>
+          <div class="d1-row" style="padding:10px 0">
+            <div class="task"><div class="t">Engine oil + filter</div><div class="i">every 8,000 km · 12 mo</div></div>
+            <span class="d1-chip ok">OK</span>
+          </div>
+          <div class="d1-row" style="padding:10px 0;border-bottom:none">
+            <div class="task"><div class="t">Drive belt tension</div><div class="i">every 8,000 km</div></div>
+            <span class="d1-chip due">DUE</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════ DIRECTION 02 · BLACK CHROME ════════════════════════ -->
+<section class="dir d2" id="d2">
+  <div class="dir-head">
+    <span class="dir-num">DIRECTION 02</span>
+    <span class="dir-name">Black Chrome</span>
+  </div>
+  <p class="dir-intent"><strong>The showroom at midnight, lights on the tank.</strong> The current identity taken to
+     eleven: true black ground, chrome re-polished from brushed to specular — near-white highlights, deeper wells —
+     and the type scale doubled. Brighter means more light IN the metal, not more colour. The odometer stops being
+     a widget and becomes the hero numeral. Status gets one glow: red, only when the bike is asking for the wrench.</p>
+
+  <div class="block grid3">
+    <div>
+      <span class="lab">Colour ramp</span>
+      <div class="ramp">
+        <div class="sw" style="background:#000;color:#eef0f3;border:1px solid #24262a"><i>black</i><b>#000000</b></div>
+        <div class="sw" style="background:#0a0b0d;color:#eef0f3"><i>well</i><b>#0A0B0D</b></div>
+        <div class="sw" style="background:#1b1d20;color:#eef0f3"><i>panel</i><b>#1B1D20</b></div>
+        <div class="sw" style="background:#8f959d;color:#0a0b0d"><i>steel</i><b>#8F959D</b></div>
+        <div class="sw" style="background:linear-gradient(180deg,#fff,#9ba1a9 55%,#5c6169);color:#0a0b0d"><i>chrome hot</i><b>#FFF→#5C6169</b></div>
+      </div>
+      <div class="ramp" style="margin-top:6px">
+        <div class="sw" style="background:#9fb8a9;color:#0a0b0d;height:56px"><i>ok</i><b>#9FB8A9</b></div>
+        <div class="sw" style="background:#d4af6a;color:#0a0b0d;height:56px"><i>soon · brass</i><b>#D4AF6A</b></div>
+        <div class="sw" style="background:#e04b55;color:#fff;height:56px"><i>due · hot</i><b>#E04B55</b></div>
+      </div>
+    </div>
+    <div>
+      <span class="lab">Type scale — doubled, chrome on the display cut</span>
+      <div class="ts-row"><span class="ts-tag">DISPLAY 72/700</span><span class="cond chrome" style="font-size:72px;font-weight:700;line-height:.95">Forty-Eight</span></div>
+      <div class="ts-row"><span class="ts-tag">H1 32/700 · LS4</span><span class="cond" style="font-size:32px;font-weight:700;letter-spacing:4px;color:#eef0f3">Service Intervals</span></div>
+      <div class="ts-row"><span class="ts-tag">DATA 24 · CONSOLAS</span><span style="font-family:var(--mono);font-size:24px;font-weight:700;color:#eef0f3">21,600 km · 24.4 Nm</span></div>
+      <div class="ts-row"><span class="ts-tag">LABEL 11 · LS3</span><span style="font-family:var(--mono);font-size:11px;letter-spacing:3px;color:#565b62">EVERY 8,000 KM · 12 MO</span></div>
+      <div class="d2-hair" style="margin-top:14px"></div>
+    </div>
+    <div>
+      <span class="lab">The mark</span>
+      <div class="d2-mark">
+        <div class="d2-badge"><span class="g">鉄</span></div>
+        <p>The badge: 鉄 in hot specular chrome inside a machined ring — the bar-and-shield instinct,
+           made ours. Sits on the header and as the app icon.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="block">
+    <span class="lab">Header + tab bar — real components</span>
+    <div class="d2-header">
+      <div class="bar">
+        <div class="wm"><span class="g chrome">鉄</span><span class="t chrome">Tetsu</span><span class="tag">RIDE · WRENCH · REPEAT</span></div>
+        <div class="st"><span><span class="dot"></span>1 BIKE · SAVED</span><button class="d2-btn ghost">EDIT</button><button class="d2-btn">← BACK</button></div>
+      </div>
+      <div class="d2-hair"></div>
+    </div>
+    <div style="margin-top:16px" class="d2-tabs"><span class="on">Garage</span><span>Gear</span><span>Logbook</span><span>Manuals</span><span>Ask Tetsu</span></div>
+  </div>
+
+  <div class="block">
+    <span class="lab">Odometer hero + next wrench — real components, rescaled</span>
+    <div class="d2-hero">
+      <div class="odom chrome">21,600<small>KM · STEP ±500</small></div>
+      <div class="vit">
+        <div class="v"><div class="l">Next service</div><div class="n">24,000 km</div></div>
+        <div class="v"><div class="l">Oil life</div><div class="n">70%</div></div>
+        <div class="v"><div class="l">Primary oil</div><div class="n soon">800 km left</div></div>
+        <div class="v"><div class="l">Drive belt</div><div class="n due">100 km over</div></div>
+      </div>
+      <div class="d2-next">
+        <div>
+          <div class="t1">Next wrench — Drive belt · tension + wear</div>
+          <div class="t2">due at 21,500 km · cold deflection 6.35–7.94 mm</div>
+        </div>
+        <div class="n">100<small>KM OVER</small></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="block grid2">
+    <div>
+      <span class="lab">Service intervals — real component</span>
+      <div class="d2-int">
+        <div class="hd"><span class="t">Service Intervals</span><span class="m">VS ODO 21,600</span></div>
+        <div class="d2-row">
+          <div class="task"><div class="t">Drive belt · tension + wear</div><div class="i">every 8,000 km · last 13,500 km</div></div>
+          <span class="next">next <b>21,500</b> · 100 over</span><span class="d2-chip due"><i></i>DUE</span>
+          <span class="bar due" style="width:100%"></span>
+        </div>
+        <div class="d2-row">
+          <div class="task"><div class="t">Primary chaincase oil</div><div class="i">every 8,000 km · last 14,400 km</div></div>
+          <span class="next">next <b>22,400</b> · 800 left</span><span class="d2-chip soon"><i></i>SOON</span>
+          <span class="bar soon" style="width:90%"></span>
+        </div>
+        <div class="d2-row">
+          <div class="task"><div class="t">Engine oil + filter</div><div class="i">every 8,000 km · 12 mo · last 16,000 km</div></div>
+          <span class="next">next <b>24,000</b> · 2,400 left</span><span class="d2-chip ok"><i></i>OK</span>
+          <span class="bar ok" style="width:70%"></span>
+        </div>
+      </div>
+    </div>
+    <div>
+      <span class="lab">Logbook entry — real component</span>
+      <div class="d2-log">
+        <div class="ph"><span class="chrome">鉄</span></div>
+        <div>
+          <div class="d"><b class="chrome" style="-webkit-text-fill-color:transparent">2026-06-14</b> <span style="color:#565b62">· 21,100 KM</span></div>
+          <div class="t">Engine oil + filter</div>
+          <div class="tags"><span>OIL</span><span>FILTER</span><span>SYN3 20W-50</span></div>
+          <p style="font-size:13px;color:#8b9097;margin-top:10px;max-width:52ch">Warmed through, drained, new chrome filter. Torqued drain plug to spec — 19 Nm.</p>
+        </div>
+      </div>
+      <p style="font-family:var(--mono);font-size:10.5px;letter-spacing:1.5px;color:#565b62;margin-top:14px">
+        LIGHT GROUND? THIS DIRECTION IS NIGHT-NATIVE — THE EXISTING WASHI THEME KEEPS THE CURRENT
+        DARK-STEEL-ON-BONE FLIP; BLACK CHROME IS THE DARK FACE TURNED UP, NOT A TWO-THEME SYSTEM.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════ DIRECTION 03 · WELD & STENCIL ════════════════════════ -->
+<section class="dir d3" id="d3">
+  <div class="dir-head">
+    <span class="dir-num">DIRECTION 03</span>
+    <span class="dir-name">Weld &amp; Stencil</span>
+  </div>
+  <p class="dir-intent"><strong>The fabrication bay, not the showroom.</strong> "Rawer" taken literally: diamond-plate
+     steel ground, torch-cut corners instead of border-radius, weld-stitch seams, ruler ticks, paint-pen outlined
+     numerals and stencilled status tags slapped on at a slight angle. Statuses are painted plates — brass, chalk,
+     and a rough red DUE stamp. The most aggressive of the three; every card reads like a job ticket zip-tied to the frame.</p>
+
+  <div class="block grid3">
+    <div>
+      <span class="lab">Colour ramp</span>
+      <div class="ramp">
+        <div class="sw" style="background:#141517;color:#e8ebef"><i>pit</i><b>#141517</b></div>
+        <div class="sw" style="background:#1b1c1f;color:#e8ebef"><i>plate</i><b>#1B1C1F</b></div>
+        <div class="sw" style="background:#26282c;color:#e8ebef"><i>panel</i><b>#26282C</b></div>
+        <div class="sw" style="background:#6c7178;color:#141517"><i>seam steel</i><b>#6C7178</b></div>
+        <div class="sw" style="background:#f2f4f7;color:#141517"><i>spark white</i><b>#F2F4F7</b></div>
+      </div>
+      <div class="ramp" style="margin-top:6px">
+        <div class="sw" style="background:#cfd4da;color:#141517;height:56px"><i>ok · chalk</i><b>#CFD4DA</b></div>
+        <div class="sw" style="background:#b98f45;color:#141517;height:56px"><i>soon · brass</i><b>#B98F45</b></div>
+        <div class="sw" style="background:#c8323b;color:#fff;height:56px"><i>due · paint</i><b>#C8323B</b></div>
+      </div>
+    </div>
+    <div>
+      <span class="lab">Type scale — stroked display, stencil tracking</span>
+      <div class="ts-row"><span class="ts-tag">DISPLAY 64 STROKE</span><span class="cond" style="font-size:64px;font-weight:700;line-height:.95;color:transparent;-webkit-text-stroke:2px #f2f4f7">Forty-Eight</span></div>
+      <div class="ts-row"><span class="ts-tag">H1 26/700 · LS6</span><span class="cond" style="font-size:26px;font-weight:700;letter-spacing:6px;color:#f2f4f7">Service Intervals</span></div>
+      <div class="ts-row"><span class="ts-tag">DATA 24 · CONSOLAS</span><span style="font-family:var(--mono);font-size:24px;font-weight:700;color:#f2f4f7">21,600 km · 24.4 Nm</span></div>
+      <div class="ts-row"><span class="ts-tag">LABEL 11 · LS4</span><span style="font-family:var(--mono);font-size:11px;letter-spacing:4px;color:#7c8188">EVERY 8,000 KM · 12 MO</span></div>
+      <div class="d3-ticks" style="margin-top:14px"></div>
+    </div>
+    <div>
+      <span class="lab">The mark</span>
+      <div class="d3-mark">
+        <div class="d3-plate"><span class="g">鉄</span></div>
+        <p>The cut: 鉄 as a paint-pen outline on a torch-cut plate, weld-stitch frame inside the edge.
+           Raw glyph, no polish — iron before chrome.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="block">
+    <span class="lab">Header + tab bar — real components</span>
+    <div class="d3-header d3-cut">
+      <div class="bar">
+        <div class="wm"><span class="g">鉄</span><span class="t">Tetsu</span><span class="tag">RIDE · WRENCH · REPEAT</span></div>
+        <div class="st"><span>1 BIKE · SAVED</span><button class="d3-btn ghost">EDIT</button><button class="d3-btn">← BACK</button></div>
+      </div>
+      <div class="seam"></div>
+      <div class="d3-ticks" style="margin:10px 10px 12px"></div>
+    </div>
+    <div style="margin-top:16px" class="d3-tabs"><span class="on">Garage</span><span>Gear</span><span>Logbook</span><span>Manuals</span><span>Ask Tetsu</span></div>
+  </div>
+
+  <div class="block grid2">
+    <div>
+      <span class="lab">Odometer + next wrench — real components</span>
+      <div class="d3-hero d3-cut">
+        <div class="odom">21,600<small>KM · STEP ±500</small></div>
+        <div class="sub">NEXT SERVICE 24,000 KM · OIL LIFE 70%</div>
+        <div class="d3-next">
+          <span class="stamp">OVERDUE</span>
+          <div>
+            <div class="t1">Drive belt · tension + wear</div>
+            <div class="t2">due at 21,500 km · cold deflection 6.35–7.94 mm</div>
+          </div>
+          <div class="n">100<small>KM OVER</small></div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <span class="lab">Service intervals — real component</span>
+      <div class="d3-int d3-cut">
+        <div class="hd"><span class="t">Service Intervals</span><span class="m">VS ODO 21,600</span></div>
+        <div class="d3-row">
+          <div class="task"><div class="t">Drive belt · tension + wear</div><div class="i">every 8,000 km · last 13,500 km</div></div>
+          <span class="next">next <b>21,500</b> · 100 over</span><span class="d3-tag due">DUE</span>
+        </div>
+        <div class="d3-row">
+          <div class="task"><div class="t">Primary chaincase oil</div><div class="i">every 8,000 km · last 14,400 km</div></div>
+          <span class="next">next <b>22,400</b> · 800 left</span><span class="d3-tag soon">SOON</span>
+        </div>
+        <div class="d3-row">
+          <div class="task"><div class="t">Engine oil + filter</div><div class="i">every 8,000 km · 12 mo · last 16,000 km</div></div>
+          <span class="next">next <b>24,000</b> · 2,400 left</span><span class="d3-tag ok">OK</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="block grid2">
+    <div>
+      <span class="lab">Gear card — real component (parts-bin ticket)</span>
+      <div class="d3-gear d3-cut">
+        <div class="strip"></div>
+        <div class="in">
+          <div style="display:flex;justify-content:space-between;gap:12px;align-items:flex-start">
+            <div><div class="name">Vance &amp; Hines Shortshots Staggered</div><span class="cat">EXHAUST</span></div>
+            <span class="d3-tag ok" style="flex-shrink:0">INSTALLED</span>
+          </div>
+          <div class="meta"><span class="c">€620.00</span><span class="dt">2025-04-12</span><span class="dt" style="color:#f2f4f7;letter-spacing:1px;font-weight:700">VIEW PART ↗</span></div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <span class="lab">Torque bench row — real component</span>
+      <div class="d3-hero d3-cut" style="padding:18px 20px">
+        <div style="display:flex;align-items:baseline;gap:12px;border-bottom:1px solid #33363b;padding:9px 0">
+          <span style="font-size:14px;color:#e8ebef;font-weight:700">Primary chaincase drain plug</span>
+          <span style="flex:1;border-bottom:2px dotted #4a4e55;transform:translateY(-4px)"></span>
+          <span style="font-family:var(--mono);font-size:14px;color:#f2f4f7;font-weight:700;white-space:nowrap">19.0–40.7 Nm</span>
+        </div>
+        <div style="display:flex;align-items:baseline;gap:12px;padding:9px 0">
+          <span style="font-size:14px;color:#e8ebef;font-weight:700">Spark plug</span>
+          <span style="flex:1;border-bottom:2px dotted #4a4e55;transform:translateY(-4px)"></span>
+          <span style="font-family:var(--mono);font-size:14px;color:#f2f4f7;font-weight:700;white-space:nowrap">16.3–24.4 Nm</span>
+        </div>
+        <div style="font-family:var(--mono);font-size:10px;letter-spacing:2px;color:#7c8188;margin-top:12px">VERIFY AGAINST 99484-13</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════ VERDICT ════════════════════════ -->
+<footer class="verdict" id="verdict">
+  <h2>Recommendation</h2>
+  <p><b>02 · Black Chrome</b> is the recommended direction. It is the current locked identity with the volume turned
+     to eleven — nothing is lost, everything hits harder: hotter specular chrome, a doubled type scale, the odometer
+     promoted from widget to hero numeral, and one earned glow (red, only on DUE). It is also the closest match to the
+     H-D.com reference's night-mode energy while keeping the dark-native character the app already has.</p>
+  <p><b>01 · Forge Light</b> is the boldest read of "brighter" — and the closest to what H-D.com actually looks like
+     in daylight (white ground, giant black type). If day-garage legibility matters more than midnight mood, pick this;
+     it also inverts cleanly (see the day/night strip). <b>03 · Weld &amp; Stencil</b> is the rawest — torch-cut corners
+     and painted stamps — best mined for accents (the OVERDUE stamp, ruler ticks, weld seams) even if 01 or 02 wins.</p>
+  <p style="margin-top:18px;font-family:var(--mono);font-size:11px;letter-spacing:2px;color:#565b62">
+    LOCAL FACES ONLY · NO ORANGE · NO SKULL · 鉄 STAYS THE MARK · _design/tetsu-bolder-style-tile.html · 2026-07-25</p>
+</footer>
+
+</body>
+</html>

@@ -280,6 +280,570 @@ function Rivet({ style }) {
   );
 }
 
+/* ════════════════════════════════════════════════════════════════════════════
+   FRONT PAGE — 01 · LATE EDITION (shipped 2026-07-25)
+   The GARAGE display path is a broadsheet front page printed at the plant —
+   ported from the locked style study (_output/personal/tetsu-frontpage-study.html,
+   variant 01 + the SUNDAY EDITION quiet frame). All values below are lifted from
+   that file, not re-improvised. The page is STATE-AUTHORED: kicker, headline,
+   stamp, standfirst, INSIDE/BRIEF box, ramp and folio jump-line are all functions
+   of the real bike state — three honest registers (crisis / watch / quiet).
+   Local faces only. The paper ground renders in both themes (Forge Light IS the
+   page). EDIT mode still renders the old bench forms — turning the paper over.
+   ════════════════════════════════════════════════════════════════════════════ */
+
+// Paper palette — exact hexes from the study's :root.
+const FP = {
+  paper: "#f4f2ec", conc: "#e6e3dc", seam: "#d5d1c6", stone: "#8a867c", ink: "#111214",
+  ok: "#3f6b52", brass: "#8a6a2f", due: "#b3232e", rule: "#b6b2a7",
+  body: "#3a3d42", mid: "#4c4f54", redEdge: "#7d1820", redSmall: "#f2cfd3", greenSmall: "#cfe0d5",
+};
+// The study's condensed face (plain Bahnschrift so font-stretch percentages bite).
+const FP_COND = "'Bahnschrift','DIN Condensed','Arial Narrow',sans-serif";
+
+// "Drive belt — tension + wear" → { base:"Drive belt", sub:"tension + wear" }.
+// "Engine oil + filter" → { base:"Engine oil", sub:"+ filter" }. Parentheticals
+// drop, "/" collapses to a space so headlines stay speakable for any item name.
+function fpBaseName(task) {
+  let t = String(task || "").replace(/\([^)]*\)/g, " ").replace(/\s+/g, " ").trim();
+  let base = t, sub = "";
+  const m = t.split(/\s*(?:—|–|·|:)\s*/);
+  if (m.length > 1) { base = m[0]; sub = m.slice(1).join(" · "); }
+  const pm = base.split(/\s+\+\s+/);
+  if (pm.length > 1) {
+    const extra = "+ " + pm.slice(1).join(" + ");
+    sub = sub ? `${extra} · ${sub}` : extra;
+    base = pm[0];
+  }
+  base = base.replace(/\s*\/\s*/g, " ").replace(/\s+/g, " ").trim();
+  return { base, sub: sub.replace(/\s+/g, " ").trim() };
+}
+const fpPlural = (base) => { const w = base.trim().split(/\s+/).pop().toLowerCase(); return /s$/.test(w) && !/ss$/.test(w); };
+
+// "25 JUL 2026" — the study's dateline register.
+function fpDateShort(d) {
+  if (!d) return "—";
+  const M = ["JAN","FEB","MAR","APR","MAY","JUN","JUL","AUG","SEP","OCT","NOV","DEC"];
+  return `${String(d.getDate()).padStart(2, "0")} ${M[d.getMonth()]} ${d.getFullYear()}`;
+}
+
+// Headline for the register — generated + grammatical for any item name.
+// 76px is the study size for short lines; longer names shrink to keep the rag
+// inside the sheet. The packer scores every ≤3-line split and STRONGLY prefers
+// ones whose first two lines clear x≈210 — the stamp must land in the notch of
+// the rag, never on top of the type (the study's whole point).
+function fpHeadline(reg, worst) {
+  if (reg === "quiet" || !worst) return { lines: ["ALL", "QUIET.", "GO RIDE."], size: 76 };
+  const { base } = fpBaseName(worst.task);
+  const verb = fpPlural(base) ? "ARE" : "IS";
+  const term = reg === "crisis" ? `${verb} DUE.` : `${verb} NEXT.`;
+  const words = ["THE", ...base.toUpperCase().split(/\s+/), term];
+  const n = words.length;
+  const L = Math.min(3, n);
+  let best = null;
+  const consider = (lines) => {
+    const maxLen = Math.max(...lines.map(l => l.length));
+    const size = Math.max(38, Math.min(76, Math.floor(830 / maxLen)));
+    // condensed cap ≈ 0.44·size wide; the stamp starts at x=210, type at x=17
+    const notch = lines.slice(0, Math.min(2, lines.length)).every(l => l.length * 0.44 * size < 190);
+    const score = (notch ? 1000 : 0) + size;
+    if (!best || score > best.score) best = { lines, size, score };
+  };
+  const walk = (start, picks, acc) => {
+    if (picks === 0) {
+      const lines = []; let prev = 0;
+      for (const bp of [...acc, n]) { lines.push(words.slice(prev, bp).join(" ")); prev = bp; }
+      consider(lines);
+      return;
+    }
+    for (let i = start; i <= n - picks; i++) walk(i + 1, picks - 1, [...acc, i]);
+  };
+  walk(1, L - 1, []);
+  return best || { lines: [words.join(" ")], size: 40 };
+}
+
+// Lane display name — the ramp's name column is ~90px (to the TODAY axis at 104),
+// so long items compress the way the study did ("Primary / transmission oil" →
+// "PRIMARY OIL"): first + last word when the last is a real word, else first two.
+function fpLaneName(base) {
+  const U = base.toUpperCase();
+  if (U.length <= 13) return U;
+  const w = U.split(/\s+/);
+  if (w.length >= 3) {
+    const last = w[w.length - 1];
+    const cand = /^[A-Z]{3,}$/.test(last) ? `${w[0]} ${last}` : `${w[0]} ${w[1]}`;
+    if (cand.length <= 15) return cand;
+  }
+  return w[0];
+}
+
+// Ramp lane model — one honest convention per data shape:
+//   over km/date → the red hatched lane left of TODAY (the study's crisis lane 1)
+//   km runway that fits → solid bar to scale (brass when SOON, ink when OK, green on a quiet page)
+//   km runway beyond the post → torn bar, "OFF THE CHART →"
+//   date-only ahead → no bar (a days figure "BY THE CALENDAR" — mixing day-km scales would lie)
+//   baseline (never logged) → dashed hollow runway, "NOT YET LOGGED"
+const FP_BAR_FULL = 256, FP_BAR_TORN = 236;   // px — study: bar-to-post 256, torn quiet bars 236
+function fpLaneModel(item, svcRef, scale) {
+  const s = item.status;
+  const { base } = fpBaseName(item.task);
+  const nm = fpLaneName(base);
+  if (s.baseline) {
+    return { kind: "baseline", nm, small: `EVERY ${fmtKm(item.intervalKm)} KM · NOT LOGGED`,
+      big: fmtKm(item.intervalKm), vsmall: "KM CYCLE · BASELINE" };
+  }
+  if (s.kmLeft != null && s.kmLeft <= 0) {
+    return { kind: "over", nm, small: `DUE ${fmtKm(s.nextKm)}`,
+      big: `−${fmtKm(-s.kmLeft)}`, vsmall: "KM PAST · WRENCH FIRST" };
+  }
+  if (s.kmLeft == null && s.daysLeft != null && s.daysLeft <= 0) {
+    return { kind: "over", nm, small: `DUE ${fpDateShort(s.dueDate)}`,
+      big: `−${-s.daysLeft}`, vsmall: "DAYS PAST · WRENCH FIRST" };
+  }
+  if (s.kmLeft != null) {
+    const w = scale ? Math.round(s.kmLeft * scale) : null;
+    if (w == null || w > FP_BAR_FULL) {
+      return { kind: "torn", nm, small: `DUE ${fmtKm(s.nextKm)}`,
+        big: fmtKm(s.kmLeft), vsmall: "KM · OFF THE CHART →" };
+    }
+    const isSvc = svcRef && item.id === svcRef.id;
+    return { kind: "bar", w: Math.max(10, w), tone: s.level, nm, small: `DUE ${fmtKm(s.nextKm)}`,
+      big: fmtKm(s.kmLeft), vsmall: isSvc ? "KM · TO THE POST" : "KM OF RUNWAY" };
+  }
+  return { kind: "date", nm, small: `DUE ${fpDateShort(s.dueDate)}`,
+    big: String(s.daysLeft), vsmall: "DAYS · BY THE CALENDAR" };
+}
+
+// The whole edition, authored from state. Pure — returns copy + models only.
+function fpEdition({ items, entries, odo, oilItem, now, bike, unit }) {
+  // Real targets, most urgent first (urgency rank, then proximity; days weighed
+  // at ~40 km/day only to interleave date items sensibly in the ordering).
+  const prox = s => s.status.kmLeft != null ? s.status.kmLeft : (s.status.daysLeft != null ? s.status.daysLeft * 40 : 1e9);
+  const targets = items
+    .filter(s => !s.status.baseline && (s.status.nextKm != null || s.status.dueDate != null))
+    .sort((a, b) => (RANK[a.status.level] - RANK[b.status.level]) || (prox(a) - prox(b)));
+  const worst = targets[0] || null;
+  const reg = worst && worst.status.level === "due" ? "crisis"
+            : worst && worst.status.level === "soon" ? "watch" : "quiet";
+  const accent = reg === "crisis" ? FP.due : reg === "watch" ? FP.brass : FP.ok;
+
+  // The ENGINE oil item (the app's oilItem prop can resolve to primary/chaincase
+  // oil, which is neither the sump nor the full service).
+  const engineOil = items.find(s => s.intervalKm != null && !s.status.baseline
+    && (s.id === "oil" || /engine\s*oil/i.test(s.task || ""))) || null;
+
+  // The post — the study's rule (its quiet frame proves it): the FULL SVC / engine
+  // oil milestone anchors the chart when it's live; anything further runs off the
+  // chart torn. Without one, the furthest km target holds the post instead.
+  const kmTargets = targets.filter(t => t.status.nextKm != null && t.status.kmLeft > 0);
+  const svcRef = (engineOil && engineOil.status.nextKm != null && engineOil.status.kmLeft > 0)
+    ? engineOil
+    : (kmTargets.length ? kmTargets.reduce((a, b) => (b.status.nextKm > a.status.nextKm ? b : a)) : null);
+  const isFullSvc = !!(svcRef && engineOil && svcRef.id === engineOil.id);
+  const svcLeft = svcRef ? svcRef.status.kmLeft : null;
+  const scale = svcLeft ? FP_BAR_FULL / svcLeft : null;
+
+  // Lanes: up to 3 — targets first, then baseline km items fill the page.
+  const baselines = items.filter(s => s.status.baseline && s.intervalKm != null);
+  const lanes = [...targets, ...baselines].slice(0, 3).map(it => fpLaneModel(it, svcRef, scale));
+
+  // Registers of copy —
+  const kicker = reg === "crisis" ? "THE BENCH RULES —" : reg === "watch" ? "THE BENCH WATCHES —" : "THE BENCH REPORTS —";
+  const editionName = reg === "crisis" ? "LATE EDITION" : reg === "watch" ? "EVENING EDITION" : "SUNDAY EDITION";
+  const thru = reg === "crisis" ? "GEAR LOCKER" : reg === "watch" ? "LOG BOOK" : "ROAD SECTION";
+  const folioRight = reg === "crisis" ? "CONTINUED ON THE BENCH, p.2 →"
+                   : reg === "watch" ? "THE BENCH WAITS, p.2 →" : "NO WORK CARRIES OVER →";
+  const head = fpHeadline(reg, worst);
+
+  // Stamp — the overrun / runway / all-clear verdict.
+  let stamp;
+  if (reg === "crisis") {
+    const s = worst.status;
+    const { sub } = fpBaseName(worst.task);
+    if (s.kmLeft != null && s.kmLeft <= 0) {
+      stamp = { a: s.kmLeft === 0 ? "DUE NOW" : `${fmtKm(-s.kmLeft)} KM OVER`,
+        b: `${(sub || "on the bench").toUpperCase()} · ${fmtKm(s.nextKm)}` };
+    } else {
+      stamp = { a: s.daysLeft === 0 ? "DUE TODAY" : `${-s.daysLeft} DAYS OVER`,
+        b: `BY THE CALENDAR · ${fpDateShort(s.dueDate)}` };
+    }
+  } else if (reg === "watch") {
+    const s = worst.status;
+    const { sub } = fpBaseName(worst.task);
+    stamp = s.kmLeft != null
+      ? { a: `${fmtKm(s.kmLeft)} KM LEFT`, b: `${(sub || "on watch").toUpperCase()} · DUE ${fmtKm(s.nextKm)}` }
+      : { a: `${s.daysLeft} DAYS LEFT`, b: `BY THE CALENDAR · ${fpDateShort(s.dueDate)}` };
+  } else {
+    const near = targets[0] || null;
+    stamp = { a: "NOTHING OWED",
+      b: near
+        ? (near.status.kmLeft != null ? `NEXT WORK · ${fmtKm(near.status.kmLeft)} KM` : `NEXT WORK · ${near.status.daysLeft} DAYS`)
+        : "NO WORK ON FILE" };
+  }
+
+  // Oil-life percentage — the real number in the sump.
+  let oilPct = null;
+  if (engineOil) {
+    const used = Math.max(0, odo - (engineOil.lastKm || 0));
+    oilPct = Math.max(0, Math.min(100, Math.round((1 - used / engineOil.intervalKm) * 100)));
+  }
+
+  // Standfirst — generated, grammatical, honest. <b>/<span> tones per the study.
+  const second = targets[1] || null;
+  const deck = [];
+  let k = 0;
+  const T = t => deck.push(<span key={k++}>{t}</span>);
+  const B = t => deck.push(<b key={k++} style={{ color: FP.ink, fontWeight: 700 }}>{t}</b>);
+  const C = (t, col) => deck.push(<span key={k++} style={{ color: col, fontWeight: 700 }}>{t}</span>);
+  // Will the full-service clause print anything? (Decides ";" vs "." endings.)
+  const svcShows = (force) => !!((svcRef && (force || !worst || svcRef.id !== worst.id)) || oilPct != null);
+  const secondClause = (semi) => {
+    if (!second) return;
+    const sb = fpBaseName(second.task).base;
+    const cap = sb.charAt(0).toUpperCase() + sb.slice(1).toLowerCase();
+    if (second.status.kmLeft != null) { T(` ${cap} follows in `); B(`${fmtKm(second.status.kmLeft)} ${unit}`); T(semi ? `;` : `.`); }
+    else { T(` ${cap} follows on `); B(fpDateShort(second.status.dueDate)); T(semi ? `;` : `.`); }
+  };
+  const svcClause = (cap, force) => {
+    const the = cap ? " The" : " the";
+    if (svcRef && (force || !worst || svcRef.id !== worst.id)) {
+      const what = isFullSvc ? "full service" : `${fpBaseName(svcRef.task).base.toLowerCase()} post`;
+      T(`${the} ${fmtKm(svcRef.status.nextKm)} ${what} holds at `);
+      B(`${fmtKm(svcRef.status.kmLeft)} out`);
+      if (oilPct != null) { T(`, `); C(`${oilPct}% oil life`, reg === "crisis" ? FP.due : FP.ok); T(` in the sump`); }
+      T(`.`);
+    } else if (oilPct != null) {
+      T(` `); C(`${oilPct}% oil life`, reg === "crisis" ? FP.due : FP.ok); T(` in the sump.`);
+    } else { /* nothing honest to add */ }
+  };
+  if (reg === "crisis") {
+    const { base, sub } = fpBaseName(worst.task);
+    const bl = base.toLowerCase();
+    const pron = fpPlural(base) ? "their" : "its";
+    if (worst.status.kmLeft != null && worst.status.kmLeft <= 0) {
+      T(`The ${bl} ran ${fmtKm(-worst.status.kmLeft)} ${unit} past ${pron} mark — ${sub ? sub.toLowerCase() : "the bench"} `);
+      B(`before anything else turns`); T(`.`);
+    } else {
+      T(`The ${bl} ran ${-worst.status.daysLeft} days past ${pron} date — ${sub ? sub.toLowerCase() : "the bench"} `);
+      B(`before anything else turns`); T(`.`);
+    }
+    secondClause(svcShows(false)); svcClause(!second, false);
+  } else if (reg === "watch") {
+    const { base, sub } = fpBaseName(worst.task);
+    T(`Nothing is overdue — yet. The ${base.toLowerCase()} comes due in `);
+    if (worst.status.kmLeft != null) B(`${fmtKm(worst.status.kmLeft)} ${unit}`);
+    else B(`${worst.status.daysLeft} days`);
+    T(`${sub ? ` — ${sub.toLowerCase()} when it lands` : ""}.`);
+    secondClause(svcShows(false)); svcClause(!second, false);
+  } else if (entries.length) {
+    const e0 = entries[0];
+    T(`${e0.title} logged at `); B(`${fmtKm(e0.odo)}`);
+    T(` ${fpRelDay(e0.date, now).toLowerCase()}. `);
+    B(`Nothing on the bench.`);
+    svcClause(true, true);
+    T(` The paper has no verdict to print today.`);
+  } else {
+    T(`Nothing on the bench, nothing in the log. Every interval stands at its baseline — `);
+    B(`log the first wrench`);
+    T(` and the paper starts keeping score. No verdict to print today.`);
+  }
+  deck.push(<span key={k++} className="kg-fp-end" aria-hidden="true"
+    style={{ display: "inline-block", width: 8, height: 8, background: FP.ink, marginLeft: 6 }} />);
+
+  // INSIDE index (crisis/watch) or the quiet-day IN BRIEF fed from the real log.
+  let box;
+  if (reg === "quiet" && entries.length) {
+    box = { kind: "brief", title: `AT THE BENCH — ${fpRelDay(entries[0].date, now)}`,
+      lines: entries.slice(0, 2).map(e => ({ t: (e.title || "WORK DONE").toUpperCase(), at: fmtKm(e.odo) })) };
+  } else {
+    box = { kind: "inside" };
+  }
+
+  // Axis tick (a round km step that fits the scale) + the post label.
+  let tickKm = null;
+  if (svcLeft) {
+    for (const c of [20000, 10000, 5000, 2500, 2000, 1000, 500, 250, 200, 100, 50]) {
+      if (c <= svcLeft / 2) { tickKm = c; break; }
+    }
+  }
+  const post = svcRef ? {
+    label: isFullSvc ? `FULL SVC · ${fmtKm(svcRef.status.nextKm)}`
+      : `${fpLaneName(fpBaseName(svcRef.task).base)} · ${fmtKm(svcRef.status.nextKm)}`,
+  } : null;
+
+  return { reg, accent, kicker, editionName, thru, folioRight, head, stamp, deck, box,
+    lanes, post, scale, tickKm, targetsCount: targets.length };
+}
+
+// Relative day label for the brief — TODAY / YESTERDAY / "24 JUL".
+function fpRelDay(dateStr, now) {
+  if (!dateStr) return "LATELY";
+  const [y, m, d] = String(dateStr).split("-").map(Number);
+  if (!y || !m || !d) return "LATELY";
+  const then = new Date(y, m - 1, d);
+  const days = Math.round((new Date(now.getFullYear(), now.getMonth(), now.getDate()) - then) / 86400000);
+  if (days <= 0) return "TODAY";
+  if (days === 1) return "YESTERDAY";
+  return fpDateShort(then).slice(0, 6).trim();
+}
+
+// ── FIG. 1 — the service ramp, composed exactly as the study draws it ─────────
+function FpRamp({ lanes, post, tickKm, scale, quiet }) {
+  const AX = 104, BX = 107;             // study: TODAY axis x=104 (3px), bars start 107
+  const tops = [34, 92, 150];
+  const ticks = [];
+  if (tickKm && scale) {
+    for (let i = 1; i <= 2; i++) {
+      const x = Math.round(AX - 4 + tickKm * i * scale);
+      if (x <= 330) ticks.push({ x, label: `+${fmtKm(tickKm * i)}` });
+    }
+  }
+  return (
+    <div style={{ position: "absolute", left: 0, right: 0, top: 582, bottom: 36, borderTop: `3px solid ${FP.ink}`, zIndex: 2 }}>
+      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline",
+        padding: "5px 14px 4px", borderBottom: `1px solid ${FP.rule}` }}>
+        <span style={{ fontFamily: FP_COND, fontStretch: "75%", fontWeight: 700, textTransform: "uppercase",
+          fontSize: 13, letterSpacing: 2, color: FP.ink, whiteSpace: "nowrap" }}>Fig. 1 · The Service Ramp</span>
+        <span style={{ fontFamily: F_MONO, fontSize: 7, letterSpacing: 1.1, color: FP.stone, whiteSpace: "nowrap" }}>
+          {quiet ? "0 = TODAY · NOTHING BEHIND YOU" : "0 = TODAY · ←PAST | AHEAD→"}
+        </span>
+      </div>
+      {/* TODAY axis line */}
+      <div style={{ position: "absolute", left: AX, top: 32, bottom: 22, width: 3, background: FP.ink, zIndex: 4 }} />
+
+      {lanes.length === 0 && (
+        <div style={{ position: "absolute", left: 14, right: 40, top: 90, fontFamily: F_MONO, fontSize: 9,
+          letterSpacing: 1.4, color: FP.stone, lineHeight: 1.9 }}>
+          NO INTERVALS ON FILE — TAP THE ODOMETER, EDIT THE PAPER.
+        </div>
+      )}
+
+      {lanes.map((ln, i) => {
+        const top = tops[i];
+        const nmOnRed = ln.kind === "over";
+        // bar geometry per kind
+        let bar = null, val = null;
+        if (ln.kind === "over") {
+          bar = <div className="kg-fp-red" style={{ width: AX }} />;
+          val = { left: 118, top: 8, size: 23, color: FP.due, inline: false };
+        } else if (ln.kind === "bar") {
+          const fill = quiet ? FP.ok : (ln.tone === "soon" ? FP.brass : FP.ink);
+          bar = <div style={{ position: "absolute", left: BX, top: 22, height: 22, width: ln.w, background: fill, zIndex: 2 }} />;
+          val = ln.w >= 140
+            ? { left: ln.w >= 220 ? 200 : 118, top: 24, size: 17, color: FP.paper, inline: true, z: 6 }
+            : { left: BX + ln.w + 9, top: 8, size: 23, color: ln.tone === "soon" ? FP.brass : FP.ink, inline: false };
+        } else if (ln.kind === "torn") {
+          bar = <div className="kg-fp-torn" style={{ position: "absolute", left: BX, top: 22, height: 22,
+            width: FP_BAR_TORN, background: FP.ink, zIndex: 2 }} />;
+          val = { left: 118, top: 26, size: 16, color: FP.paper, inline: true, z: 6 };
+        } else if (ln.kind === "baseline") {
+          bar = <div style={{ position: "absolute", left: BX, top: 22, height: 22, width: FP_BAR_TORN,
+            border: `1.5px dashed ${FP.stone}`, zIndex: 2 }} />;
+          val = { left: 118, top: 26, size: 16, color: FP.ink, inline: true, z: 6 };
+        } else { // date-only ahead — no bar, an honest days figure
+          val = { left: 118, top: 8, size: 23, color: FP.ink, inline: false };
+        }
+        // study: the −100 caption inherits the red val; green-bar smalls go pale
+        // green, ink-bar smalls go seam, everything on paper goes stone.
+        const smallColor = ln.kind === "over" ? FP.due
+          : (val.inline && ln.kind !== "baseline") ? (quiet && ln.kind === "bar" ? FP.greenSmall : FP.seam) : FP.stone;
+        return (
+          <div key={`${ln.nm}-${i}`} style={{ position: "absolute", left: 0, right: 0, top, height: 52 }}>
+            {bar}
+            <div style={{ position: "absolute", left: 14, top: 5, width: 92, fontFamily: FP_COND, fontStretch: "72%",
+              fontWeight: 700, textTransform: "uppercase", fontSize: 15, letterSpacing: 1,
+              color: nmOnRed ? FP.paper : FP.ink, zIndex: 5, lineHeight: 1 }}>
+              {ln.nm}
+              <small style={{ display: "block", fontFamily: F_MONO, fontSize: 7, letterSpacing: 1.2,
+                color: nmOnRed ? FP.redSmall : FP.stone, fontWeight: 400, marginTop: 3, maxWidth: 86, lineHeight: 1.5 }}>
+                {ln.small}
+              </small>
+            </div>
+            <div style={{ position: "absolute", left: val.left, top: val.top, fontFamily: FP_COND,
+              fontStretch: "70%", fontWeight: 700, fontSize: val.size, lineHeight: 1, color: val.color,
+              zIndex: val.z || 3, whiteSpace: "nowrap" }}>
+              {ln.big}
+              <small style={{ fontFamily: F_MONO, fontSize: 7, letterSpacing: 1, fontWeight: 400,
+                ...(val.inline ? { display: "inline", marginLeft: 5, verticalAlign: 2 } : { display: "block", marginTop: 3 }),
+                color: smallColor }}>
+                {ln.vsmall}
+              </small>
+            </div>
+          </div>
+        );
+      })}
+
+      {post && (
+        <div style={{ position: "absolute", right: 0, top: 32, bottom: 22, width: 26, background: FP.ink, zIndex: 1 }}>
+          <span style={{ position: "absolute", top: 10, left: "50%", transform: "translateX(-50%)",
+            writingMode: "vertical-rl", fontFamily: F_MONO, fontSize: 8, letterSpacing: 2.2,
+            color: FP.paper, whiteSpace: "nowrap" }}>{post.label}</span>
+        </div>
+      )}
+      <div style={{ position: "absolute", left: 0, right: 0, bottom: 0, height: 22, borderTop: `1px solid ${FP.rule}` }}>
+        <i style={{ position: "absolute", left: 100, top: 5, fontStyle: "normal", fontFamily: F_MONO,
+          fontSize: 7.5, letterSpacing: 1.2, color: FP.stone }}>0</i>
+        {ticks.map(t => (
+          <i key={t.x} style={{ position: "absolute", left: t.x, top: 5, fontStyle: "normal",
+            fontFamily: F_MONO, fontSize: 7.5, letterSpacing: 1.2, color: FP.stone }}>{t.label}</i>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+// ── The front page itself — full-bleed sheet, chop-column nav, tap-to-step odo ─
+function FrontPage({ bike, odo, unit, items, entries, oilItem, now, view, onNav, onEdit, updBike }) {
+  const [odoOpen, setOdoOpen] = useState(false);
+  const ed = useMemo(
+    () => fpEdition({ items, entries, odo, oilItem, now, bike, unit }),
+    [items, entries, odo, oilItem, now, bike, unit]
+  );
+
+  const digits = String(Math.max(0, Math.round(odo))).padStart(6, "0").slice(-6);
+  const bikeLine = bike
+    ? `${/harley/i.test(bike.make || "") ? "H-D" : (bike.make || "").toUpperCase()} ${(bike.model || "").toUpperCase()}${bike.code ? ` · ${bike.code}` : ""}`.trim()
+    : "NO UNIT ON FILE";
+  const edNo = Math.max(1, Math.floor(odo / 100));
+  const quiet = ed.reg === "quiet";
+
+  return (
+    <div className="kg-fp-wrap" data-kg-component="tetsu-frontpage" data-kg-owner="kg"
+      style={{ flex: 1, minHeight: 0, overflowY: "auto", overflowX: "hidden", background: FP.paper,
+        // shared print texture — newsprint fibre + faint column screen (study .sheet)
+        backgroundImage: "repeating-linear-gradient(180deg,rgba(17,18,20,.024) 0 1px,transparent 1px 54px),repeating-linear-gradient(90deg,rgba(17,18,20,.014) 0 1px,transparent 1px 3px)" }}>
+      <div className="kg-fp-sheet" style={{ position: "relative", width: 393, maxWidth: "100%",
+        margin: "0 auto", minHeight: 852, height: "100%", overflow: "hidden", color: FP.ink }}>
+
+        {/* masthead — cropped odometer digits bleeding off the top edge; tap = stepper */}
+        <div role="button" tabIndex={0} aria-label={`Odometer ${fmtKm(odo)} ${unit} — tap to adjust`}
+          onClick={() => setOdoOpen(o => !o)}
+          onKeyDown={e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); setOdoOpen(o => !o); } }}
+          style={{ position: "absolute", top: -34, left: -8, fontFamily: FP_COND, fontStretch: "70%",
+            fontWeight: 700, fontSize: 118, letterSpacing: 6, lineHeight: 1, color: FP.ink,
+            whiteSpace: "nowrap", zIndex: 6, cursor: "pointer", userSelect: "none" }}>
+          {digits.slice(0, 3)}
+          <em style={{ fontStyle: "normal", color: "transparent", WebkitTextStroke: `2.5px ${FP.ink}` }}>{digits.slice(3)}</em>
+        </div>
+        {/* edition line between hairline + heavy masthead rule — classic double rule */}
+        <div style={{ position: "absolute", top: 91, left: 0, right: 0, display: "flex", justifyContent: "space-between",
+          padding: "5px 14px 6px", borderTop: `1px solid ${FP.rule}`, borderBottom: `3px solid ${FP.ink}`,
+          fontFamily: F_MONO, fontSize: 8, letterSpacing: 1.4, color: FP.stone, zIndex: 2 }}>
+          <span>No. {edNo} · {ed.editionName}</span>
+          <span>{bikeLine}</span>
+          <span>{fpDateShort(now)}</span>
+        </div>
+
+        {/* odometer stepper — the ±500 behaviour, revealed by tapping the masthead */}
+        {odoOpen && (
+          <div style={{ position: "absolute", top: 116, left: 14, right: 14, zIndex: 9, display: "flex", gap: 6 }}>
+            <button className="kg-fp-chop" aria-label={`Odometer minus ${ODO_STEP}`}
+              onClick={() => updBike("odometer", Math.max(0, odo - ODO_STEP))}
+              style={{ background: FP.ink, color: FP.paper, fontFamily: F_MONO, fontWeight: 700, fontSize: 12,
+                letterSpacing: 1, padding: "9px 12px" }}>−{ODO_STEP}</button>
+            <div style={{ flex: 1, display: "flex", alignItems: "center", justifyContent: "center",
+              border: `1px solid ${FP.ink}`, background: FP.conc, fontFamily: F_MONO, fontWeight: 700,
+              fontSize: 12, letterSpacing: 1.5 }}>{fmtKm(odo)} {unit.toUpperCase()}</div>
+            <button className="kg-fp-chop" aria-label={`Odometer plus ${ODO_STEP}`}
+              onClick={() => updBike("odometer", odo + ODO_STEP)}
+              style={{ background: FP.ink, color: FP.paper, fontFamily: F_MONO, fontWeight: 700, fontSize: 12,
+                letterSpacing: 1, padding: "9px 12px" }}>+{ODO_STEP}</button>
+            <button className="kg-fp-chop" onClick={onEdit}
+              style={{ background: FP.due, color: FP.paper, fontFamily: F_MONO, fontWeight: 700, fontSize: 12,
+                letterSpacing: 1, padding: "9px 12px" }}>EDIT</button>
+          </div>
+        )}
+
+        {/* kicker + ragged headline; the stamp lives in the notch of the rag */}
+        <div style={{ position: "absolute", top: 138, left: 20, fontFamily: F_MONO, fontSize: 10,
+          letterSpacing: 3, color: ed.accent, zIndex: 3 }}>{ed.kicker}</div>
+        <h1 style={{ position: "absolute", top: 156, left: 17, margin: 0, fontFamily: FP_COND,
+          fontStretch: "70%", fontWeight: 700, textTransform: "uppercase", lineHeight: 0.88,
+          color: FP.ink, fontSize: ed.head.size, letterSpacing: 0, zIndex: 3 }}>
+          {ed.head.lines.map((l, i) => <span key={i} style={{ display: "block" }}>{l}</span>)}
+        </h1>
+        <div style={{ position: "absolute", top: 182, left: 210, transform: "rotate(-7deg)", zIndex: 4,
+          border: `3px solid ${ed.accent}`, outline: `1.5px solid ${ed.accent}`, outlineOffset: 3,
+          background: "rgba(244,242,236,.85)", padding: "8px 11px 7px", color: ed.accent, textAlign: "center",
+          boxShadow: "0 3px 10px rgba(17,18,20,.10)" }}>
+          <div style={{ fontFamily: FP_COND, fontStretch: "75%", fontWeight: 700, fontSize: 21,
+            letterSpacing: 2, lineHeight: 1, whiteSpace: "nowrap" }}>{ed.stamp.a}</div>
+          <div style={{ fontFamily: F_MONO, fontSize: 7.5, letterSpacing: 1.2, marginTop: 4,
+            whiteSpace: "nowrap" }}>{ed.stamp.b}</div>
+        </div>
+
+        {/* newsprint show-through — page 2 headline, mirrored, barely there */}
+        <div aria-hidden="true" style={{ position: "absolute", top: 392, left: 30, fontFamily: FP_COND,
+          fontStretch: "70%", fontWeight: 700, fontSize: 54, textTransform: "uppercase",
+          color: "rgba(17,18,20,.05)", transform: "scaleX(-1)", whiteSpace: "nowrap", zIndex: 1,
+          letterSpacing: 1 }}>{ed.thru}</div>
+
+        {/* standfirst — real editorial type: UI face, drop cap, end mark */}
+        <div className="kg-fp-deck" style={{ position: "absolute", top: 378, left: 20, right: 74, zIndex: 3,
+          fontFamily: F_UI, fontSize: 13, lineHeight: 1.62, color: FP.body }}>
+          {ed.deck}
+        </div>
+
+        {/* INSIDE index or the quiet-day IN BRIEF (fed from the real logbook) */}
+        {ed.box.kind === "inside" ? (
+          <div style={{ position: "absolute", left: 20, right: 74, top: 500, zIndex: 3, border: `1px solid ${FP.ink}`,
+            background: FP.conc, padding: "7px 10px 8px", fontFamily: F_MONO, fontSize: 7.5,
+            letterSpacing: 0.8, color: FP.mid, whiteSpace: "nowrap" }}>
+            <b style={{ color: FP.ink, fontWeight: 700, letterSpacing: 2, marginRight: 6 }}>INSIDE</b>
+            GEAR p.2 · LOG p.3 · MANUAL p.4
+          </div>
+        ) : (
+          <div style={{ position: "absolute", left: 20, right: 74, top: 486, zIndex: 3, border: `1px solid ${FP.ink}`,
+            background: FP.conc, padding: "8px 10px 9px" }}>
+            <div style={{ fontFamily: FP_COND, fontStretch: "75%", fontWeight: 700, fontSize: 12,
+              letterSpacing: 2.5, color: FP.ink, borderBottom: `1px solid ${FP.rule}`,
+              paddingBottom: 4, marginBottom: 5 }}>{ed.box.title}</div>
+            <div style={{ fontFamily: F_MONO, fontSize: 8.5, letterSpacing: 0.6, lineHeight: 1.9, color: FP.mid }}>
+              {ed.box.lines.map((l, i) => (
+                <div key={i} style={{ whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>
+                  {l.t} · AT <b style={{ color: FP.ok, fontWeight: 700 }}>{l.at}</b>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {/* inkan chop nav — its own clear column on the right edge */}
+        <nav aria-label="Sections" style={{ position: "absolute", right: 0, top: 378, display: "flex",
+          flexDirection: "column", gap: 6, zIndex: 5 }}>
+          {VIEWS.map(v => {
+            const on = v.id === view;
+            return (
+              <button key={v.id} className="kg-fp-chop" aria-label={v.label} title={v.label}
+                aria-current={on ? "page" : undefined} onClick={() => onNav(v.id)}
+                style={{ width: 34, height: 34, display: "flex", alignItems: "center", justifyContent: "center",
+                  fontFamily: F_KANJI, fontWeight: 700, fontSize: 16,
+                  background: on ? ed.accent : FP.ink, color: FP.paper }}>
+                {v.kanji}
+              </button>
+            );
+          })}
+        </nav>
+
+        {/* FIG. 1 — the service ramp as the chart of the day */}
+        <FpRamp lanes={ed.lanes} post={ed.post} tickKm={ed.tickKm} scale={ed.scale} quiet={quiet} />
+
+        {/* folio foot — the bottom edge resolves in ink */}
+        <div style={{ position: "absolute", left: 0, right: 0, bottom: 0, height: 36, background: FP.ink,
+          zIndex: 6, display: "flex", justifyContent: "space-between", alignItems: "center", padding: "0 14px" }}>
+          <span style={{ fontFamily: F_MONO, fontSize: 8.5, letterSpacing: 1.6, color: FP.paper, whiteSpace: "nowrap" }}>
+            <span style={{ fontFamily: F_KANJI, color: "#c8323b", marginRight: 6, fontSize: 11 }}>鉄</span>
+            TETSU GARAGE · GARAGE, p.1
+          </span>
+          <span style={{ fontFamily: F_MONO, fontSize: 8, letterSpacing: 1.2, color: "#8a8f96", whiteSpace: "nowrap" }}>
+            {ed.folioRight}
+          </span>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 export default function TetsuSurface({ onExit }) {
   const [garage, setGarage] = useState(null);       // full { bikes, fluids, ... } payload
   const [source, setSource] = useState("");          // 'seed' | 'corpus' | 'offline' | …
@@ -441,6 +1005,10 @@ export default function TetsuSurface({ onExit }) {
   // Oil-life dial source — the engine-oil schedule item, already scored against
   // the live odometer. Derived from existing garage data only (no new endpoint).
   const oilItem = scored.find(s => (s.id === "oil" || /oil/i.test(s.task || "")) && s.intervalKm != null) || null;
+
+  // FRONT PAGE — the GARAGE display path is the broadsheet. EDIT mode (and every
+  // other tab) renders the classic shell; DONE turns the paper back over.
+  const front = loaded && view === "maintenance" && !editing;
 
   return (
     <div className="kg-tetsu" data-kg-component="tetsu-surface" data-kg-owner="kg"
@@ -605,8 +1173,29 @@ export default function TetsuSurface({ onExit }) {
           /* watermark dialled back so it doesn't swamp a small screen */
           .kg-tt-watermark{font-size:min(34vh,220px) !important;top:52px !important;}
         }
+        /* ── FRONT PAGE (01 · LATE EDITION) — study classes that need CSS proper ── */
+        .kg-fp-deck::first-letter{float:left;font-family:${FP_COND};font-stretch:70%;font-weight:700;
+          font-size:46px;line-height:.82;padding:3px 7px 0 0;color:#111214;}
+        .kg-fp-red{position:absolute;top:0;bottom:0;left:0;background:#b3232e;
+          background-image:repeating-linear-gradient(-45deg,rgba(17,18,20,.22) 0 6px,transparent 6px 12px);}
+        .kg-fp-red::after{content:"";position:absolute;right:0;top:0;bottom:0;width:3px;background:#7d1820;}
+        .kg-fp-torn{clip-path:polygon(0 0,calc(100% - 8px) 0,100% 12%,calc(100% - 7px) 30%,100% 48%,
+          calc(100% - 8px) 62%,100% 80%,calc(100% - 7px) 100%,0 100%);}
+        .kg-fp-chop{border:none;cursor:pointer;padding:0;transition:filter .15s ease;}
+        .kg-fp-chop:hover{filter:brightness(1.35);}
+        /* desktop — the sheet is a centred column, the paper runs full-height around it */
+        @media(min-width:640px){
+          .kg-fp-sheet{box-shadow:0 0 0 1px #d5d1c6,0 0 60px rgba(17,18,20,.07);}
+        }
       `}</style>
 
+      {front && (
+        <FrontPage bike={bike} odo={odo} unit={(bike && bike.unit) || "km"} items={scored}
+          entries={logSorted} oilItem={oilItem} now={now} view={view}
+          onNav={setView} onEdit={() => setEditing(true)} updBike={updBike} />
+      )}
+
+      {!front && (<>
       {/* ── Header — layout-2.0 slim top bar: crumb wordmark left, status right;
              the chrome hairline along the bottom edge stays the brand signature ── */}
       <header className="kg-tt-header" style={{ position: "relative", zIndex: 1, flexShrink: 0, height: 58, display: "flex",
@@ -748,6 +1337,7 @@ export default function TetsuSurface({ onExit }) {
           })}
         </nav>
       )}
+      </>)}
     </div>
   );
 }
