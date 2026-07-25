@@ -21,7 +21,9 @@ import { useState, useEffect, useMemo, useRef } from "react";
                   callout, all service intervals (live DUE/SOON/OK vs the
                   odometer + today), the service log as a brush-spine, and the
                   bench reference (torque card + fluids & capacities).
-     • MODS     — the build book: installed / stock / planned / wishlist parts.
+     • GEAR     — the build book: every part, mod and piece of kit, by status
+                  (installed / stock / planned / wishlist). The data key stays
+                  "mods" so no stored garage needs migrating.
      • LOGBOOK  — the maintenance history, newest-first, each entry a card
                   with a photo/screenshot slot (real image drop is later).
      • MANUALS  — the manual shelf + the full-text workshop-manual reader.
@@ -92,7 +94,7 @@ const ODO_STEP = 500;    // odometer stepper increment (km)
 // reference; the id stays "maintenance" so no state wiring moves).
 const VIEWS = [
   { id: "maintenance", label: "GARAGE",    kanji: "車", tab: "GARAGE" },
-  { id: "mods",        label: "MODS",      kanji: "改", tab: "MODS" },
+  { id: "mods",        label: "GEAR",      kanji: "装", tab: "GEAR" },
   { id: "logbook",     label: "LOGBOOK",   kanji: "録", tab: "LOG" },
   { id: "manuals",     label: "MANUALS",   kanji: "書", tab: "MANUAL" },
   { id: "chat",        label: "ASK TETSU", kanji: "鉄", tab: "ASK" },
@@ -1874,6 +1876,40 @@ function ModStatusToggle({ status, onPick }) {
   );
 }
 
+// ── Inline name rename — click a card's title to retitle that piece of gear without
+// entering EDIT (writes straight to the row, same as the status toggle). Enter or
+// blur commits, Escape reverts; an empty name is refused so a stray click can never
+// wipe the title. ─────────────────────────────────────────────────────────────
+function InlineName({ value, onCommit }) {
+  const [editing, setEditing] = useState(false);
+  const [draft, setDraft] = useState(value || "");
+  const ref = useRef(null);
+  useEffect(() => { if (editing && ref.current) { ref.current.focus(); ref.current.select(); } }, [editing]);
+  const open = () => { setDraft(value || ""); setEditing(true); };
+  const commit = () => {
+    const v = draft.trim();
+    if (v && v !== value) onCommit(v);
+    setEditing(false);
+  };
+  if (editing) {
+    return (
+      <input ref={ref} value={draft} onChange={e => setDraft(e.target.value)} onBlur={commit}
+        onKeyDown={e => {
+          if (e.key === "Enter")  { e.preventDefault(); commit(); }
+          if (e.key === "Escape") { setDraft(value || ""); setEditing(false); }
+        }}
+        style={{ ...inputBase, fontFamily: F_UI, fontSize: 15, fontWeight: 600, padding: "3px 7px" }} />
+    );
+  }
+  return (
+    <div role="button" tabIndex={0} title="Click to rename" onClick={open}
+      onKeyDown={e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); open(); } }}
+      style={{ fontFamily: F_UI, fontSize: 15, fontWeight: 600, color: BONE, lineHeight: 1.3, cursor: "text" }}>
+      {value}
+    </div>
+  );
+}
+
 // ── Mod cost totals — a running price per status bucket (installed·owned / planned /
 // wishlist). Costs are parsed + summed per currency; unpriced parts are simply skipped. ─
 function ModsTotals({ mods }) {
@@ -1903,7 +1939,7 @@ function ModsTotals({ mods }) {
   );
 }
 
-// ── MODS — the build book: what's on the bike and what's next ─────────────────
+// ── GEAR — the build book: what's on the bike and what's next ─────────────────
 function ModsView({ mods, edit }) {
   const [linkDraft, setLinkDraft] = useState("");
   const [adding, setAdding] = useState(false);
@@ -1911,7 +1947,7 @@ function ModsView({ mods, edit }) {
     return (
       <div style={{ animation: "ttFade .3s ease" }}>
         <h2 style={{ fontFamily: F_COND, fontSize: 14, letterSpacing: 3, color: BONE, fontWeight: 700, margin: 0,
-          textTransform: "uppercase" }}>MODIFICATIONS</h2>
+          textTransform: "uppercase" }}>GEAR</h2>
         <p style={{ fontSize: 13.5, color: STEEL_DIM, margin: "6px 0 18px" }}>
           What's on the bike, what's planned, what's on the wishlist.
         </p>
@@ -1946,7 +1982,7 @@ function ModsView({ mods, edit }) {
               </div>
             </div>
           ))}
-          <AddBtn label="ADD MODIFICATION"
+          <AddBtn label="ADD ITEM"
             onClick={() => edit.addRow("mods", { id: `m${Date.now()}`, part: "", category: "", link: "", image: "", date: "", cost: "", status: "installed", note: "" })} />
         </div>
       </div>
@@ -1971,11 +2007,11 @@ function ModsView({ mods, edit }) {
     <div style={{ animation: "ttFade .3s ease" }}>
       <div style={{ display: "flex", alignItems: "baseline", justifyContent: "space-between", marginBottom: 4 }}>
         <h2 style={{ fontFamily: F_COND, fontSize: 14, letterSpacing: 3, color: BONE, fontWeight: 700, margin: 0,
-          textTransform: "uppercase" }}>MODIFICATIONS</h2>
-        <span style={{ fontSize: 13, fontFamily: F_MONO, color: STEEL_DIM }}>{mods.length} builds</span>
+          textTransform: "uppercase" }}>GEAR</h2>
+        <span style={{ fontSize: 13, fontFamily: F_MONO, color: STEEL_DIM }}>{mods.length} items</span>
       </div>
       <p style={{ fontSize: 13.5, color: STEEL_DIM, margin: "0 0 18px" }}>
-        The build book: what's on the bike and what's next.
+        The build book: parts, mods and kit — what's on the bike and what's next.
       </p>
 
       <ModsTotals mods={mods} />
@@ -2020,7 +2056,7 @@ function ModsView({ mods, edit }) {
               )}
               <div style={{ display: "flex", alignItems: "flex-start", gap: 10 }}>
                 <div style={{ flex: 1, minWidth: 0 }}>
-                  <div style={{ fontFamily: F_UI, fontSize: 15, fontWeight: 600, color: BONE, lineHeight: 1.3 }}>{mod.part}</div>
+                  <InlineName value={mod.part} onCommit={v => edit.updRow("mods", i, "part", v)} />
                   {mod.category && (
                     <span style={{ display: "inline-block", fontSize: 12.5, fontFamily: F_MONO, color: STEEL,
                       background: mix(CHROME, 7), border: `1px solid ${mix(CHROME, 20)}`, borderRadius: 4,
