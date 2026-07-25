@@ -191,9 +191,23 @@ app.get("/api/manual/search", (req, res) => {
 // Fetch a product page and pull an og:image (+ og:title + price) so a pasted accessory
 // link gets an auto picture, name and price. READ-ONLY, no writes: best-effort, always
 // 200 with {image,title,price} (nulls on any failure) so the client never blocks capture.
-const decodeEntities = (s) => (typeof s === "string" ? s
-  .replace(/&amp;/g, "&").replace(/&quot;/g, '"').replace(/&#39;/g, "'")
-  .replace(/&lt;/g, "<").replace(/&gt;/g, ">") : s);
+// Shop titles arrive entity-encoded, and not only in the five named forms: Craftride's
+// og:title escapes every SPACE as &#x20; (and + as &#x2B;), which used to land in the
+// garage verbatim as one unreadable run-on. Decode named AND numeric (decimal + hex)
+// entities in ONE pass, so an already-escaped "&amp;#x20;" is not double-decoded.
+const NAMED_ENTITIES = { amp: "&", quot: '"', apos: "'", lt: "<", gt: ">", nbsp: " " };
+const decodeEntities = (s) => (typeof s === "string"
+  ? s.replace(/&(?:#(\d+)|#[xX]([0-9a-fA-F]+)|([a-zA-Z]+));/g, (whole, dec, hex, name) => {
+      if (name != null) {
+        const n = NAMED_ENTITIES[name.toLowerCase()];
+        return n === undefined ? whole : n;   // unknown name → leave the source text alone
+      }
+      const cp = dec != null ? Number(dec) : parseInt(hex, 16);
+      // Out-of-range or surrogate code points would throw — keep the raw text instead.
+      if (!Number.isFinite(cp) || cp > 0x10ffff || (cp >= 0xd800 && cp <= 0xdfff)) return whole;
+      return String.fromCodePoint(cp);
+    })
+  : s);
 // Match a <meta> whose identifying attribute === key, tolerating either attribute
 // order (id-then-content OR content-then-id). `attrs` is the id-attribute pattern:
 // property/name for OpenGraph/Twitter (default), or itemprop for schema.org microdata.
