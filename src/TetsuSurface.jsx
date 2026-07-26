@@ -294,7 +294,7 @@ function Rivet({ style }) {
 
 // Paper palette — exact hexes from the study's :root.
 const FP = {
-  paper: "#f4f2ec", conc: "#e6e3dc", seam: "#d5d1c6", stone: "#8a867c", ink: "#111214",
+  paper: "#f4f2ec", conc: "#e6e3dc", seam: "#d5d1c6", stone: "#767268", ink: "#111214",
   ok: "#3f6b52", brass: "#8a6a2f", due: "#b3232e", rule: "#b6b2a7",
   body: "#3a3d42", mid: "#4c4f54", redEdge: "#7d1820", redSmall: "#f2cfd3", greenSmall: "#cfe0d5",
 };
@@ -603,8 +603,8 @@ function FpRamp({ lanes, post, tickKm, scale, quiet }) {
       <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline",
         padding: "5px 14px 4px", borderBottom: `1px solid ${FP.rule}` }}>
         <span style={{ fontFamily: FP_COND, fontStretch: "75%", fontWeight: 700, textTransform: "uppercase",
-          fontSize: 13, letterSpacing: 2, color: FP.ink, whiteSpace: "nowrap" }}>Fig. 1 · The Service Ramp</span>
-        <span style={{ fontFamily: F_MONO, fontSize: 7, letterSpacing: 1.1, color: FP.stone, whiteSpace: "nowrap" }}>
+          fontSize: 14, letterSpacing: 2, color: FP.ink, whiteSpace: "nowrap" }}>Fig. 1 · The Service Ramp</span>
+        <span style={{ fontFamily: F_MONO, fontSize: 8.5, letterSpacing: 0.8, color: FP.mid, whiteSpace: "nowrap" }}>
           {quiet ? "0 = TODAY · NOTHING BEHIND YOU" : "0 = TODAY · ←PAST | AHEAD→"}
         </span>
       </div>
@@ -612,8 +612,8 @@ function FpRamp({ lanes, post, tickKm, scale, quiet }) {
       <div style={{ position: "absolute", left: AX, top: 32, bottom: 22, width: 3, background: FP.ink, zIndex: 4 }} />
 
       {lanes.length === 0 && (
-        <div style={{ position: "absolute", left: 14, right: 40, top: 90, fontFamily: F_MONO, fontSize: 9,
-          letterSpacing: 1.4, color: FP.stone, lineHeight: 1.9 }}>
+        <div style={{ position: "absolute", left: 14, right: 40, top: 90, fontFamily: F_MONO, fontSize: 10,
+          letterSpacing: 1.2, color: FP.mid, lineHeight: 1.9 }}>
           NO INTERVALS ON FILE — TAP THE ODOMETER, EDIT THE PAPER.
         </div>
       )}
@@ -651,11 +651,11 @@ function FpRamp({ lanes, post, tickKm, scale, quiet }) {
           <div key={`${ln.nm}-${i}`} style={{ position: "absolute", left: 0, right: 0, top, height: 52 }}>
             {bar}
             <div style={{ position: "absolute", left: 14, top: 5, width: 92, fontFamily: FP_COND, fontStretch: "72%",
-              fontWeight: 700, textTransform: "uppercase", fontSize: 15, letterSpacing: 1,
+              fontWeight: 700, textTransform: "uppercase", fontSize: 16, letterSpacing: 1,
               color: nmOnRed ? FP.paper : FP.ink, zIndex: 5, lineHeight: 1 }}>
               {ln.nm}
-              <small style={{ display: "block", fontFamily: F_MONO, fontSize: 7, letterSpacing: 1.2,
-                color: nmOnRed ? FP.redSmall : FP.stone, fontWeight: 400, marginTop: 3, maxWidth: 86, lineHeight: 1.5 }}>
+              <small style={{ display: "block", fontFamily: F_MONO, fontSize: 8, letterSpacing: 0.7,
+                color: nmOnRed ? FP.redSmall : FP.mid, fontWeight: 400, marginTop: 3, maxWidth: 90, lineHeight: 1.45 }}>
                 {ln.small}
               </small>
             </div>
@@ -663,7 +663,7 @@ function FpRamp({ lanes, post, tickKm, scale, quiet }) {
               fontStretch: "70%", fontWeight: 700, fontSize: val.size, lineHeight: 1, color: val.color,
               zIndex: val.z || 3, whiteSpace: "nowrap" }}>
               {ln.big}
-              <small style={{ fontFamily: F_MONO, fontSize: 7, letterSpacing: 1, fontWeight: 400,
+              <small style={{ fontFamily: F_MONO, fontSize: 8, letterSpacing: 0.7, fontWeight: 400,
                 ...(val.inline ? { display: "inline", marginLeft: 5, verticalAlign: 2 } : { display: "block", marginTop: 3 }),
                 color: smallColor }}>
                 {ln.vsmall}
@@ -676,16 +676,16 @@ function FpRamp({ lanes, post, tickKm, scale, quiet }) {
       {post && (
         <div style={{ position: "absolute", right: 0, top: 32, bottom: 22, width: 26, background: FP.ink, zIndex: 1 }}>
           <span style={{ position: "absolute", top: 10, left: "50%", transform: "translateX(-50%)",
-            writingMode: "vertical-rl", fontFamily: F_MONO, fontSize: 8, letterSpacing: 2.2,
+            writingMode: "vertical-rl", fontFamily: F_MONO, fontSize: 9, letterSpacing: 1.8,
             color: FP.paper, whiteSpace: "nowrap" }}>{post.label}</span>
         </div>
       )}
       <div style={{ position: "absolute", left: 0, right: 0, bottom: 0, height: 22, borderTop: `1px solid ${FP.rule}` }}>
-        <i style={{ position: "absolute", left: 100, top: 5, fontStyle: "normal", fontFamily: F_MONO,
-          fontSize: 7.5, letterSpacing: 1.2, color: FP.stone }}>0</i>
+        <i style={{ position: "absolute", left: 100, top: 4, fontStyle: "normal", fontFamily: F_MONO,
+          fontSize: 9, letterSpacing: 1, color: FP.mid }}>0</i>
         {ticks.map(t => (
-          <i key={t.x} style={{ position: "absolute", left: t.x, top: 5, fontStyle: "normal",
-            fontFamily: F_MONO, fontSize: 7.5, letterSpacing: 1.2, color: FP.stone }}>{t.label}</i>
+          <i key={t.x} style={{ position: "absolute", left: t.x, top: 4, fontStyle: "normal",
+            fontFamily: F_MONO, fontSize: 9, letterSpacing: 1, color: FP.mid }}>{t.label}</i>
         ))}
       </div>
     </div>
@@ -700,6 +700,28 @@ function FrontPage({ bike, odo, unit, items, entries, oilItem, now, view, onNav,
     [items, entries, odo, oilItem, now, bike, unit]
   );
 
+  // Legibility scale (2026-07-25): the sheet is a fixed 393×852 art board, which
+  // read as a stranded phone-width strip on desktop. Zoom the whole sheet to the
+  // container — exact width-fit on phones, roughly half the window on desktop —
+  // so every point size on the page grows together and the paper reads like a
+  // paper. CSS `zoom` (not transform) so layout/scroll height follow for free.
+  const wrapRef = useRef(null);
+  const [scale, setScale] = useState(1);
+  useEffect(() => {
+    const el = wrapRef.current;
+    if (!el) return;
+    const compute = () => {
+      const w = el.clientWidth;
+      if (!w) return;
+      const s = w <= 700 ? Math.min(1.25, w / 393) : Math.min(1.75, Math.max(1, (w * 0.5) / 393));
+      setScale(Math.round(s * 1000) / 1000);
+    };
+    compute();
+    const ro = new ResizeObserver(compute);
+    ro.observe(el);
+    return () => ro.disconnect();
+  }, []);
+
   const digits = String(Math.max(0, Math.round(odo))).padStart(6, "0").slice(-6);
   const bikeLine = bike
     ? `${/harley/i.test(bike.make || "") ? "H-D" : (bike.make || "").toUpperCase()} ${(bike.model || "").toUpperCase()}${bike.code ? ` · ${bike.code}` : ""}`.trim()
@@ -708,19 +730,19 @@ function FrontPage({ bike, odo, unit, items, entries, oilItem, now, view, onNav,
   const quiet = ed.reg === "quiet";
 
   return (
-    <div className="kg-fp-wrap" data-kg-component="tetsu-frontpage" data-kg-owner="kg"
+    <div ref={wrapRef} className="kg-fp-wrap" data-kg-component="tetsu-frontpage" data-kg-owner="kg"
       style={{ flex: 1, minHeight: 0, overflowY: "auto", overflowX: "hidden", background: FP.paper,
         // shared print texture — newsprint fibre + faint column screen (study .sheet)
         backgroundImage: "repeating-linear-gradient(180deg,rgba(17,18,20,.024) 0 1px,transparent 1px 54px),repeating-linear-gradient(90deg,rgba(17,18,20,.014) 0 1px,transparent 1px 3px)" }}>
       <div className="kg-fp-sheet" style={{ position: "relative", width: 393, maxWidth: "100%",
-        margin: "0 auto", minHeight: 852, height: "100%", overflow: "hidden", color: FP.ink }}>
+        margin: "0 auto", minHeight: 852, overflow: "hidden", color: FP.ink, zoom: scale }}>
 
         {/* masthead — cropped odometer digits bleeding off the top edge; tap = stepper */}
         <div role="button" tabIndex={0} aria-label={`Odometer ${fmtKm(odo)} ${unit} — tap to adjust`}
           onClick={() => setOdoOpen(o => !o)}
           onKeyDown={e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); setOdoOpen(o => !o); } }}
-          style={{ position: "absolute", top: -34, left: -8, fontFamily: FP_COND, fontStretch: "70%",
-            fontWeight: 700, fontSize: 118, letterSpacing: 6, lineHeight: 1, color: FP.ink,
+          style={{ position: "absolute", top: -22, left: -8, fontFamily: FP_COND, fontStretch: "70%",
+            fontWeight: 700, fontSize: 112, letterSpacing: 7, lineHeight: 1, color: FP.ink,
             whiteSpace: "nowrap", zIndex: 6, cursor: "pointer", userSelect: "none" }}>
           {digits.slice(0, 3)}
           <em style={{ fontStyle: "normal", color: "transparent", WebkitTextStroke: `2.5px ${FP.ink}` }}>{digits.slice(3)}</em>
@@ -728,10 +750,10 @@ function FrontPage({ bike, odo, unit, items, entries, oilItem, now, view, onNav,
         {/* edition line between hairline + heavy masthead rule — classic double rule */}
         <div style={{ position: "absolute", top: 91, left: 0, right: 0, display: "flex", justifyContent: "space-between",
           padding: "5px 14px 6px", borderTop: `1px solid ${FP.rule}`, borderBottom: `3px solid ${FP.ink}`,
-          fontFamily: F_MONO, fontSize: 8, letterSpacing: 1.4, color: FP.stone, zIndex: 2 }}>
-          <span>No. {edNo} · {ed.editionName}</span>
-          <span>{bikeLine}</span>
-          <span>{fpDateShort(now)}</span>
+          fontFamily: F_MONO, fontSize: 9, letterSpacing: 0.4, color: FP.mid, zIndex: 2 }}>
+          <span style={{ whiteSpace: "nowrap" }}>No. {edNo} · {ed.editionName}</span>
+          <span style={{ whiteSpace: "nowrap" }}>{bikeLine}</span>
+          <span style={{ whiteSpace: "nowrap" }}>{fpDateShort(now)}</span>
         </div>
 
         {/* odometer stepper — the ±500 behaviour, revealed by tapping the masthead */}
@@ -755,20 +777,20 @@ function FrontPage({ bike, odo, unit, items, entries, oilItem, now, view, onNav,
         )}
 
         {/* kicker + ragged headline; the stamp lives in the notch of the rag */}
-        <div style={{ position: "absolute", top: 138, left: 20, fontFamily: F_MONO, fontSize: 10,
-          letterSpacing: 3, color: ed.accent, zIndex: 3 }}>{ed.kicker}</div>
+        <div style={{ position: "absolute", top: 137, left: 20, fontFamily: F_MONO, fontSize: 11,
+          letterSpacing: 2.6, color: ed.accent, zIndex: 3, fontWeight: 700 }}>{ed.kicker}</div>
         <h1 style={{ position: "absolute", top: 156, left: 17, margin: 0, fontFamily: FP_COND,
           fontStretch: "70%", fontWeight: 700, textTransform: "uppercase", lineHeight: 0.88,
           color: FP.ink, fontSize: ed.head.size, letterSpacing: 0, zIndex: 3 }}>
           {ed.head.lines.map((l, i) => <span key={i} style={{ display: "block" }}>{l}</span>)}
         </h1>
-        <div style={{ position: "absolute", top: 182, left: 210, transform: "rotate(-7deg)", zIndex: 4,
+        <div style={{ position: "absolute", top: 182, right: 8, transform: "rotate(-7deg)", zIndex: 4,
           border: `3px solid ${ed.accent}`, outline: `1.5px solid ${ed.accent}`, outlineOffset: 3,
           background: "rgba(244,242,236,.85)", padding: "8px 11px 7px", color: ed.accent, textAlign: "center",
           boxShadow: "0 3px 10px rgba(17,18,20,.10)" }}>
           <div style={{ fontFamily: FP_COND, fontStretch: "75%", fontWeight: 700, fontSize: 21,
             letterSpacing: 2, lineHeight: 1, whiteSpace: "nowrap" }}>{ed.stamp.a}</div>
-          <div style={{ fontFamily: F_MONO, fontSize: 7.5, letterSpacing: 1.2, marginTop: 4,
+          <div style={{ fontFamily: F_MONO, fontSize: 9, letterSpacing: 1, marginTop: 4,
             whiteSpace: "nowrap" }}>{ed.stamp.b}</div>
         </div>
 
@@ -780,25 +802,33 @@ function FrontPage({ bike, odo, unit, items, entries, oilItem, now, view, onNav,
 
         {/* standfirst — real editorial type: UI face, drop cap, end mark */}
         <div className="kg-fp-deck" style={{ position: "absolute", top: 378, left: 20, right: 74, zIndex: 3,
-          fontFamily: F_UI, fontSize: 13, lineHeight: 1.62, color: FP.body }}>
+          fontFamily: F_UI, fontSize: 13.5, lineHeight: 1.58, color: FP.body }}>
           {ed.deck}
         </div>
 
         {/* INSIDE index or the quiet-day IN BRIEF (fed from the real logbook) */}
         {ed.box.kind === "inside" ? (
           <div style={{ position: "absolute", left: 20, right: 74, top: 500, zIndex: 3, border: `1px solid ${FP.ink}`,
-            background: FP.conc, padding: "7px 10px 8px", fontFamily: F_MONO, fontSize: 7.5,
-            letterSpacing: 0.8, color: FP.mid, whiteSpace: "nowrap" }}>
-            <b style={{ color: FP.ink, fontWeight: 700, letterSpacing: 2, marginRight: 6 }}>INSIDE</b>
-            GEAR p.2 · LOG p.3 · MANUAL p.4
+            background: FP.conc, padding: "8px 10px", fontFamily: F_MONO, fontSize: 9.5,
+            letterSpacing: 0.5, color: FP.mid, whiteSpace: "nowrap" }}>
+            <b style={{ color: FP.ink, fontWeight: 700, letterSpacing: 2, marginRight: 8 }}>INSIDE</b>
+            {[["mods", "GEAR p.2"], ["logbook", "LOG p.3"], ["manuals", "MANUAL p.4"]].map(([id, label], i) => (
+              <span key={id}>
+                {i > 0 && <span aria-hidden="true"> · </span>}
+                <a role="button" tabIndex={0} onClick={() => onNav(id)}
+                  onKeyDown={e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); onNav(id); } }}
+                  style={{ color: FP.mid, textDecoration: "underline", textUnderlineOffset: 2,
+                    textDecorationColor: FP.rule, cursor: "pointer" }}>{label}</a>
+              </span>
+            ))}
           </div>
         ) : (
           <div style={{ position: "absolute", left: 20, right: 74, top: 486, zIndex: 3, border: `1px solid ${FP.ink}`,
             background: FP.conc, padding: "8px 10px 9px" }}>
-            <div style={{ fontFamily: FP_COND, fontStretch: "75%", fontWeight: 700, fontSize: 12,
+            <div style={{ fontFamily: FP_COND, fontStretch: "75%", fontWeight: 700, fontSize: 13,
               letterSpacing: 2.5, color: FP.ink, borderBottom: `1px solid ${FP.rule}`,
               paddingBottom: 4, marginBottom: 5 }}>{ed.box.title}</div>
-            <div style={{ fontFamily: F_MONO, fontSize: 8.5, letterSpacing: 0.6, lineHeight: 1.9, color: FP.mid }}>
+            <div style={{ fontFamily: F_MONO, fontSize: 9.5, letterSpacing: 0.5, lineHeight: 1.8, color: FP.mid }}>
               {ed.box.lines.map((l, i) => (
                 <div key={i} style={{ whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>
                   {l.t} · AT <b style={{ color: FP.ok, fontWeight: 700 }}>{l.at}</b>
@@ -808,18 +838,23 @@ function FrontPage({ bike, odo, unit, items, entries, oilItem, now, view, onNav,
           </div>
         )}
 
-        {/* inkan chop nav — its own clear column on the right edge */}
+        {/* inkan chop nav — its own clear column on the right edge. Each chop now
+            carries a visible text label in the gutter (kanji-only squares were
+            unguessable — legibility pass 2026-07-25); the whole row is the button. */}
         <nav aria-label="Sections" style={{ position: "absolute", right: 0, top: 378, display: "flex",
           flexDirection: "column", gap: 6, zIndex: 5 }}>
           {VIEWS.map(v => {
             const on = v.id === view;
             return (
-              <button key={v.id} className="kg-fp-chop" aria-label={v.label} title={v.label}
+              <button key={v.id} className="kg-fp-chop" aria-label={v.label}
                 aria-current={on ? "page" : undefined} onClick={() => onNav(v.id)}
-                style={{ width: 34, height: 34, display: "flex", alignItems: "center", justifyContent: "center",
-                  fontFamily: F_KANJI, fontWeight: 700, fontSize: 16,
-                  background: on ? ed.accent : FP.ink, color: FP.paper }}>
-                {v.kanji}
+                style={{ display: "flex", alignItems: "center", justifyContent: "flex-end", gap: 6,
+                  background: "transparent" }}>
+                <span style={{ fontFamily: FP_COND, fontStretch: "75%", fontWeight: 700, fontSize: 10,
+                  letterSpacing: 1.2, color: on ? ed.accent : FP.mid, textTransform: "uppercase" }}>{v.tab}</span>
+                <span aria-hidden="true" style={{ width: 34, height: 34, display: "flex", alignItems: "center",
+                  justifyContent: "center", fontFamily: F_KANJI, fontWeight: 700, fontSize: 17,
+                  background: on ? ed.accent : FP.ink, color: FP.paper }}>{v.kanji}</span>
               </button>
             );
           })}
@@ -831,14 +866,484 @@ function FrontPage({ bike, odo, unit, items, entries, oilItem, now, view, onNav,
         {/* folio foot — the bottom edge resolves in ink */}
         <div style={{ position: "absolute", left: 0, right: 0, bottom: 0, height: 36, background: FP.ink,
           zIndex: 6, display: "flex", justifyContent: "space-between", alignItems: "center", padding: "0 14px" }}>
-          <span style={{ fontFamily: F_MONO, fontSize: 8.5, letterSpacing: 1.6, color: FP.paper, whiteSpace: "nowrap" }}>
-            <span style={{ fontFamily: F_KANJI, color: "#c8323b", marginRight: 6, fontSize: 11 }}>鉄</span>
+          <span style={{ fontFamily: F_MONO, fontSize: 9.5, letterSpacing: 1.4, color: FP.paper, whiteSpace: "nowrap" }}>
+            <span style={{ fontFamily: F_KANJI, color: "#c8323b", marginRight: 6, fontSize: 12 }}>鉄</span>
             TETSU GARAGE · GARAGE, p.1
           </span>
-          <span style={{ fontFamily: F_MONO, fontSize: 8, letterSpacing: 1.2, color: "#8a8f96", whiteSpace: "nowrap" }}>
+          <span style={{ fontFamily: F_MONO, fontSize: 9, letterSpacing: 1, color: "#aab0b8", whiteSpace: "nowrap" }}>
             {ed.folioRight}
           </span>
         </div>
+      </div>
+    </div>
+  );
+}
+
+// ── THE INNER PAGES — pages 2–4 + the back page of the same edition ──────────
+// Read mode for GEAR / LOG / MANUAL / ASK carries the broadsheet through: paper
+// ground, ink type, newspaper chrome. Unlike the front page (a fixed 393px art
+// board), these are WORKING pages, so they stay fluid — ≥13px body, ≥10px mono,
+// 44px tap targets. EDIT flips the paper over onto the dark bench shell.
+const PP_PAGES = {
+  mods:    { no: "GEAR · p.2",   kicker: "THE GEAR LOCKER —",  head: "ON THE BIKE. AND NEXT.",
+             next: ["logbook", "THE LOG BOOK FOLLOWS, p.3 →"] },
+  logbook: { no: "LOG · p.3",    kicker: "THE LOG BOOK —",     head: "WORK, ON THE RECORD.",
+             next: ["manuals", "THE MANUAL DESK, p.4 →"] },
+  manuals: { no: "MANUAL · p.4", kicker: "THE MANUAL DESK —",  head: "LOOK IT UP. TORQUE IT RIGHT.",
+             next: ["chat", "THE BACK PAGE →"] },
+  chat:    { no: "BACK PAGE",    kicker: "THE BACK PAGE —",    head: "ASK TETSU.",
+             next: ["maintenance", "BACK TO THE FRONT PAGE, p.1 →"] },
+};
+
+// Print-register status colours for gear on paper (never the neon set).
+const PP_STATUS = {
+  installed: { color: FP.ok,    label: "INSTALLED" },
+  stock:     { color: FP.ink,   label: "STOCK" },
+  planned:   { color: FP.brass, label: "PLANNED" },
+  wishlist:  { color: FP.mid,   label: "WISHLIST" },
+};
+
+// Fresh-page input register — square, ink-ruled, black type on near-white.
+const PP_PAGE_BG = "#faf9f4";
+const ppInput = {
+  background: PP_PAGE_BG, border: `1.5px solid ${FP.ink}`, borderRadius: 0,
+  color: FP.ink, fontSize: 14, padding: "11px 12px", outline: "none", width: "100%",
+};
+
+// ── Inner-page chrome — running head, section tabs, mobile folio bar ─────────
+function PaperChrome({ view, onNav, onEdit, onExit, save, now, children }) {
+  return (
+    <div className="kg-pp" data-kg-component="tetsu-innerpage" data-kg-owner="kg"
+      style={{ flex: 1, minHeight: 0, display: "flex", flexDirection: "column",
+        background: FP.paper, color: FP.ink }}>
+
+      {/* running head — the edition's inner-page masthead strip */}
+      <header style={{ flexShrink: 0, borderBottom: `3px solid ${FP.ink}`, background: FP.paper, zIndex: 3 }}>
+        <div style={{ maxWidth: 1080, margin: "0 auto", padding: "0 18px" }}>
+          <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 12,
+            padding: "11px 0 9px" }}>
+            <a role="button" tabIndex={0} aria-label="Front page" onClick={() => onNav("maintenance")}
+              onKeyDown={e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); onNav("maintenance"); } }}
+              style={{ display: "flex", alignItems: "baseline", gap: 9, cursor: "pointer", minWidth: 0 }}>
+              <span aria-hidden="true" style={{ fontFamily: F_KANJI, fontWeight: 700, fontSize: 17,
+                color: "#c8323b", lineHeight: 1 }}>鉄</span>
+              <span style={{ fontFamily: FP_COND, fontStretch: "75%", fontWeight: 700, fontSize: 17,
+                letterSpacing: 2, textTransform: "uppercase", color: FP.ink, whiteSpace: "nowrap" }}>
+                Tetsu Garage</span>
+              <span className="kg-pp-date" style={{ fontFamily: F_MONO, fontSize: 10, letterSpacing: 1,
+                color: FP.mid, whiteSpace: "nowrap" }}>{fpDateShort(now)}</span>
+            </a>
+            <div style={{ display: "flex", alignItems: "center", gap: 12, flexShrink: 0 }}>
+              <span className="kg-pp-save" style={{ fontFamily: F_MONO, fontSize: 10.5, letterSpacing: 0.8,
+                color: save.bad ? FP.due : FP.mid, whiteSpace: "nowrap" }}>{save.text}</span>
+              <button className="kg-pp-btn" onClick={onEdit}
+                style={{ background: FP.ink, color: FP.paper, border: "none", cursor: "pointer",
+                  fontFamily: F_MONO, fontWeight: 700, fontSize: 11, letterSpacing: 2, padding: "9px 15px" }}>
+                EDIT
+              </button>
+              {onExit && (
+                <button className="kg-pp-btn" onClick={onExit}
+                  style={{ background: "transparent", color: FP.mid, border: `1.5px solid ${FP.rule}`,
+                    cursor: "pointer", fontFamily: F_MONO, fontWeight: 700, fontSize: 11, letterSpacing: 1.5,
+                    padding: "8px 12px" }}>
+                  ← BACK
+                </button>
+              )}
+            </div>
+          </div>
+          {/* section tabs — the paper's section index; also the desktop nav */}
+          <nav className="kg-pp-tabs" aria-label="Sections"
+            style={{ display: "flex", borderTop: `1px solid ${FP.rule}`, overflowX: "auto" }}>
+            {VIEWS.map(v => {
+              const on = v.id === view;
+              return (
+                <button key={v.id} className="kg-pp-tab" aria-current={on ? "page" : undefined}
+                  onClick={() => onNav(v.id)}
+                  style={{ display: "flex", alignItems: "center", gap: 7, padding: "12px 16px", minHeight: 44,
+                    border: "none", background: on ? FP.ink : "transparent", color: on ? FP.paper : FP.ink,
+                    cursor: "pointer", fontFamily: FP_COND, fontStretch: "75%", fontWeight: 700,
+                    fontSize: 13.5, letterSpacing: 2, textTransform: "uppercase", whiteSpace: "nowrap" }}>
+                  <span aria-hidden="true" style={{ fontFamily: F_KANJI, fontSize: 13,
+                    color: on ? FP.paper : FP.stone }}>{v.kanji}</span>
+                  {v.tab}
+                </button>
+              );
+            })}
+          </nav>
+        </div>
+      </header>
+
+      {/* the page itself */}
+      <main className="kg-pp-main" style={{ flex: 1, minHeight: 0, overflowY: "auto",
+        backgroundImage: "repeating-linear-gradient(180deg,rgba(17,18,20,.024) 0 1px,transparent 1px 54px),repeating-linear-gradient(90deg,rgba(17,18,20,.014) 0 1px,transparent 1px 3px)" }}>
+        <div style={{ maxWidth: 1080, margin: "0 auto", padding: "24px 18px 90px" }}>
+          {children}
+          {/* folio foot — every page hands off to the next one */}
+          {(() => {
+            const meta = PP_PAGES[view];
+            return meta ? (
+              <div style={{ marginTop: 40, borderTop: `3px solid ${FP.ink}`, paddingTop: 10,
+                display: "flex", justifyContent: "space-between", alignItems: "baseline", gap: 12, flexWrap: "wrap" }}>
+                <span style={{ fontFamily: F_MONO, fontSize: 10, letterSpacing: 1.4, color: FP.mid }}>
+                  TETSU GARAGE · {meta.no}
+                </span>
+                <a role="button" tabIndex={0} onClick={() => onNav(meta.next[0])}
+                  onKeyDown={e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); onNav(meta.next[0]); } }}
+                  style={{ fontFamily: F_MONO, fontSize: 10, letterSpacing: 1, color: FP.ink, cursor: "pointer",
+                    textDecoration: "underline", textUnderlineOffset: 3, textDecorationColor: FP.rule }}>
+                  {meta.next[1]}
+                </a>
+              </div>
+            ) : null;
+          })()}
+        </div>
+      </main>
+
+      {/* mobile folio bar — the ink foot doubles as section nav on the phone */}
+      <nav className="kg-pp-bottomnav" aria-label="Sections">
+        {VIEWS.map(v => {
+          const on = v.id === view;
+          return (
+            <button key={v.id} aria-current={on ? "page" : undefined} onClick={() => onNav(v.id)}
+              style={{ flex: 1, display: "flex", flexDirection: "column", alignItems: "center", gap: 3,
+                padding: "9px 2px 7px", border: "none", cursor: "pointer",
+                background: on ? FP.paper : "transparent", color: on ? FP.ink : FP.paper }}>
+              <span aria-hidden="true" style={{ fontFamily: F_KANJI, fontWeight: 700, fontSize: 16,
+                lineHeight: 1 }}>{v.kanji}</span>
+              <span style={{ fontFamily: F_MONO, fontSize: 8.5, letterSpacing: 1 }}>{v.tab}</span>
+            </button>
+          );
+        })}
+      </nav>
+    </div>
+  );
+}
+
+// ── Page head — kicker, headline, folio, standfirst ──────────────────────────
+function PpHead({ view, note, standfirst }) {
+  const meta = PP_PAGES[view];
+  return (
+    <div style={{ marginBottom: 24 }}>
+      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", gap: 12 }}>
+        <span style={{ fontFamily: F_MONO, fontSize: 11, letterSpacing: 2.6, fontWeight: 700, color: FP.ink }}>
+          {meta.kicker}
+        </span>
+        <span style={{ fontFamily: F_MONO, fontSize: 10, letterSpacing: 1.2, color: FP.mid, whiteSpace: "nowrap" }}>
+          {note ? `${note} · ` : ""}{meta.no}
+        </span>
+      </div>
+      <h2 style={{ margin: "6px 0 0", fontFamily: FP_COND, fontStretch: "70%", fontWeight: 700,
+        textTransform: "uppercase", lineHeight: 0.92, color: FP.ink, letterSpacing: 0,
+        fontSize: "clamp(34px, 6.4vw, 54px)" }}>
+        {meta.head}
+      </h2>
+      {standfirst && (
+        <p style={{ margin: "12px 0 0", fontFamily: F_UI, fontSize: 14.5, lineHeight: 1.6,
+          color: FP.body, maxWidth: 640 }}>{standfirst}</p>
+      )}
+      <div style={{ marginTop: 16, borderBottom: `1px solid ${FP.rule}` }} />
+    </div>
+  );
+}
+
+// ── GEAR — p.2, the gear locker set as a printed catalog ─────────────────────
+function GearPage({ mods, edit }) {
+  const [linkDraft, setLinkDraft] = useState("");
+  const [adding, setAdding] = useState(false);
+  const submitLink = async () => {
+    const v = linkDraft.trim();
+    if (!v || adding) return;
+    setAdding(true);
+    let image = "", title = "", price = "";
+    try {
+      const r = await fetch(`/api/link-preview?url=${encodeURIComponent(v)}`);
+      if (r.ok) { const d = await r.json(); image = d.image || ""; title = d.title || ""; price = d.price || ""; }
+    } catch { /* preview is best-effort — never block the capture */ }
+    edit.addRow("mods", { id: `m${Date.now()}`, part: title || hostFromUrl(v), category: "", link: v,
+      image, date: "", cost: price, status: "planned", note: "" });
+    setLinkDraft(""); setAdding(false);
+  };
+
+  const counts = st => (mods || []).filter(m => (m.status || "installed") === st);
+  const standfirst = mods.length
+    ? `${counts("installed").length} parts on the bike, ${counts("stock").length} in the drawer — ` +
+      `${counts("planned").length + counts("wishlist").length} still circled in the catalog.`
+    : "Nothing in the locker yet — paste a product link below and the catalog starts itself.";
+
+  return (
+    <div>
+      <PpHead view="mods" note={`${mods.length} ITEMS`} standfirst={standfirst} />
+
+      {/* the ledger — one ruled strip, four columns */}
+      <div className="kg-pp-ledger" style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)",
+        border: `1.5px solid ${FP.ink}`, background: PP_PAGE_BG, marginBottom: 20 }}>
+        {["installed", "stock", "planned", "wishlist"].map((st, i) => {
+          const meta = PP_STATUS[st];
+          const items = counts(st);
+          return (
+            <div key={st} style={{ padding: "10px 14px 11px", borderLeft: i > 0 ? `1px solid ${FP.rule}` : "none" }}>
+              <div style={{ fontFamily: F_MONO, fontSize: 10, letterSpacing: 1.6, fontWeight: 700, color: meta.color }}>
+                {st === "stock" ? "STOCK · OWNED" : meta.label}
+              </div>
+              <div style={{ fontFamily: FP_COND, fontStretch: "72%", fontWeight: 700, fontSize: 24,
+                color: FP.ink, marginTop: 3, lineHeight: 1 }}>
+                {sumCosts(items)}
+              </div>
+              <div style={{ fontFamily: F_MONO, fontSize: 10, letterSpacing: 0.8, color: FP.mid, marginTop: 4 }}>
+                {items.length} PART{items.length === 1 ? "" : "S"}
+              </div>
+            </div>
+          );
+        })}
+      </div>
+
+      {/* quick-add — the classified desk takes a link, prints it as PLANNED */}
+      <div style={{ marginBottom: 26 }}>
+        <div style={{ display: "flex", gap: 8 }}>
+          <input value={linkDraft} onChange={e => setLinkDraft(e.target.value)}
+            onKeyDown={e => { if (e.key === "Enter") { e.preventDefault(); submitLink(); } }}
+            placeholder="https://… paste a product link"
+            style={{ ...ppInput, fontFamily: F_MONO, fontSize: 13, flex: 1 }} />
+          <button className="kg-pp-btn" onClick={submitLink} disabled={!linkDraft.trim() || adding}
+            style={{ background: (!linkDraft.trim() || adding) ? FP.conc : FP.ink,
+              color: (!linkDraft.trim() || adding) ? FP.stone : FP.paper, border: "none",
+              fontFamily: F_MONO, fontWeight: 700, fontSize: 12, letterSpacing: 2, padding: "0 20px",
+              cursor: (!linkDraft.trim() || adding) ? "default" : "pointer", flexShrink: 0 }}>
+            {adding ? "…" : "ADD"}
+          </button>
+        </div>
+        <div style={{ fontFamily: F_MONO, fontSize: 10.5, letterSpacing: 0.5, color: FP.mid, marginTop: 7 }}>
+          IT LANDS AS PLANNED — SET THE STATUS ON THE PLATE. EVERYTHING SAVES ITSELF.
+        </div>
+      </div>
+
+      {/* the plates — printed catalog cards */}
+      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(260px, 1fr))", gap: 18 }}>
+        {mods.map((mod, i) => {
+          const meta = PP_STATUS[mod.status] || PP_STATUS.installed;
+          return (
+            <div key={mod.id || `${mod.part}-${i}`} className="kg-pp-plate"
+              style={{ background: PP_PAGE_BG, border: `1px solid ${FP.rule}`,
+                borderTop: `3px solid ${meta.color}`, display: "flex", flexDirection: "column" }}>
+              {mod.image && (
+                <img src={mod.image} alt={mod.part} loading="lazy"
+                  onError={e => { e.currentTarget.style.display = "none"; }}
+                  style={{ display: "block", width: "100%", height: 150, objectFit: "cover",
+                    background: FP.conc, borderBottom: `1px solid ${FP.rule}` }} />
+              )}
+              <div style={{ padding: "12px 14px 0", flex: 1 }}>
+                <div style={{ display: "flex", alignItems: "flex-start", justifyContent: "space-between", gap: 8 }}>
+                  <div style={{ flex: 1, minWidth: 0 }}>
+                    <InlineName paper value={mod.part} onCommit={v => edit.updRow("mods", i, "part", v)} />
+                  </div>
+                  <span style={{ flexShrink: 0, transform: "rotate(-2deg)", border: `2px solid ${meta.color}`,
+                    color: meta.color, fontFamily: F_MONO, fontWeight: 700, fontSize: 9.5, letterSpacing: 1.4,
+                    padding: "2px 6px", marginTop: 2 }}>{meta.label}</span>
+                </div>
+                {mod.category && (
+                  <div style={{ fontFamily: F_MONO, fontSize: 10, letterSpacing: 1.6, color: FP.mid,
+                    textTransform: "uppercase", marginTop: 5 }}>{mod.category}</div>
+                )}
+                <div style={{ display: "flex", flexWrap: "wrap", alignItems: "baseline", gap: "4px 14px",
+                  marginTop: 10 }}>
+                  {mod.cost && <span style={{ fontFamily: FP_COND, fontStretch: "72%", fontWeight: 700,
+                    fontSize: 18, color: FP.ink }}>{mod.cost}</span>}
+                  {mod.date && <span style={{ fontFamily: F_MONO, fontSize: 10.5, color: FP.mid }}>{mod.date}</span>}
+                  {mod.link && (
+                    <a href={mod.link} target="_blank" rel="noopener noreferrer"
+                      style={{ fontFamily: F_MONO, fontSize: 11, fontWeight: 700, letterSpacing: 1, color: FP.ink,
+                        textDecoration: "underline", textUnderlineOffset: 3, textDecorationColor: FP.rule }}>
+                      VIEW PART ↗</a>
+                  )}
+                </div>
+                {mod.note && (
+                  <div style={{ fontFamily: F_UI, fontSize: 13, color: FP.body, lineHeight: 1.55,
+                    marginTop: 9 }}>{mod.note}</div>
+                )}
+              </div>
+              {/* status toggle — four full-width print buttons, 40px tall */}
+              <div style={{ display: "flex", borderTop: `1px solid ${FP.rule}`, marginTop: 12 }}>
+                {["installed", "stock", "planned", "wishlist"].map((v, j) => {
+                  const on = (mod.status || "installed") === v;
+                  const c = PP_STATUS[v].color;
+                  return (
+                    <button key={v} onClick={() => edit.updRow("mods", i, "status", v)}
+                      style={{ flex: 1, minHeight: 40, border: "none",
+                        borderLeft: j > 0 ? `1px solid ${FP.rule}` : "none",
+                        background: on ? c : "transparent", color: on ? FP.paper : FP.mid,
+                        fontFamily: F_MONO, fontWeight: 700, fontSize: 9.5, letterSpacing: 0.8,
+                        cursor: "pointer", padding: "0 2px" }}>
+                      {v.toUpperCase()}
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+          );
+        })}
+      </div>
+
+      {mods.length === 0 && (
+        <div style={{ fontFamily: F_UI, fontSize: 14, color: FP.body, padding: "26px 0" }}>
+          No parts on file. Paste a link above, or press EDIT for the full form.
+        </div>
+      )}
+    </div>
+  );
+}
+
+// ── LOG — p.3, the logbook set as dated column reports ───────────────────────
+function LogPage({ entries }) {
+  const standfirst = entries.length
+    ? `${entries.length} ${entries.length === 1 ? "entry" : "entries"}, newest first — every wrench on the record.`
+    : "The record is blank. The first wrench makes the news.";
+  return (
+    <div>
+      <PpHead view="logbook" note={`${entries.length} ENTRIES`} standfirst={standfirst} />
+      {entries.length === 0 && (
+        <div style={{ fontFamily: F_UI, fontSize: 14, color: FP.body, padding: "26px 0" }}>
+          No entries logged yet. Press EDIT to file the first one.
+        </div>
+      )}
+      <div>
+        {entries.map((e, i) => (
+          <article key={`${e.date}-${i}`} className="kg-pp-logrow"
+            style={{ display: "flex", gap: 20, padding: "18px 0",
+              borderBottom: `1px solid ${FP.rule}` }}>
+            {/* dateline block */}
+            <div style={{ flexShrink: 0, width: 104 }}>
+              <div style={{ fontFamily: F_MONO, fontSize: 10.5, letterSpacing: 1, color: FP.mid }}>{e.date || "—"}</div>
+              <div style={{ fontFamily: FP_COND, fontStretch: "72%", fontWeight: 700, fontSize: 20,
+                color: FP.ink, marginTop: 3, lineHeight: 1 }}>{fmtKm(e.odo)}</div>
+              <div style={{ fontFamily: F_MONO, fontSize: 9.5, letterSpacing: 1, color: FP.mid, marginTop: 2 }}>KM</div>
+            </div>
+            {/* report body */}
+            <div style={{ flex: 1, minWidth: 0 }}>
+              <h3 style={{ margin: 0, fontFamily: FP_COND, fontStretch: "72%", fontWeight: 700,
+                textTransform: "uppercase", fontSize: 19, lineHeight: 1.05, color: FP.ink }}>{e.title}</h3>
+              {(e.tags || []).length > 0 && (
+                <div style={{ display: "flex", gap: 6, flexWrap: "wrap", marginTop: 8 }}>
+                  {e.tags.map(t => (
+                    <span key={t} style={{ fontFamily: F_MONO, fontSize: 10, letterSpacing: 1.2,
+                      textTransform: "uppercase", color: FP.mid, background: FP.conc,
+                      border: `1px solid ${FP.rule}`, padding: "2px 7px" }}>{t}</span>
+                  ))}
+                </div>
+              )}
+              {e.note && (
+                <p style={{ margin: "9px 0 0", fontFamily: F_UI, fontSize: 13.5, lineHeight: 1.6,
+                  color: FP.body, maxWidth: 560 }}>{e.note}</p>
+              )}
+              {e.photo && (
+                <div style={{ fontFamily: F_MONO, fontSize: 10, letterSpacing: 1, color: FP.mid, marginTop: 8 }}>
+                  PLATE · {e.photo}
+                </div>
+              )}
+            </div>
+          </article>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+// ── MANUAL — p.4, the shelf as an index + the reader on fresh paper ──────────
+function ManualPage({ manuals }) {
+  const standfirst = "The workshop shelf, and the full 2013 Sportster manual — open a chapter or search the lot.";
+  return (
+    <div>
+      <PpHead view="manuals" note={`${manuals.length} SOURCES`} standfirst={standfirst} />
+
+      {/* the shelf — an index, one ruled row per source */}
+      <div style={{ border: `1.5px solid ${FP.ink}`, background: PP_PAGE_BG, marginBottom: 30 }}>
+        {manuals.map((mn, i) => (
+          <div key={`${mn.title}-${i}`} className="kg-pp-shelfrow"
+            style={{ display: "flex", alignItems: "baseline", gap: 14, padding: "11px 14px",
+              borderTop: i > 0 ? `1px solid ${FP.rule}` : "none", flexWrap: "wrap" }}>
+            <span style={{ flexShrink: 0, fontFamily: F_MONO, fontWeight: 700, fontSize: 10,
+              letterSpacing: 1.4, color: FP.paper, background: FP.ink, padding: "2px 7px" }}>{mn.type || "REF"}</span>
+            <span style={{ fontFamily: FP_COND, fontStretch: "75%", fontWeight: 700, fontSize: 16,
+              color: FP.ink }}>{mn.title}</span>
+            {mn.ref && <span style={{ fontFamily: F_MONO, fontSize: 10.5, letterSpacing: 0.8, color: FP.mid }}>{mn.ref}</span>}
+            {mn.note && <span style={{ fontFamily: F_UI, fontSize: 13, color: FP.body, flex: "1 1 240px" }}>{mn.note}</span>}
+          </div>
+        ))}
+        {manuals.length === 0 && (
+          <div style={{ padding: "14px 16px", fontFamily: F_UI, fontSize: 14, color: FP.body }}>
+            The shelf is empty — press EDIT to add a source.
+          </div>
+        )}
+      </div>
+
+      <ManualReader paper />
+    </div>
+  );
+}
+
+// ── ASK — the back page, wired to the same lifted chat state ─────────────────
+function AskPage({ messages, input, setInput, busy, onSend }) {
+  return (
+    <div style={{ display: "flex", flexDirection: "column", minHeight: "calc(100dvh - 320px)" }}>
+      <PpHead view="chat" note={`${messages.length} MESSAGES`}
+        standfirst="Service, specs, mods, torque — straight to the wrench." />
+
+      {/* the correspondence column */}
+      <div style={{ flex: 1, minHeight: 300, overflowY: "auto", border: `1.5px solid ${FP.ink}`,
+        background: PP_PAGE_BG, padding: "18px 18px", display: "flex", flexDirection: "column", gap: 14 }}>
+        {messages.length === 0 && (
+          <div style={{ flex: 1, display: "flex", flexDirection: "column", alignItems: "center",
+            justifyContent: "center", gap: 10, textAlign: "center", padding: "30px 0" }}>
+            <span aria-hidden="true" style={{ fontFamily: F_KANJI, fontWeight: 700, fontSize: 52,
+              lineHeight: 1, color: FP.ink, opacity: 0.08 }}>鉄</span>
+            <span style={{ fontFamily: F_UI, fontSize: 13.5, color: FP.body, maxWidth: 360, lineHeight: 1.6 }}>
+              Ask Tetsu about the Forty-Eight — service, specs, mods, torque. The bench writes back.
+            </span>
+          </div>
+        )}
+        {messages.map((m, i) => {
+          const isUser = m.role === "user";
+          const showLabel = !isUser && (i === 0 || messages[i - 1].role !== "tetsu");
+          return (
+            <div key={i} style={{ display: "flex", flexDirection: "column",
+              alignItems: isUser ? "flex-end" : "flex-start" }}>
+              {showLabel && (
+                <span style={{ fontFamily: F_MONO, fontSize: 10, letterSpacing: 2, color: FP.mid, marginBottom: 5 }}>
+                  <span aria-hidden="true" style={{ fontFamily: F_KANJI, color: "#c8323b", marginRight: 5 }}>鉄</span>
+                  FROM THE BENCH
+                </span>
+              )}
+              <div style={{ maxWidth: "78%", fontFamily: F_UI, fontSize: 14, lineHeight: 1.6,
+                whiteSpace: "pre-wrap", padding: "10px 13px",
+                background: isUser ? FP.conc : "transparent",
+                border: isUser ? `1px solid ${FP.rule}` : "none",
+                borderLeft: isUser ? `1px solid ${FP.rule}` : `3px solid ${FP.ink}`,
+                color: isUser ? FP.ink : FP.body }}>
+                {m.text}
+              </div>
+            </div>
+          );
+        })}
+        {busy && (
+          <div style={{ fontFamily: F_MONO, fontSize: 11, letterSpacing: 1, color: FP.mid, alignSelf: "flex-start" }}>
+            鉄 THE BENCH IS ON IT…
+          </div>
+        )}
+      </div>
+
+      {/* the reply slip */}
+      <div style={{ display: "flex", gap: 8, marginTop: 12, flexShrink: 0 }}>
+        <textarea value={input} onChange={e => setInput(e.target.value)}
+          onKeyDown={e => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); onSend(); } }}
+          placeholder="Ask the bench…" rows={1}
+          style={{ ...ppInput, fontFamily: F_UI, flex: 1, resize: "none", minHeight: 44, maxHeight: 120,
+            lineHeight: 1.45 }} />
+        <button className="kg-pp-btn" onClick={onSend} disabled={busy || !input.trim()}
+          style={{ background: (busy || !input.trim()) ? FP.conc : FP.ink,
+            color: (busy || !input.trim()) ? FP.stone : FP.paper, border: "none",
+            fontFamily: F_MONO, fontWeight: 700, fontSize: 12, letterSpacing: 2, padding: "0 20px",
+            cursor: (busy || !input.trim()) ? "default" : "pointer", flexShrink: 0 }}>
+          SEND
+        </button>
       </div>
     </div>
   );
@@ -1006,9 +1511,19 @@ export default function TetsuSurface({ onExit }) {
   // the live odometer. Derived from existing garage data only (no new endpoint).
   const oilItem = scored.find(s => (s.id === "oil" || /oil/i.test(s.task || "")) && s.intervalKm != null) || null;
 
-  // FRONT PAGE — the GARAGE display path is the broadsheet. EDIT mode (and every
-  // other tab) renders the classic shell; DONE turns the paper back over.
+  // FRONT PAGE — the GARAGE display path is the broadsheet. The other sections'
+  // READ paths are inner pages of the same edition (PaperChrome); EDIT mode is
+  // the only door back onto the classic dark bench shell.
   const front = loaded && view === "maintenance" && !editing;
+  const paper = loaded && view !== "maintenance" && !editing;
+
+  // Save-state line for the paper running head (mono, print register).
+  const ppSave = (() => {
+    if (!loaded)                    return { text: "LOADING…", bad: false };
+    if (saving || dirty)            return { text: "SAVING…", bad: false };
+    if (saveMsg === "save failed")  return { text: "SAVE FAILED — RETRYING", bad: true };
+    return { text: "SAVED", bad: false };
+  })();
 
   return (
     <div className="kg-tetsu" data-kg-component="tetsu-surface" data-kg-owner="kg"
@@ -1175,7 +1690,7 @@ export default function TetsuSurface({ onExit }) {
         }
         /* ── FRONT PAGE (01 · LATE EDITION) — study classes that need CSS proper ── */
         .kg-fp-deck::first-letter{float:left;font-family:${FP_COND};font-stretch:70%;font-weight:700;
-          font-size:46px;line-height:.82;padding:3px 7px 0 0;color:#111214;}
+          font-size:48px;line-height:.82;padding:3px 7px 0 0;color:#111214;}
         .kg-fp-red{position:absolute;top:0;bottom:0;left:0;background:#b3232e;
           background-image:repeating-linear-gradient(-45deg,rgba(17,18,20,.22) 0 6px,transparent 6px 12px);}
         .kg-fp-red::after{content:"";position:absolute;right:0;top:0;bottom:0;width:3px;background:#7d1820;}
@@ -1187,6 +1702,29 @@ export default function TetsuSurface({ onExit }) {
         @media(min-width:640px){
           .kg-fp-sheet{box-shadow:0 0 0 1px #d5d1c6,0 0 60px rgba(17,18,20,.07);}
         }
+        /* ── INNER PAGES (p.2–4 + the back page) — paper chrome ── */
+        .kg-pp-btn{transition:filter .15s ease;}
+        .kg-pp-btn:hover{filter:brightness(1.25);}
+        .kg-pp-tab{transition:background .12s ease;}
+        .kg-pp-tab:not([aria-current="page"]):hover{background:#e6e3dc !important;}
+        .kg-pp-tabs{scrollbar-width:none;}
+        .kg-pp-tabs::-webkit-scrollbar{display:none;}
+        .kg-pp-plate{box-shadow:0 1px 3px rgba(17,18,20,.05);}
+        .kg-pp-bottomnav{display:none;flex-shrink:0;background:#111214;
+          padding-bottom:env(safe-area-inset-bottom,0);z-index:6;}
+        @media(max-width:899px){
+          .kg-pp-bottomnav{display:flex;}
+          .kg-pp-tabs{display:none !important;}
+          .kg-pp-date{display:none;}
+          /* the gear ledger folds 4-across → 2×2 with honest rules */
+          .kg-pp-ledger{grid-template-columns:1fr 1fr !important;}
+          .kg-pp-ledger > div{border-left:none !important;}
+          .kg-pp-ledger > div:nth-child(even){border-left:1px solid #d5d1c6 !important;}
+          .kg-pp-ledger > div:nth-child(n+3){border-top:1px solid #d5d1c6;}
+          /* log datelines ride above the report instead of a cramped side rail */
+          .kg-pp-logrow{flex-direction:column;gap:8px !important;}
+          .kg-pp-logrow > div:first-child{width:auto !important;display:flex;align-items:baseline;gap:8px;}
+        }
       `}</style>
 
       {front && (
@@ -1195,7 +1733,20 @@ export default function TetsuSurface({ onExit }) {
           onNav={setView} onEdit={() => setEditing(true)} updBike={updBike} />
       )}
 
-      {!front && (<>
+      {paper && (
+        <PaperChrome view={view} onNav={setView} onEdit={() => setEditing(true)} onExit={onExit}
+          save={ppSave} now={now}>
+          {view === "mods"    && <GearPage mods={mods} edit={edit} />}
+          {view === "logbook" && <LogPage entries={logSorted} />}
+          {view === "manuals" && <ManualPage manuals={manuals} />}
+          {view === "chat"    && (
+            <AskPage messages={chatMsgs} input={chatInput} setInput={setChatInput}
+              busy={chatBusy} onSend={sendTetsuMessage} />
+          )}
+        </PaperChrome>
+      )}
+
+      {!front && !paper && (<>
       {/* ── Header — layout-2.0 slim top bar: crumb wordmark left, status right;
              the chrome hairline along the bottom edge stays the brand signature ── */}
       <header className="kg-tt-header" style={{ position: "relative", zIndex: 1, flexShrink: 0, height: 58, display: "flex",
@@ -2241,7 +2792,30 @@ function ManualsView({ manuals, edit }) {
 // once on mount; a chapter's TEXT loads lazily when selected. The rendered line-rows are
 // memoized on [lines, target] so typing in the search box never re-renders the (up to
 // ~15k-line) chapter pane. Every fetch degrades quietly — no crash, no broken UI.
-function ManualReader() {
+function ManualReader({ paper }) {
+  // Tone set — the reader renders on either ground: the dark bench (default)
+  // or the fresh-paper MANUAL page (paper). Same logic, two print registers.
+  const T = paper ? {
+    label: FP.ink, sub: FP.mid, faint: FP.stone, err: FP.due,
+    railBg: PP_PAGE_BG, railBgOn: FP.ink, railBd: FP.rule, railBdOn: FP.ink,
+    railTx: FP.ink, railTxOn: FP.paper,
+    paneBg: PP_PAGE_BG, paneBd: FP.ink, headBg: FP.conc, headTx: FP.ink,
+    ln: FP.stone, lnHot: FP.due, text: FP.body, hotBg: FP.redSmall, hotEdge: FP.due,
+    hitBg: PP_PAGE_BG, hitBd: FP.rule, chipTx: FP.mid, chipBd: FP.rule, hitTx: FP.body,
+    input: { ...ppInput, fontFamily: F_UI },
+    btn: { background: FP.ink, border: "none", borderRadius: 0, color: FP.paper },
+    radius: 0,
+  } : {
+    label: STEEL, sub: STEEL_DIM, faint: FAINT, err: DUE,
+    railBg: GUN2, railBgOn: mix(CHROME, 8), railBd: LINE, railBdOn: mix(CHROME, 40),
+    railTx: BONE_DIM, railTxOn: BONE,
+    paneBg: BLACK, paneBd: LINE, headBg: GUN, headTx: BONE,
+    ln: FAINT, lnHot: CHROME, text: BONE_DIM, hotBg: mix(CHROME, 11), hotEdge: CHROME,
+    hitBg: GUN2, hitBd: LINE, chipTx: STEEL, chipBd: LINE_STR, hitTx: BONE_DIM,
+    input: { ...inputBase, fontFamily: F_UI },
+    btn: { background: mix(CHROME, 7), border: `1px solid ${mix(CHROME, 33)}`, borderRadius: 6, color: BONE_DIM },
+    radius: 8,
+  };
   const [chapters, setChapters]       = useState([]);      // [{id,label,file,lines}]
   const [chapErr, setChapErr]         = useState(false);   // chapter-list fetch failed
   const [selId, setSelId]             = useState("");       // selected chapter id
@@ -2299,12 +2873,12 @@ function ManualReader() {
     const hot = n === target;
     return (
       <div key={n} data-ln={n} style={{ display: "flex", gap: 10, padding: "0 6px",
-        background: hot ? mix(CHROME, 11) : "transparent",
-        borderLeft: hot ? `2px solid ${CHROME}` : "2px solid transparent" }}>
+        background: hot ? T.hotBg : "transparent",
+        borderLeft: hot ? `2px solid ${T.hotEdge}` : "2px solid transparent" }}>
         <span style={{ flexShrink: 0, width: 48, textAlign: "right", userSelect: "none",
-          color: hot ? CHROME : FAINT, fontFamily: F_MONO, fontSize: 13, lineHeight: "1.55em" }}>{n}</span>
+          color: hot ? T.lnHot : T.ln, fontFamily: F_MONO, fontSize: 13, lineHeight: "1.55em" }}>{n}</span>
         <span style={{ flex: 1, minWidth: 0, whiteSpace: "pre-wrap", wordBreak: "break-word",
-          color: BONE_DIM, fontFamily: F_MONO, fontSize: 13.5, lineHeight: "1.55em" }}>{ln || " "}</span>
+          color: T.text, fontFamily: F_MONO, fontSize: 13.5, lineHeight: "1.55em" }}>{ln || " "}</span>
       </div>
     );
   }), [lines, target]);
@@ -2317,48 +2891,50 @@ function ManualReader() {
   }, [target, rows]);
 
   return (
-    <div style={{ marginTop: 34 }}>
-      <div style={{ fontSize: 13, letterSpacing: 2, color: STEEL, fontFamily: F_MONO, marginBottom: 4 }}>READER</div>
-      <p style={{ fontSize: 13.5, color: STEEL_DIM, margin: "0 0 14px" }}>
+    <div style={{ marginTop: paper ? 0 : 34 }}>
+      <div style={{ fontSize: paper ? 11 : 13, letterSpacing: 2, color: T.label, fontFamily: F_MONO,
+        fontWeight: paper ? 700 : 400, marginBottom: 4 }}>THE READER</div>
+      <p style={{ fontSize: 13.5, color: paper ? FP.body : T.sub, fontFamily: paper ? F_UI : undefined,
+        margin: "0 0 14px" }}>
         Open and search the full 2013 Sportster workshop manual.
       </p>
 
       {/* search box */}
       <form onSubmit={runSearch} style={{ display: "flex", gap: 8, maxWidth: 560, marginBottom: 14 }}>
         <input value={q} onChange={e => setQ(e.target.value)} placeholder="Search the manual…  (e.g. spark plug gap)"
-          style={{ ...inputBase, fontFamily: F_UI, flex: 1 }} />
+          style={{ ...T.input, flex: 1 }} />
         <button type="submit" className="kg-tt-btn"
-          style={{ background: mix(CHROME, 7), border: `1px solid ${mix(CHROME, 33)}`, borderRadius: 6, color: BONE_DIM,
-            fontSize: 13, fontFamily: F_MONO, letterSpacing: 1.5, fontWeight: 700, padding: "0 16px", cursor: "pointer",
-            flexShrink: 0 }}>
+          style={{ ...T.btn, fontSize: 13, fontFamily: F_MONO, letterSpacing: 1.5, fontWeight: 700,
+            padding: "0 16px", cursor: "pointer", flexShrink: 0 }}>
           SEARCH
         </button>
       </form>
 
       {/* search results */}
       {searching && (
-        <div style={{ fontSize: 13.5, color: STEEL_DIM, fontFamily: F_MONO, marginBottom: 14 }}>Searching…</div>
+        <div style={{ fontSize: 13.5, color: T.sub, fontFamily: F_MONO, marginBottom: 14 }}>Searching…</div>
       )}
       {!searching && searched && (
         <div style={{ maxWidth: 560, marginBottom: 18 }}>
           {hits.length === 0 ? (
-            <div style={{ fontSize: 13.5, color: STEEL_DIM, fontFamily: F_MONO }}>No matches for “{q.trim()}”.</div>
+            <div style={{ fontSize: 13.5, color: T.sub, fontFamily: F_MONO }}>No matches for “{q.trim()}”.</div>
           ) : (
             <>
-              <div style={{ fontSize: 12.5, color: FAINT, fontFamily: F_MONO, marginBottom: 8 }}>
+              <div style={{ fontSize: 12.5, color: T.faint, fontFamily: F_MONO, marginBottom: 8 }}>
                 {hits.length} match{hits.length === 1 ? "" : "es"}{hits.length >= 60 ? " (capped)" : ""}
               </div>
               <div style={{ display: "flex", flexDirection: "column", gap: 6 }}>
                 {hits.map((h, i) => (
                   <button key={`${h.chapterId}-${h.line}-${i}`} className="kg-tt-btn"
                     onClick={() => openChapter(h.chapterId, h.line)}
-                    style={{ textAlign: "left", background: GUN2, border: `1px solid ${LINE}`, borderRadius: 8,
-                      padding: "8px 11px", cursor: "pointer", display: "flex", gap: 10, alignItems: "baseline" }}>
-                    <span style={{ flexShrink: 0, fontSize: 12.5, fontFamily: F_MONO, color: STEEL,
-                      border: `1px solid ${LINE_STR}`, borderRadius: 4, padding: "1px 6px" }}>
+                    style={{ textAlign: "left", background: T.hitBg, border: `1px solid ${T.hitBd}`,
+                      borderRadius: T.radius, padding: "9px 11px", cursor: "pointer", display: "flex",
+                      gap: 10, alignItems: "baseline" }}>
+                    <span style={{ flexShrink: 0, fontSize: 11.5, fontFamily: F_MONO, color: T.chipTx,
+                      border: `1px solid ${T.chipBd}`, borderRadius: T.radius ? 4 : 0, padding: "1px 6px" }}>
                       {h.chapterLabel} · {h.line}
                     </span>
-                    <span style={{ flex: 1, minWidth: 0, fontSize: 13.5, color: BONE_DIM, fontFamily: F_MONO,
+                    <span style={{ flex: 1, minWidth: 0, fontSize: 13, color: T.hitTx, fontFamily: F_MONO,
                       whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>{h.snippet}</span>
                   </button>
                 ))}
@@ -2371,53 +2947,60 @@ function ManualReader() {
       {/* chapter rail + reading pane */}
       <div className="kg-tt-reader" style={{ display: "flex", gap: 14, alignItems: "stretch" }}>
         {/* rail */}
-        <div className="kg-tt-reader-rail" style={{ flexShrink: 0, width: 190, display: "flex", flexDirection: "column", gap: 6 }}>
+        <div className="kg-tt-reader-rail" style={{ flexShrink: 0, width: 190, display: "flex", flexDirection: "column", gap: paper ? 0 : 6,
+          border: paper ? `1px solid ${FP.rule}` : "none", alignSelf: paper ? "flex-start" : "stretch" }}>
           {chapErr && (
-            <div style={{ fontSize: 13, color: DUE, fontFamily: F_MONO }}>Manual unavailable.</div>
+            <div style={{ fontSize: 13, color: T.err, fontFamily: F_MONO, padding: paper ? "10px 12px" : 0 }}>Manual unavailable.</div>
           )}
           {!chapErr && chapters.length === 0 && (
-            <div style={{ fontSize: 13, color: STEEL_DIM, fontFamily: F_MONO }}>Loading chapters…</div>
+            <div style={{ fontSize: 13, color: T.sub, fontFamily: F_MONO, padding: paper ? "10px 12px" : 0 }}>Loading chapters…</div>
           )}
-          {chapters.map(c => {
+          {chapters.map((c, ci) => {
             const on = c.id === selId;
             return (
               <button key={c.id} className="kg-tt-btn" onClick={() => openChapter(c.id)}
-                style={{ textAlign: "left", background: on ? mix(CHROME, 8) : GUN2,
-                  border: `1px solid ${on ? mix(CHROME, 40) : LINE}`, borderRadius: 8, padding: "8px 11px",
+                style={{ textAlign: "left", background: on ? T.railBgOn : T.railBg,
+                  border: paper ? "none" : `1px solid ${on ? T.railBdOn : T.railBd}`,
+                  borderTop: paper && ci > 0 ? `1px solid ${FP.rule}` : (paper ? "none" : undefined),
+                  borderRadius: T.radius, padding: "9px 11px", minHeight: 40,
                   cursor: "pointer", display: "flex", alignItems: "baseline", justifyContent: "space-between", gap: 8 }}>
-                <span style={{ fontFamily: F_COND, fontSize: 13.5, letterSpacing: 1, textTransform: "uppercase",
-                  color: on ? BONE : BONE_DIM }}>{c.label}</span>
-                <span style={{ fontSize: 12, fontFamily: F_MONO, color: FAINT, flexShrink: 0 }}>{fmtKm(c.lines)}</span>
+                <span style={{ fontFamily: paper ? FP_COND : F_COND, fontStretch: paper ? "75%" : undefined,
+                  fontWeight: paper ? 700 : undefined, fontSize: 13.5, letterSpacing: 1, textTransform: "uppercase",
+                  color: on ? T.railTxOn : T.railTx }}>{c.label}</span>
+                <span style={{ fontSize: 11, fontFamily: F_MONO, color: on ? T.railTxOn : T.faint,
+                  flexShrink: 0 }}>{fmtKm(c.lines)}</span>
               </button>
             );
           })}
         </div>
 
         {/* pane */}
-        <div className="kg-tt-reader-pane" style={{ flex: 1, minWidth: 0, border: `1px solid ${LINE}`, borderRadius: 10, background: BLACK,
+        <div className="kg-tt-reader-pane" style={{ flex: 1, minWidth: 0, border: `1px solid ${T.paneBd}`,
+          borderRadius: T.radius ? 10 : 0, background: T.paneBg,
           display: "flex", flexDirection: "column", minHeight: 0 }}>
           {/* pane header */}
           <div style={{ flexShrink: 0, display: "flex", alignItems: "center", justifyContent: "space-between",
-            padding: "8px 12px", borderBottom: `1px solid ${LINE}`, background: GUN }}>
-            <span style={{ fontFamily: F_COND, fontSize: 13.5, letterSpacing: 2, textTransform: "uppercase",
-              color: selId ? BONE : STEEL_DIM }}>{selId ? selLabel : "No chapter open"}</span>
+            padding: "8px 12px", borderBottom: `1px solid ${paper ? FP.rule : LINE}`, background: T.headBg }}>
+            <span style={{ fontFamily: paper ? FP_COND : F_COND, fontStretch: paper ? "75%" : undefined,
+              fontWeight: paper ? 700 : undefined, fontSize: 13.5, letterSpacing: 2, textTransform: "uppercase",
+              color: selId ? T.headTx : T.sub }}>{selId ? selLabel : "No chapter open"}</span>
             {selId && !loadingChap && (
-              <span style={{ fontSize: 12.5, fontFamily: F_MONO, color: FAINT }}>{fmtKm(lines.length)} lines</span>
+              <span style={{ fontSize: 11.5, fontFamily: F_MONO, color: paper ? FP.mid : T.faint }}>{fmtKm(lines.length)} lines</span>
             )}
           </div>
           {/* pane body — the only internally-scrolling region */}
           <div ref={paneRef} className="kg-tt-scrollpane"
             style={{ maxHeight: 460, minHeight: 200, overflowY: "auto", padding: "10px 4px 12px" }}>
             {!selId && !loadingChap && (
-              <div style={{ fontSize: 13.5, color: STEEL_DIM, fontFamily: F_MONO, padding: "24px 12px" }}>
+              <div style={{ fontSize: 13.5, color: T.sub, fontFamily: F_MONO, padding: "24px 12px" }}>
                 Select a chapter from the rail, or search above.
               </div>
             )}
             {loadingChap && (
-              <div style={{ fontSize: 13.5, color: STEEL_DIM, fontFamily: F_MONO, padding: "24px 12px" }}>Loading chapter…</div>
+              <div style={{ fontSize: 13.5, color: T.sub, fontFamily: F_MONO, padding: "24px 12px" }}>Loading chapter…</div>
             )}
             {!loadingChap && selId && chapReadErr && (
-              <div style={{ fontSize: 13.5, color: DUE, fontFamily: F_MONO, padding: "24px 12px" }}>
+              <div style={{ fontSize: 13.5, color: T.err, fontFamily: F_MONO, padding: "24px 12px" }}>
                 This chapter could not be read.
               </div>
             )}
@@ -2470,7 +3053,7 @@ function ModStatusToggle({ status, onPick }) {
 // entering EDIT (writes straight to the row, same as the status toggle). Enter or
 // blur commits, Escape reverts; an empty name is refused so a stray click can never
 // wipe the title. ─────────────────────────────────────────────────────────────
-function InlineName({ value, onCommit }) {
+function InlineName({ value, onCommit, paper }) {
   const [editing, setEditing] = useState(false);
   const [draft, setDraft] = useState(value || "");
   const ref = useRef(null);
@@ -2488,13 +3071,17 @@ function InlineName({ value, onCommit }) {
           if (e.key === "Enter")  { e.preventDefault(); commit(); }
           if (e.key === "Escape") { setDraft(value || ""); setEditing(false); }
         }}
-        style={{ ...inputBase, fontFamily: F_UI, fontSize: 15, fontWeight: 600, padding: "3px 7px" }} />
+        style={paper
+          ? { ...ppInput, fontFamily: FP_COND, fontStretch: "80%", fontSize: 16, fontWeight: 700, padding: "3px 7px" }
+          : { ...inputBase, fontFamily: F_UI, fontSize: 15, fontWeight: 600, padding: "3px 7px" }} />
     );
   }
   return (
     <div role="button" tabIndex={0} title="Click to rename" onClick={open}
       onKeyDown={e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); open(); } }}
-      style={{ fontFamily: F_UI, fontSize: 15, fontWeight: 600, color: BONE, lineHeight: 1.3, cursor: "text" }}>
+      style={paper
+        ? { fontFamily: FP_COND, fontStretch: "80%", fontSize: 17, fontWeight: 700, color: FP.ink, lineHeight: 1.15, cursor: "text" }
+        : { fontFamily: F_UI, fontSize: 15, fontWeight: 600, color: BONE, lineHeight: 1.3, cursor: "text" }}>
       {value}
     </div>
   );
