@@ -910,8 +910,20 @@ const ppInput = {
   color: FP.ink, fontSize: 14, padding: "11px 12px", outline: "none", width: "100%",
 };
 
+// EDIT mode heads — the composing room. Same paper, sleeves rolled up.
+const PP_EDIT = {
+  maintenance: { kicker: "THE COMPOSING ROOM —", head: "SET THE BENCH.", no: "EDITING · p.1",
+    deck: "The unit, the odometer, the intervals and the bench reference. Everything saves itself — press DONE to print the page." },
+  mods:        { kicker: "THE COMPOSING ROOM —", head: "REWRITE THE LOCKER.", no: "EDITING · p.2",
+    deck: "What's on the bike, what's in the drawer, what's still circled. Everything saves itself — press DONE to print the page." },
+  logbook:     { kicker: "THE COMPOSING ROOM —", head: "FILE THE RECORD.", no: "EDITING · p.3",
+    deck: "Log work as you did it. Tags are comma-separated. Everything saves itself — press DONE to print the page." },
+  manuals:     { kicker: "THE COMPOSING ROOM —", head: "STOCK THE SHELF.", no: "EDITING · p.4",
+    deck: "Your reference shelf. Torque specs are set on the bench page. Everything saves itself — press DONE to print the page." },
+};
+
 // ── Inner-page chrome — running head, section tabs, mobile folio bar ─────────
-function PaperChrome({ view, onNav, onEdit, onExit, save, now, children }) {
+function PaperChrome({ view, editing, onNav, onEdit, onExit, save, now, children }) {
   return (
     <div className="kg-pp" data-kg-component="tetsu-innerpage" data-kg-owner="kg"
       style={{ flex: 1, minHeight: 0, display: "flex", flexDirection: "column",
@@ -937,9 +949,9 @@ function PaperChrome({ view, onNav, onEdit, onExit, save, now, children }) {
               <span className="kg-pp-save" style={{ fontFamily: F_MONO, fontSize: 10.5, letterSpacing: 0.8,
                 color: save.bad ? FP.due : FP.mid, whiteSpace: "nowrap" }}>{save.text}</span>
               <button className="kg-pp-btn" onClick={onEdit}
-                style={{ background: FP.ink, color: FP.paper, border: "none", cursor: "pointer",
+                style={{ background: editing ? FP.due : FP.ink, color: FP.paper, border: "none", cursor: "pointer",
                   fontFamily: F_MONO, fontWeight: 700, fontSize: 11, letterSpacing: 2, padding: "9px 15px" }}>
-                EDIT
+                {editing ? "DONE" : "EDIT"}
               </button>
               {onExit && (
                 <button className="kg-pp-btn" onClick={onExit}
@@ -978,9 +990,10 @@ function PaperChrome({ view, onNav, onEdit, onExit, save, now, children }) {
         backgroundImage: "repeating-linear-gradient(180deg,rgba(17,18,20,.024) 0 1px,transparent 1px 54px),repeating-linear-gradient(90deg,rgba(17,18,20,.014) 0 1px,transparent 1px 3px)" }}>
         <div style={{ maxWidth: 1080, margin: "0 auto", padding: "24px 18px 90px" }}>
           {children}
-          {/* folio foot — every page hands off to the next one */}
+          {/* folio foot — every page hands off to the next one (read mode only;
+              the composing room ends at DONE, not at the next page) */}
           {(() => {
-            const meta = PP_PAGES[view];
+            const meta = editing ? null : PP_PAGES[view];
             return meta ? (
               <div style={{ marginTop: 40, borderTop: `3px solid ${FP.ink}`, paddingTop: 10,
                 display: "flex", justifyContent: "space-between", alignItems: "baseline", gap: 12, flexWrap: "wrap" }}>
@@ -1020,8 +1033,8 @@ function PaperChrome({ view, onNav, onEdit, onExit, save, now, children }) {
 }
 
 // ── Page head — kicker, headline, folio, standfirst ──────────────────────────
-function PpHead({ view, note, standfirst }) {
-  const meta = PP_PAGES[view];
+function PpHead({ view, note, standfirst, meta: override }) {
+  const meta = override || PP_PAGES[view];
   return (
     <div style={{ marginBottom: 24 }}>
       <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", gap: 12 }}>
@@ -1516,6 +1529,7 @@ export default function TetsuSurface({ onExit }) {
   // the only door back onto the classic dark bench shell.
   const front = loaded && view === "maintenance" && !editing;
   const paper = loaded && view !== "maintenance" && !editing;
+  const bench = loaded && editing;   // the composing room — EDIT, also on paper
 
   // Save-state line for the paper running head (mono, print register).
   const ppSave = (() => {
@@ -1712,6 +1726,39 @@ export default function TetsuSurface({ onExit }) {
         .kg-pp-plate{box-shadow:0 1px 3px rgba(17,18,20,.05);}
         .kg-pp-bottomnav{display:none;flex-shrink:0;background:#111214;
           padding-bottom:env(safe-area-inset-bottom,0);z-index:6;}
+        /* ── THE COMPOSING ROOM — the bench forms, re-registered onto paper ──
+           Every colour in the edit stack resolves through a --kg- / --tt- var
+           (see .kg-tetsu above), so redefining them here flips the whole form
+           tree from graphite to newsprint with no per-component restyling.
+           Then: square the corners, kill the metal gradients + neon glow, and
+           lift the form type to the working-page floor (>=13px, 40px targets). */
+        .kg-pp-edit{
+          --kg-bg-deep:#faf9f4; --kg-bg-page:#f4f2ec; --kg-bg-card:#e6e3dc; --kg-bg-card-alt:#faf9f4;
+          --kg-border:#d5d1c6; --kg-border-strong:#111214;
+          --kg-text:#111214; --kg-text-body:#3a3d42; --kg-text-muted:#4c4f54; --kg-text-faint:#767268;
+          --kg-watermark-opacity:.04;
+          --tt-chrome:#111214; --tt-steel:#4c4f54; --tt-steel-dim:#767268; --tt-raise:#e6e3dc;
+          --tt-due:#b3232e; --tt-soon:#8a6a2f; --tt-ok:#3f6b52;
+          --tt-grad:linear-gradient(180deg,#3a3d42,#111214);
+          --tt-grad-shadow:rgba(255,255,255,.55);
+          --tt-seg-on:#111214; --tt-seg-on-text:#f4f2ec;
+          --tt-hairline:linear-gradient(90deg,transparent,#b6b2a7 50%,transparent);
+          --tt-grain:none;
+          color:#3a3d42;
+        }
+        /* print register: nothing on paper is rounded, nothing on paper glows */
+        .kg-pp-edit *{border-radius:0 !important;box-shadow:none !important;}
+        .kg-pp-edit input,.kg-pp-edit textarea,.kg-pp-edit select{
+          border-width:1.5px !important;font-size:14px !important;padding:10px 11px !important;}
+        .kg-pp-edit button{min-height:40px;}
+        /* headings in the composing room print condensed, like the rest of the paper */
+        .kg-pp-edit h2,.kg-pp-edit h3{font-stretch:75%;color:#111214;}
+        .kg-pp-edit .kg-tt-watermark{display:none;}
+        /* the view's own section title + blurb duplicate the page head above it
+           (GEAR / LOGBOOK / MANUALS all open with one) — the head speaks for the
+           page, so drop the echo. Views that don't open with an h2 are untouched. */
+        .kg-pp-edit > div:nth-child(2) > h2:first-child,
+        .kg-pp-edit > div:nth-child(2) > h2:first-child + p{display:none;}
         @media(max-width:899px){
           .kg-pp-bottomnav{display:flex;}
           .kg-pp-tabs{display:none !important;}
@@ -1746,149 +1793,46 @@ export default function TetsuSurface({ onExit }) {
         </PaperChrome>
       )}
 
-      {!front && !paper && (<>
-      {/* ── Header — layout-2.0 slim top bar: crumb wordmark left, status right;
-             the chrome hairline along the bottom edge stays the brand signature ── */}
-      <header className="kg-tt-header" style={{ position: "relative", zIndex: 1, flexShrink: 0, height: 58, display: "flex",
-        alignItems: "center", justifyContent: "space-between", padding: "0 30px", overflow: "hidden",
-        background: `linear-gradient(180deg, ${BLACK} 0%, ${GUN} 100%)`,
-        borderBottom: `1px solid ${LINE}` }}>
-        <div style={{ display: "flex", alignItems: "baseline", gap: 12, minWidth: 0 }}>
-          <span style={{ fontFamily: F_KANJI, fontWeight: 700, fontSize: 26, lineHeight: .9, ...chromeText }}>鉄</span>
-          <span style={{ fontFamily: F_COND, fontSize: 20, letterSpacing: 4, lineHeight: 1,
-            textTransform: "uppercase", ...chromeText }}>TETSU</span>
-          <span className="kg-tt-tagline" style={{ fontSize: 11.5, letterSpacing: 3, color: STEEL_DIM, fontFamily: F_MONO }}>
-            RIDE · WRENCH · REPEAT
-          </span>
-        </div>
-        <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
-          {/* Auto-save indicator — replaces the old SAVE button. Everything persists on its own. */}
-          {(() => {
-            const failed = saveMsg === "save failed";
-            const st = !loaded ? { dot: FAINT,  text: "loading…" }
-              : saving          ? { dot: SOON,  text: "saving…" }
-              : dirty           ? { dot: SOON,  text: "saving…" }        // edit pending debounce
-              : failed          ? { dot: DUE,   text: "save failed, retrying" }
-              :                   { dot: OK,    text: `${bikes.length} bike${bikes.length === 1 ? "" : "s"} · saved` };
-            return (
-              <span style={{ display: "flex", alignItems: "center", gap: 7, fontSize: 12.5, fontFamily: F_MONO,
-                letterSpacing: 1, color: failed ? DUE : STEEL_DIM }}>
-                <span aria-hidden="true" style={{ width: 7, height: 7, borderRadius: "50%", background: st.dot,
-                  boxShadow: `0 0 6px ${mix(st.dot, 60)}`, flexShrink: 0 }} />
-                {st.text}
-              </span>
-            );
-          })()}
-
-          {/* EDIT / DONE toggle */}
-          {loaded && (
-            <button className="kg-tt-btn" onClick={() => setEditing(e => !e)}
-              style={{ background: editing ? mix(CHROME, 13) : "none",
-                border: `1px solid ${editing ? CHROME : LINE_STR}`, borderRadius: 5,
-                color: editing ? BONE : STEEL_DIM, fontSize: 12.5, letterSpacing: 2, fontFamily: F_MONO,
-                fontWeight: 700, padding: "6px 12px" }}>
-              {editing ? "DONE" : "EDIT"}
-            </button>
-          )}
-
-          {onExit && (
-            <button className="kg-tt-btn" onClick={onExit}
-              style={{ background: "none", border: `1px solid ${LINE_STR}`, borderRadius: 5, color: STEEL_DIM,
-                fontSize: 12.5, letterSpacing: 2, fontFamily: F_MONO, padding: "6px 11px" }}
-              onMouseEnter={e => { e.currentTarget.style.color = STEEL; e.currentTarget.style.borderColor = STEEL; }}
-              onMouseLeave={e => { e.currentTarget.style.color = STEEL_DIM; e.currentTarget.style.borderColor = LINE_STR; }}>
-              ← BACK
-            </button>
-          )}
-        </div>
-        {/* thin chrome hairline along the header's bottom edge (theme-tuned metal) */}
-        <div aria-hidden="true" style={{ position: "absolute", left: 0, right: 0, bottom: 0, height: 2,
-          background: "var(--tt-hairline)" }} />
-      </header>
-
-      {/* ── Body — single main pane (layout-2.0: the old aside folded into GARAGE) ── */}
-      <div style={{ position: "relative", zIndex: 1, flex: 1, minHeight: 0, display: "flex" }}>
-
-        {/* MAIN — segmented views */}
-        <main className="kg-tt-main" style={{ flex: 1, minWidth: 0, overflowY: "auto", padding: "22px 34px 48px",
-          position: "relative", animation: "ttFade .35s ease" }}>
-          {/* 鉄 page watermark — huge, decorative, theme-aware opacity */}
-          <span aria-hidden="true" className="kg-tt-watermark" style={{ position: "fixed", right: "-1%", top: 28, fontFamily: F_KANJI,
-            fontWeight: 700, fontSize: "min(46vh, 420px)", lineHeight: .8, color: FAINT,
-            opacity: "var(--kg-watermark-opacity)", pointerEvents: "none", userSelect: "none", zIndex: 0 }}>鉄</span>
-
-          <div style={{ position: "relative", zIndex: 1 }}>
-            {/* segmented control */}
-            <div className="kg-tt-viewseg" style={{ display: "inline-flex", gap: 0, border: `1px solid ${LINE_STR}`, borderRadius: 9,
-              overflow: "hidden", marginBottom: 20, background: BLACK }}>
-              {VIEWS.map((v, i) => {
-                const on = view === v.id;
-                return (
-                  <button key={v.id} className="kg-tt-seg" onClick={() => setView(v.id)}
-                    style={{ background: on ? "var(--tt-seg-on)" : "transparent", border: "none",
-                      borderRight: i < VIEWS.length - 1 ? `1px solid ${LINE_STR}` : "none",
-                      color: on ? "var(--tt-seg-on-text)" : STEEL_DIM, fontSize: 13.5, letterSpacing: 2, fontWeight: 700,
-                      textTransform: "uppercase", padding: "8px 20px" }}>
-                    {v.label}
-                  </button>
-                );
-              })}
+      {/* ── THE COMPOSING ROOM — EDIT mode, on the same paper ──────────────────
+             The bench forms are unchanged JSX; every colour they use is already
+             a --kg- / --tt- custom property, so `.kg-pp-edit` re-registers the
+             whole form stack onto paper by redefining those vars (see the CSS
+             block above) instead of restyling several hundred call sites. The
+             back page has nothing to compose, so it stays the read column. ── */}
+      {bench && (
+        <PaperChrome view={view} editing onNav={setView} onEdit={() => setEditing(false)}
+          onExit={onExit} save={ppSave} now={now}>
+          {view === "chat" ? (
+            <AskPage messages={chatMsgs} input={chatInput} setInput={setChatInput}
+              busy={chatBusy} onSend={sendTetsuMessage} />
+          ) : (
+            <div className="kg-pp-edit">
+              <PpHead view={view} meta={PP_EDIT[view]} note="EDIT MODE"
+                standfirst={(PP_EDIT[view] || {}).deck} />
+              {view === "maintenance" && (
+                <GarageView bike={bike} editing={editing} updBike={updBike} odo={odo} edit={edit}
+                  items={scored} raw={schedule} fluids={fluids} torque={torque} torqueNote={torqueNote}
+                  onNote={v => updateGarage(g => { g.torqueNote = v; })}
+                  entries={logSorted} attention={attention} oilItem={oilItem} />
+              )}
+              {view === "mods"    && <ModsView mods={mods} edit={edit} />}
+              {view === "logbook" && <LogbookView entries={logSorted} raw={log} edit={edit} />}
+              {view === "manuals" && <ManualsView manuals={manuals} edit={edit} />}
             </div>
-
-            {!loaded && (
-              <div style={{ color: STEEL_DIM, fontSize: 14, fontFamily: F_MONO, padding: "40px 0" }}>Loading garage…</div>
-            )}
-
-            {loaded && view === "maintenance" && (
-              <GarageView bike={bike} editing={editing} updBike={updBike} odo={odo} edit={edit}
-                items={scored} raw={schedule} fluids={fluids} torque={torque} torqueNote={torqueNote}
-                onNote={v => updateGarage(g => { g.torqueNote = v; })}
-                entries={logSorted} attention={attention} oilItem={oilItem} />
-            )}
-            {loaded && view === "mods" && (
-              <ModsView mods={mods} edit={edit} />
-            )}
-            {loaded && view === "logbook" && (
-              <LogbookView entries={logSorted} raw={log} edit={edit} />
-            )}
-            {loaded && view === "manuals" && (
-              <ManualsView manuals={manuals} edit={edit} />
-            )}
-            {view === "chat" && (
-              <ChatView
-                messages={chatMsgs}
-                input={chatInput}
-                setInput={setChatInput}
-                busy={chatBusy}
-                onSend={sendTetsuMessage}
-              />
-            )}
-          </div>
-        </main>
-
-      </div>
-
-      {/* ── Mobile bottom tab bar — the always-visible section nav. It's a FLEX
-             CHILD of the app shell (not an overlay), so it pins to the shell's
-             true dynamic-viewport bottom, never scrolls away, and never hides
-             content behind it. Hidden ≥1024px where the top segmented control
-             takes over. Safe-area padding clears the iOS home indicator. ── */}
-      {loaded && (
-        <nav className="kg-tt-bottomnav" data-kg-component="tetsu-bottomnav" data-kg-owner="kg"
-          aria-label="Sections" style={{ flexShrink: 0, display: "none", zIndex: 6 }}>
-          {VIEWS.map(v => {
-            const on = view === v.id;
-            return (
-              <button key={v.id} className="kg-tt-tab" aria-current={on ? "page" : undefined}
-                onClick={() => setView(v.id)}>
-                <span className="kg-tt-tab-k" aria-hidden="true">{v.kanji}</span>
-                <span className="kg-tt-tab-l">{v.tab}</span>
-              </button>
-            );
-          })}
-        </nav>
+          )}
+        </PaperChrome>
       )}
-      </>)}
+
+      {/* boot — the press warming up, already on paper */}
+      {!loaded && (
+        <div style={{ flex: 1, display: "flex", alignItems: "center", justifyContent: "center",
+          background: FP.paper, color: FP.mid, fontFamily: F_MONO, fontSize: 12, letterSpacing: 2 }}>
+          <span aria-hidden="true" style={{ fontFamily: F_KANJI, color: "#c8323b", marginRight: 9,
+            fontSize: 18 }}>鉄</span>
+          SETTING THE EDITION…
+        </div>
+      )}
+
     </div>
   );
 }
@@ -3262,90 +3206,6 @@ function ModsView({ mods, edit }) {
             </div>
           );
         })}
-      </div>
-    </div>
-  );
-}
-
-// ── CHAT — ASK TETSU, wired to POST /api/chat (agentId TETSU) ─────────────────
-function ChatView({ messages, input, setInput, busy, onSend }) {
-  return (
-    <div className="kg-tt-chatwrap" style={{ animation: "ttFade .3s ease", display: "flex", flexDirection: "column",
-      height: "calc(100vh - 200px)", minHeight: 360 }}>
-      <div style={{ display: "flex", alignItems: "baseline", justifyContent: "space-between", marginBottom: 4 }}>
-        <h2 style={{ fontFamily: F_COND, fontSize: 14, letterSpacing: 3, color: BONE, fontWeight: 700, margin: 0,
-          textTransform: "uppercase" }}>ASK TETSU</h2>
-        <span style={{ fontSize: 13, fontFamily: F_MONO, color: STEEL_DIM }}>{messages.length} messages</span>
-      </div>
-      <p style={{ fontSize: 13.5, color: STEEL_DIM, margin: "0 0 14px" }}>
-        Service, specs, mods, torque: straight to the wrench.
-      </p>
-
-      {/* message list — its own scroll region so the input row stays pinned */}
-      <div style={{ flex: 1, minHeight: 0, overflowY: "auto", border: `1px solid ${LINE}`, borderRadius: 10,
-        background: GUN2, padding: "16px 18px", display: "flex", flexDirection: "column", gap: 14 }}>
-
-        {messages.length === 0 && (
-          <div style={{ flex: 1, display: "flex", flexDirection: "column", alignItems: "center",
-            justifyContent: "center", gap: 10, textAlign: "center" }}>
-            <span aria-hidden="true" style={{ fontFamily: F_KANJI, fontWeight: 700, fontSize: 48,
-              lineHeight: 1, color: BONE, opacity: .1 }}>鉄</span>
-            <span style={{ fontSize: 13.5, color: STEEL_DIM, maxWidth: 340, lineHeight: 1.6 }}>
-              Ask Tetsu about the Forty-Eight: service, specs, mods, torque.
-            </span>
-          </div>
-        )}
-
-        {messages.map((m, i) => {
-          const isUser = m.role === "user";
-          const showLabel = !isUser && (i === 0 || messages[i - 1].role !== "tetsu");
-          return (
-            <div key={i} style={{ display: "flex", flexDirection: "column",
-              alignItems: isUser ? "flex-end" : "flex-start" }}>
-              {showLabel && (
-                <span style={{ fontSize: 12, fontFamily: F_MONO, letterSpacing: 2, color: STEEL_DIM,
-                  marginBottom: 5, marginLeft: 2 }}>鉄 TETSU</span>
-              )}
-              <div style={{
-                maxWidth: "72%", fontFamily: F_UI, fontSize: 14, lineHeight: 1.55, whiteSpace: "pre-wrap",
-                padding: "10px 13px", borderRadius: 10,
-                background: isUser ? mix(CHROME, 8) : GUN3,
-                border: isUser ? `1px solid ${mix(CHROME, 20)}` : `1px solid ${LINE}`,
-                borderLeft: isUser ? undefined : `2px solid ${CHROME}`,
-                color: isUser ? BONE : BONE_DIM,
-              }}>
-                {m.text}
-              </div>
-            </div>
-          );
-        })}
-
-        {busy && (
-          <div style={{ fontSize: 13, fontFamily: F_MONO, color: STEEL, alignSelf: "flex-start" }}>
-            鉄 Tetsu is on it…
-          </div>
-        )}
-      </div>
-
-      {/* input row — pinned at the bottom of the pane */}
-      <div style={{ display: "flex", gap: 10, marginTop: 14, flexShrink: 0 }}>
-        <textarea
-          value={input}
-          onChange={e => setInput(e.target.value)}
-          onKeyDown={e => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); onSend(); } }}
-          placeholder="Ask about service, specs, mods, torque…"
-          rows={1}
-          style={{ flex: 1, resize: "none", background: BLACK, border: `1px solid ${LINE_STR}`, borderRadius: 8,
-            color: BONE, fontFamily: F_UI, fontSize: 14, padding: "10px 13px", lineHeight: 1.4, minHeight: 40,
-            maxHeight: 110 }}
-        />
-        <button className="kg-tt-btn" onClick={onSend} disabled={busy || !input.trim()}
-          style={{ background: (busy || !input.trim()) ? GUN3 : "var(--tt-seg-on)",
-            border: `1px solid ${LINE_STR}`, borderRadius: 8, color: (busy || !input.trim()) ? STEEL_DIM : "var(--tt-seg-on-text)",
-            fontSize: 13, letterSpacing: 1.5, fontWeight: 700, textTransform: "uppercase",
-            padding: "0 20px", cursor: (busy || !input.trim()) ? "default" : "pointer", flexShrink: 0 }}>
-          Send
-        </button>
       </div>
     </div>
   );
