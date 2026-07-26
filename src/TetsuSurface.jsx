@@ -2530,8 +2530,7 @@ function IntervalRow({ item, odo, unit }) {
 
 // ── LOGBOOK — maintenance history newest-first with photo/screenshot slots ────
 function LogbookView({ entries, raw, edit }) {
-  if (edit.on) {
-    return (
+  return (
       <div style={{ animation: "ttFade .3s ease" }}>
         <h2 style={{ fontFamily: F_COND, fontSize: 14, letterSpacing: 3, color: BONE, fontWeight: 700, margin: 0,
           textTransform: "uppercase" }}>LOGBOOK</h2>
@@ -2570,79 +2569,11 @@ function LogbookView({ entries, raw, edit }) {
         </div>
       </div>
     );
-  }
-  return (
-    <div style={{ animation: "ttFade .3s ease" }}>
-      <div style={{ display: "flex", alignItems: "baseline", justifyContent: "space-between", marginBottom: 4 }}>
-        <h2 style={{ fontFamily: F_COND, fontSize: 14, letterSpacing: 3, color: BONE, fontWeight: 700, margin: 0,
-          textTransform: "uppercase" }}>LOGBOOK</h2>
-        <span style={{ fontSize: 13, fontFamily: F_MONO, color: STEEL_DIM }}>{entries.length} entries</span>
-      </div>
-      <p style={{ fontSize: 13.5, color: STEEL_DIM, margin: "0 0 18px" }}>
-        Work done, newest first: each entry has a photo slot.
-      </p>
-
-      {entries.length === 0 && (
-        <div style={{ color: STEEL_DIM, fontSize: 14, padding: "30px 0" }}>No entries logged yet. Press EDIT to add one.</div>
-      )}
-
-      <div style={{ display: "flex", flexDirection: "column", gap: 14 }}>
-        {entries.map((e, i) => (
-          <div key={`${e.date}-${i}`} className="kg-tt-card"
-            style={{ display: "flex", gap: 16, background: GUN2, border: `1px solid ${LINE}`,
-              borderRadius: 11, padding: "15px 16px", animation: "ttPop .22s ease" }}>
-            {/* photo / screenshot tile */}
-            <div style={{ flexShrink: 0, width: 110, height: 110, borderRadius: 10,
-              border: `1px dashed ${e.photo ? mix(CHROME, 35) : LINE_STR}`,
-              background: e.photo
-                ? `radial-gradient(120% 120% at 30% 15%, ${GUN3}, ${BLACK})`
-                : BLACK,
-              display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 6,
-              overflow: "hidden", padding: "0 8px" }}>
-              <span style={{ fontSize: 30, opacity: e.photo ? 0.9 : 0.4,
-                filter: "drop-shadow(0 2px 6px rgba(0,0,0,.5))" }}>{e.photo ? "📷" : "🔧"}</span>
-              {e.photo ? (
-                <span style={{ fontSize: 12, fontFamily: F_MONO, color: CHROME, textAlign: "center",
-                  lineHeight: 1.3, wordBreak: "break-all" }}>{e.photo}</span>
-              ) : (
-                <span style={{ fontSize: 12, fontFamily: F_MONO, color: FAINT }}>no photo</span>
-              )}
-            </div>
-
-            {/* entry body */}
-            <div style={{ flex: 1, minWidth: 0 }}>
-              <div style={{ display: "flex", alignItems: "baseline", gap: 10, flexWrap: "wrap" }}>
-                <span style={{ fontSize: 13, fontFamily: F_MONO, color: CHROME, fontWeight: 600 }}>{e.date}</span>
-                <span style={{ fontSize: 13, fontFamily: F_MONO, color: STEEL }}>{fmtKm(e.odo)} km</span>
-              </div>
-              <div style={{ fontSize: 15, fontWeight: 600, color: BONE, marginTop: 5, lineHeight: 1.3 }}>{e.title}</div>
-              {(e.tags || []).length > 0 && (
-                <div style={{ display: "flex", gap: 6, flexWrap: "wrap", marginTop: 9 }}>
-                  {e.tags.map(t => (
-                    <span key={t} style={{ fontSize: 12.5, fontFamily: F_MONO, color: STEEL,
-                      background: mix(CHROME, 7), border: `1px solid ${mix(CHROME, 20)}`, borderRadius: 4, padding: "1px 7px" }}>{t}</span>
-                  ))}
-                </div>
-              )}
-              {e.note && (
-                <div style={{ fontSize: 13.5, color: STEEL_DIM, marginTop: 10, lineHeight: 1.6 }}>{e.note}</div>
-              )}
-            </div>
-          </div>
-        ))}
-      </div>
-
-      <div style={{ fontSize: 12.5, color: FAINT, marginTop: 16, lineHeight: 1.6 }}>
-        Photo slots are placeholders for now: real image upload comes in a later phase.
-      </div>
-    </div>
-  );
 }
 
 // ── MANUALS — manual shelf + full-text reader (torque moved to the GARAGE bench) ─
 function ManualsView({ manuals, edit }) {
-  if (edit.on) {
-    return (
+  return (
       <div style={{ animation: "ttFade .3s ease" }}>
         <h2 style={{ fontFamily: F_COND, fontSize: 14, letterSpacing: 3, color: BONE, fontWeight: 700, margin: 0,
           textTransform: "uppercase" }}>MANUALS</h2>
@@ -2678,57 +2609,6 @@ function ManualsView({ manuals, edit }) {
 
       </div>
     );
-  }
-  return (
-    <div style={{ animation: "ttFade .3s ease" }}>
-      <div style={{ display: "flex", alignItems: "baseline", justifyContent: "space-between", marginBottom: 4 }}>
-        <h2 style={{ fontFamily: F_COND, fontSize: 14, letterSpacing: 3, color: BONE, fontWeight: 700, margin: 0,
-          textTransform: "uppercase" }}>MANUALS</h2>
-        <span style={{ fontSize: 13, fontFamily: F_MONO, color: STEEL_DIM }}>{manuals.length} sources</span>
-      </div>
-      <p style={{ fontSize: 13.5, color: STEEL_DIM, margin: "0 0 18px" }}>
-        Workshop references. The torque bench card lives on the GARAGE page.
-      </p>
-
-      {/* manual shelf */}
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill,minmax(300px,1fr))", gap: 16 }}>
-        {manuals.map((mn, i) => (
-          <div key={`${mn.title}-${i}`} className="kg-tt-card"
-            style={{ display: "flex", gap: 14, background: GUN2, border: `1px solid ${LINE}`,
-              borderRadius: 11, padding: "14px 15px" }}>
-            {/* manual-page thumbnail placeholder */}
-            <div style={{ flexShrink: 0, width: 62, height: 82, borderRadius: 6,
-              background: `linear-gradient(155deg, ${GUN3}, ${BLACK})`,
-              border: `1px solid ${LINE_STR}`, display: "flex", alignItems: "center", justifyContent: "center",
-              boxShadow: "inset 2px 0 0 rgba(0,0,0,.35)" }}>
-              <span style={{ fontSize: 26, opacity: 0.85 }}>📖</span>
-            </div>
-            {/* manual meta */}
-            <div style={{ flex: 1, minWidth: 0 }}>
-              <div style={{ display: "flex", alignItems: "center", gap: 8, flexWrap: "wrap" }}>
-                <span style={{ fontSize: 12.5, fontFamily: F_MONO, fontWeight: 700, letterSpacing: 1,
-                  color: mn.type === "PDF" ? CHROME : STEEL,
-                  background: mix(mn.type === "PDF" ? CHROME : STEEL, 8),
-                  border: `1px solid ${mix(mn.type === "PDF" ? CHROME : STEEL, 27)}`,
-                  borderRadius: 4, padding: "1px 7px" }}>{mn.type}</span>
-                {mn.ref && (
-                  <span style={{ fontSize: 12.5, fontFamily: F_MONO, color: STEEL_DIM,
-                    border: `1px solid ${LINE}`, borderRadius: 4, padding: "1px 7px" }}>{mn.ref}</span>
-                )}
-              </div>
-              <div style={{ fontSize: 14.5, fontWeight: 600, color: BONE, marginTop: 8, lineHeight: 1.3 }}>{mn.title}</div>
-              {mn.note && (
-                <div style={{ fontSize: 13, color: STEEL_DIM, marginTop: 7, lineHeight: 1.55 }}>{mn.note}</div>
-              )}
-            </div>
-          </div>
-        ))}
-      </div>
-
-      {/* full-text manual reader — additive, sits below the shelf */}
-      <ManualReader />
-    </div>
-  );
 }
 
 // ── Manual READER — open + full-text-search the real workshop-manual chapters ──
@@ -2956,42 +2836,7 @@ function ManualReader({ paper }) {
   );
 }
 
-// ── Mod status pill — same shape as StatusPill, mapped through MOD_STATUS_META ─
-function ModStatusPill({ status }) {
-  const m = MOD_STATUS_META[status] || MOD_STATUS_META.installed;
-  return (
-    <span style={{ fontSize: 12.5, fontFamily: F_MONO, fontWeight: 700, letterSpacing: 2,
-      padding: "3px 9px", borderRadius: 5, whiteSpace: "nowrap",
-      color: m.filled ? "#160a0b" : m.color,
-      background: m.filled ? m.color : mix(m.color, 11),
-      border: `1px solid ${m.filled ? m.color : mix(m.color, 40)}` }}>
-      {m.label}
-    </span>
-  );
-}
 
-// ── Mod status toggle — inline 3-way segmented control so a mod's status can be
-// flipped from the read view without entering EDIT (writes straight to the row). ─
-function ModStatusToggle({ status, onPick }) {
-  return (
-    <div className="kg-tt-modtoggle" style={{ display: "inline-flex", marginTop: 11, border: `1px solid ${LINE_STR}`,
-      borderRadius: 6, overflow: "hidden", flexWrap: "wrap" }}>
-      {["installed", "stock", "planned", "wishlist"].map((v, i) => {
-        const on = status === v;
-        const c = (MOD_STATUS_META[v] || MOD_STATUS_META.installed).color;
-        return (
-          <button key={v} className="kg-tt-btn" onClick={() => onPick(v)}
-            style={{ background: on ? mix(c, 11) : "transparent",
-              border: "none", borderLeft: i > 0 ? `1px solid ${LINE_STR}` : "none",
-              color: on ? c : STEEL_DIM, fontFamily: F_MONO, fontSize: 12, fontWeight: 700,
-              letterSpacing: 1.5, padding: "3px 8px", cursor: "pointer" }}>
-            {v.toUpperCase()}
-          </button>
-        );
-      })}
-    </div>
-  );
-}
 
 // ── Inline name rename — click a card's title to retitle that piece of gear without
 // entering EDIT (writes straight to the row, same as the status toggle). Enter or
@@ -3062,10 +2907,7 @@ function ModsTotals({ mods }) {
 
 // ── GEAR — the build book: what's on the bike and what's next ─────────────────
 function ModsView({ mods, edit }) {
-  const [linkDraft, setLinkDraft] = useState("");
-  const [adding, setAdding] = useState(false);
-  if (edit.on) {
-    return (
+  return (
       <div style={{ animation: "ttFade .3s ease" }}>
         <h2 style={{ fontFamily: F_COND, fontSize: 14, letterSpacing: 3, color: BONE, fontWeight: 700, margin: 0,
           textTransform: "uppercase" }}>GEAR</h2>
@@ -3107,106 +2949,5 @@ function ModsView({ mods, edit }) {
             onClick={() => edit.addRow("mods", { id: `m${Date.now()}`, part: "", category: "", link: "", image: "", date: "", cost: "", status: "installed", note: "" })} />
         </div>
       </div>
-    );
-  }
-  // Drop a pasted product link as a PLANNED mod — no EDIT mode needed; status set later.
-  // Fetch the page preview (og:image + title) first so the mod lands with a picture;
-  // the preview is best-effort — a miss never blocks the capture.
-  const submitLink = async () => {
-    const v = linkDraft.trim();
-    if (!v || adding) return;
-    setAdding(true);
-    let image = "", title = "", price = "";
-    try {
-      const r = await fetch(`/api/link-preview?url=${encodeURIComponent(v)}`);
-      if (r.ok) { const d = await r.json(); image = d.image || ""; title = d.title || ""; price = d.price || ""; }
-    } catch { /* preview is best-effort — never block the capture */ }
-    edit.addRow("mods", { id: `m${Date.now()}`, part: title || hostFromUrl(v), category: "", link: v, image, date: "", cost: price, status: "planned", note: "" });
-    setLinkDraft(""); setAdding(false);
-  };
-  return (
-    <div style={{ animation: "ttFade .3s ease" }}>
-      <div style={{ display: "flex", alignItems: "baseline", justifyContent: "space-between", marginBottom: 4 }}>
-        <h2 style={{ fontFamily: F_COND, fontSize: 14, letterSpacing: 3, color: BONE, fontWeight: 700, margin: 0,
-          textTransform: "uppercase" }}>GEAR</h2>
-        <span style={{ fontSize: 13, fontFamily: F_MONO, color: STEEL_DIM }}>{mods.length} items</span>
-      </div>
-      <p style={{ fontSize: 13.5, color: STEEL_DIM, margin: "0 0 18px" }}>
-        The build book: parts, mods and kit — what's on the bike and what's next.
-      </p>
-
-      <ModsTotals mods={mods} />
-
-      {/* quick-add — paste a product link, lands as PLANNED, sort it later (works outside EDIT) */}
-      <div style={{ marginBottom: 18 }}>
-        <div style={{ display: "flex", gap: 10 }}>
-          <input value={linkDraft} onChange={e => setLinkDraft(e.target.value)}
-            onKeyDown={e => { if (e.key === "Enter") { e.preventDefault(); submitLink(); } }}
-            placeholder="https://… paste a product link"
-            style={{ ...inputBase, fontFamily: F_MONO, flex: 1 }} />
-          <button className="kg-tt-btn" onClick={submitLink} disabled={!linkDraft.trim() || adding}
-            style={{ background: (!linkDraft.trim() || adding) ? GUN3 : "var(--tt-seg-on)",
-              border: `1px solid ${LINE_STR}`, borderRadius: 6, color: (!linkDraft.trim() || adding) ? STEEL_DIM : "var(--tt-seg-on-text)",
-              fontSize: 13, letterSpacing: 1.5, fontWeight: 700, textTransform: "uppercase", fontFamily: F_MONO,
-              padding: "0 18px", cursor: (!linkDraft.trim() || adding) ? "default" : "pointer", flexShrink: 0 }}>
-            {adding ? "…" : "Add"}
-          </button>
-        </div>
-        <div style={{ fontSize: 12.5, color: FAINT, fontFamily: F_MONO, marginTop: 7, lineHeight: 1.5 }}>
-          Paste a product link: it lands as PLANNED. Set the status below; changes save automatically.
-        </div>
-      </div>
-
-      {mods.length === 0 && (
-        <div style={{ color: STEEL_DIM, fontSize: 14, padding: "30px 0" }}>No parts yet, paste a link above, or press EDIT for the full form.</div>
-      )}
-
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill,minmax(280px,1fr))", gap: 16 }}>
-        {mods.map((mod, i) => {
-          const m = MOD_STATUS_META[mod.status] || MOD_STATUS_META.installed;
-          return (
-            <div key={mod.id || `${mod.part}-${i}`} className="kg-tt-card"
-              style={{ background: GUN2, border: `1px solid ${LINE}`, borderLeft: `2px solid ${m.color}`,
-                borderRadius: 10, padding: "14px 16px" }}>
-              {mod.image && (
-                <img src={mod.image} alt={mod.part} loading="lazy"
-                  onError={e => { e.currentTarget.style.display = 'none'; }}
-                  style={{ display: "block", width: "calc(100% + 32px)", height: 130, objectFit: "cover",
-                    margin: "-14px -16px 12px", maxWidth: "none", background: BLACK,
-                    borderTopLeftRadius: 9, borderTopRightRadius: 9, borderBottom: `1px solid ${LINE}` }} />
-              )}
-              <div style={{ display: "flex", alignItems: "flex-start", gap: 10 }}>
-                <div style={{ flex: 1, minWidth: 0 }}>
-                  <InlineName value={mod.part} onCommit={v => edit.updRow("mods", i, "part", v)} />
-                  {mod.category && (
-                    <span style={{ display: "inline-block", fontSize: 12.5, fontFamily: F_MONO, color: STEEL,
-                      background: mix(CHROME, 7), border: `1px solid ${mix(CHROME, 20)}`, borderRadius: 4,
-                      padding: "1px 7px", marginTop: 6 }}>{mod.category}</span>
-                  )}
-                </div>
-                <ModStatusPill status={mod.status} />
-              </div>
-
-              <div style={{ display: "flex", flexWrap: "wrap", gap: "4px 16px", marginTop: 11,
-                fontSize: 13, fontFamily: F_MONO }}>
-                {mod.cost && <span style={{ color: CHROME, fontWeight: 600 }}>{mod.cost}</span>}
-                {mod.date && <span style={{ color: STEEL }}>{mod.date}</span>}
-                {mod.link && (
-                  <a href={mod.link} target="_blank" rel="noopener noreferrer"
-                    style={{ color: CHROME, fontWeight: 600, textDecoration: "none" }}>VIEW PART ↗</a>
-                )}
-              </div>
-
-              {/* inline status toggle — flip installed/planned/wishlist without entering EDIT */}
-              <ModStatusToggle status={mod.status} onPick={v => edit.updRow("mods", i, "status", v)} />
-
-              {mod.note && (
-                <div style={{ fontSize: 13, color: STEEL_DIM, marginTop: 10, lineHeight: 1.55 }}>{mod.note}</div>
-              )}
-            </div>
-          );
-        })}
-      </div>
-    </div>
   );
 }
