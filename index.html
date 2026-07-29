@@ -2,7 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <!-- maximum-scale=1 + user-scalable=no: the surface is a fixed, dvh-sized
+         instrument shell — pinch/double-tap zoom only ever fights it. Honoured by
+         Android Chrome; iOS needs the gesture-event kill in TetsuSurface.jsx. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=1, user-scalable=no" />
     <title>Tetsu 鉄 — Wrench</title>
     <meta name="theme-color" content="#d7dae0" />
     <link rel="icon" href="/icon.svg" />

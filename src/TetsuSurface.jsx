@@ -1411,6 +1411,23 @@ export default function TetsuSurface({ onExit }) {
     }
   }
 
+  // ── Zoom lock. iOS Safari has ignored user-scalable since iOS 10, so the
+  // viewport meta in index.html only covers Android; killing the gesture events
+  // is the only way to stop pinch-zoom there. Double-tap is handled by
+  // `touch-action:manipulation` on .kg-tetsu in the style block below.
+  useEffect(() => {
+    const stop = e => e.preventDefault();
+    const opts = { passive: false };
+    document.addEventListener("gesturestart", stop, opts);
+    document.addEventListener("gesturechange", stop, opts);
+    document.addEventListener("gestureend", stop, opts);
+    return () => {
+      document.removeEventListener("gesturestart", stop, opts);
+      document.removeEventListener("gesturechange", stop, opts);
+      document.removeEventListener("gestureend", stop, opts);
+    };
+  }, []);
+
   // Load the garage. API first; committed seed as the offline fallback so the
   // shell is never empty even if kg-api is down.
   useEffect(() => {
@@ -1554,6 +1571,11 @@ export default function TetsuSurface({ onExit }) {
              tab bar anchors to the TRUE visible bottom on mobile (dvh follows the
              browser toolbars; svh/vh are progressive fallbacks for old engines). */
           height:100vh; height:100svh; height:100dvh;
+          /* Kills double-tap zoom without eating real taps (preventDefault on
+             touchend would). Pinch is handled by the viewport meta + the
+             gesture-event lock in useZoomLock(). */
+          touch-action:manipulation;
+          -webkit-text-size-adjust:100%;
           --tt-navh:56px;
           /* Ground + text tokens — standalone fork owns these. In the kage-gumi
              monorepo the --kg-* theme tokens were provided globally; forked out
