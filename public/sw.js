@@ -6,8 +6,8 @@
 //   • /api/garage → network-first (fresh corpus when online, last-known when offline).
 // Any caching failure is swallowed so the app never breaks because of the SW.
 
-const CACHE = "tetsu-v1";
-const SHELL = ["/", "/index.html", "/manifest.webmanifest", "/icon.svg"];
+const CACHE = "tetsu-v3";
+const SHELL = ["/", "/index.html", "/manifest.webmanifest", "/icon.svg?v=2", "/apple-touch-icon.png?v=2"];
 
 self.addEventListener("install", (event) => {
   self.skipWaiting();

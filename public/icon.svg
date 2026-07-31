@@ -1,23 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Tetsu">
-  <defs>
-    <!-- brushed chrome/steel vertical gradient -->
-    <linearGradient id="steel" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#eef1f5"/>
-      <stop offset="0.5" stop-color="#c2c7cf"/>
-      <stop offset="1" stop-color="#8b9099"/>
-    </linearGradient>
-  </defs>
-  <!-- machined dark-steel ground -->
-  <rect x="16" y="16" width="480" height="480" rx="104" fill="#17191d"/>
-  <!-- inner bevel ring -->
-  <rect x="40" y="40" width="432" height="432" rx="84" fill="none" stroke="#2a2e34" stroke-width="6"/>
-  <!-- corner rivets -->
-  <circle cx="92" cy="92" r="12" fill="#3a3f47"/>
-  <circle cx="420" cy="92" r="12" fill="#3a3f47"/>
-  <circle cx="92" cy="420" r="12" fill="#3a3f47"/>
-  <circle cx="420" cy="420" r="12" fill="#3a3f47"/>
-  <!-- 鉄 in brushed chrome -->
-  <text x="256" y="256" text-anchor="middle" dominant-baseline="central"
-    font-family="'Yu Gothic','Hiragino Sans','Noto Sans JP',sans-serif" font-weight="700"
-    font-size="272" fill="url(#steel)">鉄</text>
+  <!-- Kage-gumi app mark: dark-steel rounded square, 鉄 centered in brushed chrome,
+       with an open-end wrench as a faint watermark behind it. Family-matched to
+       Raiden + the KG mobile hanko: dark ground, one big serif kanji in the
+       operative accent. Maskable-safe: ground inset 16px, marks inside the safe zone. -->
+  <rect x="16" y="16" width="480" height="480" rx="112" fill="#17191d"/>
+  <g opacity="0.16" fill="none" stroke="#d7dae0" stroke-width="30" stroke-linecap="round">
+    <path d="M377 143 A52 52 0 1 0 303 217"/>
+    <path d="M303 217 L176 344"/>
+  </g>
+  <text x="256" y="352" text-anchor="middle" font-family="'Noto Serif JP','Yu Mincho',serif" font-size="300" font-weight="700" fill="#d7dae0">鉄</text>
 </svg>
