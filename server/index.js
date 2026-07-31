@@ -20,9 +20,39 @@ import { readdirSync, readFileSync, writeFileSync, existsSync, mkdirSync } from 
 import { fileURLToPath } from "node:url";
 import { spawn } from "node:child_process";
 import path from "node:path";
+import lock from "./lock.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = path.resolve(__dirname, "..");
+
+// ─── manual .env loader (no `dotenv` dependency) ─────────────────────────────
+// Reads .env from the repo root, once, before anything below reads
+// process.env (LOCK_PASSPHRASE / LOCK_SESSION_SECRET in particular). Only sets
+// a var that isn't already in the environment, so real process env (PM2
+// ecosystem config, shell export) always wins over the file. Comments (#) and
+// blank lines are skipped; values may be wrapped in single or double quotes.
+(function loadDotEnv() {
+  try {
+    const envPath = path.join(REPO_ROOT, ".env");
+    if (!existsSync(envPath)) return;
+    const raw = readFileSync(envPath, "utf8");
+    for (const line of raw.split(/\r?\n/)) {
+      const t = line.trim();
+      if (!t || t.startsWith("#")) continue;
+      const eq = t.indexOf("=");
+      if (eq <= 0) continue;
+      const key = t.slice(0, eq).trim();
+      let val = t.slice(eq + 1).trim();
+      if ((val.startsWith('"') && val.endsWith('"')) || (val.startsWith("'") && val.endsWith("'"))) {
+        val = val.slice(1, -1);
+      }
+      if (!(key in process.env)) process.env[key] = val;
+    }
+  } catch (e) {
+    console.warn("[env] failed to load .env:", e?.message || e);
+  }
+})();
+
 const DATA_DIR = path.join(REPO_ROOT, "data");
 const TETSU_GARAGE_DIR = path.join(DATA_DIR, "garage");
 const TETSU_SEED_FILE = path.join(DATA_DIR, "garage.sample.json");
@@ -89,6 +119,7 @@ function loadTetsuGarage() {
 }
 
 const app = express();
+app.use(lock); // FIRST middleware — gates everything below, including static + /api
 app.use(express.json({ limit: "2mb" }));
 
 app.get("/api/garage", (_req, res) => {
