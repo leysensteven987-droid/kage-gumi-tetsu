@@ -21,6 +21,7 @@ import { fileURLToPath } from "node:url";
 import { spawn } from "node:child_process";
 import path from "node:path";
 import lock from "./lock.mjs";
+import httpsOnly from "./https-only.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = path.resolve(__dirname, "..");
@@ -119,7 +120,8 @@ function loadTetsuGarage() {
 }
 
 const app = express();
-app.use(lock); // FIRST middleware — gates everything below, including static + /api
+app.use(httpsOnly); // before lock — the passphrase page must never render over http
+app.use(lock); // FIRST gate — everything below is behind it, including static + /api
 app.use(express.json({ limit: "2mb" }));
 
 app.get("/api/garage", (_req, res) => {
