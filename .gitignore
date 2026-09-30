@@ -6,3 +6,6 @@ data/garage/*
 .DS_Store
 *.log
 _mobile-verify/
+
+# live nightly-reminder gate written by scripts/tetsu/mark-reminded.mjs (seed lives beside it)
+data/tetsu/reminders.json
