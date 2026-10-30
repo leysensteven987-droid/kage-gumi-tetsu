@@ -1435,11 +1435,19 @@ export default function TetsuSurface({ onExit }) {
     API_GET("/api/garage")
       .then(d => {
         if (!alive) return;
+        sessionStorage.removeItem("tetsu-relock");
         setGarage(d);
         setSource(d.source || "");
       })
-      .catch(() => {
+      .catch((status) => {
         if (!alive) return;
+        // 401 = the lock session lapsed, not an outage. Reload once so the navigation hits
+        // the lock page; the flag stops a loop if an old service worker still serves the shell.
+        if (status === 401 && !sessionStorage.getItem("tetsu-relock")) {
+          sessionStorage.setItem("tetsu-relock", "1");
+          window.location.reload();
+          return;
+        }
         setGarage(FALLBACK);
         setSource("offline");
       })
@@ -1471,7 +1479,9 @@ export default function TetsuSurface({ onExit }) {
   useEffect(() => { garageRef.current = garage; revRef.current = rev; }, [garage, rev]);
 
   async function saveGarage() {
-    if (saving) return;
+    // Never persist the offline FALLBACK: POST replaces the whole corpus, so a retry that
+    // landed after an unlock would overwrite the real garage with this stub.
+    if (saving || source === "offline") return;
     const g = garageRef.current;
     const target = revRef.current;          // the rev this write persists
     setSaving(true); setSaveMsg("");

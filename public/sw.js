@@ -1,8 +1,10 @@
 // Tetsu service worker — small, robust, offline-tolerant.
 //
 // Strategy:
-//   • App shell ("/") → cache-first (built JS/CSS are content-hashed, so a runtime
-//     cache picks them up on first fetch and serves them offline thereafter).
+//   • Page navigations → network-first, so an expired session reaches lock.mjs's lock page
+//     instead of a cached shell whose /api/garage then 401s. Cached shell when offline.
+//   • Hashed assets → cache-first (built JS/CSS are content-hashed, so a runtime cache
+//     picks them up on first fetch and serves them offline thereafter).
 //   • /api/garage → network-first (fresh corpus when online, last-known when offline).
 // Any caching failure is swallowed so the app never breaks because of the SW.
 //
@@ -15,7 +17,11 @@
 // URL at a time under that guard instead of cache.addAll(), so one gated URL can no longer
 // abort the whole precache; and this version bump makes activate()'s existing "delete every
 // other cache" sweep self-heal a client that got poisoned before this fix shipped.
-const CACHE = "tetsu-v4";
+//
+// Bumped to v5 on 30OCT26: the "/" shell used to be cache-first, so once the 30-day cookie
+// lapsed an installed app never saw the lock page — it booted, got a 401 and showed the blank
+// offline FALLBACK as if the garage were gone.
+const CACHE = "tetsu-v5";
 const SHELL = ["/", "/index.html", "/manifest.webmanifest", "/icon.svg?v=2", "/apple-touch-icon.png?v=2"];
 
 // The only URLs a text/html body is allowed to sit under — a navigation resolves to "/" or
@@ -33,6 +39,10 @@ function poisonsCache(url, response) {
   const ct = response.headers.get("content-type") || "";
   return ct.includes("text/html");
 }
+
+// lock.mjs's lock page is a 200 text/html on "/" — legal for poisonsCache(), but caching it
+// would serve the gate offline. Everything the gate produces is no-store; the real shell isn't.
+const isGateResponse = (response) => (response.headers.get("cache-control") || "").includes("no-store");
 
 self.addEventListener("install", (event) => {
   self.skipWaiting();
@@ -85,7 +95,25 @@ self.addEventListener("fetch", (event) => {
     return;
   }
 
-  // App shell + hashed assets: cache-first, populate the runtime cache on miss.
+  // Page navigations: network-first, cached shell only when the network is gone.
+  if (req.mode === "navigate") {
+    event.respondWith(
+      fetch(req)
+        .then((res) => {
+          if (res && res.ok && res.type === "basic" && !isGateResponse(res)) {
+            const copy = res.clone();
+            caches.open(CACHE).then((c) => c.put(req, copy)).catch(() => {});
+          }
+          return res;
+        })
+        .catch(() =>
+          caches.match(req).then((r) => r || caches.match("/index.html")).then((r) => r || Response.error())
+        )
+    );
+    return;
+  }
+
+  // Hashed assets + the rest of the shell: cache-first, populate the runtime cache on miss.
   event.respondWith(
     caches.match(req).then((cached) => {
       if (cached) return cached;
@@ -97,9 +125,7 @@ self.addEventListener("fetch", (event) => {
           }
           return res;
         })
-        .catch(() =>
-          req.mode === "navigate" ? caches.match("/index.html") : Response.error()
-        );
+        .catch(() => Response.error());
     })
   );
 });
